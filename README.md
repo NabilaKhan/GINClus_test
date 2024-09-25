@@ -37,7 +37,7 @@ PyMOL can be installed directly by downloading the OS-specific version from http
 ## Run Instructions
     
   
-**_Run command:_** python3 run.py [-i1 'Train_motif_location_IL_input.csv'] [-i2 'Unknown_motif_location_IL_input.csv'] [-o 'output/'] [-e 0] [-t False] [-idx 0] [-w 1] [-val 0.064] [-test 0.063] [-f False] [-c False] [-k 400] [-tf 0] [-uf 0] [-p False]  
+**_Run command:_** python3 run.py [-i1 'Train_motif_location_IL_input_FASTA.csv'] [-i2 'Unknown_motif_location_IL_input_FASTA.csv'] [-o 'output/'] [-e 0] [-t False] [-idx 0] [-w 1] [-val 0.064] [-test 0.063] [-f False] [-c False] [-k 400] [-tf 0] [-uf 0] [-p False]  
 **_Help command:_** python3 run.py -h  
 **_Optional arguments:_** 
 ```

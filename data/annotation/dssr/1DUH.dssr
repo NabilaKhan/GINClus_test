@@ -1,0 +1,124 @@
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: x3dna-dssr -i=1duh.pdb -o=1duh.out
+File name: 1duh.pdb
+    no. of DNA/RNA chains: 1 [A=45]
+    no. of nucleotides:    45
+    no. of atoms:          988
+    no. of waters:         6
+    no. of metals:         2 [Mg=1,Lu=1]
+
+****************************************************************************
+List of 1 type of 1 modified nucleotide
+      nt    count  list
+   1 PGP-g    1    A.PGP75
+
+****************************************************************************
+List of 8 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=3 ACA A.A39,A.C40,A.A42
+   2 nts=4 GGUC A.G43,A.G44,A.U45,A.C46
+   3 nts=4 CAGC A.C62,A.A63,A.G64,A.C65
+   4 nts=4 AGAg A.A72,A.G73,A.A74,A.PGP75
+   5 nts=5 AAGGC A.A67,A.A68,A.G69,A.G70,A.C71
+   6 nts=7 CUCUGUU A.C31,A.U32,A.C33,A.U34,A.G35,A.U36,A.U37
+   7 nts=7 AAGGAAG A.A55,A.A56,A.G57,A.G58,A.A59,A.A60,A.G61
+   8 nts=8 AGGUCCGG A.A47,A.G48,A.G49,A.U50,A.C51,A.C52,A.G53,A.G54
+
+****************************************************************************
+Nucleotides not involved in stacking interactions
+     nts=3 UCC A.U38,A.C41,A.C66
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=45 CUCUGUUUACCAGGUCAGGUCCGGAAGGAAGCAGCCAAGGCAGAg A.C31,A.U32,A.C33,A.U34,A.G35,A.U36,A.U37,A.U38,A.A39,A.C40,A.C41,A.A42,A.G43,A.G44,A.U45,A.C46,A.A47,A.G48,A.G49,A.U50,A.C51,A.C52,A.G53,A.G54,A.A55,A.A56,A.G57,A.G58,A.A59,A.A60,A.G61,A.C62,A.A63,A.G64,A.C65,A.C66,A.A67,A.A68,A.G69,A.G70,A.C71,A.A72,A.G73,A.A74,A.PGP75
+
+****************************************************************************
+List of 2 splayed-apart dinucleotides
+   1 A.C40    A.C41    angle=106    distance=14.6     ratio=0.80
+   2 A.A42    A.G43    angle=113    distance=15.6     ratio=0.84
+----------------------------------------------------------------
+Summary of 2 splayed-apart units
+   1 nts=2 CC A.C40,A.C41
+   2 nts=2 AG A.A42,A.G43
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>1duh nts=45 [whole]
+CUCUGUUUACCAGGUCAGGUCCGGAAGGAAGCAGCCAAGGCAGAg
+.............................................
+>1duh-A #1 nts=45 2.47(1.40) [chain] RNA
+CUCUGUUUACCAGGUCAGGUCCGGAAGGAAGCAGCCAAGGCAGAg
+.............................................
+
+****************************************************************************
+Summary of structural features of 45 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  C . A.C31    0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   2  U . A.U32    0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   3  C . A.C33    0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   4  U . A.U34    0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   5  G . A.G35    0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   6  U . A.U36    0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   7  U . A.U37    0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   8  U . A.U38    0.007  anti,~C3'-endo,non-stack,non-pair-contact,ss-non-loop
+   9  A . A.A39    0.003  anti,~C3'-endo,non-pair-contact,ss-non-loop,phosphate
+  10  C . A.C40    0.006  anti,~C3'-endo,non-pair-contact,ss-non-loop,splayed-apart
+  11  C . A.C41    0.007  turn,anti,~C2'-endo,non-stack,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+  12  A . A.A42    0.006  anti,~C2'-endo,BII,non-pair-contact,ss-non-loop,splayed-apart
+  13  G . A.G43    0.009  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,splayed-apart
+  14  G . A.G44    0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  15  U . A.U45    0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  16  C . A.C46    0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  17  A . A.A47    0.008  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  18  G . A.G48    0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  19  G . A.G49    0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  20  U . A.U50    0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  21  C . A.C51    0.009  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  22  C . A.C52    0.010  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  23  G . A.G53    0.007  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  24  G . A.G54    0.015  anti,~C2'-endo,non-pair-contact,ss-non-loop
+  25  A . A.A55    0.010  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  26  A . A.A56    0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  27  G . A.G57    0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  28  G . A.G58    0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  29  A . A.A59    0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  30  A . A.A60    0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  31  G . A.G61    0.009  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  32  C . A.C62    0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  33  A . A.A63    0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  34  G . A.G64    0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  35  C . A.C65    0.011  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  36  C . A.C66    0.005  anti,~C3'-endo,BI,non-stack,ss-non-loop
+  37  A . A.A67    0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  38  A . A.A68    0.009  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  39  G . A.G69    0.009  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  40  G . A.G70    0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  41  C . A.C71    0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  42  A . A.A72    0.011  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  43  G . A.G73    0.010  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  44  A . A.A74    0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  45  g . A.PGP75  0.011  modified,anti,~C3'-endo,non-pair-contact,ss-non-loop,phosphate
+
+****************************************************************************
+List of 6 additional files
+   1 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   2 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   3 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   4 dssr-torsions.txt -- backbone torsion angles and suite names
+   5 dssr-splays.pdb -- an ensemble of splayed-apart units
+   6 dssr-stacks.pdb -- an ensemble of base stacks

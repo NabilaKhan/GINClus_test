@@ -1,0 +1,23 @@
+A1	A2	G-A	upward
+A1	A36	G-U	W/W	cis
+A2	A3	A-G	upward
+A2	A35	A-U	W/W	cis
+A3	A4	G-A	upward
+A3	A34	G-C	W/W	cis
+A4	A5	A-G	upward
+A4	A33	A-U	W/W	cis
+A5	A32	G-C	W/W	cis
+A6	A31	C-G	W/W	cis
+A9	A27	C-C	W/H	trans
+A10	A21	A-A	downward
+A11	A27	G-C	W/W	cis
+A12	A26	C-G	W/W	cis
+A13	A14	G-A	upward
+A13	A24	G-U	W/W	cis
+A13	A26	G-G	outward
+A14	A15	A-G	upward
+A14	A23	A-U	W/W	cis
+A15	A16	G-A	upward
+A15	A22	G-C	W/W	cis
+A16	A20	A-U	W/H	cis
+A17	A19	U-A	H/H	cis
