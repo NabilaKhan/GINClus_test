@@ -97,8 +97,9 @@ def run_kmeans(unknown_motif_family_list, CLUSTER_NO, output_path):
     # Output Clustering
     ################################################################################
     label_family = dict((v,k) for k,v in label_mapping.items())
-
-    Clus_out = open(output_path + "Cluster_output.csv", "w")
+    output_file = os.path.join(output_path, "Cluster_output.csv")
+    Clus_out = open(output_file, "w")
+    #Clus_out = open(output_path + "Cluster_output.csv", "w")
     
 
     ### Write header name

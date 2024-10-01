@@ -179,7 +179,7 @@ def generate_pymol_images(scl_wise_loop_dict, pdb_ind_list_dict, image_output_di
         remove_all_from_dir(os.path.join(image_output_dir, 'subcluster_' + str(scl_id)))
         delete_directory(os.path.join(image_output_dir, 'subcluster_' + str(scl_id)))
 
-def generate_motif_images(input_fname, output_path, partial_pdbx_dir):
+def generate_motif_images(input_fname, output_path, partial_pdbx_dir, input_index_type):
     fp = open(input_fname, 'r')
     lines = fp.readlines()
     fp.close()
@@ -190,6 +190,11 @@ def generate_motif_images(input_fname, output_path, partial_pdbx_dir):
         # subpieces = pieces[0].strip().split('_')
         # loop = '_'.join(subpieces[1:3]) + ':' + '_'.join(subpieces[3:])
         loop = pieces[0]
+
+        ### If index PDB, then covert to FASTA
+        if input_index_type == 'pdb':
+            loop = convert_a_loop_from_PDB_to_FASTA(loop)
+
         scl_id = pieces[2].strip()
         if scl_id not in scl_wise_loop_dict:
             scl_wise_loop_dict[scl_id] = []

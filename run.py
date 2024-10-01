@@ -41,23 +41,22 @@ def main():
     parser = argparse.ArgumentParser(description='Cluster RNA motifs based on structural similarity')
 
     # Graph generating input params
-    parser.add_argument('-i1', nargs='?', default='Train_motif_location_IL_input_FASTA.csv', const='Train_motif_location_IL_input_FASTA.csv', help="Input file containing training motif locations. Default:'Train_motif_location_IL_input_FASTA.csv'.")
-    parser.add_argument('-i2', nargs='?', default='Unknown_motif_location_IL_input_FASTA.csv', const='Unknown_motif_location_IL_input_FASTA.csv', help="Input file containing motif candidate locations. Default:'Unknown_motif_location_IL_input_FASTA.csv'.")
+    parser.add_argument('-i1', nargs='?', default='Train_motif_location_IL_input_PDB.csv', const='Train_motif_location_IL_input_PDB.csv', help="Input file containing training motif locations. Default:'Train_motif_location_IL_input_PDB.csv'.")
+    parser.add_argument('-i2', nargs='?', default='Unknown_motif_location_IL_input_PDB.csv', const='Unknown_motif_location_IL_input_PDB.csv', help="Input file containing motif candidate locations. Default:'Unknown_motif_location_IL_input_PDB.csv'.")
     parser.add_argument('-o', nargs='?', default='output/', const='output/', help="Path to the output files. Default: 'output/'.")
     parser.add_argument('-e', nargs='?', default='0', const='5', help="Number of extended residues beyond loop boundary to generate the loop.cif file. Default: 0.")
-    #parser.add_argument('-o', nargs='?', default='output/', const='output/', help="Path to the output files. Default: 'output/'.")
     parser.add_argument('-d', nargs='?', default='web', const='web', help="Use 'tool' to generate annotation from DSSR tool, else use 'web' to generate annotation from DSSR website. Default: 'web'.")
-    parser.add_argument('-idt', nargs='?', default='fasta', const='fasta', help="Use 'fasta' if input motif index type is FASTA, else use 'pdb' if input motif index type is PDB. Default: 'fasta'.")
+    parser.add_argument('-idt', nargs='?', default='pdb', const='pdb', help="Use 'fasta' if input motif index type is FASTA, else use 'pdb' if input motif index type is PDB. Default: 'pdb'.")
 
 
     # GIN model run and clustering input params
-    parser.add_argument('-t', nargs='?', default=False, const=True, help="Trains the model if t = True, else uses the previously trained model weight. Default: False.")
+    parser.add_argument('-t', nargs='?', default=True, const=False, help="Trains the model if t = True, else uses the previously trained model weight. To set the parameter to False just use '-t'. Default: True.")
     parser.add_argument('-idx', nargs='?', default='0', const='0', help="Divides data into train, validation and test. To divide randomly, set to '0'. To divide according to the paper for internal loops, set to '1'. To divide according to the paper for hairpin loops, set to '2'. To define manually using the file 'Train_Validate_Test_data_list.csv' in data folder, set to '3'. Default: 0.")
     parser.add_argument('-w', nargs='?', default='1', const='1', help="Use '1' to save the new model weight, otherwise, use '0'. Default: '1'.")
     parser.add_argument('-val', nargs='?', default='0.064', const='0.064', help="Set the percentage of validation data. Default: '0.064'.")
     parser.add_argument('-test', nargs='?', default='0.063', const='0.063', help="Set the percentage of test data. Default: '0.063'.")
-    parser.add_argument('-f', nargs='?', default=False, const=True, help="Generates features for unknown motifs if f = True, else uses the previously generated features. Default: False.")
-    parser.add_argument('-c', nargs='?', default=False, const=True, help="Generates cluster output if t = True, else uses the previously generated clustering output. Default: False.")
+    parser.add_argument('-f', nargs='?', default=True, const=False, help="Generates features for unknown motifs if True, else uses the previously generated features. To set the parameter to False just use '-f'. Default: True.")
+    parser.add_argument('-c', nargs='?', default=True, const=False, help="Generates cluster output if True, else uses the previously generated clustering output. To set the parameter to False just use '-c'. Default: True.")
     parser.add_argument('-k', nargs='?', default='400', const='400', help="Define the number of clusters (value of K) to be generated. Default: 400.")
 
     # pymol image generation params
@@ -93,7 +92,11 @@ def main():
     test_percen = 1 - test_par
     val_percen = 1 - val_par - test_par
 
-
+    ### create output directory
+    root_dir = os.getcwd()
+    output_path = os.path.join(root_dir, output_path)
+    print(output_path)
+    
     partial_pdbx_dir = os.path.join(data_dir, 'pdbx_extracted_ext' + str(loop_cif_extension))
 
     delete_directory(train_data_path)
@@ -145,7 +148,7 @@ def main():
 
     if generate_images == True:
         input_fname = os.path.join(output_path, 'Subcluster_output.csv')
-        generate_motif_images(input_fname, output_path, partial_pdbx_dir)
+        generate_motif_images(input_fname, output_path, partial_pdbx_dir, input_index_type)
 
 
     logger.info('Subcluster output generated.')
@@ -178,6 +181,7 @@ def prepare_data_and_generate_graphs(user_input_fname, output_dir, partial_pdbx_
         for family_id in families:
             families[family_id] = list(map(lambda x: str(strToNode(x)), families[family_id]))
 
+        ##### To save FASTA index from PDB index #####
         # fp = open('clusters_ML_FASTA.csv', 'w')
         # for fam_id in families:
         #     fp.write(fam_id+',')
@@ -185,19 +189,25 @@ def prepare_data_and_generate_graphs(user_input_fname, output_dir, partial_pdbx_
         #     fp.write('\n')
         # fp.close()
         # sys.exit()
+        ##### To save FASTA index from PDB index #####
 
+
+    ##### To save PDB index from FASTA index #####
     # if input_index_type == 'fasta':
     #     families = convert_a_cluster_from_FASTA_to_PDB(families)
-    #     # for family_id in families:
-    #     #     families[family_id] = list(map(lambda x: str(x), families[family_id]))
+    #     for family_id in families:
+    #         families[family_id] = list(map(lambda x: str(x), families[family_id]))
 
-    #     fp = open('IL_cluster_input_PDB.csv', 'w')
+    #     fp = open('Unknown_motif_location_ML_input_PDB.csv', 'w')
     #     for fam_id in families:
     #         fp.write(fam_id+',')
     #         fp.write(','.join(families[fam_id]))
     #         fp.write('\n')
     #     fp.close()
     #     sys.exit()
+    ##### To save PDB index from FASTA index #####
+
+
     
     loop_count = 0
     loop_node_list_str = []

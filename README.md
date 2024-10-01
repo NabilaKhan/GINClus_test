@@ -1,6 +1,6 @@
 # GINClus: RNA structural motif clustering using graph isomorphism network
 ###### Authors: Created by Nabila Shahnaz Khan in collaboration with Md Mahfuzur Rahaman and Shaojie Zhang
-GINClus source code is implemented using __Python 3.8.10__ and can be executed in __64-bit Linux__ machine. For given RNA motif locations (PDB or FASTA), GINClus first collects the RNA motifs and then generates the graph representation for each motif. Finally, it generates motif subclusters based on their structural (base interaction and 3D structure) similarity. It can also generate side-by-side images of motifs for each subclusters (optional).  
+GINClus source code is implemented using __Python 3.8.10__ and can be executed in __64-bit Linux__ machine. For given RNA motif and motif candidate locations from PDB (either from .pdbx file or .fasta file), GINClus generates the graph representation for each motif/motif candidate. Then, it generates motif subclusters based on their structural (base interaction and 3D structure) similarity. It can also generate side-by-side images of motifs for each subclusters (optional).  
 
 
 
@@ -37,7 +37,7 @@ PyMOL can be installed directly by downloading the OS-specific version from http
 ## Run Instructions
     
   
-**_Run command:_** python3 run.py [-i1 'Train_motif_location_IL_input_FASTA.csv'] [-i2 'Unknown_motif_location_IL_input_FASTA.csv'] [-o 'output/'] [-e 0] [-t False] [-idx 0] [-w 1] [-val 0.064] [-test 0.063] [-f False] [-c False] [-k 400] [-tf 0] [-uf 0] [-p False]  
+**_Run command:_** python3 run.py [-i1 'Train_motif_location_IL_PDB_input.csv'] [-i2 'Unknown_motif_location_IL_PDB_input.csv'] [-o 'output/'] [-e 0] [-d web] [-idt pdb] [-t True] [-idx 0] [-w 1] [-val 0.064] [-test 0.063] [-f True] [-c True] [-k 400] [-p False]  
 **_Help command:_** python3 run.py -h  
 **_Optional arguments:_** 
 ```
@@ -48,22 +48,22 @@ PyMOL can be installed directly by downloading the OS-specific version from http
   -e [E]        Number of extended residues beyond loop boundary to generate the loop.cif file. Default: 0.
   -d [D]        Use 'tool' to generate annotation from DSSR tool, else use 'web' to generate annotation from DSSR website. Default: 'web'.
   -idt [IDT]    Use 'fasta' if input motif index type is FASTA, else use 'pdb' if input motif index type is PDB. Default: 'fasta'.
-  -t [T]        Trains the model if t = True, else uses the previously trained model weight. Default: False.
+  -t [T]        Trains the model if t = True, else uses the previously trained model weight. To set the parameter to False just use '-t'. Default: True.
   -idx [IDX]    Divides data into train, validation and test. To divide randomly, set to '0'. To divide according to the paper for internal loops, set to '1'. To divide according to the paper for
                 hairpin loops, set to '2'. To define manually using the file 'Train_Validate_Test_data_list.csv' in data folder, set to '3'. Default: 0.
   -w [W]        Use '1' to save the new model weight, otherwise, use '0'. Default: '1'.
   -val [VAL]    Set the percentage of validation data. Default: '0.064'.
   -test [TEST]  Set the percentage of test data. Default: '0.063'.
-  -f [F]        Generates features for unknown motifs if f = True, else uses the previously generated features. Default: False.
-  -c [C]        Generates cluster output if t = True, else uses the previously generated clustering output. Default: False.
+  -f [F]        Generates features for unknown motifs if True, else uses the previously generated features. To set the parameter to False just use '-f'. Default: True.
+  -c [C]        Generates cluster output if True, else uses the previously generated clustering output. To set the parameter to False just use '-c'. Default: True.
   -k [K]        Define the number of clusters (value of K) to be generated. Default: 400.
   -p [P]        If True, generates PyMOL images for output clusteres. Default: False.
 
 ```
 
 **_Input:_** GINClus takes RNA motif locations as input for both training motifs and unknowns motifs from the following two separate files inside the [data](data/) folder.
-1. __Train_motif_location_input:__ contains the locations of RNA motifs used for training. These locations can either be collected from FASTA files or PDB files. Each line in the input file starts with the family name, followed by RNA motif locations. The motif locations are provided using the format 'PDBID_CHAIN:locations'. Example motif location: '4LCK_B:66-71', '1U9S_A:61-64_86-87', '4RGE_C:10-13_24-25_40-43'. Example input files: 'Train_motif_location_IL_input_FASTA.csv', 'Train_motif_location_HL_input_FASTA.csv'.
-2. __Unknown_motif_location_input:__ contains the locations of RNA motif candidates (PDB or FASTA). Uses the similar format as the file Train_motif_location_input files. Example input files: 'Unknown_motif_location_IL_input_FASTA.csv', 'Unknown_motif_location_HL_input_FASTA.csv'.
+1. __Train_motif_location_input:__ contains the locations of RNA motifs used for training. These locations can either be collected from FASTA files or PDB files. Each line in the input file starts with the family name, followed by RNA motif locations. The motif locations are provided using the format 'PDBID_CHAIN:locations'. Example motif location: '4LCK_B:66-71', '1U9S_A:61-64_86-87', '4RGE_C:10-13_24-25_40-43'. Example input files: 'Train_motif_location_IL_input_PDB.csv', 'Train_motif_location_HL_input_PDB.csv'.
+2. __Unknown_motif_location_input:__ contains the locations of RNA motif candidates (PDB or FASTA). Uses the similar format as the file Train_motif_location_input files. Example input files: 'Unknown_motif_location_IL_input_PDB.csv', 'Unknown_motif_location_HL_input_PDB.csv'.
 
 
 **_Optional Input File:_** The optional input file example can be found inside the [data](data/) folder.
@@ -81,11 +81,10 @@ __Train_Validate_Test_data_list.csv:__ To manually define the locations of motif
 ### Important Notes
 *** The PDB files 6EK0 and 4P95 have recently become obsolette and the motifs previously collected from these RNA chains have been removed from the motif location input file 'Unknown_motif_location_input.csv'.  
 *** Input files containing motif locations are provided inside folder [data]('data/') and the [GINClus clustering results](output/Subcluster_output.xlsx) discussed in the paper are provided inside folder [output](output/).  
-*** All the optional input files (Train_family_info.csv, Unknown_motif_family_info.csv, Train_Validate_Test_data_list.csv) need to be inside the data folder prior to the run.  
 *** Generating images for subclusters is optional and it takes comparatively longer to generate all the images.  
 *** Needs to download the open-source PyMOL to generate the subcluster images using GINClus.  
-*** GINClus can cluster multi-loops, however we didn't have enough training data to generate authentic multi-loop clusters. We provided sample input files 'Train_motif_location_ML_input_FASTA.csv' and 'Unknown_motif_location_ML_input_FASTA.csv' to show that GINClus can handle multi-loops.  
-*** GINClus can handle internal loops, hairpin loops and multi-loops at the same time. We provided sample input files 'Train_motif_location_mixed_input_FASTA.csv' and 'Unknown_motif_location_mixed_input_FASTA.csv' to show that GINClus can handle them at the same time.   
+*** GINClus can cluster multiloops, however we didn't have enough training data to generate authentic multiloop clusters. We provided sample input files 'Train_motif_location_ML_input_PDB.csv' and 'Unknown_motif_location_ML_input_PDB.csv' to show that GINClus can handle multi-loops.  
+*** GINClus can handle internal loops, hairpin loops and multiloops at the same time. We provided sample input files 'Train_motif_location_mixed_input_PDB.csv' and 'Unknown_motif_location_mixed_input_PDB.csv' to show that GINClus can handle them at the same time.   
 
 
 ### Terms  

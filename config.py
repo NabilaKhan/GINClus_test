@@ -6,7 +6,7 @@ import os
 # family_side_by_side_image_caption = True 		# Make it False to remove the side by side image captions for families.
 # remove_homolog_subfamily = False 		# Make it True to remove the subfamilies, for which, the instances are homologs or nearly homologs.
 
-# allow_two_line_caption = True 			# Make it False to get single line caption in the output images.
+allow_two_line_caption = True 			# Make it False to get single line caption in the output images.
 # extreme_filtering = False 				# Filter out more instaces to get more refined output.
 # min_align_len_threshold = 0 			# Motif instances will be filtered out if their alignment length is less than this threshold.
 # save_pymol_session = False 				# Make it True to save PyMOL sessions of the superimposed motif instances.
