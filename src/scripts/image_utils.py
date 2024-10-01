@@ -193,6 +193,11 @@ def generate_motif_images(input_fname, output_path, partial_pdbx_dir, input_inde
 
         ### If index PDB, then covert to FASTA
         if input_index_type == 'pdb':
+            count_underscore = loop.count('_')
+            count_hipen = loop.count('-')
+            if count_underscore != count_hipen:
+                logger.warning(loop + " contains negative indexing, so has been filtered out")
+                continue
             loop = convert_a_loop_from_PDB_to_FASTA(loop)
 
         scl_id = pieces[2].strip()
