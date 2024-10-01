@@ -1,6 +1,6 @@
 # GINClus: RNA structural motif clustering using graph isomorphism network
 ###### Authors: Created by Nabila Shahnaz Khan in collaboration with Md Mahfuzur Rahaman and Shaojie Zhang
-GINClus source code is implemented using __Python 3.8.10__ and can be executed in __64-bit Linux__ machine. For given RNA motif and motif candidate locations from PDB (either from .pdbx file or .fasta file), GINClus generates the graph representation for each motif/motif candidate. Then, it generates motif subclusters based on their structural (base interaction and 3D structure) similarity. It can also generate side-by-side images of motifs for each subclusters (optional).  
+GINClus source code is implemented using __Python 3.8.10__ and can be executed in __64-bit Linux__ machine. It is compatible with __Python 3.8.10-3.11.10__. For given RNA motif and motif candidate locations from PDB (either from .pdbx file or .fasta file), GINClus generates the graph representation for each motif/motif candidate. Then, it generates motif subclusters based on their structural (base interaction and 3D structure) similarity. It can also generate side-by-side images of motifs for each subclusters (optional).  
 
 
 
@@ -30,24 +30,42 @@ os, sys, shutil, math, random, subprocess, glob, time, argparse, logging, reques
 *** If any of the above mentioned package doesn't exist, then please install with command 'pip3 install package-name' ***
 
 
+#### Create virtual environment (optional): 
+For latest version of Ubuntu (>=23.0), all python packages have to be installed under a virtual environment. Use the follwing instructions to create a virtual envionment folder to run requirements.txt and GINClus code inside it:
+
+```
+mkdir GINClus_venv  
+python3 -m venv GINClus_venv
+source GINClus_venv/bin/activate  
+```
+
 #### Install PyMOL (optional - required to generate images):  
-PyMOL can be installed directly by downloading the OS-specific version from https://pymol.org/. However, the open-source PyMOL can be obtained by compiling the source code(Python 3.6+ is required). The steps to compile the PyMOL source code is described in the [README-PyMOL-build](README-PyMOL-build.md) file.
+```
+sudo apt-get install -y pymol
+```
+
+If running GINClus inside virtual environment then use the following command to add the path of pymol to the virtual environment path:
+
+```
+python3 -m venv my-venv --system-site-packages
+```
+
+PyMOL can also be installed directly by downloading the OS-specific version from https://pymol.org/. However, the open-source PyMOL can be obtained by compiling the source code(Python 3.6+ is required). The steps to compile the PyMOL source code is described in the [README-PyMOL-build](README-PyMOL-build.md) file.
 
 
 ## Run Instructions
-    
-  
+      
 **_Run command:_** python3 run.py [-i1 'Train_motif_location_IL_PDB_input.csv'] [-i2 'Unknown_motif_location_IL_PDB_input.csv'] [-o 'output/'] [-e 0] [-d web] [-idt pdb] [-t True] [-idx 0] [-w 1] [-val 0.064] [-test 0.063] [-f True] [-c True] [-k 400] [-p False]  
 **_Help command:_** python3 run.py -h  
 **_Optional arguments:_** 
 ```
   -h, --help    show this help message and exit
-  -i1 [I1]      Input file containing training motif locations. Default:'Train_motif_location_IL_input_FASTA.csv'.
-  -i2 [I2]      Input file containing motif candidate locations. Default:'Unknown_motif_location_IL_input_FASTA.csv'.
+  -i1 [I1]      Input file containing training motif locations. Default:'Train_motif_location_IL_input_PDB.csv'.
+  -i2 [I2]      Input file containing motif candidate locations. Default:'Unknown_motif_location_IL_input_PDB.csv'.
   -o [O]        Path to the output files. Default: 'output/'.
   -e [E]        Number of extended residues beyond loop boundary to generate the loop.cif file. Default: 0.
   -d [D]        Use 'tool' to generate annotation from DSSR tool, else use 'web' to generate annotation from DSSR website. Default: 'web'.
-  -idt [IDT]    Use 'fasta' if input motif index type is FASTA, else use 'pdb' if input motif index type is PDB. Default: 'fasta'.
+  -idt [IDT]    Use 'fasta' if input motif index type is FASTA, else use 'pdb' if input motif index type is PDB. Default: 'pdb'.
   -t [T]        Trains the model if t = True, else uses the previously trained model weight. To set the parameter to False just use '-t'. Default: True.
   -idx [IDX]    Divides data into train, validation and test. To divide randomly, set to '0'. To divide according to the paper for internal loops, set to '1'. To divide according to the paper for
                 hairpin loops, set to '2'. To define manually using the file 'Train_Validate_Test_data_list.csv' in data folder, set to '3'. Default: 0.
@@ -77,10 +95,29 @@ __Train_Validate_Test_data_list.csv:__ To manually define the locations of motif
 4. __subcluster_images folder:__ contans the images generated for each subcluster.
 
 
+**_Example run commands for sample input:_**
+Example sample inputs are provided inside [data]('data/') folder. For example sample input files can be found inside folder [sample_input]('data/sample_input/').
+1. __For internal loops:__ 
+```
+python3 run.py -i1 'Train_motif_location_IL_input_PDB.csv' -i2 'Unknown_motif_location_IL_input_PDB.csv' -o 'output/' -e 0 -idx 1 -w 1 -val 0.064 -test 0.063 -k 400
+```
+2. __For hairpin loops:__ 
+```
+python3 run.py -i1 'Train_motif_location_HL_input_PDB.csv' -i2 'Unknown_motif_location_HL_input_PDB.csv' -o 'output/' -e 0 -idx 2 -w 1 -val 0.064 -test 0.063 -k 400
+```
+3. __For fasta index:__ 
+```
+python3 run.py -i1 'sample_input/Train_motif_location_HL_input_FASTA.csv' -i2 'sample_input/Unknown_motif_location_HL_input_FASTA.csv' -o 'output/' -e 0 -idx 0 -w 1 -val 0.064 -test 0.063 -k 400
+```
+4. __For image generation:__ 
+```
+python3 run.py -i1 'Train_motif_location_IL_input_PDB.csv' -i2 'Unknown_motif_location_IL_input_PDB.csv' -idx 1 -p
+```
        
 ### Important Notes
-*** The PDB files 6EK0 and 4P95 have recently become obsolette and the motifs previously collected from these RNA chains have been removed from the motif location input file 'Unknown_motif_location_input.csv'.  
-*** Input files containing motif locations are provided inside folder [data]('data/') and the [GINClus clustering results](output/Subcluster_output.xlsx) discussed in the paper are provided inside folder [output](output/).  
+*** The PDB files 6EK0 and 4P95 have recently become obsolette and the motifs previously collected from these RNA chains have been removed from the motif location input files.  
+*** Input files containing motif locations are provided inside folder [data]('data/') and [sample_input]('data/sample_input/').  
+*** The GINClus clustering results for [internal loops](output/Subcluster_output_IL.xlsx) and [hairpin loops](output/Subcluster_output_HL.xlsx) discussed in the paper are provided inside folder [output](output/).  
 *** Generating images for subclusters is optional and it takes comparatively longer to generate all the images.  
 *** Needs to download the open-source PyMOL to generate the subcluster images using GINClus.  
 *** GINClus can cluster multiloops, however we didn't have enough training data to generate authentic multiloop clusters. We provided sample input files 'Train_motif_location_ML_input_PDB.csv' and 'Unknown_motif_location_ML_input_PDB.csv' to show that GINClus can handle multi-loops.  
