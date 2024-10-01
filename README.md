@@ -96,7 +96,7 @@ __Train_Validate_Test_data_list.csv:__ To manually define the locations of motif
 
 
 **_Example run commands for sample input:_**
-Example sample inputs are provided inside [data]('data/') folder. For example sample input files can be found inside folder [sample_input]('data/sample_input/').
+Example sample inputs are provided inside [data](data/) folder. For example sample input files can be found inside folder [sample_input](data/sample_input/).
 1. __For internal loops:__ 
 ```
 python3 run.py -i1 'Train_motif_location_IL_input_PDB.csv' -i2 'Unknown_motif_location_IL_input_PDB.csv' -o 'output/' -e 0 -idx 1 -w 1 -val 0.064 -test 0.063 -k 400
@@ -116,7 +116,7 @@ python3 run.py -i1 'Train_motif_location_IL_input_PDB.csv' -i2 'Unknown_motif_lo
        
 ### Important Notes
 *** The PDB files 6EK0 and 4P95 have recently become obsolette and the motifs previously collected from these RNA chains have been removed from the motif location input files.  
-*** Input files containing motif locations are provided inside folder [data]('data/') and [sample_input]('data/sample_input/').  
+*** Input files containing motif locations are provided inside folder [data](data/) and [sample_input](data/sample_input/).  
 *** The GINClus clustering results for [internal loops](output/Subcluster_output_IL.xlsx) and [hairpin loops](output/Subcluster_output_HL.xlsx) discussed in the paper are provided inside folder [output](output/).  
 *** Generating images for subclusters is optional and it takes comparatively longer to generate all the images.  
 *** Needs to download the open-source PyMOL to generate the subcluster images using GINClus.  
