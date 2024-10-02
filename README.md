@@ -96,7 +96,7 @@ __Train_Validate_Test_data_list.csv:__ To manually define the locations of motif
 
 
 **_Example run commands for sample input:_**
-Example sample inputs are provided inside [data](data/) folder. For example sample input files can be found inside folder [sample_input](data/sample_input/).
+Example sample inputs are provided inside [data](data/) folder. More example sample input files can be found inside folder [sample_input](data/sample_input/).
 1. __For internal loops:__ 
 ```
 python3 run.py -i1 'Train_motif_location_IL_input_PDB.csv' -i2 'Unknown_motif_location_IL_input_PDB.csv' -o 'output/' -idt pdb -d web -e 0 -idx 1 -w 1 -val 0.064 -test 0.063 -k 400
