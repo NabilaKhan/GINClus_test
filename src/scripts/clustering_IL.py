@@ -39,8 +39,8 @@ def run_kmeans(unknown_motif_family_list, CLUSTER_NO, output_path):
     ################################################################################
     # Dataset
     ################################################################################
-    #X1 = pd.read_csv('Motif_Features_IL_95_2.tsv', sep = '\t')
-    X1 = pd.read_csv(output_path + 'Motif_Features_IL.tsv', sep = '\t')
+    #X1 = pd.read_csv(output_path + 'Motif_Features_IL.tsv', sep = '\t')
+    X1 = pd.read_csv(os.path.join(output_path,'Motif_candidate_features.tsv'), sep = '\t')
     X1['Label'] = X1['Label'].map(label_mapping).astype('int32')
     family_labels = X1['Label'].tolist()
     motif_ids = X1['Motif_id'].tolist()

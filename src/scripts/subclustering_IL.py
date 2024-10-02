@@ -24,7 +24,8 @@ def run_subclustering(CLUSTER_NO, unknown_motif_family_list, output_path, input_
     ################################################################################
     # Dataset
     ################################################################################
-    X = pd.read_csv(output_path + 'Cluster_output.csv', sep = '\t')
+    #X = pd.read_csv(output_path + 'Cluster_output.csv', sep = '\t')
+    X = pd.read_csv(os.path.join(output_path, 'Cluster_output.csv'), sep = '\t')
     
     motif_family_no = len(unknown_motif_family_list)
     label_mapping = {}

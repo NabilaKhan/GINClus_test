@@ -240,7 +240,7 @@ def generate_feature(INPUT_PATH, unknown_motif_family_list, output_path, input_i
        
         ### Write Features In TSV File
         features = predictions.numpy()
-        output_file = os.path.join(output_path, "Motif_Features_IL.tsv")
+        output_file = os.path.join(output_path, "Motif_candidate_features.tsv")
         fcsv = open(output_file, "w")
         #fcsv = open(output_path + "Motif_Features_IL.tsv", "w")
         header = str(header)
