@@ -22,6 +22,7 @@ X21	X76	A-A	outward
 X22	X23	U-A	downward
 X22	X46	U-G	downward
 X22	X52	U-A	W/W	cis
+X22	X101	U-ADE	inward
 X23	X25	A-U	outward
 X23	X46	A-G	W/S	trans
 X24	X54	A-C	upward
@@ -71,6 +72,7 @@ X42	X43	G-G	upward
 X43	X44	G-G	upward
 X44	X45	G-A	upward
 X45	X46	A-G	upward
+X46	X47	G-U	upward
 X46	X52	G-A	inward
 X46	X53	G-C	W/W	cis
 X47	X51	U-U	W/H	trans

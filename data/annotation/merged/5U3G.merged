@@ -1,4 +1,6 @@
+B1	B2	GTP-G	upward
 B1	B40	G-C	W/W	cis
+B1	B41	GTP-G	outward
 B2	B3	G-U	upward
 B2	B39	G-C	W/W	cis
 B2	B40	G-C	outward
@@ -105,6 +107,7 @@ B61	B80	A-G	outward
 B62	B63	C-G	upward
 B62	B83	C-G	W/W	cis
 B62	B84	C-G	outward
+B62	B85	C-A	outward
 B63	B82	G-A	S/H	trans
 B63	B83	G-G	outward
 B64	B65	G-C	upward

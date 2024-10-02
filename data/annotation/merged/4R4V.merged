@@ -1,3 +1,4 @@
+A600	A601	GDP-G	upward
 A601	A602	G-C	upward
 A601	A785	G-C	W/W	cis
 A602	A603	C-G	upward
@@ -139,6 +140,7 @@ A664	A710	U-G	outward
 A665	A666	C-C	upward
 A666	A680	C-G	W/W	cis
 A666	A707	C-A	S/S	cis
+A666	A708	C-U	outward
 A667	A668	A-A	upward
 A667	A679	A-U	W/W	cis
 A667	A680	A-G	outward

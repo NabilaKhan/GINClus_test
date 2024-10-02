@@ -1,6 +1,7 @@
 A2	A3	G-A	upward
 A2	A107	G-C	W/W	cis
 A2	A108	G-C	outward
+A2	A208	G-GTP	downward
 A3	A4	A-U	upward
 A3	A106	A-U	W/W	cis
 A4	A105	U-A	W/W	cis
@@ -96,6 +97,7 @@ A69	A70	C-G	upward
 A70	A71	G-U	upward
 A71	A72	U-A	upward
 A72	A73	A-C	upward
+A93	A94	A-G	upward
 A94	A95	G-G	upward
 A95	A96	G-C	upward
 A96	A97	C-G	upward
@@ -112,6 +114,7 @@ A108	A208	C-G	W/W	cis
 B2	B3	G-A	upward
 B2	B107	G-C	W/W	cis
 B2	B108	G-C	outward
+B2	B212	G-GTP	downward
 B3	B4	A-U	upward
 B3	B106	A-U	W/W	cis
 B3	B107	A-C	outward
@@ -204,6 +207,9 @@ B44	B64	A-U	W/W	cis
 B44	B65	A-G	outward
 B45	B46	A-C	outward
 B47	A56	A-G	W/S	trans
+B47	A58	A-A	inward
+B47	A59	A-A	outward
+B48	A60	U-A	inward
 B48	B101	U-C	W/S	trans
 B49	B50	U-U	upward
 B50	B51	U-U	inward

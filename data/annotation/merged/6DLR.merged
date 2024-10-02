@@ -93,6 +93,7 @@ A44	A45	C-C	upward
 A45	A46	C-A	upward
 A45	A87	C-A	S/S	trans
 A47	A50	A-G	upward
+A47	A89	A-G	downward
 A48	A49	G-U	upward
 A48	A74	G-A	S/S	trans
 A48	A94	G-G	outward
@@ -174,3 +175,4 @@ A101	A102	A-G	upward
 A102	A103	G-G	upward
 A104	A105	U-U	upward
 A105	A106	U-U	upward
+A106	A107	U-CCC	upward

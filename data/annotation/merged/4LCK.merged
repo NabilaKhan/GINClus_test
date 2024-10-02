@@ -516,6 +516,7 @@ F58	F59	U-G	upward
 F58	F62	U-A	W/H	trans
 F59	F62	G-A	outward
 F60	F61	A-A	upward
+F64	F65	C-U	upward
 F65	F66	U-A	upward
 F66	F67	A-G	upward
 F67	F68	G-A	upward
@@ -528,6 +529,7 @@ F73	F74	A-G	upward
 F74	F75	G-U	upward
 F75	F76	U-A	upward
 F76	F77	A-A	upward
+F77	F78	A-C	upward
 F78	F79	C-C	upward
 F80	F81	U-U	upward
 F82	F83	A-A	upward

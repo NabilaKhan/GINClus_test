@@ -155,6 +155,7 @@ A72	A90	G-A	S/S	trans
 A72	A94	G-C	W/W	cis
 A72	A95	G-C	outward
 A73	A74	U-G	upward
+A73	A90	U-A	downward
 A73	A92	U-A	W/W	trans
 A74	A92	G-A	downward
 A75	A76	G-G	upward
@@ -196,6 +197,8 @@ A104	A105	G-G	upward
 A105	A106	G-C	upward
 A106	A107	C-G	inward
 A108	A109	A-C	upward
+A108	A166	A-G	downward
+A109	A110	C-A	inward
 A110	A168	A-A	W/H	trans
 A111	A112	G-A	upward
 A111	A152	G-C	W/W	cis
@@ -226,6 +229,7 @@ A127	A133	C-G	W/W	cis
 A127	A134	C-G	outward
 A128	A132	U-A	W/H	trans
 A128	A133	U-G	outward
+A131	A132	U-A	upward
 A132	A133	A-G	upward
 A133	A134	G-G	upward
 A134	A135	G-U	upward
@@ -243,6 +247,7 @@ A145	A147	G-A	upward
 A145	A170	G-C	W/H	cis
 A146	A174	A-U	H/W	trans
 A146	A175	A-A	outward
+A147	A167	A-C	upward
 A147	A171	A-C	W/H	cis
 A148	A149	C-A	upward
 A149	A150	A-G	upward

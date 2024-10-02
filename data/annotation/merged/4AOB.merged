@@ -21,6 +21,7 @@ A9	A63	A-U	upward
 A10	A11	A-G	upward
 A11	A12	G-A	upward
 A11	A44	G-C	S/S	cis
+A11	A1116	G-A	W/H	trans
 A12	A43	A-G	S/S	cis
 A12	A59	A-C	S/S	trans
 A13	A15	G-G	upward
@@ -89,6 +90,7 @@ A45	A1116	A-A	S/W	trans
 A46	A48	A-C	S/H	cis
 A47	A48	C-C	upward
 A47	A56	C-G	W/W	cis
+A47	A1116	C-SAM	downward
 A48	A49	C-A	upward
 A48	A55	C-G	W/W	cis
 A48	A56	C-G	outward

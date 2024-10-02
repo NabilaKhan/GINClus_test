@@ -10,6 +10,7 @@ C7	C66	G-C	W/W	cis
 C7	C67	G-C	outward
 C8	C13	U-C	inward
 C8	C14	U-A	W/H	trans
+C8	C15	U-G	outward
 C8	C21	U-A	S/S	trans
 C9	C22	A-G	downward
 C9	C23	A-A	H/H	trans
@@ -28,6 +29,7 @@ C13	C22	C-G	W/W	cis
 C13	C23	C-A	outward
 C14	C15	A-G	upward
 C14	C22	A-G	outward
+C15	C16	G-C	upward
 C15	C48	G-C	W/W	trans
 C15	C59	G-A	upward
 C17	C17.A	C-U	inward
@@ -127,6 +129,7 @@ F13	F22	C-G	W/W	cis
 F13	F23	C-A	outward
 F14	F15	A-G	upward
 F14	F22	A-G	outward
+F15	F16	G-C	upward
 F15	F48	G-C	W/W	trans
 F15	F59	G-A	inward
 F17	F17.A	C-U	upward

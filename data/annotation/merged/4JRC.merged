@@ -1,3 +1,4 @@
+A24	A25	GTP-G	upward
 A24	A80	G-C	W/W	cis
 A25	A26	G-A	upward
 A25	A79	G-C	W/W	cis
@@ -87,6 +88,7 @@ A76	A77	G-U	upward
 A77	A78	U-U	upward
 A78	A79	U-C	upward
 A79	A80	C-C	upward
+B24	B25	GTP-G	upward
 B24	B80	G-C	W/W	cis
 B25	B26	G-A	upward
 B25	B79	G-C	W/W	cis

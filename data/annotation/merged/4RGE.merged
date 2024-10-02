@@ -9,6 +9,7 @@ A4	A49	U-A	W/H	trans
 A6	A30	A-U	inward
 A6	A35	A-A	upward
 A7	A8	A-U	upward
+A7	A34	A-A	outward
 A7	A48	A-G	H/S	trans
 A7	A49	A-A	outward
 A8	A47	U-A	W/W	cis
@@ -192,6 +193,7 @@ C4	C49	U-A	W/H	trans
 C6	C30	A-U	inward
 C6	C35	A-A	upward
 C7	C8	A-U	upward
+C7	C34	A-A	outward
 C7	C48	A-G	H/S	trans
 C7	C49	A-A	outward
 C8	C47	U-A	W/W	cis

@@ -21,6 +21,7 @@ X8	X2869	A-U	W/W	cis
 X9	X2608	U-A	W/H	trans
 X10	X11	A-G	upward
 X10	X2608	A-A	outward
+X11	X12	G-U	upward
 X13	X14	A-A	S/H	cis
 X13	X535	A-U	inward
 X13	X536	A-A	outward
@@ -261,6 +262,8 @@ X133	X134	C-G	upward
 X133	X138	C-G	W/W	cis
 X133	X139	C-A	outward
 X134	X138	G-G	outward
+X135	X136	U-A	upward
+X135	X137	U-A	upward
 X136	X137	A-A	upward
 X137	X138	A-G	upward
 X138	X139	G-A	upward
@@ -435,7 +438,6 @@ X224	X228	G-A	S/H	trans
 X224	X229	G-G	outward
 X225	X227	G-G	outward
 X227	X228	G-A	upward
-X227	X399	G-G	H/W	cis
 X228	X229	A-G	upward
 X229	X230	G-C	upward
 X230	X231	C-G	upward
@@ -545,7 +547,9 @@ X352	X353	G-G	upward
 X353	X354	G-C	upward
 X354	X355	C-G	upward
 X356	X357	A-A	S/H	cis
+X357	X358	A-C	upward
 X359	X360	G-A	upward
+X360	X361	A-G	upward
 X387	X388	A-G	upward
 X387	X414	A-A	outward
 X388	X389	G-G	upward
@@ -590,6 +594,7 @@ X415	X435	A-A	W/W	trans
 X415	X436	A-A	W/W	cis
 X417	X419	C-G	outward
 X419	X420	G-C	upward
+X420	X421	C-G	upward
 X420	X433	C-G	W/W	cis
 X421	X422	G-C	upward
 X421	X432	G-C	W/W	cis
@@ -643,11 +648,11 @@ X460	X592	U-G	W/S	trans
 X461	X462	A-G	upward
 X461	X466	A-A	W/H	trans
 X463	X465	C-C	inward
-X463	X467	C-U	W/H	trans
 X464	X465	G-C	upward
 X464	X468	G-A	S/S	trans
 X464	X469	G-G	outward
 X465	X467	C-U	upward
+X465	X468	C-A	downward
 X468	X469	A-G	outward
 X468	X470	A-U	outward
 X468	X481	A-A	downward
@@ -711,12 +716,14 @@ X495	X507	C-A	outward
 X496	X497	C-C	upward
 X496	X505	C-G	W/W	cis
 X496	X506	C-G	outward
+X497	X498	C-C	upward
 X497	X504	C-G	W/W	cis
 X497	X505	C-G	outward
 X498	X499	C-G	upward
 X498	X503	C-G	W/W	cis
 X498	X504	C-G	outward
 X499	X502	G-A	S/H	trans
+X499	X503	G-G	outward
 X500	X501	G-G	upward
 X500	X1297	G-A	outward
 X501	X502	G-A	upward
@@ -966,6 +973,7 @@ X660	X661	G-C	upward
 X661	X662	C-G	upward
 X662	X663	G-G	upward
 X663	X664	G-C	upward
+X664	X665	C-A	upward
 X666	X667	U-U	upward
 X669	X670	G-U	upward
 X670	X671	U-A	upward
@@ -996,6 +1004,7 @@ X688	X689	A-A	inward
 X688	X816	A-U	H/W	trans
 X688	X817	A-A	outward
 X688	X2422	A-C	S/S	cis
+X689	X690	A-A	outward
 X689	X815	A-A	W/W	trans
 X689	X2052	A-G	H/S	trans
 X690	X691	A-C	upward
@@ -1093,6 +1102,7 @@ X725	X726	C-G	upward
 X725	X732	C-G	W/W	cis
 X725	X733	C-G	outward
 X726	X727	G-U	upward
+X726	X732	G-G	outward
 X732	X733	G-G	upward
 X733	X734	G-G	upward
 X734	X735	G-G	upward
@@ -1122,6 +1132,7 @@ X751	X772	G-G	outward
 X752	X753	G-U	S/H	cis
 X753	X754	U-G	upward
 X753	X770	U-U	W/W	cis
+X753	X771	U-C	outward
 X753	X1964	U-A	downward
 X754	X755	G-C	upward
 X754	X769	G-C	W/W	cis
@@ -1164,6 +1175,7 @@ X781	X782	G-U	upward
 X782	X783	U-G	upward
 X783	X784	G-U	upward
 X783	X1367	G-A	S/S	trans
+X783	X1392	G-U	outward
 X784	X785	U-U	upward
 X785	X786	U-U	upward
 X787	X800	A-U	S/S	trans
@@ -1353,6 +1365,7 @@ X888	X889	G-C	upward
 X888	X914	G-C	W/W	cis
 X888	X915	G-C	outward
 X890	X912	U-A	S/H	trans
+X891	X911	A-A	upward
 X911	X912	A-A	upward
 X912	X913	A-A	upward
 X913	X914	A-C	upward
@@ -1406,6 +1419,7 @@ X958	X982	G-C	outward
 X958	X995	G-A	S/S	trans
 X959	X960	C-U	upward
 X959	X980	C-G	W/W	cis
+X960	X961	U-G	upward
 X960	X979	U-A	W/W	cis
 X960	X980	U-G	outward
 X961	X962	G-C	upward
@@ -1440,6 +1454,7 @@ X972	X2014	C-A	upward
 X973	X974	U-U	upward
 X974	X975	U-C	upward
 X975	X976	C-C	upward
+X976	X2252	C-A	outward
 X977	X978	G-U	upward
 X978	X979	U-A	upward
 X979	X980	A-G	upward
@@ -1476,6 +1491,7 @@ X997	X998	C-C	upward
 X997	X1012	C-A	S/S	cis
 X998	X999	C-A	upward
 X998	X1011	C-A	S/S	cis
+X999	X1000	A-G	upward
 X1002	X1003	C-C	upward
 X1002	X1174	C-G	W/W	cis
 X1002	X1199	C-U	downward
@@ -1543,6 +1559,7 @@ X1029	X1155	C-G	W/W	cis
 X1030	X1032	U-A	S/W	cis
 X1030	X1153	U-A	W/H	trans
 X1030	X1155	U-G	outward
+X1031	X1032	C-A	outward
 X1031	X1151	C-U	downward
 X1032	X1034	A-U	upward
 X1032	X1151	A-U	H/W	trans
@@ -1627,7 +1644,6 @@ X1067	X1114	G-A	S/H	trans
 X1068	X1092	A-U	W/W	cis
 X1068	X1097	A-A	outward
 X1069	X1070	G-G	upward
-X1069	X1091	G-C	W/W	cis
 X1069	X1092	G-U	outward
 X1070	X1071	G-U	inward
 X1070	X1091	G-C	outward
@@ -1672,6 +1688,7 @@ X1101	X1102	U-G	upward
 X1101	X1112	U-U	W/W	cis
 X1101	X1113	U-C	outward
 X1102	X1103	G-C	upward
+X1103	X1104	C-G	upward
 X1103	X1110	C-G	W/W	cis
 X1103	X1111	C-C	W/W	cis
 X1104	X1105	G-U	upward
@@ -1721,6 +1738,7 @@ X1147	X1148	G-G	upward
 X1148	X1149	G-G	upward
 X1149	X1150	G-C	upward
 X1149	X1154	G-A	S/S	trans
+X1151	X1153	U-A	outward
 X1153	X1155	A-G	upward
 X1155	X1156	G-U	upward
 X1157	X1158	G-A	upward
@@ -1890,11 +1908,13 @@ X1281	X1995	A-G	H/S	trans
 X1281	X1996	A-A	outward
 X1282	X1283	A-C	upward
 X1282	X1994	A-U	W/W	cis
+X1283	X1338	C-G	downward
 X1283	X1993	C-G	W/W	cis
 X1284	X1631	G-C	W/W	trans
 X1285	X1634	A-A	outward
 X1286	X1985	U-G	W/S	cis
 X1287	X1309	A-G	S/S	cis
+X1287	X1315	A-A	outward
 X1287	X1661	A-C	S/S	trans
 X1287	X1663	A-C	upward
 X1288	X1308	A-C	S/S	trans
@@ -1936,6 +1956,7 @@ X1304	X1305	U-C	upward
 X1305	X1306	C-U	upward
 X1306	X1307	U-U	upward
 X1307	X1308	U-C	upward
+X1308	X1309	C-G	upward
 X1308	X1662	C-G	W/W	cis
 X1309	X1310	G-C	upward
 X1309	X1661	G-C	W/W	cis
@@ -2027,6 +2048,7 @@ X1350	X1351	G-G	upward
 X1351	X1352	G-G	upward
 X1351	X1406	G-A	S/S	trans
 X1352	X1353	G-A	upward
+X1353	X1619	A-A	outward
 X1354	X1407	A-G	H/H	cis
 X1354	X1408	A-A	H/W	cis
 X1355	X1358	A-C	upward
@@ -2054,6 +2076,7 @@ X1363	X1394	C-G	W/W	cis
 X1364	X1365	C-U	upward
 X1364	X1393	C-G	W/W	cis
 X1364	X1394	C-G	outward
+X1365	X1390	U-G	inward
 X1365	X1391	U-A	W/H	trans
 X1365	X1586	U-A	S/S	cis
 X1366	X1367	A-A	upward
@@ -2349,6 +2372,7 @@ X1524	X1525	C-A	upward
 X1525	X1526	A-U	upward
 X1526	X1527	U-G	upward
 X1527	X1528	G-C	upward
+X1528	X1529	C-C	upward
 X1529	X1530	C-U	upward
 X1530	X1531	U-C	upward
 X1532	X1533	A-G	upward
@@ -2381,7 +2405,6 @@ X1548	X1549	U-C	upward
 X1548	X1555	U-A	W/W	cis
 X1549	X1550	C-C	upward
 X1549	X1554	C-G	W/W	cis
-X1550	X1553	C-G	W/W	cis
 X1550	X1553	C-G	inward
 X1553	X1554	G-G	upward
 X1554	X1555	G-A	upward
@@ -2423,6 +2446,7 @@ X1596	X1597	A-A	upward
 X1597	X1598	A-C	upward
 X1598	X1599	C-G	upward
 X1599	X1600	G-U	upward
+X1601	X1602	U-G	upward
 X1603	X1604	A-A	upward
 X1604	X1605	A-A	upward
 X1605	X1606	A-C	upward
@@ -2543,6 +2567,7 @@ X1685	X1976	A-U	outward
 X1686	X1976	A-U	W/W	cis
 X1687	X1688	C-U	upward
 X1689	X1690	U-U	upward
+X1690	X1692	U-C	upward
 X1691	X1693	G-A	S/H	trans
 X1691	X1694	G-A	S/W	trans
 X1691	X1973	G-C	W/W	cis
@@ -2640,6 +2665,7 @@ X1745	X1746	C-A	upward
 X1745	X2696	C-A	W/S	cis
 X1746	X2673	A-G	W/S	trans
 X1750	X1751	A-A	upward
+X1750	X2676	A-G	outward
 X1751	X1752	A-U	upward
 X1755	X1756	G-C	upward
 X1755	X1971	G-C	W/W	cis
@@ -2986,6 +3012,7 @@ X1994	X1995	U-G	upward
 X1996	X1997	A-A	upward
 X1996	X2592	A-U	W/W	trans
 X1997	X1998	A-A	upward
+X1998	X1999	A-U	upward
 X1999	X2000	U-U	upward
 X2001	X2002	G-A	upward
 X2002	X2003	A-A	upward
@@ -3010,6 +3037,7 @@ X2011	X2016	U-A	W/H	trans
 X2012	X2016	A-A	outward
 X2014	X2434	A-G	S/S	cis
 X2014	X2477	A-C	upward
+X2015	X2551	G-A	upward
 X2016	X2019	A-C	upward
 X2017	X2018	U-G	inward
 X2020	X2021	G-G	upward
@@ -3172,6 +3200,7 @@ X2088	X2167	U-A	W/W	cis
 X2089	X2090	C-U	upward
 X2089	X2166	C-G	W/W	cis
 X2090	X2166	U-G	outward
+X2166	X2167	G-A	upward
 X2167	X2168	A-A	upward
 X2168	X2169	A-A	upward
 X2169	X2170	A-C	upward
@@ -3203,6 +3232,7 @@ X2186	X2200	G-G	outward
 X2187	X2188	A-A	upward
 X2187	X2197	A-U	W/W	cis
 X2187	X2198	A-U	W/W	cis
+X2188	X2189	A-A	upward
 X2188	X2196	A-U	W/W	cis
 X2188	X2197	A-U	W/W	cis
 X2189	X2190	A-A	upward
@@ -3213,6 +3243,8 @@ X2193	X2194	C-A	upward
 X2194	X2195	A-C	upward
 X2195	X2196	C-U	upward
 X2196	X2197	U-U	upward
+X2197	X2198	U-U	upward
+X2197	X2199	U-C	upward
 X2198	X2199	U-C	upward
 X2200	X2201	G-G	upward
 X2201	X2202	G-G	upward
@@ -3298,6 +3330,7 @@ X2263	X2264	C-C	upward
 X2263	X2363	C-G	W/W	cis
 X2264	X2362	C-G	W/W	cis
 X2264	X2363	C-G	outward
+X2265	X2266	A-A	outward
 X2265	X2325	A-A	downward
 X2266	X2268	A-G	upward
 X2266	X2323	A-U	H/W	trans
@@ -3342,7 +3375,6 @@ X2282	X2292	G-C	W/W	cis
 X2282	X2293	G-G	outward
 X2283	X2291	G-U	W/W	cis
 X2283	X2292	G-C	outward
-X2284	X2285	U-U	W/H	cis
 X2286	X2287	G-G	upward
 X2286	X2290	G-A	S/W	cis
 X2288	X2289	A-A	upward
@@ -3356,6 +3388,7 @@ X2296	X2297	U-G	upward
 X2298	X2299	U-A	inward
 X2299	X2312	A-A	downward
 X2301	X2302	A-G	upward
+X2301	X2312	A-A	outward
 X2301	X2314	A-A	W/W	trans
 X2302	X2303	G-C	upward
 X2302	X2311	G-U	W/W	cis
@@ -3382,13 +3415,16 @@ X2318	X2319	U-G	upward
 X2319	X2320	G-G	upward
 X2320	X2321	G-C	upward
 X2321	X2322	C-U	upward
+X2322	X2323	U-U	upward
 X2324	X2326	G-C	outward
 X2324	X2350	G-G	H/W	cis
 X2324	X2351	G-G	upward
 X2324	X2360	G-C	inward
+X2324	X2361	G-G	outward
 X2325	X2362	A-G	outward
 X2326	X2349	C-G	W/W	cis
 X2326	X2350	C-G	outward
+X2326	X2361	C-G	upward
 X2327	X2328	U-G	upward
 X2327	X2348	U-A	W/W	cis
 X2327	X2349	U-G	outward
@@ -3450,6 +3486,7 @@ X2359	X2360	U-C	upward
 X2362	X2363	G-G	upward
 X2364	X2365	C-U	upward
 X2365	X2366	U-U	upward
+X2369	X2370	U-G	W/H	cis
 X2369	X2404	U-A	W/H	cis
 X2370	X2403	G-C	inward
 X2370	X2404	G-A	H/H	trans
@@ -3524,6 +3561,7 @@ X2426	X2480	G-C	outward
 X2426	X2483	G-U	H/H	cis
 X2429	X2430	A-A	upward
 X2429	X2480	A-C	H/W	trans
+X2430	X2431	A-C	upward
 X2430	X2480	A-C	H/W	trans
 X2431	X2432	C-A	upward
 X2431	X2483	C-U	W/W	cis
@@ -3554,6 +3592,7 @@ X2439	X2469	U-G	W/W	cis
 X2439	X2471	U-U	W/W	cis
 X2440	X2441	C-U	upward
 X2440	X2468	C-G	W/W	cis
+X2440	X2471	C-U	outward
 X2441	X2442	U-C	upward
 X2441	X2467	U-A	W/W	cis
 X2441	X2468	U-G	outward
@@ -3606,6 +3645,7 @@ X2473	X2474	G-G	upward
 X2474	X2475	G-C	upward
 X2475	X2476	C-A	upward
 X2478	X2479	C-U	upward
+X2479	X2483	U-U	upward
 X2483	X2551	U-A	S/W	trans
 X2484	X2555	G-G	upward
 X2484	X2589	G-C	W/W	trans
@@ -3650,6 +3690,7 @@ X2500	X2501	C-U	upward
 X2500	X2523	C-G	W/W	cis
 X2500	X2524	C-G	outward
 X2500	X2543	C-A	S/S	cis
+X2501	X2502	U-G	upward
 X2501	X2520	U-A	H/S	trans
 X2501	X2522	U-G	W/W	cis
 X2502	X2503	G-G	upward
@@ -3689,6 +3730,7 @@ X2519	X2720	C-A	S/S	cis
 X2520	X2745	A-A	S/W	cis
 X2521	X2524	A-G	S/H	cis
 X2522	X2523	G-G	upward
+X2522	X2745	G-A	outward
 X2523	X2524	G-G	upward
 X2524	X2525	G-U	upward
 X2524	X2544	G-A	S/S	trans
@@ -3707,6 +3749,7 @@ X2529	X2537	G-C	W/W	cis
 X2529	X2538	G-C	outward
 X2530	X2531	C-U	upward
 X2530	X2536	C-G	W/W	cis
+X2532	X2533	G-U	upward
 X2532	X2561	G-G	S/S	cis
 X2533	X2534	U-U	upward
 X2534	X2535	U-C	upward
@@ -4031,6 +4074,7 @@ X2746	X2747	G-C	upward
 X2747	X2748	C-C	upward
 X2748	X2749	C-A	upward
 X2749	X2750	A-G	upward
+X2750	X2751	G-C	upward
 X2751	X2752	C-C	upward
 X2752	X2753	C-C	upward
 X2753	X2754	C-C	upward
@@ -4056,8 +4100,9 @@ X2771	X2781	C-G	W/W	cis
 X2771	X2867	C-G	downward
 X2772	X2773	U-G	upward
 X2772	X2780	U-A	W/W	cis
-X2773	X2779	G-C	W/W	cis
 X2773	X2780	G-A	outward
+X2776	X2777	U-A	inward
+X2779	X2780	C-A	upward
 X2780	X2781	A-G	upward
 X2781	X2782	G-G	inward
 X2782	X2783	G-U	outward
@@ -4261,13 +4306,17 @@ Y33	Y53	C-G	W/W	cis
 Y33	Y55	C-C	S/W	trans
 Y34	Y35	C-C	upward
 Y34	Y52	C-G	W/W	cis
+Y34	Y53	C-G	outward
+Y35	Y36	C-A	upward
 Y35	Y51	C-G	W/W	cis
 Y36	Y46	A-G	inward
 Y36	Y50	A-U	W/W	cis
 Y36	Y51	A-G	outward
+Y37	Y38	C-C	upward
 Y39	Y40	C-C	upward
 Y40	Y41	C-A	upward
 Y40	Y46	C-G	W/W	cis
+Y41	Y42	A-U	upward
 Y41	Y46	A-G	outward
 Y41	Y48	A-A	S/W	cis
 Y42	Y47	U-A	S/H	trans

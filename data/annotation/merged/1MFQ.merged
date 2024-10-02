@@ -112,6 +112,7 @@ A164	A165	G-G	upward
 A164	A176	G-A	inward
 A165	A166	G-U	upward
 A165	A176	G-A	inward
+A166	A167	U-U	upward
 A167	A168	U-G	upward
 A168	A170	G-C	upward
 A170	A171	C-U	upward
@@ -206,3 +207,4 @@ A234	A235	A-G	upward
 A235	A236	G-U	upward
 A236	A237	U-G	upward
 A237	A238	G-U	upward
+A238	A239	U-CCC	upward

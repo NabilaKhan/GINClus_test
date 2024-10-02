@@ -27,6 +27,7 @@
 '7'11	'7'23	C-G	W/W	cis
 '7'12	'7'13	G-C	upward
 '7'12	'7'22	G-A	W/W	cis
+'7'12	'7'23	G-G	outward
 '7'14	'7'15	A-G	upward
 '7'14	'7'21	A-U	outward
 '7'15	'7'20	G-U	W/W	cis
@@ -35,6 +36,8 @@
 '7'17	'7'52	U-G	H/W	cis
 '7'17	'7'55	U-U	inward
 '7'17	'7'56	U-U	outward
+'7'17	'7'58	U-G	downward
+'7'18	'7'54	G-G	outward
 '7'20	'7'44	U-G	inward
 '7'20	'7'46	U-G	outward
 '7'21	'7'22	U-A	upward
@@ -98,6 +101,7 @@
 '7'71	'7'72	C-C	upward
 A1	A3	A-C	upward
 A2	A376	A-A	outward
+A4	A5	C-U	upward
 A4	A20	C-G	W/W	cis
 A5	A19	U-A	W/W	cis
 A5	A20	U-G	outward
@@ -324,6 +328,7 @@ A113	A309	U-U	W/W	cis
 A113	A310	U-U	outward
 A114	A115	A-U	upward
 A114	A308	A-U	W/W	cis
+A114	A309	A-U	outward
 A115	A307	U-G	W/W	cis
 A116	A247	A-G	W/S	trans
 A116	A249	A-A	inward
@@ -401,6 +406,7 @@ A152	A153	G-A	upward
 A152	A158	G-C	W/W	cis
 A152	A159	G-U	outward
 A154	A155	A-A	upward
+A154	A422	A-A	downward
 A154	A424	A-G	outward
 A154	A425	A-G	W/S	trans
 A155	A156	A-A	upward
@@ -436,8 +442,10 @@ A183	A203	C-A	outward
 A184	A185	C-U	upward
 A184	A201	C-G	W/W	cis
 A184	A202	C-G	outward
+A185	A186	U-U	upward
 A185	A200	U-U	W/W	cis
 A185	A201	U-G	outward
+A201	A202	G-G	upward
 A202	A203	G-A	upward
 A203	A204	A-U	upward
 A204	A205	U-A	upward
@@ -635,6 +643,7 @@ A378	A619	A-U	S/W	cis
 A379	A380	G-U	upward
 A380	A381	U-U	upward
 A381	A382	U-C	upward
+A382	A383	C-G	upward
 A384	A385	A-U	upward
 A387	A388	C-C	upward
 A387	A805	C-A	S/W	cis
@@ -736,6 +745,7 @@ A454	A464	U-A	W/W	cis
 A455	A456	C-U	upward
 A455	A463	C-G	W/W	cis
 A456	A457	U-A	upward
+A456	A459	U-A	upward
 A456	A462	U-A	W/W	cis
 A456	A463	U-G	outward
 A457	A459	A-A	upward
@@ -802,6 +812,7 @@ A518	A519	A-A	upward
 A518	A546	A-G	H/H	trans
 A519	A520	A-U	upward
 A519	A548	A-A	W/W	trans
+A520	A521	U-G	upward
 A520	A545	U-A	W/H	trans
 A521	A522	G-G	upward
 A521	A544	G-G	H/W	trans
@@ -846,6 +857,7 @@ A545	A548	A-A	inward
 A545	A550	A-C	downward
 A547	A549	U-A	inward
 A549	A551	A-A	outward
+A552	A600	A-U	inward
 A552	A601	A-A	outward
 A553	A554	U-U	upward
 A553	A599	U-A	W/W	cis
@@ -874,6 +886,7 @@ A562	A563	A-A	upward
 A564	A566	G-C	upward
 A564	A594	G-C	W/W	cis
 A564	A595	G-U	outward
+A565	A588	U-U	downward
 A566	A567	C-U	upward
 A566	A593	C-G	W/W	cis
 A567	A568	U-G	upward
@@ -897,6 +910,7 @@ A574	A583	A-G	H/S	trans
 A574	A587	A-A	W/W	trans
 A575	A576	G-C	upward
 A575	A582	G-C	W/W	cis
+A575	A583	G-G	outward
 A576	A577	C-A	upward
 A576	A581	C-G	W/W	cis
 A579	A580	C-C	upward
@@ -1003,6 +1017,7 @@ A651	A652	G-A	upward
 A651	A749	G-U	W/W	cis
 A651	A750	G-U	outward
 A652	A653	A-A	upward
+A653	A654	A-U	upward
 A653	A747	A-U	W/W	cis
 A654	A746	U-U	W/W	cis
 A655	A745	C-A	W/W	cis
@@ -1012,6 +1027,7 @@ A747	A748	U-C	upward
 A748	A749	C-U	upward
 A750	A751	U-U	upward
 A751	A752	U-U	upward
+A752	A753	U-U	upward
 A754	A755	A-A	upward
 A755	A756	A-A	upward
 A755	A792	A-U	W/W	cis
@@ -1021,12 +1037,14 @@ A757	A758	A-U	upward
 A757	A789	A-U	W/W	cis
 A758	A759	U-C	upward
 A758	A788	U-A	W/W	cis
+A759	A760	C-C	upward
 A759	A787	C-G	W/W	cis
 A760	A786	C-G	W/W	cis
 A760	A787	C-G	outward
 A786	A787	G-G	upward
 A787	A788	G-A	upward
 A788	A789	A-U	upward
+A791	A792	U-U	upward
 A793	A794	G-U	upward
 A793	A871	G-C	W/W	cis
 A793	A872	G-A	outward
@@ -1090,6 +1108,7 @@ A826	A827	A-C	upward
 A826	A847	A-U	W/W	cis
 A827	A828	C-A	upward
 A827	A846	C-G	W/W	cis
+A828	A829	A-G	upward
 A828	A833	A-A	S/H	trans
 A828	A846	A-G	outward
 A829	A832	G-A	downward
@@ -1126,18 +1145,19 @@ A869	A870	A-A	upward
 A870	A871	A-C	upward
 A871	A872	C-A	upward
 A872	A873	A-A	upward
+A873	A874	A-A	upward
 A875	A926	A-G	downward
 A875	A927	A-A	upward
 A877	A926	U-G	W/W	cis
 A878	A879	G-A	upward
 A878	A926	G-G	outward
 A879	A880	A-A	upward
-A879	A923	A-U	W/W	cis
 A879	A925	A-C	W/W	cis
 A880	A881	A-C	upward
 A880	A922	A-U	W/W	cis
 A881	A882	C-A	upward
 A881	A921	C-G	W/W	cis
+A881	A922	C-U	W/W	cis
 A882	A883	A-A	upward
 A882	A920	A-A	W/H	cis
 A882	A921	A-G	outward
@@ -1191,7 +1211,6 @@ A919	A920	U-A	inward
 A920	A921	A-G	outward
 A921	A922	G-U	upward
 A922	A923	U-U	upward
-A923	A925	U-C	W/S	cis
 A928	A929	U-U	upward
 A929	A930	U-A	upward
 A930	A1032	A-A	inward
@@ -1307,6 +1326,7 @@ A979	A984	C-A	S/S	cis
 A981	A983	U-G	outward
 A984	A985	A-U	upward
 A985	A986	U-U	upward
+A986	A987	U-U	upward
 A987	A988	U-U	upward
 A988	A989	U-C	upward
 A989	A990	C-U	upward
@@ -1319,6 +1339,7 @@ A995	A996	A-C	upward
 A996	A997	C-G	upward
 A997	A1014	G-U	upward
 A998	A999	A-A	upward
+A999	A1000	A-C	upward
 A1000	A1001	C-A	inward
 A1001	A1002	A-A	downward
 A1001	A1013	A-A	downward
@@ -1351,7 +1372,6 @@ A1026	A1027	A-C	upward
 A1029	A1030	U-C	upward
 A1030	A1031	C-C	upward
 A1031	A1032	C-A	upward
-A1032	A1034	A-U	S/H	cis
 A1033	A1034	U-U	downward
 A1035	A1036	A-A	upward
 A1036	A1037	A-U	upward
@@ -1426,6 +1446,7 @@ A1070	A1071	A-G	upward
 A1071	A1072	G-A	upward
 A1072	A1074	A-A	upward
 A1074	A1075	A-C	upward
+A1075	A1076	C-C	upward
 A1076	A1077	C-G	upward
 A1077	A1078	G-U	upward
 A1078	A1079	U-C	upward
@@ -1715,6 +1736,7 @@ A1293	A1294	C-A	inward
 A1295	A1296	A-C	upward
 A1299	A1301	G-G	inward
 A1301	A1678	G-U	H/W	trans
+A1302	A1892	G-U	downward
 A1302	A1896	G-C	inward
 A1302	A1897	G-A	downward
 A1303	A1702	A-C	outward
@@ -1753,8 +1775,8 @@ A1319	A1690	G-A	downward
 A1320	A1321	A-C	upward
 A1320	A1365	A-G	H/S	trans
 A1321	A1364	C-G	W/W	cis
-A1322	A1363	A-U	W/W	cis
 A1322	A1364	A-G	outward
+A1362	A1363	U-U	upward
 A1364	A1365	G-G	upward
 A1365	A1366	G-A	upward
 A1366	A1367	A-U	upward
@@ -1890,16 +1912,19 @@ A1437	A1662	U-A	W/W	cis
 A1438	A1439	A-A	upward
 A1438	A1661	A-U	W/W	cis
 A1438	A1662	A-A	outward
+A1439	A1440	A-C	upward
 A1439	A1633	A-A	W/W	cis
 A1439	A1661	A-U	outward
 A1440	A1632	C-G	W/W	cis
 A1440	A1656	C-A	outward
+A1441	A1632	C-G	upward
 A1442	A1444	U-C	upward
 A1442	A1630	U-A	W/W	cis
 A1444	A1445	C-U	upward
 A1445	A1446	U-A	upward
 A1445	A1628	U-A	W/W	cis
 A1445	A1629	U-G	outward
+A1446	A1447	A-A	upward
 A1446	A1627	A-U	W/W	cis
 A1446	A1628	A-A	outward
 A1447	A1448	A-U	S/W	cis
@@ -1945,7 +1970,9 @@ A1463	A1464	C-U	upward
 A1602	A1603	G-U	upward
 A1603	A1604	U-A	upward
 A1604	A1605	A-C	upward
+A1605	A1606	C-U	upward
 A1606	A1607	U-U	upward
+A1607	A1608	U-G	upward
 A1608	A1609	G-C	upward
 A1609	A1610	C-U	upward
 A1621	A1622	G-C	upward
@@ -2037,6 +2064,7 @@ A1714	A1715	U-A	upward
 A1715	A1716	A-C	upward
 A1716	A1870	C-A	upward
 A1716	A1871	C-G	W/W	cis
+A1717	A1718	A-C	upward
 A1717	A1720	A-G	W/S	cis
 A1717	A1835	A-U	H/W	trans
 A1718	A1720	C-G	outward
@@ -2094,6 +2122,7 @@ A1747	A1782	U-A	W/W	cis
 A1748	A1749	G-C	upward
 A1748	A1781	G-C	W/W	cis
 A1748	A1782	G-A	outward
+A1749	A1750	C-U	upward
 A1749	A1780	C-G	W/W	cis
 A1750	A1780	U-G	outward
 A1780	A1781	G-C	upward
@@ -2101,6 +2130,8 @@ A1781	A1782	C-A	upward
 A1782	A1783	A-U	upward
 A1783	A1784	U-A	upward
 A1784	A1785	A-C	upward
+A1785	A1786	C-U	upward
+A1786	A1787	U-U	inward
 A1787	A1788	U-U	downward
 A1790	A1791	C-C	upward
 A1790	A1809	C-G	W/W	cis
@@ -2158,6 +2189,7 @@ A1834	A1869	A-G	downward
 A1835	A1837	U-G	upward
 A1837	A1838	G-G	upward
 A1837	A1868	G-C	W/W	cis
+A1838	A1839	G-G	upward
 A1838	A1867	G-A	S/H	trans
 A1838	A1868	G-C	outward
 A1839	A1865	G-G	inward
@@ -2318,6 +2350,7 @@ A1950	A2040	C-G	outward
 A1951	A2037	G-A	inward
 A1951	A2038	G-A	S/H	trans
 A1951	A2039	G-G	outward
+A1952	A1953	A-U	upward
 A1952	A2037	A-A	H/S	trans
 A1952	A2038	A-A	outward
 A1953	A1955	U-G	upward
@@ -2406,11 +2439,14 @@ A1986	A1987	A-A	upward
 A1986	A2003	A-U	W/W	cis
 A1986	A2004	A-U	outward
 A1987	A2003	A-U	outward
+A2003	A2004	U-U	upward
+A2004	A2005	U-U	upward
 A2005	A2006	U-U	upward
 A2006	A2007	U-U	upward
 A2007	A2008	U-U	upward
 A2008	A2009	U-C	upward
 A2009	A2010	C-U	upward
+A2010	A2011	U-G	upward
 A2011	A2012	G-G	upward
 A2013	A2014	A-A	upward
 A2014	A2015	A-A	upward

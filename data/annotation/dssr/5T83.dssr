@@ -1,4 +1,14 @@
 ****************************************************************************
+                DSSR: an Integrated Software Tool for
+               Dissecting the Spatial Structure of RNA
+               v1.7.8-2018sep01, by xiangjun@x3dna.org
+
+   This program is being actively maintained and developed. As always,
+   I greatly appreciate your feedback! Please report all DSSR-related
+   issues on the 3DNA Forum (forum.x3dna.org). I strive to respond
+   *promptly* to *any questions* posted there.
+
+****************************************************************************
 Note: By default, each nucleotide is identified by chainId.name#. So a
       common case would be B.A1689, meaning adenosine #1689 on chain B.
       One-letter base names for modified nucleotides are put in lower
@@ -6,8 +16,9 @@ Note: By default, each nucleotide is identified by chainId.name#. So a
       notation, please refer to the DSSR User Manual.
     Questions and suggestions are *always* welcome on the 3DNA Forum.
 
-Command: x3dna-dssr -i=5t83.pdb -o=5t83.out
-File name: 5t83.pdb
+Command: x3dna-dssr -i=/media/nabila/DATA/GINClus_test/data/pdbx/5T83.cif --format=mmcif --non-pair -o=/media/nabila/DATA/GINClus_test/data/annotation/dssr/5T83.dssr
+Date and time: Tue Oct  1 20:10:05 2024
+File name: 5T83.cif
     no. of DNA/RNA chains: 1 [A=89]
     no. of nucleotides:    89
     no. of atoms:          1985
@@ -18,7 +29,7 @@ File name: 5t83.pdb
 List of 47 base pairs
      nt1            nt2            bp  name        Saenger   LW   DSSR
    1 A.A5           A.G53          A+G --          10-X      tWS  tW+m
-   2 A.A6           A.A68          A+A --          --        tSH  tm+M
+   2 A.A6           A.A68          A+A --          n/a       tSH  tm+M
    3 A.G7           A.C52          G-C WC          19-XIX    cWW  cW-W
    4 A.U8           A.A51          U-A WC          20-XX     cWW  cW-W
    5 A.U9           A.A50          U-A WC          20-XX     cWW  cW-W
@@ -26,40 +37,40 @@ List of 47 base pairs
    7 A.G11          A.C48          G-C WC          19-XIX    cWW  cW-W
    8 A.C12          A.G47          C-G WC          19-XIX    cWW  cW-W
    9 A.U13          A.A44          U-A rHoogsteen  24-XXIV   tWH  tW-M
-  10 A.A14          A.A43          A-A ~Sheared    --        tHS  tM-m
+  10 A.A14          A.A43          A-A ~Sheared    n/a       tHS  tM-m
   11 A.G15          A.C42          G-C WC          19-XIX    cWW  cW-W
-  12 A.G15          A.A83          G-A --          --        cSS  cm-m
+  12 A.G15          A.A83          G-A --          n/a       cSS  cm-m
   13 A.G16          A.C41          G-C WC          19-XIX    cWW  cW-W
-  14 A.G16          A.A81          G-A --          --        cSW  cm-W
-  15 A.G17          A.U19          G+U --          --        cWH  cW+M
-  16 A.G17          A.U40          G-U --          --        cW.  cW-.
-  17 A.G17          A.A80          G-A --          --        cSW  cm-W
-  18 A.U18          A.C20          U+C --          --        c.H  c.+M
-  19 A.U19          A.U40          U-U --          --        cWW  cW-W
+  14 A.G16          A.A81          G-A --          n/a       cSW  cm-W
+  15 A.G17          A.U19          G+U --          n/a       cWH  cW+M
+  16 A.G17          A.U40          G-U --          n/a       cW.  cW-.
+  17 A.G17          A.A80          G-A --          n/a       cSW  cm-W
+  18 A.U18          A.C20          U+C --          n/a       c.H  c.+M
+  19 A.U19          A.U40          U-U --          n/a       cWW  cW-W
   20 A.C20          A.G39          C-G WC          19-XIX    cWW  cW-W
-  21 A.C21          A.G34          C-G --          --        --   --
+  21 A.C21          A.G34          C-G --          n/a       ...  ....
   22 A.C21          A.G38          C-G WC          19-XIX    cWW  cW-W
   23 A.G22          A.C36          G-C WC          19-XIX    cWW  cW-W
-  24 A.G22          A.U37          G-U --          --        t.H  t.-M
+  24 A.G22          A.U37          G-U --          n/a       t.H  t.-M
   25 A.C23          A.G33          C-G WC          19-XIX    cWW  cW-W
   26 A.G24          A.U32          G-U Wobble      28-XXVIII cWW  cW-W
   27 A.U25          A.G31          U-G Wobble      28-XXVIII cWW  cW-W
   28 A.C26          A.G30          C-G WC          19-XIX    cWW  cW-W
   29 A.A27          A.A29          A+A --          01-I      tWW  tW+W
   30 A.G34          A.G38          G+G --          06-VI     cWH  cW+M
-  31 A.G45          A.A70          G+A Linker      --        tSS  tm+m
+  31 A.G45          A.A70          G+A Linker      n/a       tSS  tm+m
   32 A.G53          A.C67          G-C WC          19-XIX    cWW  cW-W
   33 A.G54          A.C66          G-C WC          19-XIX    cWW  cW-W
   34 A.C55          A.G65          C-G WC          19-XIX    cWW  cW-W
   35 A.U56          A.A64          U-A WC          20-XX     cWW  cW-W
-  36 A.U57          A.A63          U-A --          --        cWW  cW-W
-  37 A.U58          A.C61          U-C --          --        tSH  tm-M
+  36 A.U57          A.A63          U-A --          n/a       cWW  cW-W
+  37 A.U58          A.C61          U-C --          n/a       tSH  tm-M
   38 A.C69          A.G89          C-G WC          19-XIX    cWW  cW-W
   39 A.C71          A.G92          C-G WC          19-XIX    cWW  cW-W
   40 A.G72          A.A91          G-A Sheared     11-XI     tSH  tm-M
   41 A.G73          A.G90          G-G --          07-VII    tHW  tM-W
-  42 A.A74          A.G88          A+G Linker      --        tHH  tM+M
-  43 A.A75          A.U87          A-U --          --        cWW  cW-W
+  42 A.A74          A.G88          A+G Linker      n/a       tHH  tM+M
+  43 A.A75          A.U87          A-U --          n/a       cWW  cW-W
   44 A.G76          A.C86          G-C WC          19-XIX    cWW  cW-W
   45 A.G77          A.C85          G-C WC          19-XIX    cWW  cW-W
   46 A.A78          A.A83          A-A --          05-V      tWH  tW-M
@@ -91,16 +102,16 @@ List of 4 helices
        bp-type    .|.
       strand-2 5'-ACA-3'
       helix-form  xx
-   1 A.A6           A.A68          A+A --           --        tSH  tm+M
+   1 A.A6           A.A68          A+A --           n/a       tSH  tm+M
    2 A.G89          A.C69          G-C WC           19-XIX    cWW  cW-W
-   3 A.G45          A.A70          G+A Linker       --        tSS  tm+m
+   3 A.G45          A.A70          G+A Linker       n/a       tSS  tm+m
   --------------------------------------------------------------------------
   helix#2[2] bps=9
       strand-1 5'-UCCGCGUCA-3'
        bp-type    .|||||||.
       strand-2 3'-UGGCGUGGA-5'
       helix-form  .Axx....
-   1 A.U19          A.U40          U-U --           --        cWW  cW-W
+   1 A.U19          A.U40          U-U --           n/a       cWW  cW-W
    2 A.C20          A.G39          C-G WC           19-XIX    cWW  cW-W
    3 A.C21          A.G38          C-G WC           19-XIX    cWW  cW-W
    4 A.G22          A.C36          G-C WC           19-XIX    cWW  cW-W
@@ -115,8 +126,8 @@ List of 4 helices
        bp-type    ..||||||||||..||.
       strand-2 3'-UUUCGGCAAACGAACCA-5'
       helix-form  x.AAAxAAAAAx..Ax
-   1 A.C61          A.U58          C-U --           --        tHS  tM-m
-   2 A.A63          A.U57          A-U --           --        cWW  cW-W
+   1 A.C61          A.U58          C-U --           n/a       tHS  tM-m
+   2 A.A63          A.U57          A-U --           n/a       cWW  cW-W
    3 A.A64          A.U56          A-U WC           20-XX     cWW  cW-W
    4 A.G65          A.C55          G-C WC           19-XIX    cWW  cW-W
    5 A.C66          A.G54          C-G WC           19-XIX    cWW  cW-W
@@ -128,10 +139,10 @@ List of 4 helices
   11 A.G11          A.C48          G-C WC           19-XIX    cWW  cW-W
   12 A.C12          A.G47          C-G WC           19-XIX    cWW  cW-W
   13 A.U13          A.A44          U-A rHoogsteen   24-XXIV   tWH  tW-M
-  14 A.A14          A.A43          A-A ~Sheared     --        tHS  tM-m
+  14 A.A14          A.A43          A-A ~Sheared     n/a       tHS  tM-m
   15 A.G15          A.C42          G-C WC           19-XIX    cWW  cW-W
   16 A.G16          A.C41          G-C WC           19-XIX    cWW  cW-W
-  17 A.G17          A.A80          G-A --           --        cSW  cm-W
+  17 A.G17          A.A80          G-A --           n/a       cSW  cm-W
   --------------------------------------------------------------------------
   helix#4[1] bps=9
       strand-1 5'-CGGAAGGAU-3'
@@ -141,8 +152,8 @@ List of 4 helices
    1 A.C71          A.G92          C-G WC           19-XIX    cWW  cW-W
    2 A.G72          A.A91          G-A Sheared      11-XI     tSH  tm-M
    3 A.G73          A.G90          G-G --           07-VII    tHW  tM-W
-   4 A.A74          A.G88          A+G Linker       --        tHH  tM+M
-   5 A.A75          A.U87          A-U --           --        cWW  cW-W
+   4 A.A74          A.G88          A+G Linker       n/a       tHH  tM+M
+   5 A.A75          A.U87          A-U --           n/a       cWW  cW-W
    6 A.G76          A.C86          G-C WC           19-XIX    cWW  cW-W
    7 A.G77          A.C85          G-C WC           19-XIX    cWW  cW-W
    8 A.A78          A.A83          A-A --           05-V      tWH  tW-M
@@ -226,7 +237,122 @@ List of 2 coaxial stacks
    2 Helix#3 contains 3 stems: [#5,#1,#2]
 
 ****************************************************************************
-List of 18 base stacks
+List of 112 non-pairing interactions
+   1 A.A5     A.G7     stacking: 3.4(1.0)--mm(<>,outward) interBase-angle=7 min_baseDist=3.34
+   2 A.A6     A.G89    stacking: 5.4(2.7)--pp(><,inward) interBase-angle=12 H-bonds[1]: "N6(amino)-O2'(hydroxyl)[3.24]" min_baseDist=3.10
+   3 A.G7     A.U8     stacking: 4.1(1.9)--pm(>>,forward) interBase-angle=3 connected min_baseDist=3.14
+   4 A.G7     A.G53    stacking: 0.2(0.0)--mm(<>,outward) interBase-angle=7 min_baseDist=3.56
+   5 A.U8     A.U9     stacking: 0.6(0.0)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.04
+   6 A.U9     A.U10    stacking: 1.1(0.1)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.20
+   7 A.G11    A.C12    stacking: 7.5(4.0)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.15
+   8 A.G11    A.A49    stacking: 2.5(1.3)--mm(<>,outward) interBase-angle=7 min_baseDist=3.14
+   9 A.U13    A.G47    stacking: 0.6(0.0)--mm(<>,outward) interBase-angle=7 min_baseDist=3.06
+  10 A.A14    A.G15    stacking: 1.0(0.0)--pm(>>,forward) interBase-angle=3 connected min_baseDist=3.36
+  11 A.A14    A.A44    stacking: 2.9(2.1)--mm(<>,outward) interBase-angle=11 min_baseDist=3.14
+  12 A.A14    A.G84    interBase-angle=74 H-bonds[1]: "N1-O2'(hydroxyl)[2.85]" min_baseDist=3.55
+  13 A.G15    A.G16    stacking: 3.7(2.0)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.25
+  14 A.G15    A.A43    stacking: 0.3(0.0)--mm(<>,outward) interBase-angle=10 min_baseDist=3.26
+  15 A.G16    A.G17    stacking: 4.7(3.0)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.49
+  16 A.G16    A.C42    stacking: 0.6(0.0)--mm(<>,outward) interBase-angle=7 min_baseDist=3.26
+  17 A.G16    A.A82    interBase-angle=51 H-bonds[3]: "O3'-O2'(hydroxyl)[2.70],O2'(hydroxyl)-O2'(hydroxyl)[2.63],O2'(hydroxyl)-N3[2.73]" min_baseDist=3.26
+  18 A.G16    A.A83    interBase-angle=42 H-bonds[1]: "O2'(hydroxyl)-O4'[2.88]" min_baseDist=5.25
+  19 A.G17    A.U18    stacking: 6.5(3.9)--pm(>>,forward) interBase-angle=15 connected min_baseDist=3.14
+  20 A.G17    A.A81    interBase-angle=51 H-bonds[3]: "O3'-O2'(hydroxyl)[3.45],O2'(hydroxyl)-O2'(hydroxyl)[3.01],O2'(hydroxyl)-N3[2.57]" min_baseDist=3.60
+  21 A.G17    A.A82    interBase-angle=44 H-bonds[2]: "O4'-O2'(hydroxyl)[3.29],O2'(hydroxyl)-O4'[3.31]" min_baseDist=4.76
+  22 A.U18    A.G34    stacking: 4.1(2.4)--pp(><,inward) interBase-angle=4 H-bonds[2]: "OP2-O2'(hydroxyl)[2.66],O2'(hydroxyl)-N7[2.49]" min_baseDist=3.14
+  23 A.U19    A.C20    stacking: 3.2(1.5)--pm(>>,forward) interBase-angle=32 connected min_baseDist=3.17
+  24 A.U19    A.A80    stacking: 4.4(1.3)--mm(<>,outward) interBase-angle=3 H-bonds[1]: "OP1-O2'(hydroxyl)[3.12]" min_baseDist=3.42
+  25 A.C20    A.C21    stacking: 0.2(0.0)--pm(>>,forward) interBase-angle=5 connected min_baseDist=3.49
+  26 A.C21    A.G22    stacking: 2.3(1.3)--pm(>>,forward) interBase-angle=3 connected min_baseDist=3.19
+  27 A.C21    A.G39    stacking: 1.6(0.0)--mm(<>,outward) interBase-angle=4 min_baseDist=3.27
+  28 A.G22    A.C23    stacking: 7.4(4.5)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.29
+  29 A.G22    A.G38    stacking: 0.7(0.0)--mm(<>,outward) interBase-angle=5 min_baseDist=3.29
+  30 A.G24    A.U25    stacking: 7.4(3.9)--pm(>>,forward) interBase-angle=11 connected min_baseDist=3.17
+  31 A.G24    A.G33    stacking: 6.2(3.5)--mm(<>,outward) interBase-angle=7 min_baseDist=3.33
+  32 A.U25    A.C26    stacking: 0.4(0.0)--pm(>>,forward) interBase-angle=15 connected min_baseDist=3.55
+  33 A.C26    A.A27    stacking: 6.8(4.0)--pp(><,inward) interBase-angle=17 H-bonds[1]: "OP2-O2'(hydroxyl)[3.07]" connected min_baseDist=3.25
+  34 A.C26    A.G31    stacking: 0.4(0.0)--mm(<>,outward) interBase-angle=7 min_baseDist=3.20
+  35 A.A29    A.G30    stacking: 5.0(3.8)--pm(>>,forward) interBase-angle=3 connected min_baseDist=3.12
+  36 A.G30    A.G31    stacking: 2.7(1.1)--pm(>>,forward) interBase-angle=2 connected min_baseDist=3.21
+  37 A.G31    A.U32    stacking: 6.3(2.3)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.10
+  38 A.G33    A.C36    stacking: 2.2(0.0)--pm(>>,forward) interBase-angle=7 H-bonds[1]: "O2'(hydroxyl)-OP1[2.92]" min_baseDist=3.38
+  39 A.G34    A.C36    stacking: 4.6(1.5)--mp(<<,backward) interBase-angle=7 min_baseDist=3.20
+  40 A.G34    A.U37    interBase-angle=21 H-bonds[1]: "N2(amino)-OP2[2.87]" min_baseDist=4.81
+  41 A.U37    A.G38    stacking: 0.5(0.0)--pm(>>,forward) interBase-angle=14 connected min_baseDist=3.16
+  42 A.G38    A.G39    stacking: 1.6(0.3)--pm(>>,forward) interBase-angle=10 connected min_baseDist=3.10
+  43 A.G39    A.U40    stacking: 5.6(2.1)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.12
+  44 A.U40    A.C41    stacking: 2.9(1.3)--pm(>>,forward) interBase-angle=12 connected min_baseDist=3.28
+  45 A.C42    A.A43    stacking: 1.7(1.0)--pm(>>,forward) interBase-angle=10 connected min_baseDist=3.20
+  46 A.C42    A.A82    interBase-angle=44 H-bonds[2]: "O2'(hydroxyl)-N6(amino)[3.16],O2(carbonyl)*N1[3.31]" min_baseDist=3.31
+  47 A.C42    A.A83    interBase-angle=35 H-bonds[2]: "O2'(hydroxyl)-N6(amino)[3.22],O2'(hydroxyl)-N1[2.78]" min_baseDist=3.13
+  48 A.A43    A.A44    interBase-angle=2 H-bonds[1]: "O2'(hydroxyl)-O4'[2.97]" connected min_baseDist=5.55
+  49 A.A44    A.A46    interBase-angle=81 H-bonds[1]: "O2'(hydroxyl)-OP2[2.90]" min_baseDist=5.47
+  50 A.A44    A.G47    stacking: 2.7(1.5)--pm(>>,forward) interBase-angle=9 min_baseDist=3.30
+  51 A.A44    A.C85    interBase-angle=48 H-bonds[1]: "O3'*OP1[3.24]" min_baseDist=8.88
+  52 A.G45    A.A46    stacking: 5.3(2.4)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.31
+  53 A.G45    A.G72    interBase-angle=76 H-bonds[1]: "N2(amino)-O6(carbonyl)[3.29]" min_baseDist=3.07
+  54 A.G45    A.C85    interBase-angle=55 H-bonds[1]: "OP1*OP1[2.90]" min_baseDist=10.29
+  55 A.G45    A.C86    interBase-angle=66 H-bonds[2]: "OP1*OP2[2.81],OP2*OP1[2.97]" min_baseDist=9.25
+  56 A.G45    A.G89    stacking: 0.1(0.0)--mm(<>,outward) interBase-angle=29 min_baseDist=3.49
+  57 A.A46    A.C71    interBase-angle=83 H-bonds[1]: "O2'(hydroxyl)-OP2[2.64]" min_baseDist=6.37
+  58 A.G47    A.C48    stacking: 5.0(2.0)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.41
+  59 A.C48    A.A49    stacking: 0.5(0.1)--pm(>>,forward) interBase-angle=11 connected min_baseDist=3.55
+  60 A.A49    A.A50    stacking: 3.6(3.3)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.30
+  61 A.A50    A.A51    stacking: 3.3(2.9)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.13
+  62 A.A51    A.C52    stacking: 6.3(4.1)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.21
+  63 A.C52    A.G53    stacking: 1.3(0.6)--pm(>>,forward) interBase-angle=3 connected min_baseDist=3.19
+  64 A.G53    A.G54    stacking: 3.1(1.6)--pm(>>,forward) interBase-angle=5 connected min_baseDist=3.14
+  65 A.G54    A.C55    stacking: 6.8(3.6)--pm(>>,forward) interBase-angle=3 connected min_baseDist=3.40
+  66 A.G54    A.C67    stacking: 0.5(0.0)--mm(<>,outward) interBase-angle=7 min_baseDist=3.41
+  67 A.C55    A.U56    stacking: 0.8(0.2)--pm(>>,forward) interBase-angle=14 connected min_baseDist=2.87
+  68 A.U56    A.U57    stacking: 5.0(2.5)--pm(>>,forward) interBase-angle=12 connected min_baseDist=3.32
+  69 A.U56    A.G65    stacking: 0.4(0.0)--mm(<>,outward) interBase-angle=9 min_baseDist=3.42
+  70 A.U57    A.U58    stacking: 2.3(1.0)--pm(>>,forward) interBase-angle=25 connected min_baseDist=3.14
+  71 A.C59    A.A60    stacking: 3.1(1.5)--pp(><,inward) interBase-angle=16 connected min_baseDist=3.24
+  72 A.A60    A.C61    stacking: 4.4(1.8)--mm(<>,outward) interBase-angle=10 connected min_baseDist=3.27
+  73 A.C61    A.A62    stacking: 4.8(2.6)--pm(>>,forward) interBase-angle=16 connected min_baseDist=3.11
+  74 A.A62    A.A63    stacking: 6.2(3.7)--pm(>>,forward) interBase-angle=4 connected min_baseDist=3.42
+  75 A.A63    A.A64    stacking: 6.0(3.3)--pm(>>,forward) interBase-angle=12 connected min_baseDist=3.08
+  76 A.A64    A.G65    stacking: 3.2(3.0)--pm(>>,forward) interBase-angle=15 connected min_baseDist=3.25
+  77 A.G65    A.C66    stacking: 7.4(4.5)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.14
+  78 A.C66    A.C67    stacking: 0.5(0.1)--pm(>>,forward) interBase-angle=18 connected min_baseDist=2.94
+  79 A.A68    A.C69    stacking: 5.7(3.8)--pm(>>,forward) interBase-angle=4 connected min_baseDist=3.25
+  80 A.C69    A.A70    stacking: 3.8(2.2)--pm(>>,forward) interBase-angle=10 connected min_baseDist=3.52
+  81 A.A70    A.G89    stacking: 0.1(0.0)--mm(<>,outward) interBase-angle=27 min_baseDist=2.94
+  82 A.C71    A.G72    stacking: 0.7(0.3)--pm(>>,forward) interBase-angle=1 connected min_baseDist=3.11
+  83 A.C71    A.A93    stacking: 0.5(0.2)--mm(<>,outward) interBase-angle=6 min_baseDist=3.43
+  84 A.G72    A.G73    interBase-angle=21 H-bonds[1]: "O2'(hydroxyl)-O4'[2.77]" connected min_baseDist=6.34
+  85 A.G72    A.G89    interBase-angle=54 H-bonds[1]: "N1(imino)-O3'[3.53]" min_baseDist=5.45
+  86 A.G72    A.G90    interBase-angle=5 H-bonds[2]: "N1(imino)-OP2[2.92],N2(amino)-OP2[2.98]" min_baseDist=3.07
+  87 A.G72    A.G92    stacking: 0.9(0.0)--mm(<>,outward) interBase-angle=6 min_baseDist=3.59
+  88 A.G73    A.A74    stacking: 4.3(1.6)--pm(>>,forward) interBase-angle=11 connected min_baseDist=3.09
+  89 A.G73    A.A91    stacking: 1.1(1.1)--mm(<>,outward) interBase-angle=14 min_baseDist=3.25
+  90 A.A74    A.A75    stacking: 5.5(3.1)--pm(>>,forward) interBase-angle=1 connected min_baseDist=3.30
+  91 A.A75    A.G76    stacking: 4.3(1.4)--pm(>>,forward) interBase-angle=2 connected min_baseDist=3.29
+  92 A.G76    A.G77    stacking: 2.0(0.5)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.11
+  93 A.G77    A.A78    stacking: 2.1(0.6)--pm(>>,forward) interBase-angle=11 H-bonds[1]: "O2'(hydroxyl)-O4'[3.08]" connected min_baseDist=3.25
+  94 A.G77    A.C86    stacking: 0.6(0.0)--mm(<>,outward) interBase-angle=10 min_baseDist=3.23
+  95 A.A78    A.U79    stacking: 5.9(3.6)--pm(>>,forward) interBase-angle=19 connected min_baseDist=3.44
+  96 A.U79    A.A80    interBase-angle=24 H-bonds[1]: "O5'*OP2[3.18]" connected min_baseDist=6.25
+  97 A.A80    A.A81    stacking: 4.5(3.3)--pm(>>,forward) interBase-angle=13 H-bonds[1]: "O2'(hydroxyl)-OP1[3.07]" connected min_baseDist=3.21
+  98 A.A81    A.A82    stacking: 2.8(2.3)--pm(>>,forward) interBase-angle=12 H-bonds[1]: "O2'(hydroxyl)-O4'[2.65]" connected min_baseDist=3.38
+  99 A.A82    A.A83    stacking: 4.5(3.6)--pm(>>,forward) interBase-angle=14 connected min_baseDist=2.77
+ 100 A.A83    A.G84    interBase-angle=53 H-bonds[1]: "O2'(hydroxyl)-N2(amino)[3.07]" connected min_baseDist=6.69
+ 101 A.A83    A.C85    stacking: 2.4(0.6)--pm(>>,forward) interBase-angle=11 min_baseDist=3.22
+ 102 A.G84    A.C85    interBase-angle=51 H-bonds[1]: "OP2-N4(amino)[2.98]" connected min_baseDist=7.61
+ 103 A.C85    A.C86    interBase-angle=11 H-bonds[1]: "OP1*OP2[2.60]" connected min_baseDist=3.30
+ 104 A.C86    A.U87    stacking: 4.1(2.1)--pm(>>,forward) interBase-angle=17 connected min_baseDist=3.04
+ 105 A.U87    A.G88    stacking: 5.0(3.5)--pp(><,inward) interBase-angle=10 H-bonds[1]: "OP2-O2'(hydroxyl)[2.41]" connected min_baseDist=3.04
+ 106 A.G88    A.G89    interBase-angle=61 H-bonds[1]: "O4'*O5'[3.29]" connected min_baseDist=9.49
+ 107 A.G88    A.G90    stacking: 3.3(2.3)--mm(<>,outward) interBase-angle=4 H-bonds[1]: "O4'*O4'[3.36]" min_baseDist=3.40
+ 108 A.G89    A.G90    interBase-angle=57 H-bonds[1]: "O2'(hydroxyl)-OP1[2.69]" connected min_baseDist=8.57
+ 109 A.G90    A.A91    stacking: 2.0(0.8)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.29
+ 110 A.A91    A.G92    stacking: 1.1(0.1)--pm(>>,forward) interBase-angle=5 H-bonds[1]: "OP2*N7[3.08]" connected min_baseDist=3.17
+ 111 A.G92    A.A93    stacking: 2.0(0.7)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.01
+ 112 A.A93    A.U94    stacking: 5.9(3.0)--pm(>>,forward) interBase-angle=22 connected min_baseDist=3.42
+
+****************************************************************************
+List of 18 stacks
   Note: a stack is an ordered list of nucleotides assembled together via
         base-stacking interactions, regardless of backbone connectivity.
         Stacking interactions within a stem are *not* included.
@@ -295,7 +421,7 @@ List of 2 bulges
        nts=2 GU A.G34,A.U35
 
 ****************************************************************************
-List of 3 internal loops
+List of 2 internal loops
    1 asymmetric internal loop: nts=8; [3,1]; linked by [#2,#3]
      summary: [2] 3 1 [A.16 A.41 A.20 A.39] 2 2
      nts=8 GGUUCGUC A.G16,A.G17,A.U18,A.U19,A.C20,A.G39,A.U40,A.C41
@@ -306,19 +432,17 @@ List of 3 internal loops
      nts=10 CUAGCAAGAG A.C12,A.U13,A.A14,A.G15,A.C42,A.A43,A.A44,A.G45,A.A46,A.G47
        nts=2 UA A.U13,A.A14
        nts=4 AAGA A.A43,A.A44,A.G45,A.A46
-   3 asymmetric internal loop: nts=13; [4,5]; linked by [#-3,#6]
-     summary: [2] 4 5 [A.71 A.92 A.76 A.86] 1 2
-     nts=13 CGGAAGCUGGGAG A.C71,A.G72,A.G73,A.A74,A.A75,A.G76,A.C86,A.U87,A.G88,A.G89,A.G90,A.A91,A.G92
-       nts=4 GGAA A.G72,A.G73,A.A74,A.A75
-       nts=5 UGGGA A.U87,A.G88,A.G89,A.G90,A.A91
 
 ****************************************************************************
-List of 5 non-loop single-stranded segments
+List of 8 non-loop single-stranded segments
    1 nts=2 AA A.A5,A.A6
    2 nts=2* AA A.A27,A.A29
    3 nts=1 A A.A68
    4 nts=1 A A.A70
-   5 nts=2 AU A.A93,A.U94
+   5 nts=4 GGAA A.G72,A.G73,A.A74,A.A75
+   6 nts=2 UG A.U87,A.G88
+   7 nts=2 GA A.G90,A.A91
+   8 nts=2 AU A.A93,A.U94
 
 ****************************************************************************
 List of 4 A-minor motifs (types I, II, or X)
@@ -371,10 +495,10 @@ This structure contains 1-order pseudoknot
 
 ****************************************************************************
 Secondary structures in dot-bracket notation (dbn) as a whole and per chain
->5t83 nts=89 [whole]
+>5T83 nts=89 [whole]
 AAGUUUGCUAGGGUUCCGCGUCA&AGGUGGUCUGGUCCAAGAGCAAACGGCUUUCACAAAGCCACACGGAAGGAUAAAAGCCUGGGAGAU
 ..((((((..((...(((((((.&.))))..).)).))....))))))((((.......)))).[.(....((.......))..]..)..
->5t83-A #1 nts=89 0.00(2.98) [chain] RNA*
+>5T83-1-A #1 nts=89 0.00(2.98) [chain] RNA*
 AAGUUUGCUAGGGUUCCGCGUCA&AGGUGGUCUGGUCCAAGAGCAAACGGCUUUCACAAAGCCACACGGAAGGAUAAAAGCCUGGGAGAU
 ..((((((..((...(((((((.&.))))..).)).))....))))))((((.......)))).[.(....((.......))..]..)..
 
@@ -452,12 +576,12 @@ Summary of structural features of 89 nucleotides
   63  A . A.A68    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,ss-non-loop,splayed-apart
   64  C [ A.C69    0.003  pseudoknotted,anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,A-minor
   65  A . A.A70    0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,ss-non-loop,cap-acceptor,splayed-apart
-  66  C ( A.C71    0.006  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix-end,internal-loop,phosphate,splayed-apart
-  67  G . A.G72    0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
-  68  G . A.G73    0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
-  69  A . A.A74    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
-  70  A . A.A75    0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
-  71  G ( A.G76    0.004  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,internal-loop
+  66  C ( A.C71    0.006  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix-end,phosphate,splayed-apart
+  67  G . A.G72    0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+  68  G . A.G73    0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop,phosphate
+  69  A . A.A74    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+  70  A . A.A75    0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+  71  G ( A.G76    0.004  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end
   72  G ( A.G77    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
   73  A . A.A78    0.006  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,hairpin-loop
   74  U . A.U79    0.007  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop
@@ -467,22 +591,22 @@ Summary of structural features of 89 nucleotides
   78  A . A.A83    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,hairpin-loop,A-minor,ribose-zipper,splayed-apart
   79  G . A.G84    0.020  turn,syn,~C2'-endo,non-stack,non-pair-contact,hairpin-loop,phosphate,splayed-apart
   80  C ) A.C85    0.004  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,hairpin-loop,phosphate,splayed-apart
-  81  C ) A.C86    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop,phosphate
-  82  U . A.U87    0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate
-  83  G . A.G88    0.006  anti,~C2'-endo,non-canonical,non-pair-contact,helix,internal-loop,splayed-apart
-  84  G ] A.G89    0.006  pseudoknotted,turn,anti,~C2'-endo,isolated-canonical,non-pair-contact,helix,internal-loop,A-minor,cap-donor,splayed-apart
-  85  G . A.G90    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate,splayed-apart
-  86  A . A.A91    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
-  87  G ) A.G92    0.005  anti,~C3'-endo,isolated-canonical,non-pair-contact,helix-end,internal-loop
+  81  C ) A.C86    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,phosphate
+  82  U . A.U87    0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix,ss-non-loop,phosphate
+  83  G . A.G88    0.006  anti,~C2'-endo,non-canonical,non-pair-contact,helix,ss-non-loop,splayed-apart
+  84  G ] A.G89    0.006  pseudoknotted,turn,anti,~C2'-endo,isolated-canonical,non-pair-contact,helix,A-minor,cap-donor,splayed-apart
+  85  G . A.G90    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop,phosphate,splayed-apart
+  86  A . A.A91    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop,phosphate
+  87  G ) A.G92    0.005  anti,~C3'-endo,isolated-canonical,non-pair-contact,helix-end
   88  A . A.A93    0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
   89  U . A.U94    0.005  anti,~C3'-endo,non-pair-contact,ss-non-loop
 
 ****************************************************************************
 List of 15 additional files
-   1 dssr-pairs.pdb -- an ensemble of base pairs
-   2 dssr-multiplets.pdb -- an ensemble of multiplets
-   3 dssr-stems.pdb -- an ensemble of stems
-   4 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   1 dssr-stems.pdb -- an ensemble of stems
+   2 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   3 dssr-pairs.pdb -- an ensemble of base pairs
+   4 dssr-multiplets.pdb -- an ensemble of multiplets
    5 dssr-hairpins.pdb -- an ensemble of hairpin loops
    6 dssr-bulges.pdb -- an ensemble of bulges
    7 dssr-iloops.pdb -- an ensemble of internal loops
@@ -492,5 +616,8 @@ List of 15 additional files
   11 dssr-torsions.txt -- backbone torsion angles and suite names
   12 dssr-splays.pdb -- an ensemble of splayed-apart units
   13 dssr-Aminors.pdb -- an ensemble of A minor motifs (types I and II)
-  14 dssr-stacks.pdb -- an ensemble of base stacks
+  14 dssr-stacks.pdb -- an ensemble of stacks
   15 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
+
+****************************************************************************
+Time used: 00:00:00:00

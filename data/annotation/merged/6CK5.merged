@@ -93,6 +93,7 @@ A44	A45	C-C	upward
 A45	A46	C-G	upward
 A45	A89	C-A	S/S	trans
 A47	A50	A-G	upward
+A47	A91	A-G	downward
 A48	A49	G-C	upward
 A48	A76	G-A	S/S	trans
 A48	A96	G-G	outward
@@ -266,6 +267,7 @@ B44	B45	C-C	upward
 B45	B46	C-G	upward
 B45	B89	C-A	S/S	trans
 B47	B50	A-G	upward
+B47	B91	A-G	downward
 B48	B49	G-C	upward
 B48	B76	G-A	S/S	trans
 B48	B96	G-G	outward

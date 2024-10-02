@@ -1,3 +1,4 @@
+F1	F2	GTP-G	upward
 F1	F62	G-C	W/W	cis
 F2	F3	G-C	upward
 F2	F61	G-U	W/W	cis
@@ -77,6 +78,7 @@ F40	F41	A-U	upward
 F41	F42	U-C	upward
 F42	F43	C-C	upward
 F43	F44	C-A	upward
+F45	F47	A-G	upward
 F48	F49	A-C	upward
 F49	F50	C-G	upward
 F50	F51	G-G	upward
@@ -87,6 +89,9 @@ F57	F58	A-G	upward
 F58	F59	G-U	upward
 F59	F60	U-G	upward
 F60	F61	G-U	upward
+F61	F62	U-CCC	upward
+H1	F1	GTP-GTP	outward
+H1	H2	GTP-G	upward
 H1	H62	G-C	W/W	cis
 H2	H3	G-C	upward
 H2	H61	G-U	W/W	cis
@@ -179,3 +184,4 @@ H57	H58	A-G	upward
 H58	H59	G-U	upward
 H59	H60	U-G	upward
 H60	H61	G-U	upward
+H61	H62	U-CCC	upward

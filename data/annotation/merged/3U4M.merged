@@ -58,6 +58,7 @@ B2129	B2130	C-U	upward
 B2129	B2159	C-G	W/W	cis
 B2129	B2160	C-G	outward
 B2130	B2159	U-G	outward
+B2131	B2133	G-G	upward
 B2131	B2158	G-A	inward
 B2133	B2157	G-G	inward
 B2133	B2158	G-A	S/H	trans

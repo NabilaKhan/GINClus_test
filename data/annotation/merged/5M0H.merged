@@ -9,6 +9,7 @@ A4	A39	A-U	W/W	cis
 A4	A40	A-A	outward
 A5	A7	A-U	upward
 A5	A38	A-U	W/W	cis
+A7	A8	U-G	upward
 A7	A37	U-A	W/W	cis
 A8	A36	G-C	W/W	cis
 A8	A37	G-A	outward
@@ -41,6 +42,7 @@ A20	A28	A-C	outward
 A21	A22	U-G	upward
 A21	A26	U-G	W/W	cis
 A22	A25	G-A	S/H	trans
+A22	A26	G-G	outward
 A23	A24	A-A	upward
 A24	A25	A-A	upward
 A25	A26	A-G	upward

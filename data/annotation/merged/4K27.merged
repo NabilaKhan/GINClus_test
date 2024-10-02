@@ -66,6 +66,7 @@ U25	U33	A-C	outward
 U26	U27	U-G	upward
 U26	U31	U-G	W/W	cis
 U27	U30	G-A	S/H	trans
+U27	U31	G-G	outward
 U28	U29	A-A	upward
 U29	U30	A-A	upward
 U30	U31	A-G	upward

@@ -96,7 +96,6 @@ A48	A61	G-C	outward
 A49	A50	A-A	upward
 A49	A59	A-U	W/W	cis
 A50	A51	A-C	upward
-A50	A58	A-A	W/W	cis
 A51	A52	C-C	upward
 A52	A56	C-A	S/W	cis
 A53	A54	G-U	S/H	cis
@@ -188,6 +187,7 @@ B33	B34	G-A	upward
 B34	B35	A-G	upward
 B35	B36	G-G	upward
 B36	B37	G-G	upward
+B37	B38	G-U	upward
 B37	B44	G-C	W/W	cis
 B38	B40	U-U	upward
 B39	B42	G-U	S/W	trans

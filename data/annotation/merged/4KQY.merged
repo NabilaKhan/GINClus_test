@@ -34,6 +34,7 @@ A16	A39	G-C	W/W	cis
 A16	A40	G-U	outward
 A17	A18	C-A	upward
 A17	A38	C-G	W/W	cis
+A18	A19	A-G	upward
 A18	A37	A-A	S/W	trans
 A19	A35	G-G	inward
 A19	A36	G-A	S/H	trans
@@ -90,6 +91,7 @@ A47	A49	A-C	S/H	cis
 A47	A74	A-A	inward
 A48	A49	C-C	upward
 A48	A77	C-G	W/W	cis
+A48	A201	C-SAM	outward
 A49	A50	C-G	upward
 A49	A76	C-G	W/W	cis
 A49	A77	C-G	outward
@@ -176,3 +178,4 @@ A113	A114	A-A	upward
 A114	A115	A-G	upward
 A115	A116	G-A	upward
 A116	A117	A-A	upward
+A117	A118	A-C	upward

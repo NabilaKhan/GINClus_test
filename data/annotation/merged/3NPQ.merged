@@ -36,6 +36,7 @@ A15	A55	G-A	S/H	trans
 A16	A17	C-A	upward
 A16	A28	C-C	H/S	trans
 A16	A31	C-G	W/W	cis
+A16	A55	C-SAH	outward
 A17	A18	A-A	upward
 A17	A28	A-C	H/S	trans
 A17	A31	A-G	outward
@@ -55,6 +56,7 @@ A25	A26	G-C	upward
 A26	A27	C-C	upward
 A27	A28	C-C	upward
 A29	A48	A-G	upward
+A29	A55	A-SAH	downward
 A30	A46	G-C	W/W	cis
 A30	A47	G-G	outward
 A32	A33	C-U	upward
@@ -110,6 +112,7 @@ B15	B55	G-A	S/H	trans
 B16	B17	C-A	upward
 B16	B28	C-C	H/S	trans
 B16	B31	C-G	W/W	cis
+B16	B55	C-SAH	outward
 B17	B18	A-A	upward
 B17	B28	A-C	H/S	trans
 B17	B31	A-G	outward
@@ -128,6 +131,7 @@ B25	B26	G-C	upward
 B26	B27	C-C	upward
 B27	B28	C-C	upward
 B29	B48	A-G	upward
+B29	B55	A-SAH	downward
 B30	B46	G-C	W/W	cis
 B30	B47	G-G	outward
 B32	B33	C-U	upward
@@ -180,6 +184,7 @@ C15	C55	G-A	S/H	trans
 C16	C17	C-A	upward
 C16	C28	C-C	H/S	trans
 C16	C31	C-G	W/W	cis
+C16	C55	C-SAH	outward
 C17	C18	A-A	upward
 C17	C28	A-C	H/S	trans
 C17	C31	A-G	outward
@@ -198,6 +203,7 @@ C25	C26	G-C	upward
 C26	C27	C-C	upward
 C27	C28	C-C	upward
 C29	C48	A-G	upward
+C29	C55	A-SAH	downward
 C30	C46	G-C	W/W	cis
 C30	C47	G-G	outward
 C32	C33	C-U	upward

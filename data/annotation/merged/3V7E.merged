@@ -59,6 +59,7 @@ C25	C26	C-U	upward
 C25	C100	C-G	W/W	cis
 C26	C27	U-G	upward
 C26	C99	U-U	W/W	cis
+C26	C100	U-G	outward
 C27	C28	G-G	upward
 C27	C98	G-C	W/W	cis
 C27	C99	G-U	outward
@@ -90,6 +91,7 @@ C45	C913	A-A	S/W	cis
 C46	C47	A-C	S/H	cis
 C47	C48	C-C	upward
 C47	C88	C-G	W/W	cis
+C47	C913	C-SAM	outward
 C48	C49	C-A	upward
 C48	C87	C-G	W/W	cis
 C48	C88	C-G	outward
@@ -139,6 +141,7 @@ C65	C66	C-U	upward
 C65	C70	C-G	W/W	cis
 C66	C68	U-C	upward
 C66	C70	U-G	outward
+C69	C70	G-G	outward
 C70	C71	G-C	upward
 C71	C72	C-U	upward
 C72	C73	U-G	upward
@@ -298,6 +301,7 @@ D245	D407	A-A	S/W	cis
 D246	D247	A-C	S/H	cis
 D247	D248	C-C	upward
 D247	D288	C-G	W/W	cis
+D247	D407	C-SAM	outward
 D248	D249	C-A	upward
 D248	D287	C-G	W/W	cis
 D248	D288	C-G	outward

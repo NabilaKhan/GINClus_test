@@ -46,6 +46,7 @@ A19	A27	A-C	outward
 A20	A21	U-G	upward
 A20	A25	U-G	W/W	cis
 A21	A24	G-A	S/H	trans
+A21	A25	G-G	outward
 A22	A23	A-A	outward
 A23	A24	A-A	upward
 A24	A25	A-G	upward

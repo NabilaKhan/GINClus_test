@@ -35,6 +35,7 @@ A16	A310	G-A	S/W	trans
 A16	A311	G-A	upward
 A16	A326	G-C	W/W	cis
 A16	A327	G-U	outward
+A17	A18	C-U	upward
 A17	A283	C-G	W/W	cis
 A17	A284	C-G	outward
 A18	A19	U-C	upward
@@ -90,6 +91,7 @@ A52	A53	C-A	upward
 A53	A54	A-C	upward
 A55	A57	U-C	upward
 A61	A62	C-C	upward
+A62	A64	C-A	upward
 A66	A68	G-C	upward
 A68	A69	C-C	upward
 A69	A70	C-C	upward
@@ -122,6 +124,7 @@ A84	A318	A-U	W/W	cis
 A85	A317	G-U	W/W	cis
 A85	A318	G-U	outward
 A86	A260	A-A	inward
+A86	A261	A-G	outward
 A89	A91	A-G	outward
 A89	A259	A-C	downward
 A89	A260	A-A	upward
@@ -232,6 +235,7 @@ A158	A237	C-G	W/W	cis
 A159	A160	C-G	upward
 A159	A236	C-G	W/W	cis
 A159	A237	C-G	outward
+A160	A162	G-G	upward
 A160	A235	G-C	W/W	cis
 A160	A236	G-G	outward
 A162	A163	G-C	upward
@@ -248,6 +252,7 @@ A166	A229	G-C	W/W	cis
 A166	A230	G-U	outward
 A167	A228	G-C	W/W	cis
 A167	A229	G-C	outward
+A171	A175	G-G	outward
 A175	A176	G-G	upward
 A175	A227	G-U	W/W	cis
 A176	A177	G-G	upward
@@ -313,6 +318,7 @@ A201	A207	C-G	outward
 A202	A203	U-U	upward
 A202	A206	U-G	S/W	cis
 A204	A205	C-G	upward
+A206	A207	G-G	upward
 A207	A208	G-G	upward
 A208	A209	G-A	upward
 A209	A210	A-G	upward
@@ -331,6 +337,7 @@ A223	A224	U-G	upward
 A224	A225	G-C	upward
 A225	A226	C-C	upward
 A226	A227	C-U	upward
+A228	A229	C-C	upward
 A229	A230	C-U	upward
 A230	A231	U-U	upward
 A231	A232	U-U	upward
@@ -400,6 +407,7 @@ A293	A302	C-G	outward
 A294	A295	C-C	upward
 A294	A300	C-G	W/W	cis
 A294	A301	C-G	outward
+A295	A296	C-G	upward
 A295	A300	C-G	outward
 A297	A298	C-A	S/H	cis
 A299	A300	G-G	upward
@@ -441,6 +449,8 @@ A335	A336	G-C	upward
 A336	A337	C-C	upward
 A337	A338	C-C	upward
 A338	A339	C-A	upward
+A339	A340	A-U	upward
+A340	A341	U-U	upward
 T1	T2	G-U	upward
 T1	T72	G-C	W/W	cis
 T2	T3	U-U	upward
@@ -448,7 +458,6 @@ T2	T71	U-A	W/W	cis
 T3	T4	U-U	upward
 T3	T70	U-A	W/W	cis
 T4	T5	U-C	upward
-T4	T69	U-A	W/W	cis
 T5	T6	C-C	upward
 T5	T68	C-G	W/W	cis
 T6	T7	C-G	upward
@@ -506,6 +515,7 @@ T34	T35	A-A	upward
 T36	T37	C-A	upward
 T38	T39	C-G	upward
 T39	T40	G-C	upward
+T40	T41	C-G	upward
 T41	T42	G-A	upward
 T42	T43	A-A	upward
 T43	T44	A-A	upward

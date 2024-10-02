@@ -16,7 +16,9 @@ B21	B75	A-U	W/W	cis
 B21	B76	A-A	outward
 B22	B23	U-A	downward
 B22	B46	U-G	downward
+B22	B47	U-U	upward
 B22	B52	U-A	W/W	cis
+B22	B101	U-HPA	inward
 B23	B25	A-A	outward
 B23	B46	A-G	W/S	trans
 B24	B54	U-C	upward
@@ -61,6 +63,7 @@ B42	B43	G-C	upward
 B43	B44	C-G	upward
 B44	B45	G-A	upward
 B45	B46	A-G	upward
+B46	B47	G-U	upward
 B46	B52	G-A	inward
 B46	B53	G-C	W/W	cis
 B47	B51	U-U	W/H	trans

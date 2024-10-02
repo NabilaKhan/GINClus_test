@@ -52,6 +52,7 @@ A22	A29	A-U	W/W	cis
 A22	A30	A-C	outward
 A23	A27	G-A	inward
 A23	A29	G-U	outward
+A26	A27	A-A	upward
 A29	A30	U-C	upward
 A30	A31	C-A	upward
 A31	A32	A-U	upward
@@ -121,6 +122,7 @@ B21	B22	G-A	upward
 B21	B30	G-C	W/W	cis
 B21	B31	G-A	outward
 B22	B23	A-G	upward
+B22	B24	A-G	upward
 B22	B29	A-U	W/W	cis
 B22	B30	A-C	outward
 B23	B24	G-G	H/S	cis

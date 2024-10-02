@@ -68,6 +68,7 @@ B31	B39	G-U	outward
 B32	B33	C-U	upward
 B32	B37	C-G	W/W	cis
 B33	B37	U-G	outward
+B36	B37	G-G	upward
 B37	B38	G-C	upward
 B38	B39	C-U	upward
 B40	B41	G-G	upward

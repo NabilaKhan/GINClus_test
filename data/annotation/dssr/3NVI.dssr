@@ -1,4 +1,14 @@
 ****************************************************************************
+                DSSR: an Integrated Software Tool for
+               Dissecting the Spatial Structure of RNA
+               v1.7.8-2018sep01, by xiangjun@x3dna.org
+
+   This program is being actively maintained and developed. As always,
+   I greatly appreciate your feedback! Please report all DSSR-related
+   issues on the 3DNA Forum (forum.x3dna.org). I strive to respond
+   *promptly* to *any questions* posted there.
+
+****************************************************************************
 Note: By default, each nucleotide is identified by chainId.name#. So a
       common case would be B.A1689, meaning adenosine #1689 on chain B.
       One-letter base names for modified nucleotides are put in lower
@@ -6,8 +16,9 @@ Note: By default, each nucleotide is identified by chainId.name#. So a
       notation, please refer to the DSSR User Manual.
     Questions and suggestions are *always* welcome on the 3DNA Forum.
 
-Command: x3dna-dssr -i=3nvi.pdb -o=3nvi.out
-File name: 3nvi.pdb
+Command: x3dna-dssr -i=/media/nabila/DATA/GINClus_test/data/pdbx/3NVI.cif --format=mmcif --non-pair -o=/media/nabila/DATA/GINClus_test/data/annotation/dssr/3NVI.dssr
+Date and time: Tue Oct  1 19:45:34 2024
+File name: 3NVI.cif
     no. of DNA/RNA chains: 2 [E=24,F=24]
     no. of nucleotides:    48
     no. of atoms:          6870
@@ -114,7 +125,63 @@ List of 2 isolated WC/wobble pairs
 [#3]     -2 F.C4           F.G22          C-G WC           19-XIX    cWW  cW-W
 
 ****************************************************************************
-List of 14 base stacks
+List of 53 non-pairing interactions
+   1 E.C4     E.U5     stacking: 1.4(0.4)--pm(>>,forward) interBase-angle=5 connected min_baseDist=3.65
+   2 E.U5     E.G6     stacking: 7.2(3.8)--pm(>>,forward) interBase-angle=26 connected min_baseDist=2.92
+   3 E.G6     E.A7     interBase-angle=14 H-bonds[1]: "O2'(hydroxyl)-OP2[3.09]" connected min_baseDist=4.61
+   4 E.G6     E.G19    stacking: 4.8(1.8)--pp(><,inward) interBase-angle=26 H-bonds[2]: "O2'(hydroxyl)-N2(amino)[3.39],N2(amino)-O2'(hydroxyl)[2.95]" min_baseDist=3.04
+   5 E.A7     E.C16    interBase-angle=56 H-bonds[1]: "N1-O2'(hydroxyl)[2.54]" min_baseDist=3.32
+   6 E.A7     E.G17    stacking: 5.6(2.1)--pp(><,inward) interBase-angle=2 H-bonds[2]: "O2'(hydroxyl)-O6(carbonyl)[2.84],N6(amino)-O4'[3.19]" min_baseDist=3.45
+   7 E.A7     E.A20    stacking: 7.6(4.3)--mm(<>,outward) interBase-angle=9 min_baseDist=3.25
+   8 E.C8     E.A20    interBase-angle=65 H-bonds[2]: "O2'(hydroxyl)-N3[2.88],O2(carbonyl)-O2'(hydroxyl)[3.35]" min_baseDist=4.61
+   9 E.C8     E.U21    interBase-angle=67 H-bonds[1]: "O2'(hydroxyl)-O4'[3.50]" min_baseDist=7.26
+  10 E.C9     E.G10    stacking: 1.3(0.7)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.52
+  11 E.C9     E.G15    stacking: 0.4(0.0)--mm(<>,outward) interBase-angle=3 min_baseDist=3.15
+  12 E.C9     E.A20    interBase-angle=72 H-bonds[1]: "O4'-O2'(hydroxyl)[2.97]" min_baseDist=7.37
+  13 E.G10    E.A12    interBase-angle=27 H-bonds[1]: "O2'(hydroxyl)-N7[2.98]" min_baseDist=3.91
+  14 E.G10    E.G14    stacking: 2.6(0.3)--mm(<>,outward) interBase-angle=8 min_baseDist=3.20
+  15 E.A11    E.A12    stacking: 6.4(4.6)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.34
+  16 E.A12    E.A13    stacking: 4.1(2.9)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.00
+  17 E.A13    E.G14    stacking: 0.2(0.0)--pm(>>,forward) interBase-angle=13 connected min_baseDist=3.79
+  18 E.G14    E.G15    stacking: 3.6(2.1)--pm(>>,forward) interBase-angle=5 connected min_baseDist=3.32
+  19 E.G15    E.C16    stacking: 7.2(3.2)--pm(>>,forward) interBase-angle=10 connected min_baseDist=3.26
+  20 E.G15    E.A20    interBase-angle=70 H-bonds[1]: "N2(amino)-O2'(hydroxyl)[3.58]" min_baseDist=5.75
+  21 E.C16    E.A20    interBase-angle=60 H-bonds[1]: "O2'(hydroxyl)-O4'[3.55]" min_baseDist=6.40
+  22 E.G17    E.U18    interBase-angle=86 H-bonds[2]: "OP1-O2'(hydroxyl)[2.65],O2'(hydroxyl)-OP1[3.39]" connected min_baseDist=9.34
+  23 E.G17    E.G19    stacking: 0.2(0.0)--pm(>>,forward) interBase-angle=30 min_baseDist=3.32
+  24 E.G19    E.A20    interBase-angle=32 H-bonds[1]: "O2'(hydroxyl)-OP2[2.81]" connected min_baseDist=4.35
+  25 E.A20    E.U21    stacking: 5.5(3.3)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.27
+  26 E.U21    E.G22    stacking: 0.6(0.0)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.45
+  27 E.G22    E.A23    stacking: 6.7(4.7)--pp(><,inward) interBase-angle=18 connected min_baseDist=3.15
+  28 E.A23    E.G24    interBase-angle=81 H-bonds[1]: "O2'(hydroxyl)-O5'[3.29]" connected min_baseDist=9.12
+  29 F.C4     F.U5     stacking: 2.6(1.0)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.50
+  30 F.U5     F.G6     stacking: 7.2(3.8)--pm(>>,forward) interBase-angle=27 connected min_baseDist=3.08
+  31 F.G6     F.A7     interBase-angle=18 H-bonds[1]: "O2'(hydroxyl)-OP2[2.92]" connected min_baseDist=4.39
+  32 F.G6     F.G19    stacking: 4.5(1.6)--pp(><,inward) interBase-angle=26 H-bonds[2]: "O2'(hydroxyl)-N2(amino)[3.35],N2(amino)-O2'(hydroxyl)[2.79]" min_baseDist=3.20
+  33 F.A7     F.C16    interBase-angle=53 H-bonds[1]: "N1-O2'(hydroxyl)[2.69]" min_baseDist=3.43
+  34 F.A7     F.G17    stacking: 6.1(2.6)--pp(><,inward) interBase-angle=1 H-bonds[2]: "O2'(hydroxyl)-O6(carbonyl)[2.68],N6(amino)-O4'[3.03]" min_baseDist=3.41
+  35 F.A7     F.A20    stacking: 7.1(4.1)--mm(<>,outward) interBase-angle=9 min_baseDist=3.32
+  36 F.C8     F.A20    interBase-angle=64 H-bonds[2]: "O2'(hydroxyl)-N3[2.98],O2(carbonyl)-O2'(hydroxyl)[3.48]" min_baseDist=4.45
+  37 F.C8     F.U21    interBase-angle=63 H-bonds[1]: "O2'(hydroxyl)-O4'[3.35]" min_baseDist=7.19
+  38 F.C9     F.G10    stacking: 1.6(1.0)--pm(>>,forward) interBase-angle=11 connected min_baseDist=3.53
+  39 F.C9     F.G15    stacking: 0.5(0.0)--mm(<>,outward) interBase-angle=7 min_baseDist=3.11
+  40 F.C9     F.A20    interBase-angle=69 H-bonds[1]: "O4'-O2'(hydroxyl)[2.85]" min_baseDist=7.49
+  41 F.G10    F.A11    interBase-angle=36 H-bonds[1]: "O5'*OP2[3.13]" connected min_baseDist=6.95
+  42 F.G10    F.A12    interBase-angle=29 H-bonds[1]: "O2'(hydroxyl)-N7[3.23]" min_baseDist=4.18
+  43 F.G10    F.G14    stacking: 2.2(0.2)--mm(<>,outward) interBase-angle=12 min_baseDist=2.83
+  44 F.A11    F.A12    stacking: 6.2(4.5)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.32
+  45 F.A12    F.A13    stacking: 4.2(3.2)--pm(>>,forward) interBase-angle=4 connected min_baseDist=3.35
+  46 F.A13    F.G14    stacking: 0.2(0.0)--pm(>>,forward) interBase-angle=15 connected min_baseDist=3.85
+  47 F.G14    F.G15    stacking: 3.1(1.6)--pm(>>,forward) interBase-angle=2 connected min_baseDist=3.39
+  48 F.G15    F.C16    stacking: 7.4(3.7)--pm(>>,forward) interBase-angle=10 connected min_baseDist=3.16
+  49 F.G17    F.U18    interBase-angle=88 H-bonds[2]: "OP1-O2'(hydroxyl)[2.49],O2'(hydroxyl)-OP1[3.27]" connected min_baseDist=9.18
+  50 F.G19    F.A20    interBase-angle=31 H-bonds[1]: "O2'(hydroxyl)-OP2[2.77]" connected min_baseDist=4.62
+  51 F.A20    F.U21    stacking: 5.9(3.5)--pm(>>,forward) interBase-angle=1 connected min_baseDist=3.30
+  52 F.U21    F.G22    stacking: 1.1(0.2)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.50
+  53 F.G22    F.A23    stacking: 6.3(4.1)--pp(><,inward) interBase-angle=20 connected min_baseDist=2.90
+
+****************************************************************************
+List of 14 stacks
   Note: a stack is an ordered list of nucleotides assembled together via
         base-stacking interactions, regardless of backbone connectivity.
         Stacking interactions within a stem are *not* included.
@@ -217,13 +284,13 @@ Summary of 6 splayed-apart units
 
 ****************************************************************************
 Secondary structures in dot-bracket notation (dbn) as a whole and per chain
->3nvi nts=48 [whole]
+>3NVI nts=48 [whole]
 CUCUGACCGAAAGGCGUGAUGAGC&CUCUGACCGAAAGGCGUGAUGAGC
 ..(...((....))......)...&..(...((....))......)...
->3nvi-E #1 nts=24 0.70(2.86) [chain] RNA
+>3NVI-1-E #1 nts=24 0.70(2.86) [chain] RNA
 CUCUGACCGAAAGGCGUGAUGAGC
 ..(...((....))......)...
->3nvi-F #2 nts=24 0.71(2.87) [chain] RNA
+>3NVI-1-F #2 nts=24 0.71(2.87) [chain] RNA
 CUCUGACCGAAAGGCGUGAUGAGC
 ..(...((....))......)...
 
@@ -258,7 +325,7 @@ Summary of structural features of 48 nucleotides
   20  U . E.U21    0.011  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
   21  G ) E.G22    0.016  k-turn,anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix-end,internal-loop,phosphate
   22  A . E.A23    0.033  syn,~C3'-endo,BI,non-pair-contact,ss-non-loop,splayed-apart
-  23  G . E.G24    0.026  anti,~C2'-endo,BII,ss-non-loop,phosphate,splayed-apart
+  23  G . E.G24    0.026  anti,~C2'-endo,BII,non-pair-contact,ss-non-loop,phosphate,splayed-apart
   24  C . E.C25    0.009  anti,~C2'-endo,ss-non-loop,phosphate,splayed-apart
   25  C . F.C2     0.009  anti,~C3'-endo,non-stack,ss-non-loop
   26  U . F.U3     0.012  anti,~C2'-endo,non-stack,ss-non-loop,splayed-apart
@@ -287,9 +354,9 @@ Summary of structural features of 48 nucleotides
 
 ****************************************************************************
 List of 13 additional files
-   1 dssr-pairs.pdb -- an ensemble of base pairs
-   2 dssr-stems.pdb -- an ensemble of stems
-   3 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   1 dssr-stems.pdb -- an ensemble of stems
+   2 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   3 dssr-pairs.pdb -- an ensemble of base pairs
    4 dssr-hairpins.pdb -- an ensemble of hairpin loops
    5 dssr-iloops.pdb -- an ensemble of internal loops
    6 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
@@ -298,5 +365,8 @@ List of 13 additional files
    9 dssr-torsions.txt -- backbone torsion angles and suite names
   10 dssr-splays.pdb -- an ensemble of splayed-apart units
   11 dssr-Kturns.pdb -- an ensemble of kink-turn motifs
-  12 dssr-stacks.pdb -- an ensemble of base stacks
+  12 dssr-stacks.pdb -- an ensemble of stacks
   13 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
+
+****************************************************************************
+Time used: 00:00:00:01

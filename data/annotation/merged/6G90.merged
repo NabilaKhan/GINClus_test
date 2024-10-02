@@ -4,7 +4,10 @@
 '1'2	'1'3	U-A	upward
 '1'3	'1'4	A-C	upward
 '1'3	I6	A-U	W/W	cis
+'1'4	'1'5	C-PSU	upward
 '1'4	I5	C-G	W/W	cis
+'1'5	'1'6	PSU-PSU	upward
+'1'5	I5	PSU-G	outward
 '1'6	I3	P-A	W/W	cis
 '1'7	'1'8	A-C	upward
 '1'7	I2	A-U	W/W	cis
@@ -104,8 +107,8 @@
 '1'61	'1'68	A-G	S/W	cis
 '1'61	'1'133	A-G	downward
 '1'61	'1'135	A-U	upward
+'1'67	'1'68	A-G	upward
 '1'68	'1'69	G-A	upward
-'1'68	'1'133	G-G	W/W	cis
 '1'69	'1'70	A-A	upward
 '1'69	'1'132	A-U	W/W	cis
 '1'69	'1'133	A-G	outward
@@ -438,8 +441,10 @@
 '2'31	'2'32	A-G	upward
 '2'33	'2'34	U-G	upward
 '2'33	I72	U-A	W/W	cis
+'2'34	'2'35	G-PSU	upward
 '2'34	I71	G-C	W/W	cis
 '2'34	I72	G-A	outward
+'2'35	'2'36	PSU-A	upward
 '2'35	I69	P-A	W/W	cis
 '2'36	'2'37	A-G	upward
 '2'36	I69	A-A	outward
@@ -451,15 +456,18 @@
 '2'39	I65	A-U	W/W	cis
 '2'39	I66	A-A	outward
 '2'40	I64	U-U	W/W	cis
+'2'41	'2'42	C-PSU	upward
 '2'41	I63	C-U	W/W	cis
 '2'41	I64	C-U	outward
 '2'42	I62	P-A	W/W	cis
+'2'43	'2'44	G-PSU	upward
 '2'43	I60	G-U	W/W	cis
 '2'43	I62	G-A	outward
 '2'44	I59	P-C	W/W	cis
 '2'45	'2'46	U-C	upward
 '2'45	I58	U-U	W/W	cis
 '2'45	I59	U-C	outward
+'2'48	'2'49	U-U	upward
 '2'49	'2'50	U-U	upward
 '2'49	'2'66	U-A	W/W	cis
 '2'50	'2'51	U-C	upward
@@ -504,6 +512,7 @@
 '2'73	'2'79	U-A	W/W	cis
 '2'73	'2'80	U-G	outward
 '2'79	'2'80	A-G	upward
+'2'80	'2'81	G-G	upward
 '2'81	'2'83	G-U	upward
 '2'83	'2'84	U-C	upward
 '2'84	'2'85	C-A	upward
@@ -576,6 +585,7 @@
 '2'1103	'2'1104	C-U	upward
 '2'1103	'2'1138	C-G	W/W	cis
 '2'1103	'2'1139	C-G	outward
+'2'1105	'2'1106	C-G	outward
 '2'1115	'2'1116	G-A	upward
 '2'1115	'2'1130	G-U	W/W	cis
 '2'1116	'2'1117	A-G	upward
@@ -590,6 +600,7 @@
 '2'1119	'2'1127	C-A	outward
 '2'1120	'2'1121	G-U	upward
 '2'1120	'2'1125	G-U	W/W	cis
+'2'1120	'2'1126	G-G	outward
 '2'1121	'2'1122	U-U	upward
 '2'1126	'2'1127	G-A	upward
 '2'1127	'2'1128	A-C	upward

@@ -7,6 +7,8 @@ A3	A4	G-C	upward
 A3	A33	G-C	W/W	cis
 A3	A34	G-U	outward
 A4	A32	C-G	W/W	cis
+A5	A6	PSU-G	upward
+A5	A32	PSU-G	outward
 A6	A7	G-G	upward
 A6	A30	G-C	W/W	cis
 A6	A31	G-U	outward
@@ -37,6 +39,7 @@ A15	A23	A-G	outward
 A16	A17	U-G	upward
 A16	A21	U-G	W/W	cis
 A17	A20	G-A	S/H	trans
+A17	A21	G-G	outward
 A18	A19	A-A	upward
 A19	A20	A-A	upward
 A20	A21	A-G	upward

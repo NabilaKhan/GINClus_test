@@ -1,4 +1,5 @@
 G-9	G-8	A-A	upward
+G-8	G-7	A-A	upward
 G0	G1	A-G	upward
 G0	P10	A-U	W/W	cis
 G1	G2	G-G	upward
@@ -23,6 +24,7 @@ G8	P3	A-A	outward
 G9	G10	U-U	upward
 G9	P1	U-A	W/W	cis
 G10	P1	U-A	outward
+G11	G12	A-A	upward
 P1	P2	A-U	upward
 P2	P3	U-A	upward
 P3	P4	A-C	upward
@@ -167,6 +169,7 @@ P85	P86	U-A	upward
 P85	P117	U-U	W/W	trans
 P85	P119	U-G	outward
 P86	P117	A-U	downward
+P87	P88	U-C	upward
 P87	P112	U-A	W/W	cis
 P88	P89	C-A	upward
 P88	P110	C-G	W/W	cis
@@ -200,6 +203,7 @@ P111	P112	A-A	upward
 P112	P113	A-G	upward
 P114	P115	U-C	upward
 P115	P116	C-A	upward
+P116	P117	A-U	upward
 P117	P119	U-G	outward
 P119	P120	G-A	upward
 P120	P121	A-U	upward
@@ -223,6 +227,7 @@ P136	P152	C-G	W/W	cis
 P137	P138	A-C	upward
 P137	P152	A-G	outward
 P138	P139	C-A	upward
+P139	P140	A-C	inward
 P143	P144	A-C	upward
 P152	P153	G-C	upward
 P153	P154	C-G	upward
@@ -371,7 +376,6 @@ P252	P253	C-C	upward
 P252	P271	C-G	W/W	cis
 P253	P270	C-G	W/W	cis
 P253	P271	C-G	outward
-P254	P256	U-U	S/W	trans
 P255	P259	U-U	outward
 P255	P271	U-G	W/S	cis
 P261	P276	C-G	W/W	cis
@@ -416,6 +420,7 @@ P286	P287	A-A	upward
 P286	P296	A-U	W/W	cis
 P286	P297	A-G	outward
 P287	P288	A-A	upward
+P287	P296	A-U	W/W	cis
 P288	P289	A-U	upward
 P288	P295	A-U	W/W	cis
 P289	P290	U-U	upward
@@ -476,6 +481,7 @@ P322	P520	A-G	outward
 P323	P324	A-A	upward
 P323	P518	A-U	W/W	cis
 P323	P519	A-U	outward
+P324	P325	A-A	upward
 P324	P517	A-U	W/W	cis
 P324	P518	A-U	outward
 P325	P326	A-G	upward
@@ -608,7 +614,6 @@ P398	P399	G-A	upward
 P398	P418	G-U	W/W	cis
 P398	P419	G-G	outward
 P399	P400	A-A	upward
-P399	P417	A-A	W/W	cis
 P399	P418	A-U	outward
 P400	P401	A-U	upward
 P400	P415	A-U	W/W	cis

@@ -1,3 +1,4 @@
+B1	B2	GTP-G	upward
 B1	B47	G-C	W/W	cis
 B2	B3	G-U	upward
 B2	B46	G-C	W/W	cis
@@ -61,6 +62,7 @@ B28	B29	A-C	upward
 B28	D6	A-G	S/S	trans
 B28	D41	A-C	S/S	cis
 B29	B30	C-C	upward
+B30	B31	C-G	upward
 B33	B34	G-U	upward
 B34	B35	U-U	upward
 B35	B36	U-A	upward
@@ -77,6 +79,7 @@ B44	B45	A-G	upward
 B44	D26	A-A	outward
 B45	B46	G-C	upward
 B46	B47	C-C	upward
+D1	D2	GTP-G	upward
 D1	D47	G-C	W/W	cis
 D2	D3	G-U	upward
 D2	D46	G-C	W/W	cis
@@ -131,6 +134,7 @@ D26	D27	A-A	upward
 D27	D28	A-A	upward
 D28	D29	A-C	upward
 D29	D30	C-C	upward
+D30	D31	C-G	upward
 D33	D34	G-U	upward
 D34	D35	U-U	upward
 D35	D36	U-A	upward

@@ -2,6 +2,7 @@ R6	R7	G-G	upward
 R6	R139	G-C	W/W	cis
 R7	R8	G-G	upward
 R7	R138	G-U	W/W	cis
+R7	R139	G-CCC	outward
 R8	R9	G-G	upward
 R8	R137	G-C	W/W	cis
 R8	R138	G-U	outward
@@ -63,6 +64,7 @@ R29	R45	G-A	S/S	trans
 R29	R48	G-C	W/W	cis
 R29	R49	G-G	outward
 R30	R31	U-C	upward
+R30	R45	U-A	downward
 R30	R46	U-A	W/H	cis
 R31	R32	C-C	upward
 R32	R33	C-C	upward
@@ -102,7 +104,9 @@ R62	R63	G-G	upward
 R63	R64	G-C	upward
 R64	R65	C-C	upward
 R65	R66	C-G	upward
+R67	R68	A-A	outward
 R67	R135	A-G	upward
+R68	R69	A-G	upward
 R68	R133	A-G	H/S	trans
 R69	R70	G-C	upward
 R69	R132	G-C	W/W	cis
@@ -211,6 +215,7 @@ R124	R125	C-C	upward
 R125	R126	C-C	upward
 R126	R127	C-U	upward
 R127	R128	U-C	upward
+R128	R129	C-G	upward
 R129	R130	G-G	upward
 R130	R131	G-G	upward
 R131	R132	G-C	upward
@@ -219,3 +224,4 @@ R133	R134	G-U	upward
 R135	R136	G-C	upward
 R136	R137	C-C	upward
 R137	R138	C-U	upward
+R138	R139	U-CCC	upward

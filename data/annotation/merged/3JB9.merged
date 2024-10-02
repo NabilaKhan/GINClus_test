@@ -142,6 +142,7 @@ N9	N10	G-A	upward
 N10	N11	A-U	upward
 N11	N12	U-C	upward
 N12	N13	C-A	upward
+N13	N14	A-C	upward
 N16	N17	U-U	upward
 N30	N31	A-C	outward
 N31	N32	C-G	upward
@@ -213,7 +214,10 @@ N70	N71	A-C	upward
 N71	N72	C-A	upward
 N73	N74	C-U	downward
 N76	P15	C-U	W/W	cis
+N79	N80	C-A	inward
 N79	P12	C-G	W/S	cis
+N80	N81	A-U	outward
+N81	N82	U-U	upward
 N82	N83	U-G	upward
 N83	N84	G-A	upward
 N83	P8	G-C	W/W	cis
@@ -232,6 +236,7 @@ N88	N89	A-A	upward
 N88	P3	A-U	W/W	cis
 N89	P2	A-U	W/W	cis
 O102	O103	A-U	upward
+O103	O104	U-G	upward
 O104	O105	G-U	upward
 O105	O106	U-A	upward
 O106	O107	A-U	upward
@@ -342,10 +347,12 @@ Q495	Q496	A-U	upward
 Q496	P38	U-A	W/W	cis
 Q496	Q497	U-A	upward
 Q497	P37	A-U	W/W	cis
+Q497	P38	A-A	outward
 Q497	Q498	A-C	upward
 Q498	P36	C-G	W/W	cis
 Q498	Q499	C-U	upward
 Q499	P35	U-A	W/W	cis
+Q499	Q500	U-A	upward
 Q500	P34	A-U	W/W	cis
 Q500	Q502	A-C	upward
 Q502	P33	C-G	W/W	cis

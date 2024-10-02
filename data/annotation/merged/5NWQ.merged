@@ -7,6 +7,7 @@ A2	A27	C-A	S/S	trans
 A3	A4	G-G	upward
 A3	A22	G-C	W/W	cis
 A3	A23	G-G	outward
+A3	A27	G-A	downward
 A4	A21	G-C	W/W	cis
 A4	A22	G-C	outward
 A4	A29	G-G	upward
@@ -69,6 +70,7 @@ A33	A34	A-G	upward
 A35	A36	A-C	upward
 A36	A37	C-G	upward
 A37	A38	G-G	upward
+A38	A39	G-CBV	upward
 A40	A41	G-C	upward
 B1	B2	C-C	upward
 B1	B24	C-G	W/W	cis
@@ -79,6 +81,7 @@ B2	B27	C-A	S/S	trans
 B3	B4	G-G	upward
 B3	B22	G-C	W/W	cis
 B3	B23	G-G	outward
+B3	B27	G-A	downward
 B4	B21	G-C	W/W	cis
 B4	B22	G-C	outward
 B4	B29	G-G	upward
@@ -138,4 +141,5 @@ B33	B34	A-G	upward
 B35	B36	A-C	upward
 B36	B37	C-G	upward
 B37	B38	G-G	upward
+B38	B39	G-CBV	upward
 B40	B41	G-C	upward

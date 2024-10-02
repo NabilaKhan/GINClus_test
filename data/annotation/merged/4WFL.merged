@@ -72,6 +72,7 @@ A33	A34	C-U	upward
 A34	A35	U-G	upward
 A35	A36	G-U	upward
 A35	A37	G-A	S/H	trans
+A36	A37	U-A	outward
 A38	A39	C-C	upward
 A38	A58	C-G	W/W	cis
 A38	A59	C-G	outward
@@ -102,6 +103,7 @@ A58	A59	G-G	upward
 A59	A60	G-C	upward
 A60	A61	C-C	upward
 A61	A62	C-G	upward
+A63	A64	A-A	outward
 A63	A102	A-G	upward
 A64	A67	A-C	upward
 A64	A101	A-U	H/W	trans

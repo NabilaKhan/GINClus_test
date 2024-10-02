@@ -1,3 +1,4 @@
+R8	R9	GTP-G	upward
 R9	R10	G-U	upward
 R10	R11	U-C	upward
 R11	R12	C-A	upward
@@ -7,6 +8,7 @@ R12	R97	A-G	W/W	cis
 R12	R98	A-G	outward
 R13	R14	C-G	upward
 R13	R94	C-G	W/W	cis
+R14	R1	G-C2E	upward
 R14	R16	G-A	S/H	cis
 R14	R93	G-C	W/W	cis
 R14	R94	G-G	outward
@@ -17,7 +19,7 @@ R16	R95	A-A	downward
 R17	R1	C-G	H/S	cis
 R17	R18	C-A	upward
 R17	R93	C-C	W/S	cis
-R18	R1	A-G	W/S	trans
+R18	R1	A-G	H/S	trans
 R18	R19	A-G	upward
 R19	R20	G-G	upward
 R19	R47	G-A	W/W	cis
@@ -70,6 +72,7 @@ R44	R45	C-G	upward
 R44	R83	C-G	W/W	cis
 R45	R46	G-C	upward
 R45	R49	G-A	S/S	trans
+R47	R1	A-C2E	inward
 R48	R50	A-G	upward
 R48	R90	A-U	H/W	trans
 R48	R91	A-A	outward
@@ -135,10 +138,12 @@ R90	R91	U-A	upward
 R91	R92	A-C	upward
 R92	R1	C-G	W/W	cis
 R92	R93	C-C	upward
+R93	R1	C-C2E	outward
 R93	R94	C-G	upward
 R94	R95	G-A	S/W	cis
 R94	R97	G-G	upward
 R97	R98	G-G	upward
+R660	R75	A-G	outward
 R660	R661	A-U	upward
 R661	R663	U-G	S/W	cis
 R662	R663	U-G	outward

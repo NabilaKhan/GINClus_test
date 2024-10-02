@@ -1,6 +1,8 @@
+X1	X2	GTP-G	upward
 X1	X112	G-C	W/W	cis
 X2	X3	G-A	upward
 X2	X111	G-U	W/W	cis
+X2	X112	G-CCC	outward
 X3	X4	A-U	upward
 X3	X110	A-U	W/W	cis
 X4	X5	U-C	upward
@@ -84,6 +86,7 @@ X41	X42	G-U	upward
 X41	X63	G-A	S/S	trans
 X41	X82	G-C	W/W	cis
 X41	X83	G-C	outward
+X42	X63	U-A	downward
 X42	X64	U-U	upward
 X42	X81	U-A	W/W	cis
 X43	X44	C-C	upward
@@ -100,9 +103,11 @@ X51	X52	G-U	upward
 X51	X58	G-C	W/W	cis
 X51	X59	G-U	outward
 X52	X57	U-G	W/W	cis
+X53	X57	A-G	outward
 X57	X58	G-C	upward
 X58	X59	C-U	upward
 X59	X60	U-U	upward
+X60	X61	U-U	upward
 X62	X63	G-A	upward
 X62	X83	G-C	S/S	cis
 X63	X82	A-C	S/S	cis
@@ -154,9 +159,11 @@ X98	X99	G-A	inward
 X99	X101	A-G	outward
 X101	X102	G-A	upward
 X102	X103	A-G	upward
+X103	X104	G-A	upward
 X105	X106	G-A	upward
 X106	X107	A-A	upward
 X107	X108	A-G	upward
 X108	X109	G-A	upward
 X109	X110	A-U	upward
 X110	X111	U-U	upward
+X111	X112	U-CCC	upward

@@ -76,6 +76,7 @@ E48	E49	C-C	upward
 E49	E50	C-C	upward
 E49	E56	C-A	S/S	cis
 E50	E84	C-A	S/S	trans
+E51	E84	G-A	downward
 E51	E85	G-A	upward
 E52	E53	U-A	downward
 E53	E83	A-G	downward
@@ -129,6 +130,7 @@ E88	E89	C-G	upward
 E89	E90	G-C	upward
 F104	F105	G-C	upward
 F104	F190	G-C	W/W	cis
+F105	F106	C-G	upward
 F105	F189	C-G	W/W	cis
 F106	F107	G-A	upward
 F106	F188	G-C	W/W	cis
@@ -173,6 +175,7 @@ F120	F136	U-G	outward
 F121	F122	C-C	upward
 F121	F134	C-G	W/W	cis
 F121	F135	C-A	outward
+F122	F123	C-A	upward
 F122	F133	C-G	W/W	cis
 F122	F134	C-G	outward
 F123	F124	A-U	upward

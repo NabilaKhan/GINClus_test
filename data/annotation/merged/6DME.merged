@@ -1,3 +1,4 @@
+A1	A2	GTP-G	upward
 A1	A102	G-C	W/W	cis
 A2	A3	G-A	upward
 A2	A101	G-U	W/W	cis
@@ -7,6 +8,7 @@ A4	A5	A-G	upward
 A4	A99	A-U	W/W	cis
 A4	A100	A-U	outward
 A5	A69	G-A	S/W	trans
+A5	A201	G-G4P	inward
 A6	A7	U-G	upward
 A6	A50	U-A	W/W	cis
 A6	A51	U-G	outward
@@ -165,3 +167,4 @@ A96	A97	A-A	upward
 A97	A98	A-G	upward
 A99	A100	U-U	upward
 A100	A101	U-U	upward
+A101	A102	U-CCC	upward

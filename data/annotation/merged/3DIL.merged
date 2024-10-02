@@ -2,6 +2,7 @@ A1	A2	G-G	upward
 A1	A174	G-C	W/W	cis
 A2	A3	G-C	upward
 A2	A173	G-U	W/W	cis
+A2	A174	G-CCC	outward
 A3	A4	C-C	upward
 A3	A172	C-G	W/W	cis
 A4	A5	C-G	upward
@@ -49,6 +50,7 @@ A20	A72	G-A	S/H	trans
 A20	A73	G-G	outward
 A21	A22	A-G	upward
 A21	A71	A-G	H/S	trans
+A21	A72	A-A	outward
 A22	A23	G-A	upward
 A22	A70	G-C	W/W	cis
 A22	A71	G-G	outward
@@ -122,6 +124,7 @@ A49	A50	G-A	upward
 A49	A95	G-C	W/W	cis
 A49	A96	G-C	outward
 A50	A51	A-A	upward
+A51	A52	A-U	upward
 A51	A54	A-G	S/S	cis
 A52	A54	U-G	outward
 A54	A55	G-G	upward
@@ -291,3 +294,4 @@ A169	A170	U-C	upward
 A170	A171	C-G	upward
 A171	A172	G-G	upward
 A172	A173	G-U	upward
+A173	A174	U-CCC	upward

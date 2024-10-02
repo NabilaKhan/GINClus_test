@@ -51,6 +51,7 @@ A100	A103	G-A	S/H	trans
 A100	A104	G-C	outward
 A101	A102	U-A	upward
 A102	A103	A-A	upward
+A103	A104	A-C	upward
 A104	A105	C-C	upward
 A105	A106	C-C	upward
 A106	A107	C-G	upward
@@ -193,6 +194,7 @@ A187	A189	A-C	upward
 A188	A191	G-C	inward
 A188	A192	G-A	H/H	trans
 A188	A218	G-G	downward
+A189	A190	C-C	upward
 A190	A191	C-C	upward
 A191	A192	C-A	upward
 A192	A193	A-C	upward

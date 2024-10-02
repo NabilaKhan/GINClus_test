@@ -1,3 +1,4 @@
+B1	B5	GTP-G	upward
 B1	C6	G-C	W/W	cis
 B5	B6	G-C	upward
 B5	C5	G-C	W/W	cis
@@ -97,6 +98,7 @@ B47	B138	A-G	outward
 B48	B49	A-A	upward
 B48	B96	A-C	S/S	cis
 B48	B97	A-A	outward
+B49	B50	A-U	upward
 B49	B95	A-C	S/S	cis
 B49	B123	A-G	S/S	trans
 B51	B52	U-C	upward
@@ -138,6 +140,7 @@ B63	B80	A-U	inward
 B63	B81	A-A	outward
 B64	B65	A-G	upward
 B64	B81	A-A	outward
+B64	B190	A-A23	outward
 B65	B66	G-C	upward
 B65	B80	G-U	W/W	cis
 B66	B67	C-G	upward
@@ -331,6 +334,7 @@ B188	C193	C-G	W/W	cis
 B189	C191	G-A	inward
 B189	C192	G-A	S/H	trans
 B189	C193	G-G	outward
+B190	C191	A23-A	upward
 B1001	B1002	C-C	upward
 B1001	B1014	C-G	W/W	cis
 B1002	B1003	C-A	upward
@@ -343,7 +347,9 @@ B1008	B1009	A-C	upward
 B1010	B1011	U-C	upward
 B1011	B1012	C-C	upward
 B1013	B1014	G-G	upward
+B1014	B112	G-C	upward
 C1	C2	A-C	upward
+C1	D1	A-5MU	downward
 C2	C3	C-G	upward
 C3	C4	G-G	upward
 C4	C5	G-C	upward
@@ -361,3 +367,4 @@ C201	C202	A-A	upward
 C202	C203	A-C	upward
 C203	C204	C-C	upward
 C204	C205	C-A	inward
+D2	D1	A-5MU	upward

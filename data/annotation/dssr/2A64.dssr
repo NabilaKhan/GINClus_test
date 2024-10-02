@@ -1,4 +1,14 @@
 ****************************************************************************
+                DSSR: an Integrated Software Tool for
+               Dissecting the Spatial Structure of RNA
+               v1.7.8-2018sep01, by xiangjun@x3dna.org
+
+   This program is being actively maintained and developed. As always,
+   I greatly appreciate your feedback! Please report all DSSR-related
+   issues on the 3DNA Forum (forum.x3dna.org). I strive to respond
+   *promptly* to *any questions* posted there.
+
+****************************************************************************
 Note: By default, each nucleotide is identified by chainId.name#. So a
       common case would be B.A1689, meaning adenosine #1689 on chain B.
       One-letter base names for modified nucleotides are put in lower
@@ -6,8 +16,9 @@ Note: By default, each nucleotide is identified by chainId.name#. So a
       notation, please refer to the DSSR User Manual.
     Questions and suggestions are *always* welcome on the 3DNA Forum.
 
-Command: x3dna-dssr -i=2a64.pdb -o=2a64.out
-File name: 2a64.pdb
+Command: x3dna-dssr -i=/media/nabila/DATA/GINClus_test/data/pdbx/2A64.cif --format=mmcif --non-pair -o=/media/nabila/DATA/GINClus_test/data/annotation/dssr/2A64.dssr
+Date and time: Tue Oct  1 19:45:23 2024
+File name: 2A64.cif
     no. of DNA/RNA chains: 1 [A=298]
     no. of nucleotides:    298
     no. of atoms:          6383
@@ -15,7 +26,7 @@ File name: 2a64.pdb
     no. of metals:         0
 
 ****************************************************************************
-List of 138 base pairs
+List of 137 base pairs
      nt1            nt2            bp  name        Saenger   LW   DSSR
    1 A.U3           A.A412         U-A WC          20-XX     cWW  cW-W
    2 A.A4           A.U411         A-U WC          20-XX     cWW  cW-W
@@ -29,7 +40,7 @@ List of 138 base pairs
   10 A.U12          A.A403         U-A WC          20-XX     cWW  cW-W
   11 A.C13          A.G402         C-G WC          19-XIX    cWW  cW-W
   12 A.G14          A.U400         G-U Wobble      28-XXVIII cWW  cW-W
-  13 A.G14          A.A401         G-A --          --        tSH  tm-M
+  13 A.G14          A.A401         G-A --          n/a       tSH  tm-M
   14 A.G15          A.C344         G-C WC          19-XIX    cWW  cW-W
   15 A.G16          A.C343         G-C WC          19-XIX    cWW  cW-W
   16 A.U17          A.A342         U-A WC          20-XX     cWW  cW-W
@@ -47,129 +58,127 @@ List of 138 base pairs
   28 A.C30          A.G37          C-G WC          19-XIX    cWW  cW-W
   29 A.G31          A.C36          G-C WC          19-XIX    cWW  cW-W
   30 A.G46          A.C386         G-C WC          19-XIX    cWW  cW-W
-  31 A.G47          A.A385         G+A --          --        cHW  cM+W
+  31 A.G47          A.A385         G+A --          n/a       cHW  cM+W
   32 A.A48          A.U398         A-U rHoogsteen  24-XXIV   tHW  tM-W
-  33 A.A49          A.A387         A+A --          --        tWS  tW+m
+  33 A.A49          A.A387         A+A --          n/a       tWS  tW+m
   34 A.A50          A.U397         A-U WC          20-XX     cWW  cW-W
   35 A.G51          A.C396         G-C WC          19-XIX    cWW  cW-W
   36 A.C53          A.G395         C-G WC          19-XIX    cWW  cW-W
   37 A.C54          A.G394         C-G WC          19-XIX    cWW  cW-W
   38 A.A55          A.U393         A-U WC          20-XX     cWW  cW-W
-  39 A.U56          A.A100         U+A --          --        tSW  tm+W
-  40 A.U56          A.A392         U-A WC          20-XX     cWW  cW-W
-  41 A.G57          A.C391         G-C WC          19-XIX    cWW  cW-W
-  42 A.C58          A.G254         C-G WC          19-XIX    cWW  cW-W
-  43 A.U59          A.A253         U-A WC          20-XX     cWW  cW-W
-  44 A.C60          A.G252         C-G WC          19-XIX    cWW  cW-W
-  45 A.G61          A.C251         G-C WC          19-XIX    cWW  cW-W
-  46 A.C62          A.G250         C-G WC          19-XIX    cWW  cW-W
-  47 A.A63          A.U81          A-U WC          20-XX     cWW  cW-W
-  48 A.A63          A.G83          A-G --          --        tS.  tm-.
-  49 A.C64          A.G80          C-G WC          19-XIX    cWW  cW-W
-  50 A.G65          A.C79          G-C WC          19-XIX    cWW  cW-W
-  51 A.G66          A.C78          G-C WC          19-XIX    cWW  cW-W
-  52 A.G68          A.C77          G-C WC          19-XIX    cWW  cW-W
-  53 A.C69          A.G76          C-G WC          19-XIX    cWW  cW-W
-  54 A.U70          A.A74          U-A rHoogsteen  24-XXIV   tWH  tW-M
-  55 A.G71          A.A291         G+A --          10-X      tSW  tm+W
-  56 A.A72          A.U293         A+U --          --        cH.  cM+.
-  57 A.G73          A.U75          G+U --          --        cWH  cW+M
-  58 A.G73          A.G294         G+G --          --        t.W  t.+W
-  59 A.A74          A.A290         A-A --          --        cWS  cW-m
-  60 A.G76          A.A296         G+A --          --        tSS  tm+m
-  61 A.U81          A.G250         U+G --          --        cWH  cW+M
-  62 A.U87          A.A249         U-A WC          20-XX     cWW  cW-W
-  63 A.C88          A.G248         C-G WC          19-XIX    cWW  cW-W
-  64 A.G89          A.C247         G-C WC          19-XIX    cWW  cW-W
-  65 A.U90          A.A246         U-A WC          20-XX     cWW  cW-W
-  66 A.U90          A.C247         U-C --          --        cWW  cW-W
-  67 A.G91          A.C245         G-C WC          19-XIX    cWW  cW-W
-  68 A.C92          A.G113         C-G WC          19-XIX    cWW  cW-W
-  69 A.C92          A.C138         C+C --          --        cHW  cM+W
-  70 A.C93          A.G112         C-G WC          19-XIX    cWW  cW-W
-  71 A.U94          A.A111         U-A WC          20-XX     cWW  cW-W
-  72 A.A95          A.U110         A-U WC          20-XX     cWW  cW-W
-  73 A.G96          A.C109         G-C WC          19-XIX    cWW  cW-W
-  74 A.C97          A.G108         C-G WC          19-XIX    cWW  cW-W
-  75 A.G98          A.A107         G-A Sheared     11-XI     tSH  tm-M
-  76 A.A99          A.U393         A-U --          --        cSS  cm-m
-  77 A.U101         A.C103         U+C --          --        tWH  tW+M
-  78 A.A107         A.G394         A+G Linker      --        tSS  tm+m
-  79 A.G114         A.C138         G-C WC          19-XIX    cWW  cW-W
-  80 A.C115         A.G136         C-G WC          19-XIX    cWW  cW-W
-  81 A.A116         A.U135         A-U WC          20-XX     cWW  cW-W
-  82 A.G117         A.C134         G-C WC          19-XIX    cWW  cW-W
-  83 A.C118         A.G133         C-G WC          19-XIX    cWW  cW-W
-  84 A.C119         A.G132         C-G WC          19-XIX    cWW  cW-W
-  85 A.G139         A.A188         G+A Linker      --        tSS  tm+m
-  86 A.G139         A.C244         G-C WC          19-XIX    cWW  cW-W
-  87 A.G140         A.C243         G-C WC          19-XIX    cWW  cW-W
-  88 A.C141         A.G192         C+G --          --        tWW  tW+W
-  89 A.G142         A.C184         G-C WC          19-XIX    cWW  cW-W
-  90 A.G143         A.C183         G-C WC          19-XIX    cWW  cW-W
-  91 A.G144         A.C182         G-C WC          19-XIX    cWW  cW-W
-  92 A.U185         A.A189         U+A --          --        tWW  tW+W
-  93 A.G190         A.C242         G-C WC          19-XIX    cWW  cW-W
-  94 A.U191         A.A241         U-A WC          20-XX     cWW  cW-W
-  95 A.G192         A.G237         G-G --          --        cWW  cW-W
-  96 A.C193         A.G237         C-G WC          19-XIX    cWW  cW-W
-  97 A.C194         A.G236         C-G WC          19-XIX    cWW  cW-W
-  98 A.U238         A.A241         U+A --          --        cWH  cW+M
-  99 A.G254         A.A257         G-A --          --        cSS  cm-m
- 100 A.A257         A.G275         A-G Sheared     11-XI     tHS  tM-m
- 101 A.C258         A.G274         C-G WC          19-XIX    cWW  cW-W
- 102 A.C259         A.G273         C-G WC          19-XIX    cWW  cW-W
- 103 A.C260         A.G272         C-G WC          19-XIX    cWW  cW-W
- 104 A.A262         A.A271         A-A ~Sheared    --        tSH  tm-M
- 105 A.C276         A.U333         C+U --          --        tWW  tW+W
- 106 A.C278         A.G307         C-G WC          19-XIX    cWW  cW-W
- 107 A.C279         A.G306         C-G WC          19-XIX    cWW  cW-W
- 108 A.U280         A.A305         U-A WC          20-XX     cWW  cW-W
- 109 A.U281         A.A304         U-A WC          20-XX     cWW  cW-W
- 110 A.C282         A.G303         C-G WC          19-XIX    cWW  cW-W
- 111 A.C283         A.G302         C-G WC          19-XIX    cWW  cW-W
- 112 A.C284         A.G301         C-G WC          19-XIX    cWW  cW-W
- 113 A.G285         A.A300         G-A Sheared     11-XI     tSH  tm-M
- 114 A.A287         A.G298         A-G Sheared     11-XI     tHS  tM-m
- 115 A.G288         A.C297         G-C WC          19-XIX    cWW  cW-W
- 116 A.G289         A.A296         G-A Sheared     11-XI     tSH  tm-M
- 117 A.A291         A.G294         A-G --          --        tHW  tM-W
- 118 A.A291         A.A295         A-A --          05-V      tHW  tM-W
- 119 A.A308         A.U329         A-U WC          20-XX     cWW  cW-W
- 120 A.C309         A.G328         C-G WC          19-XIX    cWW  cW-W
- 121 A.A310         A.U327         A-U WC          20-XX     cWW  cW-W
- 122 A.G311         A.C326         G-C WC          19-XIX    cWW  cW-W
- 123 A.G312         A.C325         G-C WC          19-XIX    cWW  cW-W
- 124 A.C313         A.G324         C-G WC          19-XIX    cWW  cW-W
- 125 A.G314         A.A323         G-A --          --        tSH  tm-M
- 126 A.U320         A.G321         U+G Platform    --        cWH  cW+M
- 127 A.A330         A.A336         A-A --          --        cSW  cm-W
- 128 A.G331         A.A390         G+A Linker      --        tSS  tm+m
- 129 A.U337         A.A389         U-A rHoogsteen  24-XXIV   tWH  tW-M
- 130 A.G345         A.U384         G-U --          --        cWW  cW-W
- 131 A.C346         A.G383         C-G WC          19-XIX    cWW  cW-W
- 132 A.C347         A.G382         C-G WC          19-XIX    cWW  cW-W
- 133 A.G348         A.A381         G-A Sheared     11-XI     tSH  tm-M
- 134 A.G349         A.A380         G-A Sheared     11-XI     tSH  tm-M
- 135 A.G351         A.C378         G-C WC          19-XIX    cWW  cW-W
- 136 A.U352         A.A377         U-A --          --        cWW  cW-W
- 137 A.A353         A.U376         A-U WC          20-XX     cWW  cW-W
- 138 A.C354         A.G375         C-G WC          19-XIX    cWW  cW-W
+  39 A.U56          A.A392         U-A WC          20-XX     cWW  cW-W
+  40 A.G57          A.C391         G-C WC          19-XIX    cWW  cW-W
+  41 A.C58          A.G254         C-G WC          19-XIX    cWW  cW-W
+  42 A.U59          A.A253         U-A WC          20-XX     cWW  cW-W
+  43 A.C60          A.G252         C-G WC          19-XIX    cWW  cW-W
+  44 A.G61          A.C251         G-C WC          19-XIX    cWW  cW-W
+  45 A.C62          A.G250         C-G WC          19-XIX    cWW  cW-W
+  46 A.A63          A.U81          A-U WC          20-XX     cWW  cW-W
+  47 A.A63          A.G83          A-G --          n/a       tS.  tm-.
+  48 A.C64          A.G80          C-G WC          19-XIX    cWW  cW-W
+  49 A.G65          A.C79          G-C WC          19-XIX    cWW  cW-W
+  50 A.G66          A.C78          G-C WC          19-XIX    cWW  cW-W
+  51 A.G68          A.C77          G-C WC          19-XIX    cWW  cW-W
+  52 A.C69          A.G76          C-G WC          19-XIX    cWW  cW-W
+  53 A.U70          A.A74          U-A --          n/a       tWH  tW-M
+  54 A.G71          A.A291         G+A --          10-X      tSW  tm+W
+  55 A.A72          A.U293         A+U --          n/a       cH.  cM+.
+  56 A.G73          A.U75          G+U --          n/a       cWH  cW+M
+  57 A.G73          A.G294         G+G --          n/a       t.W  t.+W
+  58 A.A74          A.A290         A-A --          n/a       cWS  cW-m
+  59 A.G76          A.A296         G+A --          n/a       tSS  tm+m
+  60 A.U81          A.G250         U+G --          n/a       cWH  cW+M
+  61 A.U87          A.A249         U-A WC          20-XX     cWW  cW-W
+  62 A.C88          A.G248         C-G WC          19-XIX    cWW  cW-W
+  63 A.G89          A.C247         G-C WC          19-XIX    cWW  cW-W
+  64 A.U90          A.A246         U-A WC          20-XX     cWW  cW-W
+  65 A.U90          A.C247         U-C --          n/a       cWW  cW-W
+  66 A.G91          A.C245         G-C WC          19-XIX    cWW  cW-W
+  67 A.C92          A.G113         C-G WC          19-XIX    cWW  cW-W
+  68 A.C92          A.C138         C+C --          n/a       cHW  cM+W
+  69 A.C93          A.G112         C-G WC          19-XIX    cWW  cW-W
+  70 A.U94          A.A111         U-A WC          20-XX     cWW  cW-W
+  71 A.A95          A.U110         A-U WC          20-XX     cWW  cW-W
+  72 A.G96          A.C109         G-C WC          19-XIX    cWW  cW-W
+  73 A.C97          A.G108         C-G WC          19-XIX    cWW  cW-W
+  74 A.G98          A.A107         G-A Sheared     11-XI     tSH  tm-M
+  75 A.A99          A.U393         A-U --          n/a       cSS  cm-m
+  76 A.U101         A.C103         U+C --          n/a       tWH  tW+M
+  77 A.A107         A.G394         A+G Linker      n/a       tSS  tm+m
+  78 A.G114         A.C138         G-C WC          19-XIX    cWW  cW-W
+  79 A.C115         A.G136         C-G WC          19-XIX    cWW  cW-W
+  80 A.A116         A.U135         A-U WC          20-XX     cWW  cW-W
+  81 A.G117         A.C134         G-C WC          19-XIX    cWW  cW-W
+  82 A.C118         A.G133         C-G WC          19-XIX    cWW  cW-W
+  83 A.C119         A.G132         C-G WC          19-XIX    cWW  cW-W
+  84 A.G139         A.A188         G+A Linker      n/a       tSS  tm+m
+  85 A.G139         A.C244         G-C WC          19-XIX    cWW  cW-W
+  86 A.G140         A.C243         G-C WC          19-XIX    cWW  cW-W
+  87 A.C141         A.G192         C+G --          n/a       tWW  tW+W
+  88 A.G142         A.C184         G-C WC          19-XIX    cWW  cW-W
+  89 A.G143         A.C183         G-C WC          19-XIX    cWW  cW-W
+  90 A.G144         A.C182         G-C WC          19-XIX    cWW  cW-W
+  91 A.U185         A.A189         U+A --          n/a       tWW  tW+W
+  92 A.G190         A.C242         G-C WC          19-XIX    cWW  cW-W
+  93 A.U191         A.A241         U-A WC          20-XX     cWW  cW-W
+  94 A.G192         A.G237         G-G --          n/a       cWW  cW-W
+  95 A.C193         A.G237         C-G WC          19-XIX    cWW  cW-W
+  96 A.C194         A.G236         C-G WC          19-XIX    cWW  cW-W
+  97 A.U238         A.A241         U+A --          n/a       cWH  cW+M
+  98 A.G254         A.A257         G-A --          n/a       cSS  cm-m
+  99 A.A257         A.G275         A-G Sheared     11-XI     tHS  tM-m
+ 100 A.C258         A.G274         C-G WC          19-XIX    cWW  cW-W
+ 101 A.C259         A.G273         C-G WC          19-XIX    cWW  cW-W
+ 102 A.C260         A.G272         C-G WC          19-XIX    cWW  cW-W
+ 103 A.A262         A.A271         A-A ~Sheared    n/a       tSH  tm-M
+ 104 A.C276         A.U333         C+U --          n/a       tWW  tW+W
+ 105 A.C278         A.G307         C-G WC          19-XIX    cWW  cW-W
+ 106 A.C279         A.G306         C-G WC          19-XIX    cWW  cW-W
+ 107 A.U280         A.A305         U-A WC          20-XX     cWW  cW-W
+ 108 A.U281         A.A304         U-A WC          20-XX     cWW  cW-W
+ 109 A.C282         A.G303         C-G WC          19-XIX    cWW  cW-W
+ 110 A.C283         A.G302         C-G WC          19-XIX    cWW  cW-W
+ 111 A.C284         A.G301         C-G WC          19-XIX    cWW  cW-W
+ 112 A.G285         A.A300         G-A Sheared     11-XI     tSH  tm-M
+ 113 A.A287         A.G298         A-G Sheared     11-XI     tHS  tM-m
+ 114 A.G288         A.C297         G-C WC          19-XIX    cWW  cW-W
+ 115 A.G289         A.A296         G-A Sheared     11-XI     tSH  tm-M
+ 116 A.A291         A.G294         A-G --          n/a       tHW  tM-W
+ 117 A.A291         A.A295         A-A --          05-V      tHW  tM-W
+ 118 A.A308         A.U329         A-U WC          20-XX     cWW  cW-W
+ 119 A.C309         A.G328         C-G WC          19-XIX    cWW  cW-W
+ 120 A.A310         A.U327         A-U WC          20-XX     cWW  cW-W
+ 121 A.G311         A.C326         G-C WC          19-XIX    cWW  cW-W
+ 122 A.G312         A.C325         G-C WC          19-XIX    cWW  cW-W
+ 123 A.C313         A.G324         C-G WC          19-XIX    cWW  cW-W
+ 124 A.G314         A.A323         G-A --          n/a       tSH  tm-M
+ 125 A.U320         A.G321         U+G Platform    n/a       cWH  cW+M
+ 126 A.A330         A.A336         A-A --          n/a       cSW  cm-W
+ 127 A.G331         A.A390         G+A Linker      n/a       tSS  tm+m
+ 128 A.U337         A.A389         U-A rHoogsteen  24-XXIV   tWH  tW-M
+ 129 A.G345         A.U384         G-U --          n/a       cWW  cW-W
+ 130 A.C346         A.G383         C-G WC          19-XIX    cWW  cW-W
+ 131 A.C347         A.G382         C-G WC          19-XIX    cWW  cW-W
+ 132 A.G348         A.A381         G-A Sheared     11-XI     tSH  tm-M
+ 133 A.G349         A.A380         G-A Sheared     11-XI     tSH  tm-M
+ 134 A.G351         A.C378         G-C WC          19-XIX    cWW  cW-W
+ 135 A.U352         A.A377         U-A --          n/a       cWW  cW-W
+ 136 A.A353         A.U376         A-U WC          20-XX     cWW  cW-W
+ 137 A.C354         A.G375         C-G WC          19-XIX    cWW  cW-W
 
 ****************************************************************************
-List of 12 multiplets
+List of 11 multiplets
    1 nts=3 GUA A.G14,A.U400,A.A401
    2 nts=3 AAU A.A55,A.A99,A.U393
-   3 nts=3 UAA A.U56,A.A100,A.A392
-   4 nts=3 CUG A.C62,A.U81,A.G250
-   5 nts=3 AUG A.A63,A.U81,A.G83
-   6 nts=3 UAA A.U70,A.A74,A.A290
-   7 nts=3 GAA A.G71,A.A291,A.A295
-   8 nts=3 CGC A.C92,A.G113,A.C138
-   9 nts=3 GAC A.G139,A.A188,A.C244
-  10 nts=3 UUA A.U191,A.U238,A.A241
-  11 nts=4 CGAG A.C54,A.G98,A.A107,A.G394
-  12 nts=4 CGAG A.C58,A.G254,A.A257,A.G275
+   3 nts=3 CUG A.C62,A.U81,A.G250
+   4 nts=3 AUG A.A63,A.U81,A.G83
+   5 nts=3 UAA A.U70,A.A74,A.A290
+   6 nts=3 GAA A.G71,A.A291,A.A295
+   7 nts=3 CGC A.C92,A.G113,A.C138
+   8 nts=3 GAC A.G139,A.A188,A.C244
+   9 nts=3 UUA A.U191,A.U238,A.A241
+  10 nts=4 CGAG A.C54,A.G98,A.A107,A.G394
+  11 nts=4 CGAG A.C58,A.G254,A.A257,A.G275
 
 ****************************************************************************
 List of 7 helices
@@ -200,18 +209,18 @@ List of 7 helices
   10 A.U12          A.A403         U-A WC           20-XX     cWW  cW-W
   11 A.C13          A.G402         C-G WC           19-XIX    cWW  cW-W
   12 A.G14          A.U400         G-U Wobble       28-XXVIII cWW  cW-W
-  13 A.A385         A.G47          A+G --           --        cWH  cW+M
+  13 A.A385         A.G47          A+G --           n/a       cWH  cW+M
   14 A.C386         A.G46          C-G WC           19-XIX    cWW  cW-W
-  15 A.A49          A.A387         A+A --           --        tWS  tW+m
+  15 A.A49          A.A387         A+A --           n/a       tWS  tW+m
   16 A.A389         A.U337         A-U rHoogsteen   24-XXIV   tHW  tM-W
-  17 A.A330         A.A336         A-A --           --        cSW  cm-W
-  18 A.A390         A.G331         A+G Linker       --        tSS  tm+m
-  19 A.U333         A.C276         U+C --           --        tWW  tW+W
+  17 A.A330         A.A336         A-A --           n/a       cSW  cm-W
+  18 A.A390         A.G331         A+G Linker       n/a       tSS  tm+m
+  19 A.U333         A.C276         U+C --           n/a       tWW  tW+W
   20 A.A257         A.G275         A-G Sheared      11-XI     tHS  tM-m
   21 A.C258         A.G274         C-G WC           19-XIX    cWW  cW-W
   22 A.C259         A.G273         C-G WC           19-XIX    cWW  cW-W
   23 A.C260         A.G272         C-G WC           19-XIX    cWW  cW-W
-  24 A.A262         A.A271         A-A ~Sheared     --        tSH  tm-M
+  24 A.A262         A.A271         A-A ~Sheared     n/a       tSH  tm-M
   --------------------------------------------------------------------------
   helix#2[4] bps=25
       strand-1 5'-CGGCCGUAGGAUUACCGCCGGGUAC-3'
@@ -234,13 +243,13 @@ List of 7 helices
   14 A.A342         A.U17          A-U WC           20-XX     cWW  cW-W
   15 A.C343         A.G16          C-G WC           19-XIX    cWW  cW-W
   16 A.C344         A.G15          C-G WC           19-XIX    cWW  cW-W
-  17 A.G345         A.U384         G-U --           --        cWW  cW-W
+  17 A.G345         A.U384         G-U --           n/a       cWW  cW-W
   18 A.C346         A.G383         C-G WC           19-XIX    cWW  cW-W
   19 A.C347         A.G382         C-G WC           19-XIX    cWW  cW-W
   20 A.G348         A.A381         G-A Sheared      11-XI     tSH  tm-M
   21 A.G349         A.A380         G-A Sheared      11-XI     tSH  tm-M
   22 A.G351         A.C378         G-C WC           19-XIX    cWW  cW-W
-  23 A.U352         A.A377         U-A --           --        cWW  cW-W
+  23 A.U352         A.A377         U-A --           n/a       cWW  cW-W
   24 A.A353         A.U376         A-U WC           20-XX     cWW  cW-W
   25 A.C354         A.G375         C-G WC           19-XIX    cWW  cW-W
   --------------------------------------------------------------------------
@@ -268,7 +277,7 @@ List of 7 helices
   17 A.G66          A.C78          G-C WC           19-XIX    cWW  cW-W
   18 A.G68          A.C77          G-C WC           19-XIX    cWW  cW-W
   19 A.C69          A.G76          C-G WC           19-XIX    cWW  cW-W
-  20 A.U70          A.A74          U-A rHoogsteen   24-XXIV   tWH  tW-M
+  20 A.U70          A.A74          U-A --           n/a       tWH  tW-M
   21 A.A295         A.A291         A-A --           05-V      tWH  tW-M
   --------------------------------------------------------------------------
   helix#4[4] bps=12
@@ -285,7 +294,7 @@ List of 7 helices
    7 A.G140         A.C243         G-C WC           19-XIX    cWW  cW-W
    8 A.G190         A.C242         G-C WC           19-XIX    cWW  cW-W
    9 A.U191         A.A241         U-A WC           20-XX     cWW  cW-W
-  10 A.G192         A.C141         G+C --           --        tWW  tW+W
+  10 A.G192         A.C141         G+C --           n/a       tWW  tW+W
   11 A.C193         A.G237         C-G WC           19-XIX    cWW  cW-W
   12 A.C194         A.G236         C-G WC           19-XIX    cWW  cW-W
   --------------------------------------------------------------------------
@@ -316,7 +325,7 @@ List of 7 helices
    1 A.C182         A.G144         C-G WC           19-XIX    cWW  cW-W
    2 A.C183         A.G143         C-G WC           19-XIX    cWW  cW-W
    3 A.C184         A.G142         C-G WC           19-XIX    cWW  cW-W
-   4 A.U185         A.A189         U+A --           --        tWW  tW+W
+   4 A.U185         A.A189         U+A --           n/a       tWW  tW+W
   --------------------------------------------------------------------------
   helix#7[2] bps=18
       strand-1 5'-ACGAGGGAAGGACAGGCG-3'
@@ -340,7 +349,7 @@ List of 7 helices
   15 A.G311         A.C326         G-C WC           19-XIX    cWW  cW-W
   16 A.G312         A.C325         G-C WC           19-XIX    cWW  cW-W
   17 A.C313         A.G324         C-G WC           19-XIX    cWW  cW-W
-  18 A.G314         A.A323         G-A --           --        tSH  tm-M
+  18 A.G314         A.A323         G-A --           n/a       tSH  tm-M
 
 ****************************************************************************
 List of 20 stems
@@ -580,7 +589,363 @@ List of 6 coaxial stacks
    6 Helix#7 contains 2 stems: [#17,#18]
 
 ****************************************************************************
-List of 44 base stacks
+List of 353 non-pairing interactions
+   1 A.G1   A.U2   stacking: 6.2(2.6)--pm(>>,forward) interBase-angle=55 connected min_baseDist=3.72
+   2 A.G1   A.C414 interBase-angle=47 H-bonds[2]: "N1(imino)-N3[2.98],N2(amino)-O2(carbonyl)[2.88]" min_baseDist=2.88
+   3 A.U2   A.U3   interBase-angle=3 H-bonds[1]: "O2'(hydroxyl)-O4'[3.19]" connected min_baseDist=3.39
+   4 A.U2   A.A413 interBase-angle=28 H-bonds[1]: "O4(carbonyl)-N6(amino)[3.03]" min_baseDist=2.88
+   5 A.U3   A.A4   stacking: 0.2(0.0)--pm(>>,forward) interBase-angle=23 H-bonds[1]: "O2'(hydroxyl)-O4'[2.79]" connected min_baseDist=3.19
+   6 A.A4   A.A5   stacking: 6.4(4.7)--pm(>>,forward) interBase-angle=18 connected min_baseDist=3.27
+   7 A.A5   A.U6   stacking: 5.1(3.9)--pm(>>,forward) interBase-angle=10 connected min_baseDist=3.53
+   8 A.A8   A.U9   stacking: 5.1(2.5)--pm(>>,forward) interBase-angle=14 connected min_baseDist=3.35
+   9 A.A8   A.A406 interBase-angle=28 H-bonds[1]: "N6(amino)*N6(amino)[2.83]" min_baseDist=2.83
+  10 A.A8   A.G408 stacking: 3.4(1.8)--mm(<>,outward) interBase-angle=9 min_baseDist=3.48
+  11 A.U9   A.G10  stacking: 0.1(0.0)--pm(>>,forward) interBase-angle=20 connected min_baseDist=2.99
+  12 A.G10  A.C11  stacking: 7.0(3.9)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.12
+  13 A.G10  A.A406 stacking: 2.9(1.6)--mm(<>,outward) interBase-angle=10 min_baseDist=3.48
+  14 A.C11  A.U12  stacking: 0.4(0.0)--pm(>>,forward) interBase-angle=30 connected min_baseDist=3.12
+  15 A.U12  A.G404 stacking: 0.1(0.0)--mm(<>,outward) interBase-angle=16 min_baseDist=3.57
+  16 A.C13  A.G14  stacking: 0.5(0.2)--pm(>>,forward) interBase-angle=22 connected min_baseDist=3.26
+  17 A.G14  A.G15  interBase-angle=43 H-bonds[1]: "O5'*OP1[3.06]" connected min_baseDist=9.76
+  18 A.G14  A.A385 stacking: 2.9(0.5)--pm(>>,forward) interBase-angle=27 min_baseDist=2.71
+  19 A.G14  A.G402 stacking: 1.4(0.0)--mm(<>,outward) interBase-angle=17 min_baseDist=3.66
+  20 A.G15  A.G16  stacking: 2.3(0.9)--pm(>>,forward) interBase-angle=21 connected min_baseDist=2.95
+  21 A.G15  A.G345 stacking: 2.6(0.7)--mm(<>,outward) interBase-angle=10 min_baseDist=3.06
+  22 A.G16  A.U17  stacking: 4.3(1.6)--pm(>>,forward) interBase-angle=7 connected min_baseDist=2.90
+  23 A.G16  A.C344 interBase-angle=38 H-bonds[1]: "O6(carbonyl)-N4(amino)[2.60]" min_baseDist=2.60
+  24 A.U17  A.A18  stacking: 0.1(0.0)--pm(>>,forward) interBase-angle=14 connected min_baseDist=3.03
+  25 A.A18  A.A19  stacking: 2.5(2.4)--pm(>>,forward) interBase-angle=7 connected min_baseDist=3.11
+  26 A.A18  A.A342 stacking: 1.3(1.0)--mm(<>,outward) interBase-angle=18 min_baseDist=2.70
+  27 A.A19  A.U20  stacking: 3.4(1.9)--pm(>>,forward) interBase-angle=10 H-bonds[1]: "O2'(hydroxyl)-O4'[3.14]" connected min_baseDist=3.15
+  28 A.U20  A.C21  stacking: 2.2(0.5)--pm(>>,forward) interBase-angle=15 connected min_baseDist=3.18
+  29 A.C21  A.G22  stacking: 0.5(0.0)--pm(>>,forward) interBase-angle=10 connected min_baseDist=3.65
+  30 A.G22  A.C23  stacking: 1.2(0.0)--pm(>>,forward) interBase-angle=15 connected min_baseDist=3.00
+  31 A.G22  A.G338 stacking: 4.3(1.4)--mm(<>,outward) interBase-angle=8 min_baseDist=2.95
+  32 A.C23  A.A336 interBase-angle=47 H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[2.74],O2(carbonyl)-O2'(hydroxyl)[2.61]" min_baseDist=5.23
+  33 A.U24  A.G25  interBase-angle=8 H-bonds[1]: "O2'(hydroxyl)-O4'[2.92]" connected min_baseDist=2.97
+  34 A.U24  A.G44  stacking: 1.2(0.0)--mm(<>,outward) interBase-angle=17 min_baseDist=3.27
+  35 A.U24  A.A336 interBase-angle=52 H-bonds[1]: "O4'-O2'(hydroxyl)[2.79]" min_baseDist=3.48
+  36 A.G25  A.C26  stacking: 6.7(3.5)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.06
+  37 A.G25  A.A43  stacking: 2.9(1.6)--mm(<>,outward) interBase-angle=11 min_baseDist=2.87
+  38 A.G25  A.G331 interBase-angle=51 H-bonds[1]: "O2'(hydroxyl)-O5'[3.51]" min_baseDist=9.27
+  39 A.G27  A.G28  stacking: 3.5(1.9)--pm(>>,forward) interBase-angle=5 connected min_baseDist=3.32
+  40 A.G27  A.G41  stacking: 4.8(2.0)--mm(<>,outward) interBase-angle=6 min_baseDist=2.92
+  41 A.G28  A.C29  stacking: 4.8(2.1)--pm(>>,forward) interBase-angle=16 connected min_baseDist=3.14
+  42 A.G28  A.C40  stacking: 0.8(0.0)--mm(<>,outward) interBase-angle=9 min_baseDist=2.84
+  43 A.C29  A.C30  stacking: 0.5(0.1)--pm(>>,forward) interBase-angle=10 connected min_baseDist=3.47
+  44 A.G31  A.G32  stacking: 4.0(1.3)--pm(>>,forward) interBase-angle=14 connected min_baseDist=3.69
+  45 A.G31  A.G37  stacking: 5.9(3.3)--mm(<>,outward) interBase-angle=29 min_baseDist=3.08
+  46 A.G32  A.U33  interBase-angle=59 H-bonds[1]: "O2'(hydroxyl)-O5'[3.18]" connected min_baseDist=6.70
+  47 A.U34  A.U35  stacking: 1.0(0.0)--pm(>>,forward) interBase-angle=14 connected min_baseDist=4.08
+  48 A.G37  A.G38  stacking: 4.8(2.6)--pm(>>,forward) interBase-angle=15 connected min_baseDist=2.92
+  49 A.G38  A.C39  stacking: 3.8(0.9)--pm(>>,forward) interBase-angle=28 connected min_baseDist=2.88
+  50 A.C40  A.G41  interBase-angle=9 H-bonds[1]: "O2'(hydroxyl)-O4'[2.99]" connected min_baseDist=3.28
+  51 A.G41  A.U42  stacking: 7.2(4.3)--pm(>>,forward) interBase-angle=12 connected min_baseDist=3.01
+  52 A.U42  A.A43  interBase-angle=21 H-bonds[1]: "O2'(hydroxyl)-O4'[3.46]" connected min_baseDist=3.30
+  53 A.A43  A.G44  stacking: 1.3(1.3)--pm(>>,forward) interBase-angle=13 connected min_baseDist=2.92
+  54 A.G44  A.A330 interBase-angle=11 H-bonds[1]: "O2'(hydroxyl)-O4'[3.58]" min_baseDist=7.34
+  55 A.G44  A.U337 interBase-angle=23 H-bonds[2]: "O2'(hydroxyl)-O2(carbonyl)[2.91],N2(amino)-O4'[2.22]" min_baseDist=4.18
+  56 A.G44  A.A389 interBase-angle=11 H-bonds[1]: "O2'(hydroxyl)-N6(amino)[2.50]" min_baseDist=6.03
+  57 A.A45  A.G46  interBase-angle=66 H-bonds[1]: "O2'(hydroxyl)-O4'[3.12]" connected min_baseDist=6.16
+  58 A.A45  A.U337 stacking: 5.0(4.3)--pp(><,inward) interBase-angle=37 H-bonds[1]: "OP2-O2'(hydroxyl)[3.48]" min_baseDist=2.65
+  59 A.A45  A.G388 stacking: 5.5(2.5)--mp(<<,backward) interBase-angle=6 min_baseDist=2.80
+  60 A.G46  A.G47  stacking: 6.0(2.4)--pp(><,inward) interBase-angle=20 connected min_baseDist=3.01
+  61 A.G46  A.A48  interBase-angle=49 H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[2.45],N2(amino)-N3[3.04]" min_baseDist=3.04
+  62 A.G46  A.A49  stacking: 2.6(0.3)--mm(<>,outward) interBase-angle=16 min_baseDist=3.37
+  63 A.G46  A.A385 interBase-angle=10 H-bonds[1]: "O6(carbonyl)-N6(amino)[2.66]" min_baseDist=2.66
+  64 A.A48  A.A50  stacking: 5.3(3.4)--pm(>>,forward) interBase-angle=10 min_baseDist=3.22
+  65 A.A48  A.A399 stacking: 5.4(2.8)--mm(<>,outward) interBase-angle=16 min_baseDist=3.07
+  66 A.A49  A.A50  interBase-angle=57 H-bonds[2]: "OP2-N6(amino)[3.50],O2'(hydroxyl)-OP1[2.98]" connected min_baseDist=3.74
+  67 A.A49  A.G388 interBase-angle=80 H-bonds[1]: "N1*N3[2.70]" min_baseDist=2.70
+  68 A.A49  A.A389 interBase-angle=75 H-bonds[1]: "O2'(hydroxyl)-O3'[2.51]" min_baseDist=5.00
+  69 A.A49  A.A390 interBase-angle=21 H-bonds[1]: "O2'(hydroxyl)-OP1[3.30]" min_baseDist=8.87
+  70 A.A50  A.G51  stacking: 1.6(1.6)--pm(>>,forward) interBase-angle=13 H-bonds[1]: "OP2*OP2[3.23]" connected min_baseDist=2.94
+  71 A.A50  A.A389 interBase-angle=28 H-bonds[1]: "OP1*OP1[3.02]" min_baseDist=11.12
+  72 A.A50  A.A390 interBase-angle=53 H-bonds[1]: "OP1*OP2[2.95]" min_baseDist=12.33
+  73 A.G51  A.U52  interBase-angle=62 H-bonds[1]: "O2'(hydroxyl)-O5'[2.96]" connected min_baseDist=9.51
+  74 A.G51  A.C53  stacking: 1.4(0.0)--pm(>>,forward) interBase-angle=24 min_baseDist=3.00
+  75 A.G51  A.U397 stacking: 0.1(0.0)--mm(<>,outward) interBase-angle=6 min_baseDist=2.99
+  76 A.U52  A.C53  interBase-angle=84 H-bonds[1]: "O2'(hydroxyl)-OP1[2.69]" connected min_baseDist=8.52
+  77 A.C54  A.A107 interBase-angle=35 H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[3.22],O2(carbonyl)-O2'(hydroxyl)[3.23]" min_baseDist=5.26
+  78 A.C54  A.G395 stacking: 1.7(0.1)--mm(<>,outward) interBase-angle=2 min_baseDist=3.19
+  79 A.A55  A.U56  stacking: 2.8(1.8)--pm(>>,forward) interBase-angle=4 connected min_baseDist=3.04
+  80 A.A55  A.A106 interBase-angle=50 H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[2.53],O2'(hydroxyl)-N3[2.99]" min_baseDist=3.85
+  81 A.A55  A.A107 interBase-angle=43 H-bonds[2]: "O4'-O2'(hydroxyl)[3.29],O2'(hydroxyl)-O4'[3.15]" min_baseDist=5.73
+  82 A.A55  A.G394 stacking: 3.9(2.5)--mm(<>,outward) interBase-angle=15 min_baseDist=3.15
+  83 A.U56  A.G57  interBase-angle=9 H-bonds[1]: "O2'(hydroxyl)-O4'[2.93]" connected min_baseDist=2.86
+  84 A.U56  A.A100 interBase-angle=36 H-bonds[1]: "O2'(hydroxyl)-N1[2.85]" min_baseDist=3.26
+  85 A.G57  A.C58  stacking: 7.5(3.9)--pm(>>,forward) interBase-angle=15 connected min_baseDist=3.19
+  86 A.G57  A.A255 interBase-angle=23 H-bonds[1]: "N1(imino)*N6(amino)[3.13]" min_baseDist=3.13
+  87 A.G57  A.A392 stacking: 3.6(2.1)--mm(<>,outward) interBase-angle=7 min_baseDist=3.33
+  88 A.U59  A.C60  stacking: 2.9(0.1)--pm(>>,forward) interBase-angle=12 H-bonds[1]: "O2'(hydroxyl)-O4'[3.12]" connected min_baseDist=3.35
+  89 A.U59  A.G254 stacking: 0.5(0.0)--mm(<>,outward) interBase-angle=9 min_baseDist=2.87
+  90 A.U59  A.A257 interBase-angle=6 H-bonds[1]: "O2(carbonyl)-O2'(hydroxyl)[2.96]" min_baseDist=3.80
+  91 A.U59  A.C258 interBase-angle=38 H-bonds[2]: "O2'(hydroxyl)-O4'[3.20],O2'(hydroxyl)-O2'(hydroxyl)[3.12]" min_baseDist=7.43
+  92 A.C60  A.G61  stacking: 1.1(0.2)--pm(>>,forward) interBase-angle=17 connected min_baseDist=3.94
+  93 A.G61  A.C62  stacking: 6.3(3.8)--pm(>>,forward) interBase-angle=17 connected min_baseDist=2.99
+  94 A.G61  A.G252 stacking: 4.1(1.3)--mm(<>,outward) interBase-angle=8 min_baseDist=3.24
+  95 A.A63  A.C64  stacking: 4.4(2.7)--pm(>>,forward) interBase-angle=7 H-bonds[1]: "O2'(hydroxyl)-O4'[2.94]" connected min_baseDist=3.28
+  96 A.A63  A.G250 stacking: 6.9(4.2)--mm(<>,outward) interBase-angle=11 min_baseDist=3.32
+  97 A.C64  A.G83  interBase-angle=60 H-bonds[1]: "O2(carbonyl)*O6(carbonyl)[3.07]" min_baseDist=3.07
+  98 A.G65  A.G66  stacking: 2.6(1.1)--pm(>>,forward) interBase-angle=17 connected min_baseDist=2.77
+  99 A.G65  A.G80  stacking: 4.4(1.6)--mm(<>,outward) interBase-angle=14 min_baseDist=2.79
+ 100 A.G66  A.G68  stacking: 0.7(0.0)--pm(>>,forward) interBase-angle=14 min_baseDist=3.05
+ 101 A.G66  A.C79  stacking: 1.1(0.0)--mm(<>,outward) interBase-angle=15 min_baseDist=3.45
+ 102 A.G68  A.C69  stacking: 2.8(0.9)--pm(>>,forward) interBase-angle=2 connected min_baseDist=3.20
+ 103 A.C69  A.U70  stacking: 0.9(0.0)--pm(>>,forward) interBase-angle=24 connected min_baseDist=3.10
+ 104 A.C69  A.A296 interBase-angle=48 H-bonds[1]: "O2(carbonyl)-O2'(hydroxyl)[3.36]" min_baseDist=5.60
+ 105 A.U70  A.G71  stacking: 5.4(2.4)--pm(>>,forward) interBase-angle=21 connected min_baseDist=3.51
+ 106 A.U70  A.A295 interBase-angle=9 H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[2.74],O2'(hydroxyl)-N3[2.60]" min_baseDist=2.74
+ 107 A.G71  A.A74  interBase-angle=34 H-bonds[1]: "N1(imino)-OP2[2.69]" min_baseDist=3.99
+ 108 A.G73  A.A291 stacking: 3.8(2.2)--pp(><,inward) interBase-angle=18 H-bonds[1]: "N2(amino)-O2'(hydroxyl)[3.06]" min_baseDist=3.13
+ 109 A.A74  A.U75  interBase-angle=76 H-bonds[1]: "O2'(hydroxyl)-O5'[2.92]" connected min_baseDist=4.63
+ 110 A.A74  A.G76  stacking: 5.3(3.3)--pm(>>,forward) interBase-angle=11 min_baseDist=3.00
+ 111 A.A74  A.A291 stacking: 5.1(3.7)--mm(<>,outward) interBase-angle=14 min_baseDist=3.03
+ 112 A.U75  A.A291 interBase-angle=63 H-bonds[1]: "O4(carbonyl)-O2'(hydroxyl)[3.38]" min_baseDist=3.55
+ 113 A.G76  A.C77  stacking: 6.5(3.3)--pm(>>,forward) interBase-angle=4 connected min_baseDist=3.32
+ 114 A.G76  A.A290 interBase-angle=26 H-bonds[1]: "O2'(hydroxyl)-O4'[3.02]" min_baseDist=5.07
+ 115 A.C77  A.C78  stacking: 3.0(1.2)--pm(>>,forward) interBase-angle=9 connected min_baseDist=2.95
+ 116 A.C77  A.C297 interBase-angle=48 H-bonds[1]: "O2'(hydroxyl)-O2'(hydroxyl)[2.58]" min_baseDist=7.81
+ 117 A.C78  A.C297 interBase-angle=53 H-bonds[1]: "O5'-O2'(hydroxyl)[3.14]" min_baseDist=9.50
+ 118 A.G80  A.U81  stacking: 5.0(2.3)--pm(>>,forward) interBase-angle=25 H-bonds[1]: "O2'(hydroxyl)-OP1[2.45]" connected min_baseDist=3.33
+ 119 A.A82  A.A249 interBase-angle=66 H-bonds[1]: "OP2*OP1[2.95]" min_baseDist=11.35
+ 120 A.A82  A.G250 interBase-angle=43 H-bonds[2]: "OP1*OP1[3.04],OP2*OP2[2.37]" min_baseDist=10.50
+ 121 A.G83  A.U84  interBase-angle=23 H-bonds[1]: "O2'(hydroxyl)-OP1[3.21]" connected min_baseDist=4.35
+ 122 A.G83  A.G250 interBase-angle=46 H-bonds[1]: "OP2*OP2[2.89]" min_baseDist=5.76
+ 123 A.U84  A.G85  stacking: 2.5(0.0)--pp(><,inward) interBase-angle=48 H-bonds[1]: "O2'(hydroxyl)-O5'[2.97]" connected min_baseDist=3.73
+ 124 A.G85  A.U86  stacking: 2.4(0.6)--mm(<>,outward) interBase-angle=34 connected min_baseDist=3.09
+ 125 A.U86  A.U87  interBase-angle=32 H-bonds[1]: "OP2*O4(carbonyl)[3.02]" connected min_baseDist=3.86
+ 126 A.C88  A.G89  stacking: 0.2(0.0)--pm(>>,forward) interBase-angle=21 H-bonds[1]: "O2'(hydroxyl)-O4'[2.87]" connected min_baseDist=2.99
+ 127 A.G89  A.U90  stacking: 4.5(2.4)--pm(>>,forward) interBase-angle=13 H-bonds[1]: "O2'(hydroxyl)-O4'[2.90]" connected min_baseDist=3.31
+ 128 A.G89  A.G248 stacking: 3.4(0.8)--mm(<>,outward) interBase-angle=20 min_baseDist=3.07
+ 129 A.U90  A.G91  stacking: 3.0(0.0)--pm(>>,forward) interBase-angle=17 connected min_baseDist=4.05
+ 130 A.G91  A.A246 stacking: 1.9(0.5)--mm(<>,outward) interBase-angle=14 min_baseDist=3.02
+ 131 A.C92  A.C93  stacking: 2.0(0.2)--pm(>>,forward) interBase-angle=12 H-bonds[1]: "O2'(hydroxyl)-O4'[2.70]" connected min_baseDist=3.11
+ 132 A.C92  A.G114 stacking: 0.9(0.0)--mm(<>,outward) interBase-angle=12 min_baseDist=3.02
+ 133 A.C92  A.G139 interBase-angle=29 H-bonds[1]: "OP2*OP2[2.55]" min_baseDist=12.72
+ 134 A.C93  A.U94  stacking: 1.3(0.3)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.10
+ 135 A.C93  A.G113 interBase-angle=25 H-bonds[1]: "N3-N1(imino)[3.23]" min_baseDist=3.06
+ 136 A.A95  A.G96  stacking: 4.1(3.0)--pm(>>,forward) interBase-angle=7 connected min_baseDist=3.20
+ 137 A.A95  A.A111 stacking: 1.4(1.0)--mm(<>,outward) interBase-angle=16 min_baseDist=3.01
+ 138 A.G96  A.C97  stacking: 4.9(2.1)--pm(>>,forward) interBase-angle=4 connected min_baseDist=3.10
+ 139 A.C97  A.G98  stacking: 2.0(1.0)--pm(>>,forward) interBase-angle=16 connected min_baseDist=3.87
+ 140 A.G98  A.A106 interBase-angle=12 H-bonds[1]: "O2'(hydroxyl)-N6(amino)[3.08]" min_baseDist=4.56
+ 141 A.G98  A.G108 stacking: 0.6(0.0)--mm(<>,outward) interBase-angle=10 H-bonds[1]: "O4'-N2(amino)[3.23]" min_baseDist=3.19
+ 142 A.A99  A.A100 stacking: 7.2(5.4)--pm(>>,forward) interBase-angle=17 connected min_baseDist=2.93
+ 143 A.A99  A.A106 stacking: 3.3(0.9)--mm(<>,outward) interBase-angle=11 min_baseDist=3.28
+ 144 A.A100 A.A392 interBase-angle=25 H-bonds[1]: "O2'(hydroxyl)-O2'(hydroxyl)[3.32]" min_baseDist=4.82
+ 145 A.A100 A.U393 interBase-angle=20 H-bonds[2]: "O4'-O2'(hydroxyl)[2.80],O2'(hydroxyl)-O4'[2.93]" min_baseDist=4.12
+ 146 A.U101 A.C102 interBase-angle=52 H-bonds[1]: "O2'(hydroxyl)-OP1[2.48]" connected min_baseDist=8.85
+ 147 A.U101 A.A104 interBase-angle=89 H-bonds[1]: "N3(imino)-N1[3.15]" min_baseDist=3.10
+ 148 A.C102 A.C103 interBase-angle=22 H-bonds[1]: "OP1*OP1[2.67]" connected min_baseDist=8.88
+ 149 A.C103 A.A104 stacking: 6.0(3.1)--pm(>>,forward) interBase-angle=49 connected min_baseDist=3.39
+ 150 A.A104 A.U105 stacking: 1.8(0.1)--pm(>>,forward) interBase-angle=34 connected min_baseDist=2.93
+ 151 A.A106 A.A107 stacking: 5.9(4.3)--pm(>>,forward) interBase-angle=8 H-bonds[1]: "O2'(hydroxyl)-O4'[2.82]" connected min_baseDist=3.25
+ 152 A.A106 A.G394 interBase-angle=51 H-bonds[1]: "N6(amino)-O2'(hydroxyl)[3.48]" min_baseDist=3.84
+ 153 A.A107 A.G108 stacking: 0.4(0.0)--pm(>>,forward) interBase-angle=14 connected min_baseDist=3.62
+ 154 A.G108 A.C109 stacking: 7.0(3.9)--pm(>>,forward) interBase-angle=15 connected min_baseDist=3.27
+ 155 A.G108 A.G395 interBase-angle=28 H-bonds[1]: "O2'(hydroxyl)-O3'[3.24]" min_baseDist=8.79
+ 156 A.C109 A.U110 stacking: 0.1(0.0)--pm(>>,forward) interBase-angle=10 H-bonds[1]: "O2'(hydroxyl)-O4'[3.09]" connected min_baseDist=3.55
+ 157 A.U110 A.A111 stacking: 1.3(0.3)--pm(>>,forward) interBase-angle=11 H-bonds[1]: "O2'(hydroxyl)-O4'[3.26]" connected min_baseDist=3.94
+ 158 A.A111 A.G112 stacking: 2.2(1.6)--pm(>>,forward) interBase-angle=24 connected min_baseDist=2.87
+ 159 A.G112 A.G113 stacking: 7.0(3.9)--pm(>>,forward) interBase-angle=21 connected min_baseDist=2.95
+ 160 A.G113 A.G114 stacking: 2.2(0.8)--pm(>>,forward) interBase-angle=24 H-bonds[1]: "O2'(hydroxyl)-O4'[3.06]" connected min_baseDist=3.52
+ 161 A.G114 A.C115 stacking: 6.9(3.3)--pm(>>,forward) interBase-angle=3 connected min_baseDist=3.46
+ 162 A.A116 A.G117 stacking: 0.2(0.2)--pm(>>,forward) interBase-angle=12 connected min_baseDist=3.33
+ 163 A.A116 A.G136 stacking: 6.4(4.0)--mm(<>,outward) interBase-angle=14 min_baseDist=3.62
+ 164 A.G117 A.C118 stacking: 5.6(2.7)--pm(>>,forward) interBase-angle=3 H-bonds[1]: "O2'(hydroxyl)-O4'[3.25]" connected min_baseDist=3.29
+ 165 A.G117 A.U135 stacking: 0.6(0.0)--mm(<>,outward) interBase-angle=18 min_baseDist=4.13
+ 166 A.C118 A.C119 stacking: 0.5(0.0)--pm(>>,forward) interBase-angle=5 connected min_baseDist=3.35
+ 167 A.C118 A.G132 interBase-angle=25 H-bonds[1]: "N4(amino)-O6(carbonyl)[3.53]" min_baseDist=3.53
+ 168 A.G132 A.G133 stacking: 4.8(2.7)--pm(>>,forward) interBase-angle=24 connected min_baseDist=3.09
+ 169 A.G133 A.C134 stacking: 5.5(3.1)--pm(>>,forward) interBase-angle=10 H-bonds[1]: "O2'(hydroxyl)-O4'[2.86]" connected min_baseDist=3.28
+ 170 A.C134 A.U135 stacking: 3.3(1.4)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.81
+ 171 A.G136 A.C138 interBase-angle=15 H-bonds[1]: "N2(amino)-O4'[3.59]" min_baseDist=2.97
+ 172 A.A137 A.C138 interBase-angle=31 H-bonds[1]: "O2'(hydroxyl)-OP2[3.15]" connected min_baseDist=9.91
+ 173 A.G139 A.G140 stacking: 5.1(3.5)--pm(>>,forward) interBase-angle=16 connected min_baseDist=3.18
+ 174 A.G139 A.A187 interBase-angle=53 H-bonds[1]: "O2'(hydroxyl)-N1[3.52]" min_baseDist=4.80
+ 175 A.G139 A.C243 interBase-angle=27 H-bonds[1]: "O6(carbonyl)-N4(amino)[3.49]" min_baseDist=3.49
+ 176 A.G139 A.C245 stacking: 7.0(3.2)--mm(<>,outward) interBase-angle=20 min_baseDist=3.30
+ 177 A.C141 A.U191 interBase-angle=31 H-bonds[1]: "O2(carbonyl)*O4(carbonyl)[3.11]" min_baseDist=3.11
+ 178 A.C141 A.G237 stacking: 0.2(0.0)--pp(><,inward) interBase-angle=36 min_baseDist=3.32
+ 179 A.C141 A.A239 stacking: 4.7(3.4)--mm(<>,outward) interBase-angle=10 min_baseDist=4.29
+ 180 A.G142 A.G143 stacking: 1.3(0.2)--pm(>>,forward) interBase-angle=28 connected min_baseDist=3.21
+ 181 A.G142 A.A189 stacking: 2.0(0.6)--mm(<>,outward) interBase-angle=15 min_baseDist=3.37
+ 182 A.G143 A.C184 stacking: 0.4(0.0)--mm(<>,outward) interBase-angle=29 min_baseDist=3.42
+ 183 A.G144 A.C183 stacking: 0.7(0.0)--mm(<>,outward) interBase-angle=5 min_baseDist=3.30
+ 184 A.C183 A.C184 stacking: 1.2(0.2)--pm(>>,forward) interBase-angle=16 connected min_baseDist=4.07
+ 185 A.U185 A.G186 stacking: 2.4(0.4)--pm(>>,forward) interBase-angle=10 connected min_baseDist=4.07
+ 186 A.G186 A.A189 interBase-angle=23 H-bonds[1]: "N2(amino)-OP2[2.56]" min_baseDist=3.17
+ 187 A.A187 A.A188 stacking: 6.7(4.9)--pm(>>,forward) interBase-angle=21 connected min_baseDist=3.25
+ 188 A.A187 A.C245 interBase-angle=49 H-bonds[1]: "N3-O2'(hydroxyl)[3.13]" min_baseDist=3.34
+ 189 A.A188 A.C244 interBase-angle=17 H-bonds[3]: "O3'-O2'(hydroxyl)[3.18],O2'(hydroxyl)-O2'(hydroxyl)[2.76],O2'(hydroxyl)-O2(carbonyl)[2.85]" min_baseDist=5.14
+ 190 A.A188 A.C245 interBase-angle=29 H-bonds[2]: "O4'-O2'(hydroxyl)[2.86],O2'(hydroxyl)-O4'[3.54]" min_baseDist=4.49
+ 191 A.A189 A.G190 interBase-angle=3 H-bonds[1]: "O2'(hydroxyl)-N7[3.32]" connected min_baseDist=6.79
+ 192 A.G190 A.U191 stacking: 4.8(2.0)--pm(>>,forward) interBase-angle=14 connected min_baseDist=3.29
+ 193 A.U191 A.G192 stacking: 0.7(0.1)--pm(>>,forward) interBase-angle=5 connected min_baseDist=3.26
+ 194 A.G192 A.C193 stacking: 6.6(3.4)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.33
+ 195 A.G192 A.A241 stacking: 1.6(0.2)--mm(<>,outward) interBase-angle=13 min_baseDist=3.24
+ 196 A.C193 A.C194 stacking: 1.4(0.0)--pm(>>,forward) interBase-angle=13 connected min_baseDist=3.32
+ 197 A.G236 A.G237 stacking: 2.5(1.1)--pm(>>,forward) interBase-angle=4 connected min_baseDist=3.37
+ 198 A.G237 A.U238 interBase-angle=13 H-bonds[1]: "O2'(hydroxyl)-O5'[2.98]" connected min_baseDist=3.89
+ 199 A.A239 A.A241 interBase-angle=33 H-bonds[1]: "O2'(hydroxyl)-OP1[2.54]" min_baseDist=3.51
+ 200 A.A241 A.C242 stacking: 3.5(1.9)--pm(>>,forward) interBase-angle=8 H-bonds[1]: "O2'(hydroxyl)-O4'[3.16]" connected min_baseDist=3.09
+ 201 A.C242 A.C243 stacking: 4.7(2.0)--pm(>>,forward) interBase-angle=13 connected min_baseDist=3.63
+ 202 A.C243 A.C244 stacking: 1.4(0.0)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.29
+ 203 A.C245 A.A246 stacking: 0.2(0.0)--pm(>>,forward) interBase-angle=24 connected min_baseDist=2.69
+ 204 A.A246 A.C247 stacking: 5.1(3.7)--pm(>>,forward) interBase-angle=15 connected min_baseDist=3.34
+ 205 A.C247 A.G248 stacking: 0.4(0.0)--pm(>>,forward) interBase-angle=28 connected min_baseDist=3.57
+ 206 A.G248 A.A249 stacking: 3.8(2.4)--pm(>>,forward) interBase-angle=16 connected min_baseDist=3.58
+ 207 A.A249 A.C251 interBase-angle=42 H-bonds[2]: "O2'(hydroxyl)-OP1[2.78],N3*OP1[2.45]" min_baseDist=8.00
+ 208 A.G250 A.C251 stacking: 7.1(4.4)--pm(>>,forward) interBase-angle=21 connected min_baseDist=2.88
+ 209 A.C251 A.G252 stacking: 0.2(0.0)--pm(>>,forward) interBase-angle=24 connected min_baseDist=2.91
+ 210 A.G252 A.A253 stacking: 5.1(2.8)--pm(>>,forward) interBase-angle=16 connected min_baseDist=3.07
+ 211 A.A253 A.G254 stacking: 3.5(3.2)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.81
+ 212 A.G254 A.A255 interBase-angle=8 H-bonds[1]: "O2'(hydroxyl)-O5'[2.41]" connected min_baseDist=3.83
+ 213 A.A255 A.A256 interBase-angle=65 H-bonds[1]: "OP1-O2'(hydroxyl)[2.88]" connected min_baseDist=9.19
+ 214 A.A255 A.A257 stacking: 4.0(2.6)--mm(<>,outward) interBase-angle=7 H-bonds[1]: "O5'*O4'[3.24]" min_baseDist=3.28
+ 215 A.A255 A.G275 interBase-angle=46 H-bonds[1]: "O3'-N1(imino)[3.40]" min_baseDist=4.14
+ 216 A.A255 A.C276 interBase-angle=36 H-bonds[1]: "O2'(hydroxyl)-N4(amino)[3.57]" min_baseDist=5.15
+ 217 A.A255 A.C391 stacking: 3.6(0.2)--pm(>>,forward) interBase-angle=12 min_baseDist=3.27
+ 218 A.C258 A.G275 stacking: 0.2(0.0)--mm(<>,outward) interBase-angle=11 min_baseDist=3.32
+ 219 A.C259 A.G274 stacking: 1.8(0.1)--mm(<>,outward) interBase-angle=11 min_baseDist=3.51
+ 220 A.C260 A.G273 stacking: 1.7(0.0)--mm(<>,outward) interBase-angle=1 min_baseDist=3.83
+ 221 A.C260 A.A287 interBase-angle=19 H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[2.49],O2'(hydroxyl)-N3[3.28]" min_baseDist=5.49
+ 222 A.C260 A.G288 interBase-angle=13 H-bonds[2]: "OP1-O2'(hydroxyl)[2.70],O5'-O2'(hydroxyl)[3.15]" min_baseDist=8.48
+ 223 A.A261 A.A262 stacking: 4.1(3.7)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.30
+ 224 A.A261 A.G272 stacking: 3.0(1.9)--mm(<>,outward) interBase-angle=8 min_baseDist=3.70
+ 225 A.A261 A.G288 interBase-angle=10 H-bonds[1]: "OP1*OP1[2.79]" min_baseDist=10.40
+ 226 A.A262 A.A263 stacking: 6.1(3.7)--pm(>>,forward) interBase-angle=12 connected min_baseDist=3.46
+ 227 A.A271 A.G272 stacking: 0.8(0.0)--pm(>>,forward) interBase-angle=28 connected min_baseDist=3.99
+ 228 A.G272 A.G273 stacking: 2.5(1.0)--pm(>>,forward) interBase-angle=7 connected min_baseDist=3.38
+ 229 A.G273 A.G274 stacking: 2.2(0.9)--pm(>>,forward) interBase-angle=6 connected min_baseDist=2.99
+ 230 A.G274 A.G275 stacking: 3.7(0.9)--pm(>>,forward) interBase-angle=21 connected min_baseDist=3.01
+ 231 A.G275 A.C276 stacking: 0.7(0.7)--pp(><,inward) interBase-angle=21 connected min_baseDist=2.97
+ 232 A.G275 A.A277 interBase-angle=33 H-bonds[1]: "OP1*OP1[2.51]" min_baseDist=8.18
+ 233 A.C276 A.A277 stacking: 0.5(0.0)--mm(<>,outward) interBase-angle=30 H-bonds[1]: "O2'(hydroxyl)-OP2[2.13]" connected min_baseDist=4.02
+ 234 A.A277 A.C278 interBase-angle=9 H-bonds[1]: "O2'(hydroxyl)-O5'[2.98]" connected min_baseDist=10.03
+ 235 A.A277 A.G331 stacking: 2.3(0.2)--pp(><,inward) interBase-angle=5 min_baseDist=2.94
+ 236 A.A277 A.A392 interBase-angle=19 H-bonds[1]: "N1*OP1[3.27]" min_baseDist=7.77
+ 237 A.C278 A.A308 stacking: 0.5(0.0)--mm(<>,outward) interBase-angle=6 min_baseDist=3.50
+ 238 A.C278 A.U329 stacking: 0.1(0.0)--mp(<<,backward) interBase-angle=4 H-bonds[2]: "O5'-O2'(hydroxyl)[2.65],O4'-O2'(hydroxyl)[2.46]" min_baseDist=3.26
+ 239 A.C278 A.A330 interBase-angle=29 H-bonds[2]: "OP2*OP1[2.43],O5'*OP2[3.24]" min_baseDist=11.55
+ 240 A.C278 A.G331 interBase-angle=12 H-bonds[1]: "OP2*OP2[3.17]" min_baseDist=10.99
+ 241 A.C279 A.G307 stacking: 1.9(0.1)--mm(<>,outward) interBase-angle=7 min_baseDist=3.42
+ 242 A.U280 A.U281 stacking: 0.3(0.0)--pm(>>,forward) interBase-angle=5 H-bonds[1]: "O2'(hydroxyl)-O4'[2.84]" connected min_baseDist=2.88
+ 243 A.U280 A.G306 stacking: 0.9(0.0)--mm(<>,outward) interBase-angle=15 min_baseDist=3.45
+ 244 A.U281 A.C282 stacking: 0.2(0.0)--pm(>>,forward) interBase-angle=7 H-bonds[1]: "O2'(hydroxyl)-O4'[3.04]" connected min_baseDist=3.08
+ 245 A.C283 A.G303 stacking: 1.1(0.0)--mm(<>,outward) interBase-angle=18 min_baseDist=2.96
+ 246 A.C284 A.G285 stacking: 5.5(2.4)--pm(>>,forward) interBase-angle=12 connected min_baseDist=3.44
+ 247 A.C284 A.G302 stacking: 0.8(0.0)--mm(<>,outward) interBase-angle=21 min_baseDist=2.93
+ 248 A.G285 A.A286 interBase-angle=10 H-bonds[1]: "O2'(hydroxyl)-O5'[3.22]" connected min_baseDist=4.07
+ 249 A.G285 A.G299 stacking: 3.1(0.5)--pp(><,inward) interBase-angle=14 H-bonds[1]: "N2(amino)-O2'(hydroxyl)[2.36]" min_baseDist=3.20
+ 250 A.A286 A.A287 stacking: 1.9(1.0)--pm(>>,forward) interBase-angle=12 connected min_baseDist=3.57
+ 251 A.A286 A.G299 interBase-angle=23 H-bonds[2]: "OP2-N2(amino)[3.26],N6(amino)-O4'[3.05]" min_baseDist=4.37
+ 252 A.A286 A.A300 stacking: 6.5(3.4)--mm(<>,outward) interBase-angle=11 min_baseDist=3.30
+ 253 A.A287 A.G288 stacking: 2.0(0.1)--pm(>>,forward) interBase-angle=7 connected min_baseDist=3.51
+ 254 A.G288 A.G289 stacking: 6.2(4.0)--pm(>>,forward) interBase-angle=17 connected min_baseDist=2.99
+ 255 A.G288 A.G298 stacking: 0.5(0.0)--mm(<>,outward) interBase-angle=16 min_baseDist=3.17
+ 256 A.A290 A.A295 stacking: 0.2(0.0)--pp(><,inward) interBase-angle=21 min_baseDist=2.68
+ 257 A.A290 A.A296 stacking: 6.7(4.4)--mm(<>,outward) interBase-angle=9 min_baseDist=3.09
+ 258 A.A292 A.U293 stacking: 5.1(2.5)--pm(>>,forward) interBase-angle=11 connected min_baseDist=3.34
+ 259 A.U293 A.G294 stacking: 0.8(0.0)--pm(>>,forward) interBase-angle=22 H-bonds[1]: "OP2*N7[2.49]" connected min_baseDist=3.52
+ 260 A.G294 A.A295 stacking: 1.0(0.0)--pm(>>,forward) interBase-angle=39 connected min_baseDist=2.66
+ 261 A.A296 A.C297 stacking: 3.9(0.8)--pm(>>,forward) interBase-angle=20 connected min_baseDist=3.57
+ 262 A.C297 A.G298 stacking: 1.9(0.7)--pm(>>,forward) interBase-angle=12 connected min_baseDist=3.29
+ 263 A.G298 A.G299 stacking: 7.3(4.5)--pm(>>,forward) interBase-angle=27 connected min_baseDist=3.02
+ 264 A.G299 A.A300 interBase-angle=30 H-bonds[1]: "O2'(hydroxyl)-OP2[2.57]" connected min_baseDist=6.35
+ 265 A.A300 A.G301 stacking: 2.0(0.7)--pm(>>,forward) interBase-angle=12 H-bonds[1]: "OP2*N7[2.87]" connected min_baseDist=2.94
+ 266 A.G301 A.G302 stacking: 2.5(1.0)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.05
+ 267 A.G302 A.G303 stacking: 2.9(1.4)--pm(>>,forward) interBase-angle=8 connected min_baseDist=2.83
+ 268 A.G303 A.A304 stacking: 4.0(2.7)--pm(>>,forward) interBase-angle=6 H-bonds[1]: "O2'(hydroxyl)-O4'[2.72]" connected min_baseDist=3.24
+ 269 A.A304 A.A305 stacking: 1.7(1.6)--pm(>>,forward) interBase-angle=10 connected min_baseDist=2.84
+ 270 A.A305 A.G306 stacking: 2.0(1.9)--pm(>>,forward) interBase-angle=6 H-bonds[1]: "O2'(hydroxyl)-O4'[2.94]" connected min_baseDist=3.21
+ 271 A.G306 A.G307 stacking: 3.3(1.8)--pm(>>,forward) interBase-angle=6 H-bonds[1]: "O2'(hydroxyl)-O4'[3.17]" connected min_baseDist=3.17
+ 272 A.G307 A.A308 stacking: 1.4(0.1)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.10
+ 273 A.A308 A.C309 stacking: 5.0(3.4)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.56
+ 274 A.A310 A.G311 stacking: 4.1(3.6)--pm(>>,forward) interBase-angle=11 H-bonds[1]: "O2'(hydroxyl)-O4'[3.00]" connected min_baseDist=3.10
+ 275 A.A310 A.G328 stacking: 5.1(2.7)--mm(<>,outward) interBase-angle=3 min_baseDist=3.43
+ 276 A.G311 A.G312 stacking: 4.7(3.5)--pm(>>,forward) interBase-angle=10 connected min_baseDist=3.29
+ 277 A.G312 A.C313 stacking: 6.7(3.3)--pm(>>,forward) interBase-angle=4 connected min_baseDist=3.49
+ 278 A.G312 A.C326 stacking: 0.4(0.0)--mm(<>,outward) interBase-angle=19 min_baseDist=2.93
+ 279 A.C313 A.G314 stacking: 4.8(2.1)--pm(>>,forward) interBase-angle=16 connected min_baseDist=3.14
+ 280 A.G317 A.C318 stacking: 6.6(3.6)--pm(>>,forward) interBase-angle=9 H-bonds[1]: "O2'(hydroxyl)-OP1[2.67]" connected min_baseDist=3.16
+ 281 A.C318 A.A319 stacking: 0.4(0.0)--pm(>>,forward) interBase-angle=18 H-bonds[1]: "O2'(hydroxyl)-O4'[2.78]" connected min_baseDist=3.33
+ 282 A.A319 A.U320 stacking: 6.7(3.3)--pm(>>,forward) interBase-angle=19 connected min_baseDist=3.82
+ 283 A.G321 A.C322 stacking: 6.5(3.6)--pm(>>,forward) interBase-angle=14 connected min_baseDist=3.19
+ 284 A.C322 A.A323 stacking: 0.8(0.3)--pm(>>,forward) interBase-angle=13 connected min_baseDist=3.10
+ 285 A.A323 A.G324 stacking: 5.8(3.0)--pm(>>,forward) interBase-angle=11 connected min_baseDist=2.97
+ 286 A.G324 A.C325 stacking: 3.7(1.2)--pm(>>,forward) interBase-angle=11 connected min_baseDist=2.94
+ 287 A.C326 A.U327 stacking: 0.3(0.0)--pm(>>,forward) interBase-angle=11 connected min_baseDist=3.41
+ 288 A.G328 A.U329 stacking: 5.4(2.6)--pm(>>,forward) interBase-angle=19 connected min_baseDist=3.09
+ 289 A.U329 A.A330 interBase-angle=26 H-bonds[1]: "O2'(hydroxyl)-OP2[3.01]" connected min_baseDist=10.08
+ 290 A.A330 A.G331 stacking: 8.0(5.6)--pm(>>,forward) interBase-angle=17 H-bonds[1]: "OP1*OP1[2.96]" connected min_baseDist=2.92
+ 291 A.A330 A.A389 stacking: 4.6(4.4)--mp(<<,backward) interBase-angle=8 H-bonds[1]: "N1-O2'(hydroxyl)[2.61]" min_baseDist=2.93
+ 292 A.G331 A.A332 interBase-angle=51 H-bonds[1]: "O2'(hydroxyl)-O4'[2.47]" connected min_baseDist=5.11
+ 293 A.G331 A.A392 interBase-angle=19 H-bonds[2]: "N1(imino)-OP1[2.56],N2(amino)-OP1[3.34]" min_baseDist=8.49
+ 294 A.A332 A.U333 stacking: 6.1(2.8)--pm(>>,forward) interBase-angle=31 connected min_baseDist=3.15
+ 295 A.A332 A.G335 interBase-angle=17 H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[3.08],N3-O2'(hydroxyl)[2.84]" min_baseDist=4.48
+ 296 A.A332 A.A390 stacking: 5.0(4.5)--mp(<<,backward) interBase-angle=10 min_baseDist=3.02
+ 297 A.A336 A.U337 stacking: 4.0(1.4)--pm(>>,forward) interBase-angle=35 connected min_baseDist=2.76
+ 298 A.A336 A.A389 interBase-angle=34 H-bonds[1]: "N6(amino)-N7[3.22]" min_baseDist=3.22
+ 299 A.U337 A.G338 interBase-angle=35 H-bonds[1]: "O5'*O4'[3.05]" connected min_baseDist=7.75
+ 300 A.G338 A.A339 stacking: 2.5(0.9)--pm(>>,forward) interBase-angle=10 H-bonds[1]: "O2'(hydroxyl)-O4'[3.12]" connected min_baseDist=2.90
+ 301 A.A339 A.U340 stacking: 4.0(2.4)--pm(>>,forward) interBase-angle=16 H-bonds[1]: "O2'(hydroxyl)-O4'[3.23]" connected min_baseDist=3.31
+ 302 A.U340 A.U341 stacking: 4.0(1.3)--pm(>>,forward) interBase-angle=16 connected min_baseDist=3.37
+ 303 A.U341 A.A342 stacking: 1.1(0.1)--pm(>>,forward) interBase-angle=30 H-bonds[1]: "O2'(hydroxyl)-O4'[3.27]" connected min_baseDist=3.49
+ 304 A.A342 A.C343 stacking: 4.7(3.2)--pm(>>,forward) interBase-angle=14 connected min_baseDist=2.90
+ 305 A.C343 A.C344 stacking: 1.4(0.0)--pm(>>,forward) interBase-angle=22 connected min_baseDist=2.78
+ 306 A.C344 A.G345 stacking: 0.8(0.4)--pm(>>,forward) interBase-angle=30 connected min_baseDist=3.44
+ 307 A.G345 A.C346 stacking: 6.4(3.3)--pm(>>,forward) interBase-angle=7 connected min_baseDist=3.12
+ 308 A.C347 A.G348 stacking: 3.8(2.1)--pm(>>,forward) interBase-angle=3 connected min_baseDist=3.46
+ 309 A.C347 A.G383 stacking: 1.5(0.0)--mm(<>,outward) interBase-angle=3 min_baseDist=3.13
+ 310 A.C347 A.A401 interBase-angle=45 H-bonds[1]: "O3'-O2'(hydroxyl)[3.10]" min_baseDist=7.17
+ 311 A.G348 A.G349 stacking: 8.0(4.6)--pm(>>,forward) interBase-angle=20 connected min_baseDist=3.06
+ 312 A.G349 A.A350 interBase-angle=15 H-bonds[1]: "O2'(hydroxyl)-O5'[2.77]" connected min_baseDist=5.71
+ 313 A.G349 A.G379 stacking: 2.7(0.5)--pp(><,inward) interBase-angle=10 min_baseDist=3.23
+ 314 A.A350 A.G351 stacking: 1.7(0.6)--pm(>>,forward) interBase-angle=4 H-bonds[1]: "OP2*N7[3.32]" connected min_baseDist=3.47
+ 315 A.A350 A.G379 interBase-angle=9 H-bonds[2]: "OP2-N2(amino)[3.00],N6(amino)-O2'(hydroxyl)[3.49]" min_baseDist=4.16
+ 316 A.A350 A.A380 stacking: 2.7(2.5)--mm(<>,outward) interBase-angle=6 min_baseDist=3.15
+ 317 A.G351 A.U352 stacking: 6.4(3.2)--pm(>>,forward) interBase-angle=27 connected min_baseDist=3.09
+ 318 A.A353 A.C354 stacking: 1.1(0.7)--pm(>>,forward) interBase-angle=11 connected min_baseDist=4.43
+ 319 A.A353 A.A377 stacking: 2.5(0.0)--mm(<>,outward) interBase-angle=60 min_baseDist=2.80
+ 320 A.G375 A.U376 stacking: 4.7(2.7)--pm(>>,forward) interBase-angle=21 connected min_baseDist=4.15
+ 321 A.U376 A.A377 interBase-angle=35 H-bonds[1]: "O2'(hydroxyl)-O4'[3.51]" connected min_baseDist=3.08
+ 322 A.A377 A.C378 stacking: 1.4(0.6)--pm(>>,forward) interBase-angle=21 connected min_baseDist=3.20
+ 323 A.C378 A.G379 stacking: 4.9(2.0)--pm(>>,forward) interBase-angle=9 connected min_baseDist=4.08
+ 324 A.G379 A.A380 interBase-angle=14 H-bonds[1]: "O2'(hydroxyl)-O4'[2.86]" connected min_baseDist=4.35
+ 325 A.A380 A.A381 stacking: 0.8(0.8)--pm(>>,forward) interBase-angle=5 connected min_baseDist=3.43
+ 326 A.A381 A.G382 stacking: 5.0(2.1)--pm(>>,forward) interBase-angle=3 connected min_baseDist=3.51
+ 327 A.G382 A.G383 stacking: 3.7(1.9)--pm(>>,forward) interBase-angle=10 connected min_baseDist=3.10
+ 328 A.G383 A.U384 stacking: 6.7(3.5)--pm(>>,forward) interBase-angle=4 connected min_baseDist=3.46
+ 329 A.A385 A.C386 stacking: 5.7(4.5)--pm(>>,forward) interBase-angle=12 connected min_baseDist=3.23
+ 330 A.A385 A.U400 interBase-angle=44 H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[2.66],N3-O2'(hydroxyl)[2.68]" min_baseDist=3.09
+ 331 A.A385 A.A401 stacking: 1.2(0.0)--mm(<>,outward) interBase-angle=15 min_baseDist=3.89
+ 332 A.C386 A.A387 stacking: 3.0(0.5)--pm(>>,forward) interBase-angle=22 connected min_baseDist=2.83
+ 333 A.C386 A.A399 interBase-angle=34 H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[2.96],O2'(hydroxyl)-N3[3.18]" min_baseDist=3.41
+ 334 A.C386 A.U400 interBase-angle=34 H-bonds[1]: "O4'-O2'(hydroxyl)[3.34]" min_baseDist=5.28
+ 335 A.A387 A.G388 stacking: 6.3(4.5)--pm(>>,forward) interBase-angle=38 H-bonds[1]: "O2'(hydroxyl)-O4'[3.16]" connected min_baseDist=3.29
+ 336 A.G388 A.A389 interBase-angle=28 H-bonds[1]: "O2'(hydroxyl)-O4'[2.61]" connected min_baseDist=6.73
+ 337 A.A389 A.A390 stacking: 1.0(0.0)--pm(>>,forward) interBase-angle=62 H-bonds[1]: "O5'*OP2[3.34]" connected min_baseDist=3.82
+ 338 A.A390 A.C391 interBase-angle=61 H-bonds[1]: "O2'(hydroxyl)-OP2[2.22]" connected min_baseDist=9.43
+ 339 A.A392 A.U393 stacking: 5.2(4.0)--pm(>>,forward) interBase-angle=7 connected min_baseDist=3.27
+ 340 A.U393 A.G394 interBase-angle=20 H-bonds[1]: "O2'(hydroxyl)-O4'[3.23]" connected min_baseDist=3.25
+ 341 A.G394 A.G395 stacking: 2.8(1.1)--pm(>>,forward) interBase-angle=11 connected min_baseDist=3.05
+ 342 A.G395 A.C396 stacking: 7.2(4.4)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.28
+ 343 A.C396 A.U397 stacking: 0.1(0.0)--pm(>>,forward) interBase-angle=9 connected min_baseDist=3.08
+ 344 A.U397 A.U398 stacking: 4.7(1.7)--pm(>>,forward) interBase-angle=15 connected min_baseDist=3.36
+ 345 A.A399 A.U400 stacking: 2.8(1.8)--pm(>>,forward) interBase-angle=0 connected min_baseDist=3.32
+ 346 A.G402 A.A403 stacking: 2.3(0.9)--pm(>>,forward) interBase-angle=14 connected min_baseDist=3.01
+ 347 A.A403 A.G404 stacking: 3.6(2.9)--pm(>>,forward) interBase-angle=4 connected min_baseDist=3.63
+ 348 A.G404 A.C405 stacking: 5.0(2.3)--pm(>>,forward) interBase-angle=2 connected min_baseDist=3.76
+ 349 A.A406 A.U407 stacking: 3.4(2.5)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.40
+ 350 A.G408 A.A409 stacking: 3.2(1.7)--pm(>>,forward) interBase-angle=13 connected min_baseDist=3.19
+ 351 A.A409 A.U410 stacking: 4.1(2.8)--pm(>>,forward) interBase-angle=12 connected min_baseDist=3.46
+ 352 A.U411 A.A412 stacking: 1.3(0.3)--pm(>>,forward) interBase-angle=7 connected min_baseDist=3.76
+ 353 A.A412 A.A413 stacking: 1.9(1.8)--pm(>>,forward) interBase-angle=18 connected min_baseDist=4.25
+
+****************************************************************************
+List of 44 stacks
   Note: a stack is an ordered list of nucleotides assembled together via
         base-stacking interactions, regardless of backbone connectivity.
         Stacking interactions within a stem are *not* included.
@@ -798,7 +1163,7 @@ List of 15 A-minor motifs (types I, II, or X)
         +A.G139	H-bonds[2]: "N1-O2'(hydroxyl)[3.50],N3-N2(amino)[2.86]"
         -A.C244	H-bonds[3]: "O3'-O2'(hydroxyl)[3.18],O2'(hydroxyl)-O2'(hydroxyl)[2.76],O2'(hydroxyl)-O2(carbonyl)[2.85]"
    9  type=X A|C-G	A.A255|A.C58,A.G254 WC
-        -A.C58	H-bonds[1]: "N6(amino)-O2(carbonyl)[2.55]"
+        -A.C58	H-bonds[0]: ""
         +A.G254	H-bonds[1]: "O5'-O2'(hydroxyl)[2.41]"
   10  type=X A|C-G	A.A257|A.C58,A.G254 WC
         +A.C58	H-bonds[0]: ""
@@ -894,10 +1259,10 @@ This structure contains *2-order pseudoknot
 
 ****************************************************************************
 Secondary structures in dot-bracket notation (dbn) as a whole and per chain
->2a64 nts=298 [whole]
+>2A64 nts=298 [whole]
 GUUAAUCAUGCUCGGGUAAUCGCUGCGGCCGGUUUCGGCCGUAGAGGAAAGUCCAUGCUCGCACGGUGCUGAGAUGCCCGUAGUGUUCGUGCCUAGCGAAUCCAUAAGCUAGGGCAGCC&GGCUGACGGCGGG&CCCUGAAAGUGCC&GGUAAACCCCACGAGCGAGAAACCCAAA&UAGGGGCACCUUCCCGAAGGAAAUGAACGGAGGGAAGGACAGGCGGCGCAUGCAGCCUGUAGAUAGAUGAUUACCGCCGGAGUAC&GUACGAAGGUACAGAACAUGGCUUAUAGAGCAUGAUUAAC
 ..(((((((((((((((((((.(((((((((....))))))))).{...[[.[[[[[(((((((((.((......)))))).....(((((((((((..........))))))((((((&))))).)((.(((&))).....((.((&))...))))))))))))))...(((...&..)))...(((((((...(........)...)))))))((((((..........))))))........))))))).((...(.((&)).)...))..}....]]]]]]]..).)))))))))))..
->2a64-A #1 nts=298 0.02(3.25) [chain] RNA*
+>2A64-1-A #1 nts=298 0.02(3.25) [chain] RNA*
 GUUAAUCAUGCUCGGGUAAUCGCUGCGGCCGGUUUCGGCCGUAGAGGAAAGUCCAUGCUCGCACGGUGCUGAGAUGCCCGUAGUGUUCGUGCCUAGCGAAUCCAUAAGCUAGGGCAGCC&GGCUGACGGCGGG&CCCUGAAAGUGCC&GGUAAACCCCACGAGCGAGAAACCCAAA&UAGGGGCACCUUCCCGAAGGAAAUGAACGGAGGGAAGGACAGGCGGCGCAUGCAGCCUGUAGAUAGAUGAUUACCGCCGGAGUAC&GUACGAAGGUACAGAACAUGGCUUAUAGAGCAUGAUUAAC
 ..(((((((((((((((((((.(((((((((....))))))))).{...[[.[[[[[(((((((((.((......)))))).....(((((((((((..........))))))((((((&))))).)((.(((&))).....((.((&))...))))))))))))))...(((...&..)))...(((((((...(........)...)))))))((((((..........))))))........))))))).((...(.((&)).)...))..}....]]]]]]]..).)))))))))))..
 
@@ -916,7 +1281,7 @@ Summary of structural features of 298 nucleotides
    4  A ( A.A4   0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
    5  A ( A.A5   0.001  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
    6  U ( A.U6   0.001  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
-   7  C ( A.C7   0.001  anti,~C3'-endo,BI,non-stack,canonical,non-pair-contact,helix,stem,coaxial-stack
+   7  C ( A.C7   0.001  anti,~C3'-endo,BI,non-stack,canonical,helix,stem,coaxial-stack
    8  A ( A.A8   0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
    9  U ( A.U9   0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
   10  G ( A.G10  0.001  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
@@ -945,7 +1310,7 @@ Summary of structural features of 298 nucleotides
   33  U . A.U33  0.002  anti,~C3'-endo,non-stack,non-pair-contact,hairpin-loop,splayed-apart
   34  U . A.U34  0.001  turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
   35  U . A.U35  0.002  anti,~C3'-endo,non-pair-contact,hairpin-loop
-  36  C ) A.C36  0.002  anti,~C3'-endo,BI,non-stack,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,hairpin-loop
+  36  C ) A.C36  0.002  anti,~C3'-endo,BI,non-stack,canonical,helix-end,stem-end,coaxial-stack,hairpin-loop
   37  G ) A.G37  0.005  anti,~C3'-endo,canonical,non-pair-contact,helix,stem,coaxial-stack
   38  G ) A.G38  0.002  anti,~C3'-endo,canonical,non-pair-contact,helix,stem,coaxial-stack
   39  C ) A.C39  0.001  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
@@ -965,7 +1330,7 @@ Summary of structural features of 298 nucleotides
   53  C [ A.C53  0.002  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate,splayed-apart
   54  C [ A.C54  0.002  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper
   55  A [ A.A55  0.003  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper
-  56  U [ A.U56  0.003  pseudoknotted,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+  56  U [ A.U56  0.003  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,A-minor
   57  G [ A.G57  0.005  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
   58  C ( A.C58  0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor
   59  U ( A.U59  0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
@@ -993,7 +1358,7 @@ Summary of structural features of 298 nucleotides
   81  U ) A.U81  0.006  anti,~C3'-endo,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,phosphate
   82  A . A.A82  0.001  turn,anti,~C3'-endo,BI,non-stack,non-pair-contact,junction-loop
   83  G . A.G83  0.004  syn,~C3'-endo,non-stack,non-canonical,non-pair-contact,multiplet,junction-loop
-  84  U . A.U84  0.002  anti,~C3'-endo,BI,non-pair-contact,junction-loop
+  84  U . A.U84  0.002  anti,~C3'-endo,BI,non-pair-contact,junction-loop,phosphate
   85  G . A.G85  0.002  syn,~C3'-endo,BI,non-pair-contact,junction-loop
   86  U . A.U86  0.002  anti,~C3'-endo,non-pair-contact,junction-loop
   87  U ( A.U87  0.003  anti,~C3'-endo,BI,non-stack,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,junction-loop
@@ -1009,7 +1374,7 @@ Summary of structural features of 298 nucleotides
   97  C ( A.C97  0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
   98  G . A.G98  0.003  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop
   99  A . A.A99  0.002  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,A-minor,ribose-zipper
- 100  A . A.A100 0.002  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,hairpin-loop,A-minor,ribose-zipper
+ 100  A . A.A100 0.002  anti,~C3'-endo,non-pair-contact,hairpin-loop,A-minor,ribose-zipper
  101  U . A.U101 0.002  turn,anti,non-stack,non-canonical,non-pair-contact,hairpin-loop,splayed-apart
  102  C . A.C102 0.002  turn,anti,~C3'-endo,non-stack,non-pair-contact,hairpin-loop,phosphate,splayed-apart
  103  C . A.C103 0.001  turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,hairpin-loop,splayed-apart
@@ -1185,7 +1550,7 @@ Summary of structural features of 298 nucleotides
  273  A . A.A389 0.009  anti,~C2'-endo,non-canonical,non-pair-contact,helix,junction-loop,cap-acceptor
  274  A . A.A390 0.004  anti,non-canonical,non-pair-contact,helix,junction-loop,phosphate,splayed-apart
  275  C ] A.C391 0.005  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate,splayed-apart
- 276  A ] A.A392 0.005  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper,phosphate
+ 276  A ] A.A392 0.005  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,A-minor,ribose-zipper,phosphate
  277  U ] A.U393 0.006  pseudoknotted,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper
  278  G ] A.G394 0.004  pseudoknotted,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
  279  G ] A.G395 0.003  pseudoknotted,anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
@@ -1211,10 +1576,10 @@ Summary of structural features of 298 nucleotides
 
 ****************************************************************************
 List of 16 additional files
-   1 dssr-pairs.pdb -- an ensemble of base pairs
-   2 dssr-multiplets.pdb -- an ensemble of multiplets
-   3 dssr-stems.pdb -- an ensemble of stems
-   4 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   1 dssr-stems.pdb -- an ensemble of stems
+   2 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   3 dssr-pairs.pdb -- an ensemble of base pairs
+   4 dssr-multiplets.pdb -- an ensemble of multiplets
    5 dssr-hairpins.pdb -- an ensemble of hairpin loops
    6 dssr-bulges.pdb -- an ensemble of bulges
    7 dssr-iloops.pdb -- an ensemble of internal loops
@@ -1225,5 +1590,8 @@ List of 16 additional files
   12 dssr-torsions.txt -- backbone torsion angles and suite names
   13 dssr-splays.pdb -- an ensemble of splayed-apart units
   14 dssr-Aminors.pdb -- an ensemble of A minor motifs (types I and II)
-  15 dssr-stacks.pdb -- an ensemble of base stacks
+  15 dssr-stacks.pdb -- an ensemble of stacks
   16 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
+
+****************************************************************************
+Time used: 00:00:00:02

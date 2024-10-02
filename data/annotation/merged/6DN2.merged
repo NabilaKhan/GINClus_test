@@ -108,6 +108,7 @@ Y59	Y60	U-U	upward
 Y60	Y61	U-U	upward
 Y62	Y63	G-A	upward
 Y62	Y83	G-C	S/S	cis
+Y62	Y84	G-G	S/S	trans
 Y63	Y82	A-C	S/S	cis
 Y64	Y65	U-U	upward
 Y64	Y80	U-A	W/W	cis
@@ -157,6 +158,7 @@ Y99	Y101	A-G	outward
 Y101	Y102	G-A	upward
 Y102	Y103	A-G	upward
 Y103	Y104	G-A	upward
+Y104	Y105	A-G	upward
 Y105	Y106	G-A	upward
 Y106	Y107	A-A	upward
 Y107	Y108	A-G	upward

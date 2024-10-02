@@ -125,6 +125,7 @@ B75	B93	G-A	S/S	trans
 B76	B77	G-U	upward
 B76	B88	G-C	W/W	cis
 B76	B89	G-C	outward
+B76	B93	G-A	downward
 B77	B78	U-C	upward
 B77	B87	U-A	W/W	cis
 B78	B86	C-G	W/W	cis

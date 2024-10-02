@@ -3,6 +3,8 @@ CA5	CA7	U-A	outward
 CA13	CA14	A-A	upward
 CA15	CA144	U-A	outward
 CA17	CA29	G-A	outward
+CA18	CA19	U-U	downward
+CA19	CA20	U-A	outward
 CA21	CA22	G-U	upward
 CA21	CA383	G-U	W/W	cis
 CA22	CA23	U-A	upward
@@ -28,7 +30,9 @@ CA34	CA266	U-A	W/W	cis
 CA35	CA36	U-U	inward
 CA35	CA265	U-U	W/W	cis
 CA35	CA266	U-A	outward
+CA36	CA37	U-U	outward
 CA36	CA264	U-A	H/H	trans
+CA38	CA189	U-A	inward
 CA38	CA190	U-U	W/H	trans
 CA39	CA197	U-A	inward
 CA39	CA199	U-U	W/H	trans
@@ -100,11 +104,13 @@ CA104	CA121	A-A	W/W	cis
 CA104	CA122	A-A	outward
 CA107	CA108	U-A	upward
 CA107	CA119	U-A	W/W	cis
+CA107	CA121	U-A	outward
 CA108	CA109	A-A	upward
 CA108	CA118	A-U	W/W	cis
 CA108	CA119	A-A	outward
 CA109	CA110	A-U	upward
 CA109	CA117	A-U	W/W	cis
+CA110	CA111	U-A	upward
 CA110	CA114	U-A	W/W	cis
 CA113	CA114	U-A	upward
 CA114	CA117	A-U	upward
@@ -113,6 +119,7 @@ CA118	CA119	U-A	upward
 CA121	CA122	A-A	upward
 CA122	CA123	A-U	upward
 CA123	CA124	U-U	upward
+CA125	CA127	U-G	outward
 CA128	CA129	A-U	upward
 CA129	CA130	U-U	upward
 CA130	CA131	U-A	upward
@@ -148,10 +155,14 @@ CA172	CA173	A-A	downward
 CA175	CA180	A-A	upward
 CA180	CA181	A-A	upward
 CA181	CA182	A-U	inward
+CA184	CA185	A-A	outward
 CA186	CA187	U-A	downward
+CA188	CA190	U-U	outward
 CA189	CA190	A-U	upward
 CA190	CA191	U-A	upward
+CA191	CA192	A-U	upward
 CA193	CA194	C-A	upward
+CA198	CA201	A-A	downward
 CA208	CA210	U-A	upward
 CA208	CA211	U-A	W/W	cis
 CA210	CA211	A-A	outward
@@ -201,6 +212,7 @@ CA235	CA248	A-A	W/W	trans
 CA235	CA251	A-U	W/S	trans
 CA236	CA237	G-C	upward
 CA236	CA243	G-C	W/W	cis
+CA236	CA244	G-G	outward
 CA237	CA238	C-C	upward
 CA237	CA242	C-G	W/W	cis
 CA239	CA240	G-U	upward
@@ -259,6 +271,7 @@ CA306	CA307	A-C	upward
 CA307	CA308	C-C	upward
 CA309	CA310	A-A	inward
 CA311	CA312	U-A	upward
+CA312	CA313	A-A	upward
 CA313	CA314	A-A	upward
 CA314	CA343	A-A	W/S	trans
 CA319	CA320	U-A	upward
@@ -266,6 +279,7 @@ CA320	CA321	A-A	upward
 CA321	CA322	A-A	upward
 CA324	CA325	A-A	upward
 CA325	CA326	A-U	upward
+CA328	CA331	U-A	upward
 CA331	CA332	A-U	upward
 CA332	CA333	U-U	upward
 CA336	CA361	U-A	downward
@@ -299,19 +313,23 @@ CA371	CA380	U-U	downward
 CA372	CA373	U-A	upward
 CA372	CA378	U-A	outward
 CA374	CA565	U-A	outward
+CA377	CA563	U-U	outward
 CA377	CA572	U-A	W/S	trans
 CA378	CA379	A-A	upward
 CA381	CA382	U-A	upward
 CA382	CA383	A-U	upward
 CA386	CA387	A-U	upward
 CA386	CA546	A-U	W/W	cis
+CA387	CA388	U-U	upward
 CA387	CA545	U-A	W/W	cis
 CA388	CA543	U-G	upward
 CA391	CA541	A-A	inward
 CA393	CA539	U-A	downward
 CA394	CA539	A-A	H/W	trans
-CA395	CA534	U-A	H/W	cis
+CA395	CA398	U-U	upward
+CA396	CA397	A-U	upward
 CA398	CA534	U-A	S/W	cis
+CA399	CA527	A-A	inward
 CA399	CA533	A-A	outward
 CA400	CA401	U-A	upward
 CA402	CA403	U-U	upward
@@ -327,10 +345,12 @@ CA406	CA522	U-A	W/W	cis
 CA407	CA514	U-A	upward
 CA409	CA410	A-U	upward
 CA411	CA412	A-U	S/H	cis
+CA412	CA489	U-A	downward
 CA414	CA482	A-U	downward
 CA418	CA419	A-U	upward
 CA419	CA420	U-A	upward
 CA423	CA424	A-U	upward
+CA429	DJ401	U-UTP	upward
 CA431	CA432	U-G	inward
 CA436	CA437	U-U	upward
 CA439	CA440	U-U	upward
@@ -342,6 +362,7 @@ CA443	CA445	U-C	inward
 CA443	CA446	U-C	H/H	cis
 CA444	CA481	A-A	inward
 CA444	CA483	A-A	outward
+CA445	CA480	C-C	downward
 CA446	CA447	C-A	upward
 CA446	CA478	C-A	W/S	cis
 CA448	CA449	U-G	inward
@@ -354,6 +375,7 @@ CA454	CA467	G-A	inward
 CA455	CA465	G-U	W/W	cis
 CA457	CA537	U-A	H/S	trans
 CA459	CA460	A-U	outward
+CA460	CA461	U-A	inward
 CA461	CA463	A-A	outward
 CA465	CA528	U-U	upward
 CA466	CA467	G-A	S/H	cis
@@ -377,6 +399,7 @@ CA527	CA532	A-A	downward
 CA530	CA531	A-G	upward
 CA535	CA536	U-U	upward
 CA536	CA537	U-A	upward
+CA538	CA539	A-A	upward
 CA540	CA541	A-A	upward
 CA540	CA616	A-U	W/W	cis
 CA542	CA543	G-G	inward

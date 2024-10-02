@@ -1,4 +1,6 @@
+A1	A2	GTP-G	upward
 A1	A93	G-C	W/W	cis
+A1	A94	GTP-G	outward
 A2	A3	G-C	upward
 A2	A92	G-C	W/W	cis
 A2	A93	G-C	outward
@@ -85,6 +87,7 @@ A45	A101	A-A	S/W	cis
 A46	A47	A-C	S/H	cis
 A47	A48	C-C	upward
 A47	A56	C-G	W/W	cis
+A47	A101	C-SAM	outward
 A48	A49	C-A	upward
 A48	A55	C-G	W/W	cis
 A48	A56	C-G	outward

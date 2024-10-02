@@ -1,5 +1,7 @@
+C1	C2	GDP-G	upward
 C1	C48	G-C	W/W	cis
 C1	C49	G-G	S/S	trans
+C1	C118	GDP-A	downward
 C2	C3	G-C	upward
 C2	C47	G-C	W/W	cis
 C2	C48	G-C	outward
@@ -48,7 +50,6 @@ C22	C23	C-C	upward
 C23	C24	C-U	upward
 C25	C26	G-U	upward
 C27	C28	A-A	upward
-C28	C46	A-G	S/S	cis
 C29	C30	U-C	upward
 C29	C44	U-A	W/W	cis
 C29	C45	U-G	outward
@@ -144,9 +145,11 @@ C114	C115	C-U	upward
 C115	C116	U-C	upward
 C116	C117	C-U	upward
 C117	C118	U-A	S/S	cis
+F1	F2	GDP-G	upward
 F1	F48	G-C	W/W	cis
 F1	F49	G-G	W/S	trans
 F1	F117	G-U	S/S	cis
+F1	F118	GDP-A	outward
 F2	F3	G-C	upward
 F2	F47	G-C	W/W	cis
 F2	F48	G-C	outward
@@ -263,6 +266,7 @@ F65	F66	G-A	upward
 F65	F101	G-C	W/W	cis
 F65	F102	G-G	outward
 F66	F67	A-A	upward
+F67	F68	A-C	upward
 F101	F102	C-G	upward
 F102	F103	G-C	upward
 F103	F104	C-G	upward

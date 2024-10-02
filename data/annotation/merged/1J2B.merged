@@ -140,6 +140,7 @@ D933	D939	C-A	W/W	cis
 D933	D940	C-G	outward
 D935	D936	U-A	inward
 D936	D937	A-C	outward
+D937	D938	C-G	upward
 D938	D939	G-A	upward
 D939	D940	A-G	upward
 D940	D941	G-G	upward
@@ -165,6 +166,8 @@ D954	D962	G-C	W/W	cis
 D954	D963	G-C	W/W	cis
 D955	D956	U-U	upward
 D955	D959	U-A	W/H	trans
+D957	D958	C-A	upward
+D959	D961	A-U	inward
 D959	D962	A-C	upward
 D960	D961	G-U	outward
 D962	D963	C-C	upward

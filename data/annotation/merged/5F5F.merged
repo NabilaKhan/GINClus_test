@@ -25,6 +25,7 @@ B17	B18	G-U	upward
 B18	B19	U-U	upward
 B19	B20	U-A	upward
 D1	F2	U-G	upward
+D1	F20	U-A	upward
 D2	D3	G-A	upward
 D2	D19	G-U	W/W	cis
 D2	D20	G-A	outward

@@ -27,6 +27,7 @@ I50	I52	G-G	downward
 I51	I53	A-A	outward
 I56	I59	A-A	outward
 I56	I88	A-U	downward
+I56	I89	A-U	upward
 I59	I60	A-G	upward
 I59	I88	A-U	W/W	cis
 I60	I61	G-C	upward
@@ -75,6 +76,7 @@ I84	I85	C-C	upward
 I85	I86	C-G	upward
 I86	I87	G-U	upward
 I87	I88	U-U	upward
+I88	I89	U-U	upward
 I89	I90	U-U	upward
 I91	I92	A-C	upward
 I92	I93	C-A	upward
@@ -82,3 +84,4 @@ I93	I94	A-A	upward
 I94	I95	A-A	upward
 I95	I96	A-G	upward
 I96	I97	G-A	upward
+I97	I98	A-G	upward

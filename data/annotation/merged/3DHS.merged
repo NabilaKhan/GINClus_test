@@ -171,6 +171,7 @@ A253	A254	A-G	upward
 A254	A257	G-A	S/S	cis
 A255	A257	A-A	outward
 A255	A391	A-C	upward
+A257	A258	A-C	outward
 A257	A275	A-G	H/S	trans
 A258	A274	C-G	W/W	cis
 A258	A275	C-G	outward
@@ -213,6 +214,7 @@ A284	A302	C-G	outward
 A285	A286	G-A	S/H	cis
 A285	A299	G-G	inward
 A285	A300	G-A	S/H	trans
+A285	A301	G-G	outward
 A286	A287	A-A	upward
 A286	A300	A-A	outward
 A287	A288	A-G	upward
@@ -317,6 +319,7 @@ A394	A395	G-G	upward
 A395	A396	G-C	upward
 A396	A397	C-U	upward
 A397	A398	U-U	upward
+A398	A399	U-A	upward
 A399	A400	A-U	upward
 A401	A402	A-G	upward
 A402	A403	G-A	upward
@@ -329,3 +332,4 @@ A409	A410	A-U	upward
 A410	A411	U-U	upward
 A411	A412	U-A	upward
 A412	A413	A-A	upward
+A413	A414	A-C	upward

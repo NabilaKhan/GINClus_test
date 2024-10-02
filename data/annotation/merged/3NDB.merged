@@ -7,6 +7,7 @@ M125	M256	C-G	W/W	cis
 M126	M127	U-C	upward
 M126	M255	U-G	W/W	cis
 M126	M256	U-G	outward
+M127	M128	C-G	upward
 M127	M254	C-G	W/W	cis
 M127	M255	C-G	outward
 M128	M129	G-U	upward
@@ -14,6 +15,7 @@ M128	M253	G-C	W/W	cis
 M128	M254	G-G	outward
 M129	M130	U-C	upward
 M129	M252	U-G	W/H	cis
+M130	M131	C-C	upward
 M130	M251	C-U	S/W	cis
 M130	M252	C-G	S/W	cis
 M131	M132	C-C	upward

@@ -15,8 +15,11 @@ A20	A21	U-A	upward
 A20	A76	U-A	W/W	cis
 A21	A75	A-U	W/W	cis
 A21	A76	A-A	outward
+A21	A91	A-DX4	upward
 A22	A23	U-A	downward
+A22	A46	U-G	downward
 A22	A52	U-A	W/W	cis
+A22	A91	U-DX4	inward
 A23	A25	A-C	outward
 A23	A46	A-G	W/S	trans
 A24	A54	A-C	upward
@@ -64,6 +67,7 @@ A42	A43	G-C	upward
 A43	A44	C-A	upward
 A44	A45	A-G	upward
 A45	A46	G-G	upward
+A46	A47	G-U	upward
 A46	A53	G-C	W/W	cis
 A49	A76	U-A	W/S	cis
 A50	A51	C-U	upward
@@ -71,6 +75,7 @@ A50	A75	C-U	W/S	cis
 A50	A76	C-A	outward
 A51	A52	U-A	upward
 A52	A53	A-C	upward
+A52	A91	A-DX4	downward
 A54	A55	C-G	upward
 A54	A72	C-G	W/W	cis
 A55	A56	G-G	upward
@@ -91,6 +96,7 @@ A60	A61	C-U	upward
 A61	A65	U-A	S/W	cis
 A61	A66	U-A	S/W	cis
 A62	A63	G-U	S/H	cis
+A63	A64	U-A	outward
 A64	A65	A-A	upward
 A65	A66	A-A	upward
 A66	A67	A-U	upward
@@ -101,6 +107,7 @@ A71	A72	C-G	upward
 A73	A74	A-C	upward
 A74	A75	C-U	upward
 A75	A76	U-A	upward
+A75	A91	U-DX4	outward
 A76	A77	A-U	upward
 A77	A78	U-G	upward
 A78	A79	G-G	upward
@@ -123,9 +130,11 @@ B20	B21	U-A	upward
 B20	B76	U-A	W/W	cis
 B21	B75	A-U	W/W	cis
 B21	B76	A-A	outward
+B21	B91	A-DX4	upward
 B22	B23	U-A	downward
 B22	B46	U-G	downward
 B22	B52	U-A	W/W	cis
+B22	B91	U-DX4	inward
 B23	B25	A-C	outward
 B23	B46	A-G	W/S	trans
 B24	B54	A-C	upward
@@ -172,6 +181,7 @@ B42	B43	G-C	upward
 B43	B44	C-A	upward
 B44	B45	A-G	upward
 B45	B46	G-G	upward
+B46	B47	G-U	upward
 B46	B53	G-C	W/W	cis
 B49	B50	U-C	upward
 B49	B76	U-A	W/S	cis
@@ -198,6 +208,7 @@ B60	B61	C-U	upward
 B61	B65	U-A	S/W	cis
 B62	B63	G-U	S/H	cis
 B63	B64	U-A	outward
+B64	B65	A-A	upward
 B65	B66	A-A	upward
 B66	B67	A-U	upward
 B68	B69	G-U	upward
@@ -207,6 +218,7 @@ B71	B72	C-G	upward
 B73	B74	A-C	upward
 B74	B75	C-U	upward
 B75	B76	U-A	upward
+B75	B91	U-DX4	outward
 B76	B77	A-U	upward
 B77	B78	U-G	upward
 B78	B79	G-G	upward
@@ -231,6 +243,7 @@ C21	C75	A-U	W/W	cis
 C21	C76	A-A	outward
 C22	C23	U-A	downward
 C22	C46	U-G	downward
+C22	C47	U-U	upward
 C22	C52	U-A	W/W	cis
 C23	C25	A-C	outward
 C23	C46	A-G	W/S	trans
@@ -275,11 +288,13 @@ C43	C44	C-A	upward
 C44	C45	A-G	upward
 C45	C46	G-G	upward
 C46	C53	G-C	W/W	cis
+C48	C49	U-U	upward
 C49	C76	U-A	W/S	cis
 C50	C51	C-U	upward
 C50	C75	C-U	W/S	cis
 C51	C52	U-A	upward
 C52	C53	A-C	upward
+C52	C91	A-DX4	downward
 C54	C72	C-G	W/W	cis
 C55	C56	G-G	upward
 C55	C71	G-C	W/W	cis
@@ -310,6 +325,7 @@ C71	C72	C-G	upward
 C73	C74	A-C	upward
 C74	C75	C-U	upward
 C75	C76	U-A	upward
+C75	C91	U-DX4	outward
 C76	C77	A-U	upward
 C77	C78	U-G	upward
 C78	C79	G-G	upward
@@ -333,7 +349,9 @@ D20	D76	U-A	W/W	cis
 D21	D75	A-U	W/W	cis
 D21	D76	A-A	outward
 D22	D23	U-A	downward
+D22	D46	U-G	downward
 D22	D52	U-A	W/W	cis
+D22	D91	U-DX4	inward
 D23	D25	A-C	outward
 D23	D46	A-G	W/S	trans
 D24	D54	A-C	upward
@@ -380,6 +398,7 @@ D42	D43	G-C	upward
 D43	D44	C-A	upward
 D44	D45	A-G	upward
 D45	D46	G-G	upward
+D46	D47	G-U	upward
 D46	D53	G-C	W/W	cis
 D49	D76	U-A	W/S	cis
 D50	D51	C-U	upward
@@ -407,6 +426,7 @@ D60	D61	C-U	upward
 D61	D65	U-A	S/W	cis
 D61	D66	U-A	S/W	cis
 D62	D63	G-U	S/H	cis
+D63	D64	U-A	outward
 D64	D65	A-A	upward
 D65	D66	A-A	upward
 D66	D67	A-U	upward

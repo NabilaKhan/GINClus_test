@@ -1,3 +1,4 @@
+A1	A2	GTP-G	upward
 A1	A84	G-C	W/W	cis
 A2	A3	G-U	upward
 A2	A83	G-U	W/W	cis
@@ -8,7 +9,6 @@ A4	A6	A-A	upward
 A4	A81	A-U	W/W	cis
 A4	A82	A-A	outward
 A6	A7	A-C	upward
-A6	A80	A-A	W/H	cis
 A7	A8	C-G	upward
 A7	A77	C-G	W/W	cis
 A7	A79	C-A	S/W	cis
@@ -69,6 +69,8 @@ A38	A66	C-G	W/W	cis
 A39	A40	G-G	upward
 A39	A43	G-A	S/S	trans
 A39	A66	G-G	outward
+A40	A103	G-4BW	upward
+A41	A103	A-4BW	downward
 A42	A44	A-G	upward
 A42	A73	A-U	H/W	trans
 A42	A74	A-G	outward
@@ -125,6 +127,7 @@ A80	A81	A-U	outward
 A81	A82	U-A	upward
 A82	A83	A-U	upward
 A83	A84	U-C	upward
+R1	R2	GTP-G	upward
 R1	R84	G-C	W/W	cis
 R2	R3	G-U	upward
 R2	R83	G-U	W/W	cis
@@ -199,10 +202,12 @@ R38	R66	C-G	W/W	cis
 R39	R40	G-G	upward
 R39	R43	G-A	S/S	trans
 R39	R66	G-G	outward
-R41	R74	A-G	S/W	trans
+R40	R106	G-4BW	upward
+R41	R106	A-4BW	downward
 R42	R44	A-G	upward
 R42	R73	A-U	H/W	trans
 R42	R74	A-G	outward
+R42	R106	A-A	S/W	cis
 R43	R66	A-G	outward
 R44	R45	G-C	upward
 R44	R72	G-C	W/W	cis

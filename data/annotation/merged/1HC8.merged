@@ -1,3 +1,4 @@
+C101	C102	GTP-C	upward
 C101	C158	G-U	W/W	cis
 C102	C103	C-C	upward
 C102	C157	C-G	W/W	cis
@@ -88,6 +89,7 @@ C153	C154	A-C	upward
 C154	C155	C-U	upward
 C156	C157	G-G	upward
 C157	C158	G-U	upward
+D301	D302	GTP-C	upward
 D301	D358	G-U	W/W	cis
 D302	D303	C-C	upward
 D302	D357	C-G	W/W	cis

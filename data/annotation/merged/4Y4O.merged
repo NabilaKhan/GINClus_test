@@ -16,7 +16,6 @@
 '1A'13	'1A'551	A-A	outward
 '1A'14	'1A'15	A-G	upward
 '1A'14	'1A'551	A-A	outward
-'1A'14	'1A'2636	A-G	S/S	cis
 '1A'15	'1A'16	G-G	upward
 '1A'15	'1A'550	G-U	W/W	cis
 '1A'16	'1A'17	G-G	upward
@@ -106,6 +105,7 @@
 '1A'46	'1A'168	C-G	outward
 '1A'47	'1A'48	G-A	S/W	cis
 '1A'47	'1A'167	G-G	outward
+'1A'48	'1A'50	A-G	upward
 '1A'48	'1A'116	A-A	inward
 '1A'48	'1A'118	A-U	H/W	cis
 '1A'48	'1A'166	A-G	outward
@@ -301,6 +301,7 @@
 '1A'171	'1A'172	A-C	upward
 '1A'171	'1A'204	A-G	W/W	cis
 '1A'171	'1A'460	A-C	S/S	cis
+'1A'172	'1A'173	C-C	upward
 '1A'172	'1A'203	C-G	W/W	cis
 '1A'172	'1A'459	C-A	S/S	cis
 '1A'173	'1A'174	C-U	upward
@@ -391,6 +392,7 @@
 '1A'211	'1A'213	A-G	upward
 '1A'211	'1A'221	A-G	H/S	trans
 '1A'212	'1A'434	A-G	S/S	trans
+'1A'212	'1A'435	A-G	upward
 '1A'212	'1A'449	A-A	outward
 '1A'213	'1A'214	G-A	upward
 '1A'213	'1A'220	G-C	W/W	cis
@@ -451,7 +453,6 @@
 '1A'236	'1A'241	G-G	outward
 '1A'237	'1A'239	G-G	outward
 '1A'239	'1A'240	G-A	upward
-'1A'239	'1A'413	G-G	H/W	cis
 '1A'240	'1A'241	A-G	upward
 '1A'241	'1A'242	G-C	upward
 '1A'242	'1A'243	C-G	upward
@@ -488,6 +489,7 @@
 '1A'259	'1A'260	A-A	upward
 '1A'259	'1A'285	A-U	H/W	trans
 '1A'259	'1A'397	A-G	outward
+'1A'260	'1A'261	A-A	upward
 '1A'260	'1A'284	A-G	H/S	trans
 '1A'260	'1A'395	A-C	S/S	cis
 '1A'261	'1A'291	A-G	S/S	trans
@@ -610,7 +612,6 @@
 '1A'322	'1A'364	G-A	S/H	trans
 '1A'323	'1A'324	A-A	upward
 '1A'323	'1A'346	A-A	downward
-'1A'323	'1A'347	A-G	W/W	trans
 '1A'323	'1A'362	A-G	H/W	cis
 '1A'324	'1A'342	A-C	S/S	cis
 '1A'324	'1A'357	A-G	S/S	trans
@@ -817,6 +818,7 @@
 '1A'474	'1A'606	U-G	W/S	trans
 '1A'475	'1A'476	A-G	upward
 '1A'475	'1A'480	A-A	W/H	trans
+'1A'476	'1A'477	G-C	upward
 '1A'476	'1A'480	G-A	outward
 '1A'477	'1A'479	C-C	inward
 '1A'478	'1A'479	G-C	upward
@@ -893,6 +895,7 @@
 '1A'513	'1A'518	C-G	W/W	cis
 '1A'513	'1A'519	C-G	outward
 '1A'514	'1A'517	G-A	S/H	trans
+'1A'514	'1A'518	G-G	outward
 '1A'515	'1A'516	G-G	upward
 '1A'515	'1A'1330	G-A	outward
 '1A'516	'1A'517	G-A	upward
@@ -940,6 +943,7 @@
 '1A'556	'1A'2040	C-G	W/W	cis
 '1A'556	'1A'2057	C-G	downward
 '1A'557	'1A'2042	A-A	W/S	cis
+'1A'557	'1A'2043	A-C	downward
 '1A'558	'1A'559	G-U	upward
 '1A'558	'1A'583	G-C	W/W	cis
 '1A'558	'1A'584	G-G	outward
@@ -1082,6 +1086,7 @@
 '1A'628	'1A'648	C-G	W/W	cis
 '1A'629	'1A'647	U-G	W/W	cis
 '1A'629	'1A'648	U-G	outward
+'1A'630	'1A'644	U-G	inward
 '1A'630	'1A'645	U-G	downward
 '1A'630	'1A'646	U-A	W/H	trans
 '1A'631	'1A'632	A-A	upward
@@ -1103,6 +1108,7 @@
 '1A'641	'1A'642	G-G	upward
 '1A'642	'1A'643	G-C	upward
 '1A'643	'1A'644	C-G	upward
+'1A'644	'1A'645	G-G	inward
 '1A'646	'1A'647	A-G	upward
 '1A'647	'1A'648	G-G	upward
 '1A'648	'1A'649	G-C	upward
@@ -1331,6 +1337,7 @@
 '1A'786	'1A'787	G-U	S/H	cis
 '1A'787	'1A'788	U-G	upward
 '1A'787	'1A'804	U-U	W/W	cis
+'1A'787	'1A'805	U-C	outward
 '1A'787	'1A'2003	U-A	downward
 '1A'788	'1A'789	G-G	upward
 '1A'788	'1A'803	G-C	W/W	cis
@@ -1466,6 +1473,7 @@
 '1A'871	'1A'880	A-U	W/W	cis
 '1A'872	'1A'873	C-U	upward
 '1A'872	'1A'879	C-G	W/W	cis
+'1A'873	'1A'876	U-A	upward
 '1A'873	'1A'878	U-G	W/W	cis
 '1A'873	'1A'879	U-G	outward
 '1A'874	'1A'2442	U-A	inward
@@ -1657,6 +1665,7 @@
 '1A'985	'1A'986	G-A	upward
 '1A'986	'1A'987	A-G	upward
 '1A'987	'1A'988	G-U	upward
+'1A'988	'1A'989	U-G	upward
 '1A'990	'1A'2460	A-A	outward
 '1A'991	'1A'992	G-G	upward
 '1A'991	'1A'1016	G-C	W/W	cis
@@ -1667,6 +1676,7 @@
 '1A'992	'1A'1030	G-A	S/S	trans
 '1A'993	'1A'994	G-C	upward
 '1A'993	'1A'1014	G-U	W/W	cis
+'1A'993	'1A'1030	G-A	downward
 '1A'994	'1A'995	C-G	upward
 '1A'994	'1A'1013	C-G	W/W	cis
 '1A'995	'1A'996	G-C	upward
@@ -1741,6 +1751,7 @@
 '1A'1032	'1A'1047	C-A	S/S	cis
 '1A'1033	'1A'1034	G-A	upward
 '1A'1033	'1A'1046	G-A	S/S	cis
+'1A'1034	'1A'1035	A-G	upward
 '1A'1037	'1A'1038	C-C	upward
 '1A'1037	'1A'1209	C-G	W/W	cis
 '1A'1037	'1A'1210	C-G	outward
@@ -1815,6 +1826,7 @@
 '1A'1065	'1A'1190	U-G	outward
 '1A'1066	'1A'1067	A-A	downward
 '1A'1066	'1A'1186	A-U	downward
+'1A'1066	'1A'1188	A-A	downward
 '1A'1067	'1A'1069	A-U	outward
 '1A'1067	'1A'1186	A-U	W/W	trans
 '1A'1068	'1A'1069	G-U	S/H	cis
@@ -1878,7 +1890,6 @@
 '1A'1094	'1A'1158	A-G	S/S	trans
 '1A'1095	'1A'2764	C-G	W/W	cis
 '1A'1096	'1A'1097	A-G	upward
-'1A'1096	'1A'1155	A-C	W/W	cis
 '1A'1096	'1A'2764	A-G	outward
 '1A'1097	'1A'1098	G-C	upward
 '1A'1097	'1A'1154	G-U	W/W	cis
@@ -1908,10 +1919,13 @@
 '1A'1107	'1A'1116	U-A	inward
 '1A'1108	'1A'1109	G-G	upward
 '1A'1108	'1A'1134	G-A	outward
+'1A'1109	'1A'1111	G-U	upward
 '1A'1109	'1A'1120	G-G	W/H	trans
 '1A'1109	'1A'1121	G-C	W/W	cis
 '1A'1110	'1A'1111	C-U	upward
-'1A'1110	'1A'1120	C-G	W/W	cis
+'1A'1111	'1A'1112	U-U	outward
+'1A'1112	'1A'1113	U-A	upward
+'1A'1114	'1A'1115	G-A	upward
 '1A'1117	'1A'1118	G-C	upward
 '1A'1117	'1A'1135	G-G	downward
 '1A'1117	'1A'1136	G-U	downward
@@ -1955,6 +1969,7 @@
 '1A'1147	'1A'1148	U-C	upward
 '1A'1148	'1A'1149	C-A	upward
 '1A'1149	'1A'1150	A-C	upward
+'1A'1150	'1A'1151	C-U	upward
 '1A'1151	'1A'1152	U-G	upward
 '1A'1152	'1A'1153	G-G	upward
 '1A'1153	'1A'1154	G-U	upward
@@ -2168,11 +2183,13 @@
 '1A'1315	'1A'1316	A-C	upward
 '1A'1315	'1A'2033	A-U	W/W	cis
 '1A'1315	'1A'2034	A-G	outward
+'1A'1316	'1A'1371	C-G	downward
 '1A'1316	'1A'2032	C-G	W/W	cis
 '1A'1317	'1A'1661	G-C	W/W	trans
 '1A'1318	'1A'1664	A-A	outward
 '1A'1319	'1A'2024	U-G	W/S	cis
 '1A'1320	'1A'1342	A-G	S/S	cis
+'1A'1320	'1A'1348	A-A	outward
 '1A'1320	'1A'1691	A-C	S/S	trans
 '1A'1320	'1A'1693	A-C	upward
 '1A'1321	'1A'1341	A-C	S/S	trans
@@ -2687,6 +2704,7 @@
 '1A'1588	'1A'1589	G-A	inward
 '1A'1589	'1A'1591	A-A	outward
 '1A'1591	'1A'1592	A-A	upward
+'1A'1592	'1A'1593	A-C	upward
 '1A'1594	'1A'1595	C-C	upward
 '1A'1595	'1A'1596	C-C	upward
 '1A'1596	'1A'1597	C-C	upward
@@ -2750,6 +2768,7 @@
 '1A'1658	'1A'1666	C-G	outward
 '1A'1659	'1A'1663	G-C	inward
 '1A'1659	'1A'1665	G-G	outward
+'1A'1660	'1A'1661	A-C	upward
 '1A'1661	'1A'1663	C-C	upward
 '1A'1665	'1A'1666	G-G	upward
 '1A'1666	'1A'1667	G-U	upward
@@ -2797,6 +2816,7 @@
 '1A'1699	'1A'1700	A-G	upward
 '1A'1699	'1A'2027	A-A	W/H	cis
 '1A'1701	'1A'1702	A-A	upward
+'1A'1701	'1A'2833	A-A	outward
 '1A'1702	'1A'1703	A-C	upward
 '1A'1702	'1A'2027	A-A	H/S	trans
 '1A'1703	'1A'1704	C-C	upward
@@ -2843,6 +2863,7 @@
 '1A'1716	'1A'2015	A-U	W/W	cis
 '1A'1717	'1A'1718	C-U	upward
 '1A'1719	'1A'1720	C-U	upward
+'1A'1720	'1A'1722	U-C	upward
 '1A'1721	'1A'1723	G-A	S/W	trans
 '1A'1721	'1A'1724	G-A	S/W	trans
 '1A'1721	'1A'2012	G-C	W/W	cis
@@ -2930,7 +2951,6 @@
 '1A'1764	'1A'1773	G-C	outward
 '1A'1765	'1A'1766	U-G	inward
 '1A'1765	'1A'1771	U-G	W/W	cis
-'1A'1766	'1A'1770	G-A	H/H	trans
 '1A'1767	'1A'1769	A-G	upward
 '1A'1769	'1A'1770	G-A	upward
 '1A'1770	'1A'1771	A-G	upward
@@ -2956,6 +2976,7 @@
 '1A'1788	'1A'1792	U-C	W/H	trans
 '1A'1788	'1A'1793	U-A	W/H	trans
 '1A'1790	'1A'1791	A-A	upward
+'1A'1790	'1A'2709	A-G	outward
 '1A'1791	'1A'1792	A-C	upward
 '1A'1792	'1A'1793	C-A	upward
 '1A'1795	'1A'1796	G-C	upward
@@ -2982,7 +3003,6 @@
 '1A'1803	'1A'2001	G-C	W/W	cis
 '1A'1803	'1A'2002	G-G	outward
 '1A'1804	'1A'1805	A-C	upward
-'1A'1804	'1A'1822	A-A	H/W	trans
 '1A'1804	'1A'1860	A-A	outward
 '1A'1804	'1A'1999	A-A	S/W	trans
 '1A'1805	'1A'1821	C-C	H/S	trans
@@ -3214,14 +3234,22 @@
 '1A'1930	'1A'1944	C-G	W/W	cis
 '1A'1931	'1A'1943	C-G	W/W	cis
 '1A'1931	'1A'1944	C-G	outward
+'1A'1932	'1A'1933	G-PSU	upward
 '1A'1932	'1A'1942	G-C	W/W	cis
 '1A'1932	'1A'1943	G-G	outward
+'1A'1933	'1A'1940	PSU-A	inward
 '1A'1934	'1A'1939	A-P	H/W	trans
 '1A'1934	'1A'1940	A-A	outward
 '1A'1934	'1A'1941	A-A	outward
 '1A'1934	'1a'1494	A-G	S/S	cis
 '1A'1935	'1a'1492	A-A	W/S	cis
+'1A'1935	'1a'1494	A-G	outward
+'1A'1936	'1A'1937	C-5MU	inward
+'1A'1937	'1A'1938	5MU-A	outward
+'1A'1938	'1A'1939	A-PSU	upward
+'1A'1939	'1A'1940	PSU-A	upward
 '1A'1940	'1A'1941	A-A	S/H	cis
+'1A'1941	'1A'1942	A-4OC	upward
 '1A'1943	'1A'1944	G-G	upward
 '1A'1944	'1A'1945	G-U	upward
 '1A'1945	'1A'1946	U-C	upward
@@ -3243,15 +3271,19 @@
 '1A'1955	'1A'1989	G-C	W/W	cis
 '1A'1955	'1A'1990	G-G	outward
 '1A'1956	'1A'1986	C-G	W/W	cis
+'1A'1957	'1A'1984	G-5MC	inward
 '1A'1957	'1A'1986	G-G	outward
 '1A'1958	'1A'1962	A-U	inward
 '1A'1958	'1A'1965	A-U	H/W	cis
 '1A'1958	'1A'1967	A-G	outward
+'1A'1959	'1A'1961	A-5MU	inward
 '1A'1959	'1A'1986	A-G	W/S	trans
 '1A'1960	'1A'2617	A-P	S/S	cis
 '1A'1962	'1A'1963	U-C	S/H	cis
 '1A'1962	'1A'1964	U-C	S/H	cis
+'1A'1963	'1A'1964	C-5MC	upward
 '1A'1963	'1A'1987	C-C	outward
+'1A'1964	'1A'1965	5MC-U	inward
 '1A'1966	'1A'1977	U-U	outward
 '1A'1967	'1A'1968	G-U	upward
 '1A'1967	'1A'1983	G-C	W/W	cis
@@ -3282,6 +3314,7 @@
 '1A'1981	'1A'1982	G-A	upward
 '1A'1981	'1a'1483	G-A	S/S	trans
 '1A'1982	'1A'1983	A-C	upward
+'1A'1983	'1A'1984	C-5MC	upward
 '1A'1986	'1A'1989	G-C	upward
 '1A'1987	'1A'1988	C-A	inward
 '1A'1988	'1A'2604	A-G	S/S	cis
@@ -3328,6 +3361,7 @@
 '1A'2035	'1A'2036	A-A	upward
 '1A'2035	'1A'2625	A-U	W/W	trans
 '1A'2036	'1A'2037	A-A	upward
+'1A'2037	'1A'2038	A-U	upward
 '1A'2038	'1A'2039	U-U	upward
 '1A'2040	'1A'2041	G-A	upward
 '1A'2041	'1A'2042	A-A	upward
@@ -3352,6 +3386,7 @@
 '1A'2051	'1A'2055	G-A	outward
 '1A'2053	'1A'2467	A-G	S/S	cis
 '1A'2053	'1A'2510	A-C	upward
+'1A'2054	'1A'2584	G-A	upward
 '1A'2055	'1A'2058	A-C	upward
 '1A'2056	'1A'2057	U-G	upward
 '1A'2059	'1A'2060	G-G	upward
@@ -3387,7 +3422,6 @@
 '1A'2074	'1A'2629	G-C	W/W	cis
 '1A'2074	'1A'2630	G-G	outward
 '1A'2075	'1A'2076	G-A	upward
-'1A'2075	'1A'2626	G-A	H/W	trans
 '1A'2075	'1A'2628	G-C	W/W	cis
 '1A'2075	'1A'2629	G-C	outward
 '1A'2076	'1A'2589	A-A	H/W	trans
@@ -3399,15 +3433,18 @@
 '1A'2079	'1A'2080	A-A	upward
 '1A'2079	'1A'2623	A-U	W/W	cis
 '1A'2080	'1A'2081	A-A	upward
+'1A'2081	'1A'2515	A-2MA	upward
 '1A'2082	'1A'2514	A-G	outward
 '1A'2083	'1A'2085	G-C	upward
 '1A'2083	'1A'2463	G-A	W/W	cis
+'1A'2083	'1A'2515	G-2MA	downward
 '1A'2084	'1A'2515	A-A	H/H	cis
 '1A'2085	'1A'2086	C-C	upward
 '1A'2085	'1A'2462	C-A	W/W	cis
 '1A'2085	'1A'2513	C-C	W/W	trans
 '1A'2086	'1A'2087	C-C	upward
 '1A'2086	'1A'2458	C-G	W/W	cis
+'1A'2086	'1A'2462	C-A	outward
 '1A'2087	'1A'2088	C-C	upward
 '1A'2087	'1A'2457	C-G	W/W	cis
 '1A'2087	'1A'2458	C-G	outward
@@ -3439,6 +3476,7 @@
 '1A'2096	'1A'2609	U-G	S/S	cis
 '1A'2097	'1A'2099	U-A	W/H	cis
 '1A'2097	'1A'2250	U-G	upward
+'1A'2098	'1A'2608	U-U	upward
 '1A'2099	'1A'2100	A-C	upward
 '1A'2099	'1A'2255	A-U	W/W	cis
 '1A'2099	'1A'2446	A-A	S/S	cis
@@ -3563,6 +3601,7 @@
 '1A'2146	'1A'2197	G-C	outward
 '1A'2147	'1A'2195	G-A	S/H	trans
 '1A'2148	'1A'2184	A-G	S/S	trans
+'1A'2148	'1A'2185	A-C	upward
 '1A'2148	'1A'2195	A-A	outward
 '1A'2149	'1A'2150	G-C	upward
 '1A'2149	'1A'2183	G-C	W/W	cis
@@ -3579,7 +3618,6 @@
 '1A'2157	'1A'2177	A-G	H/W	trans
 '1A'2157	'1A'2178	A-G	H/S	trans
 '1A'2158	'1A'2177	C-G	W/W	cis
-'1A'2159	'1A'2176	C-G	W/W	cis
 '1A'2160	'1A'2161	C-C	upward
 '1A'2160	'1A'2175	C-G	W/W	cis
 '1A'2161	'1A'2162	C-C	upward
@@ -3592,7 +3630,10 @@
 '1A'2163	'1A'2173	G-G	outward
 '1A'2164	'1A'2165	C-C	upward
 '1A'2164	'1A'2171	C-G	outward
+'1A'2165	'1A'2166	C-U	upward
 '1A'2165	'1A'2170	C-G	W/W	cis
+'1A'2165	'1A'2171	C-G	outward
+'1A'2168	'1A'2169	C-G	outward
 '1A'2169	'1A'2170	G-G	upward
 '1A'2170	'1A'2171	G-G	upward
 '1A'2171	'1A'2172	G-U	upward
@@ -3605,6 +3646,7 @@
 '1A'2178	'1A'2179	G-G	upward
 '1A'2181	'1A'2182	G-G	upward
 '1A'2182	'1A'2183	G-C	upward
+'1A'2183	'1A'2184	C-G	upward
 '1A'2184	'1A'2185	G-C	upward
 '1A'2185	'1A'2186	C-C	upward
 '1A'2187	'1A'2188	G-G	upward
@@ -3679,6 +3721,7 @@
 '1A'2254	'1A'2255	G-U	upward
 '1A'2255	'1A'2256	U-U	upward
 '1A'2256	'1A'2257	U-U	upward
+'1A'2256	'1A'2446	U-A	downward
 '1A'2256	'1A'2447	U-A	W/H	cis
 '1A'2257	'1A'2448	U-G	W/H	cis
 '1A'2258	'1A'2259	G-A	upward
@@ -3688,6 +3731,7 @@
 '1A'2259	'1A'2269	A-U	W/W	cis
 '1A'2260	'1A'2261	C-U	upward
 '1A'2260	'1A'2268	C-G	W/W	cis
+'1A'2263	'1A'2264	OMG-G	upward
 '1A'2264	'1A'2265	G-G	upward
 '1A'2265	'1A'2266	G-C	upward
 '1A'2266	'1A'2267	C-G	upward
@@ -3742,6 +3786,7 @@
 '1A'2296	'1A'2396	C-G	W/W	cis
 '1A'2297	'1A'2395	C-G	W/W	cis
 '1A'2297	'1A'2396	C-G	outward
+'1A'2298	'1A'2299	A-A	downward
 '1A'2298	'1A'2358	A-A	downward
 '1A'2299	'1A'2301	A-G	outward
 '1A'2299	'1A'2356	A-U	W/W	trans
@@ -3843,6 +3888,7 @@
 '1A'2358	'1A'2395	A-G	outward
 '1A'2359	'1A'2360	C-U	upward
 '1A'2359	'1A'2382	C-G	W/W	cis
+'1A'2359	'1A'2394	C-G	upward
 '1A'2360	'1A'2361	U-G	upward
 '1A'2360	'1A'2381	U-A	W/W	cis
 '1A'2360	'1A'2382	U-G	outward
@@ -3936,6 +3982,7 @@
 '1A'2416	'1A'2426	C-G	outward
 '1A'2417	'1A'2423	G-A	inward
 '1A'2417	'1A'2424	G-A	S/H	trans
+'1A'2417	'1A'2425	G-G	outward
 '1A'2419	'1A'2420	G-U	upward
 '1A'2420	'1A'2421	U-G	upward
 '1A'2421	'1A'2422	G-G	upward
@@ -3974,8 +4021,10 @@
 '1A'2459	'1A'2516	G-U	H/H	cis
 '1A'2462	'1A'2463	A-A	upward
 '1A'2462	'1A'2513	A-C	H/W	trans
+'1A'2463	'1A'2464	A-C	upward
 '1A'2464	'1A'2465	C-A	upward
 '1A'2464	'1A'2516	C-U	W/W	cis
+'1A'2464	'1A'2518	C-U	outward
 '1A'2465	'1A'2466	A-G	upward
 '1A'2465	'1A'2512	A-U	W/W	cis
 '1A'2465	'1A'2516	A-U	outward
@@ -4027,6 +4076,7 @@
 '1A'2481	'1A'2494	A-G	outward
 '1A'2482	'1A'2483	G-C	upward
 '1A'2482	'1A'2492	G-C	W/W	cis
+'1A'2482	'1A'2493	G-G	outward
 '1A'2483	'1A'2484	C-G	upward
 '1A'2483	'1A'2491	C-G	W/W	cis
 '1A'2484	'1A'2487	G-C	inward
@@ -4058,6 +4108,7 @@
 '1A'2508	'1A'2509	C-A	upward
 '1A'2509	'1A'2510	A-C	S/H	cis
 '1A'2511	'1A'2512	C-U	upward
+'1A'2512	'1A'2516	U-U	upward
 '1A'2516	'1A'2584	U-A	S/S	trans
 '1A'2517	'1A'2588	G-G	upward
 '1A'2517	'1A'2622	G-C	W/W	trans
@@ -4103,6 +4154,7 @@
 '1A'2533	'1A'2556	C-G	W/W	cis
 '1A'2533	'1A'2557	C-G	outward
 '1A'2533	'1A'2576	C-A	S/S	cis
+'1A'2534	'1A'2535	U-G	upward
 '1A'2534	'1A'2553	U-A	H/S	trans
 '1A'2534	'1A'2555	U-G	W/W	cis
 '1A'2535	'1A'2536	G-G	upward
@@ -4143,6 +4195,7 @@
 '1A'2553	'1A'2778	A-A	S/W	cis
 '1A'2554	'1A'2557	A-G	S/H	cis
 '1A'2555	'1A'2556	G-G	upward
+'1A'2555	'1A'2778	G-A	outward
 '1A'2556	'1A'2557	G-G	upward
 '1A'2557	'1A'2558	G-U	upward
 '1A'2557	'1A'2577	G-A	S/S	trans
@@ -4159,7 +4212,9 @@
 '1A'2562	'1A'2563	G-C	upward
 '1A'2562	'1A'2570	G-C	W/W	cis
 '1A'2562	'1A'2571	G-C	outward
+'1A'2563	'1A'2564	C-2MU	upward
 '1A'2563	'1A'2569	C-G	W/W	cis
+'1A'2565	'1A'2566	G-U	upward
 '1A'2565	'1A'2594	G-G	S/S	cis
 '1A'2566	'1A'2567	U-U	upward
 '1A'2567	'1A'2568	U-C	upward
@@ -4188,6 +4243,7 @@
 '1A'2593	'1A'2622	G-C	downward
 '1A'2594	'1A'2595	G-G	upward
 '1A'2595	'1A'2596	G-U	upward
+'1A'2596	'1A'2597	U-U	downward
 '1A'2598	'1A'2599	C-A	upward
 '1A'2599	'1A'2620	A-G	H/S	trans
 '1A'2600	'1A'2601	G-A	upward
@@ -4405,6 +4461,7 @@
 '1A'2721	'1A'2722	G-C	upward
 '1A'2722	'1A'2723	C-A	upward
 '1A'2723	'1A'2727	A-G	upward
+'1A'2724	'1A'2725	U-A	downward
 '1A'2727	'1A'2728	G-C	upward
 '1A'2728	'1A'2729	C-U	upward
 '1A'2729	'1A'2730	U-G	upward
@@ -4447,6 +4504,7 @@
 '1A'2755	'1A'2756	C-C	upward
 '1A'2755	'1A'2775	C-G	W/W	cis
 '1A'2755	'1A'2776	C-G	outward
+'1A'2756	'1A'2768	C-C	upward
 '1A'2756	'1A'2774	C-G	W/W	cis
 '1A'2756	'1A'2775	C-G	outward
 '1A'2757	'1A'2758	G-C	upward
@@ -4470,6 +4528,7 @@
 '1A'2766	'1A'2767	A-U	upward
 '1A'2769	'1A'2770	U-A	downward
 '1A'2769	'1A'2771	U-A	W/H	cis
+'1A'2769	'1A'2772	U-G	upward
 '1A'2771	'1A'2772	A-G	upward
 '1A'2772	'1A'2773	G-C	upward
 '1A'2774	'1A'2775	G-G	upward
@@ -4479,6 +4538,7 @@
 '1A'2780	'1A'2781	C-C	upward
 '1A'2781	'1A'2782	C-C	upward
 '1A'2782	'1A'2783	C-G	upward
+'1A'2783	'1A'2784	G-C	upward
 '1A'2784	'1A'2785	C-C	upward
 '1A'2785	'1A'2786	C-C	upward
 '1A'2786	'1A'2787	C-C	upward
@@ -4513,6 +4573,7 @@
 '1A'2816	'1A'2817	G-G	upward
 '1A'2817	'1A'2818	G-U	upward
 '1A'2817	'1A'2902	G-G	W/H	trans
+'1A'2818	'1A'2900	U-G	inward
 '1A'2818	'1A'2901	U-A	W/H	trans
 '1A'2819	'1A'2820	A-A	upward
 '1A'2819	'1A'2901	A-A	outward
@@ -4689,6 +4750,7 @@
 '1B'21	'1B'63	G-G	outward
 '1B'22	'1B'23	U-G	upward
 '1B'22	'1B'61	U-G	W/W	cis
+'1B'23	'1B'24	G-G	upward
 '1B'23	'1B'60	G-C	W/W	cis
 '1B'23	'1B'61	G-G	outward
 '1B'24	'1B'27	G-C	S/W	trans
@@ -4965,7 +5027,6 @@
 '1a'59	'1a'331	A-G	upward
 '1a'59	'1a'354	A-G	outward
 '1a'60	'1a'107	A-G	S/S	trans
-'1a'60	'1a'110	A-C	H/W	trans
 '1a'61	'1a'62	G-U	upward
 '1a'61	'1a'106	G-C	W/W	cis
 '1a'61	'1a'107	G-G	outward
@@ -5011,6 +5072,7 @@
 '1a'78	'1a'91	G-C	W/W	cis
 '1a'78	'1a'92	G-C	outward
 '1a'79	'1a'90	G-U	outward
+'1a'79	'1a'91	G-C	outward
 '1a'90	'1a'91	U-C	upward
 '1a'91	'1a'92	C-C	upward
 '1a'92	'1a'93	C-G	upward
@@ -5054,6 +5116,7 @@
 '1a'116	'1a'313	A-A	W/S	trans
 '1a'117	'1a'118	G-U	upward
 '1a'118	'1a'288	U-A	inward
+'1a'119	'1a'120	A-A	outward
 '1a'119	'1a'240	A-C	upward
 '1a'119	'1a'287	A-U	H/W	trans
 '1a'119	'1a'288	A-A	outward
@@ -5167,6 +5230,7 @@
 '1a'159	'1a'162	G-A	S/H	trans
 '1a'159	'1a'163	G-C	outward
 '1a'160	'1a'161	A-A	upward
+'1a'160	'1a'344	A-A	downward
 '1a'160	'1a'346	A-G	outward
 '1a'160	'1a'347	A-G	W/S	trans
 '1a'161	'1a'162	A-A	upward
@@ -5192,6 +5256,7 @@
 '1a'181	'1a'182	G-U	S/H	cis
 '1a'181	'1a'183	G-G	upward
 '1a'181	'1a'194	G-C	inward
+'1a'181	'1a'195	G-A	outward
 '1a'182	'1a'183	U-G	upward
 '1a'182	'1a'195	U-A	outward
 '1a'182	'1a'223	U-U	W/S	trans
@@ -5333,6 +5398,7 @@
 '1a'275	'1a'276	G-G	upward
 '1a'276	'1a'277	G-C	upward
 '1a'278	'1a'279	G-A	S/W	cis
+'1a'279	'1a'281	A-G	upward
 '1a'282	'1a'283	A-C	upward
 '1a'283	'1a'284	C-G	upward
 '1a'284	'1a'285	G-G	upward
@@ -5400,6 +5466,7 @@
 '1a'320	'1a'321	C-A	upward
 '1a'320	'1a'333	C-G	W/W	cis
 '1a'321	'1a'322	A-C	upward
+'1a'321	'1a'328	A-C	inward
 '1a'321	'1a'332	A-G	W/W	cis
 '1a'321	'1a'333	A-G	outward
 '1a'322	'1a'323	C-U	upward
@@ -5492,6 +5559,7 @@
 '1a'380	'1a'384	G-G	outward
 '1a'381	'1a'382	C-A	upward
 '1a'382	'1a'383	A-A	upward
+'1a'383	'1a'384	A-G	upward
 '1a'384	'1a'385	G-C	upward
 '1a'385	'1a'386	C-C	upward
 '1a'386	'1a'387	C-U	upward
@@ -5609,6 +5677,7 @@
 '1a'452	'1a'480	A-U	H/W	trans
 '1a'453	'1a'454	A-C	upward
 '1a'453	'1a'479	A-C	H/W	trans
+'1a'454	'1a'455	C-C	upward
 '1a'454	'1a'477	C-A	H/W	trans
 '1a'455	'1a'456	C-C	upward
 '1a'455	'1a'476	C-G	W/W	cis
@@ -5678,8 +5747,10 @@
 '1a'513	'1a'538	C-G	W/W	cis
 '1a'514	'1a'515	C-G	upward
 '1a'514	'1a'537	C-G	W/W	cis
+'1a'515	'1a'516	G-PSU	upward
 '1a'515	'1a'536	G-C	W/W	cis
 '1a'515	'1a'537	G-G	outward
+'1a'516	'1a'517	PSU-G	upward
 '1a'516	'1a'519	P-C	S/W	cis
 '1a'516	'1a'533	P-A	W/H	trans
 '1a'517	'1a'531	G-U	upward
@@ -5697,6 +5768,7 @@
 '1a'522	'1a'527	C-G	W/W	cis
 '1a'524	'1a'525	G-C	upward
 '1a'525	'1a'526	C-C	upward
+'1a'527	'1a'528	7MG-C	upward
 '1a'528	'1a'529	C-G	upward
 '1a'532	'1a'1206	A-G	W/S	trans
 '1a'533	'1a'536	A-C	upward
@@ -5778,6 +5850,7 @@
 '1a'585	'1a'586	G-C	upward
 '1a'585	'1a'756	G-C	W/W	cis
 '1a'585	'1a'757	G-U	outward
+'1a'586	'1a'587	C-G	upward
 '1a'586	'1a'755	C-G	W/W	cis
 '1a'587	'1a'755	G-G	outward
 '1a'588	'1a'589	G-C	upward
@@ -6008,6 +6081,7 @@
 '1a'713	'1a'714	G-G	upward
 '1a'714	'1a'715	G-A	upward
 '1a'715	'1a'716	A-A	upward
+'1a'715	'1a'777	A-A	outward
 '1a'716	'1a'717	A-C	upward
 '1a'717	'1a'734	C-G	upward
 '1a'718	'1a'719	G-C	upward
@@ -6123,6 +6197,7 @@
 '1a'791	'1a'792	G-A	upward
 '1a'792	'1a'794	A-A	upward
 '1a'794	'1a'795	A-C	upward
+'1a'795	'1a'796	C-C	upward
 '1a'796	'1a'797	C-C	upward
 '1a'797	'1a'798	C-G	upward
 '1a'798	'1a'799	G-G	upward
@@ -6130,6 +6205,7 @@
 '1a'801	'1a'802	U-A	upward
 '1a'802	'1a'803	A-G	upward
 '1a'803	'1a'804	G-U	upward
+'1a'804	'1a'805	U-C	upward
 '1a'806	'1a'807	C-A	upward
 '1a'807	'1a'808	A-C	upward
 '1a'808	'1a'809	C-G	upward
@@ -6230,6 +6306,7 @@
 '1a'877	'1a'878	C-G	upward
 '1a'878	'1a'879	G-C	upward
 '1a'879	'1a'880	C-C	upward
+'1a'880	'1a'881	C-G	upward
 '1a'881	'1a'882	G-C	upward
 '1a'882	'1a'883	C-C	upward
 '1a'883	'1a'884	C-U	upward
@@ -6265,6 +6342,7 @@
 '1a'895	'1a'905	G-U	outward
 '1a'896	'1a'897	C-C	upward
 '1a'896	'1a'903	C-G	W/W	cis
+'1a'897	'1a'898	C-G	upward
 '1a'897	'1a'902	C-G	W/W	cis
 '1a'897	'1a'903	C-G	outward
 '1a'898	'1a'901	G-A	S/H	trans
@@ -6403,8 +6481,11 @@
 '1a'963	'1a'964	G-A	upward
 '1a'963	'1a'972	G-C	W/W	cis
 '1a'963	'1a'973	G-G	outward
+'1a'964	'1a'965	A-A	upward
 '1a'964	'1a'969	A-A	S/S	cis
 '1a'965	'1a'969	A-A	outward
+'1a'966	'1a'967	M2G-5MC	upward
+'1a'967	'1a'968	5MC-A	inward
 '1a'969	'1a'970	A-C	upward
 '1a'973	'1a'974	G-A	inward
 '1a'976	'1a'1358	G-U	downward
@@ -6418,6 +6499,7 @@
 '1a'978	'1a'1360	A-A	H/W	trans
 '1a'979	'1a'980	C-C	upward
 '1a'979	'1a'1317	C-C	S/H	trans
+'1a'979	'1a'1318	C-A	outward
 '1a'980	'1a'981	C-U	upward
 '1a'981	'1a'982	U-U	inward
 '1a'982	'1a'983	U-A	downward
@@ -6443,6 +6525,7 @@
 '1a'990	'1a'991	C-U	upward
 '1a'990	'1a'1215	C-G	W/W	cis
 '1a'990	'1a'1216	C-G	outward
+'1a'991	'1a'1212	U-U	upward
 '1a'991	'1a'1213	U-A	W/H	trans
 '1a'991	'1a'1215	U-G	outward
 '1a'992	'1a'993	U-G	downward
@@ -6478,7 +6561,9 @@
 '1a'1003	'1a'1037	G-C	W/W	cis
 '1a'1003	'1a'1038	G-C	W/W	cis
 '1a'1004	'1a'1035	A-A	downward
+'1a'1004	'1a'1036	A-G	downward
 '1a'1004	'1a'1037	A-C	upward
+'1a'1004	'1a'1038	A-C	upward
 '1a'1005	'1a'1024	A-G	H/W	trans
 '1a'1005	'1a'1024	A-G	outward
 '1a'1006	'1a'1007	C-C	upward
@@ -6580,10 +6665,12 @@
 '1a'1063	'1a'1193	C-G	W/W	cis
 '1a'1064	'1a'1066	G-C	outward
 '1a'1064	'1a'1190	G-G	S/S	trans
+'1a'1065	'1a'1190	U-G	outward
 '1a'1066	'1a'1067	C-A	upward
 '1a'1066	'1a'1191	C-A	W/H	trans
 '1a'1067	'1a'1191	A-A	outward
 '1a'1068	'1a'1069	G-C	upward
+'1a'1068	'1a'1094	G-G	inward
 '1a'1068	'1a'1107	G-C	W/W	cis
 '1a'1068	'1a'1108	G-G	outward
 '1a'1068	'1a'1191	G-A	S/S	trans
@@ -6623,6 +6710,7 @@
 '1a'1084	'1a'1085	G-U	inward
 '1a'1084	'1a'1102	G-A	S/H	cis
 '1a'1084	'1a'1103	G-C	S/H	cis
+'1a'1085	'1a'1094	U-G	outward
 '1a'1086	'1a'1087	U-G	upward
 '1a'1086	'1a'1099	U-G	W/W	cis
 '1a'1087	'1a'1088	G-G	upward
@@ -6684,6 +6772,7 @@
 '1a'1121	'1a'1152	U-A	W/W	cis
 '1a'1122	'1a'1123	U-A	upward
 '1a'1122	'1a'1151	U-A	W/W	cis
+'1a'1123	'1a'1124	A-G	upward
 '1a'1123	'1a'1150	A-U	W/W	cis
 '1a'1123	'1a'1151	A-A	outward
 '1a'1124	'1a'1125	G-U	S/H	cis
@@ -6793,6 +6882,8 @@
 '1a'1202	'1a'1203	G-C	upward
 '1a'1203	'1a'1204	C-A	upward
 '1a'1204	'1a'1205	A-U	upward
+'1a'1206	'1a'1207	G-2MG	upward
+'1a'1207	'1a'1208	2MG-C	upward
 '1a'1208	'1a'1209	C-C	upward
 '1a'1210	'1a'1211	C-U	upward
 '1a'1213	'1a'1215	A-G	upward
@@ -6912,6 +7003,7 @@
 '1a'1294	'1a'1295	G-G	upward
 '1a'1295	'1a'1296	G-C	upward
 '1a'1295	'1a'1302	G-U	S/W	trans
+'1a'1296	'1a'1297	C-C	upward
 '1a'1297	'1a'1298	C-C	S/H	cis
 '1a'1298	'1a'1299	C-A	downward
 '1a'1299	'1a'1301	A-U	outward
@@ -7027,6 +7119,7 @@
 '1a'1379	'1a'1380	G-U	upward
 '1a'1379	'1a'1381	G-U	S/H	cis
 '1a'1381	'1a'1382	U-C	upward
+'1a'1382	'1a'1383	C-C	upward
 '1a'1383	'1a'1384	C-C	upward
 '1a'1384	'1a'1385	C-G	upward
 '1a'1385	'1a'1386	G-G	upward
@@ -7042,15 +7135,22 @@
 '1a'1395	'1a'1398	C-A	S/S	cis
 '1a'1399	'1a'1401	C-G	outward
 '1a'1399	'1a'1504	C-G	W/W	cis
+'1a'1401	'1a'1402	G-4OC	upward
 '1a'1401	'1a'1501	G-C	W/W	cis
+'1a'1402	'1a'1403	4OC-C	upward
 '1a'1402	'1a'1500	C-A	W/W	cis
+'1a'1403	'1a'1404	C-5MC	upward
 '1a'1403	'1a'1499	C-A	S/W	cis
+'1a'1404	'1a'1405	5MC-G	upward
 '1a'1404	'1a'1497	C-G	W/W	cis
+'1a'1404	'1a'1499	5MC-A	outward
 '1a'1405	'1a'1406	G-U	upward
 '1a'1405	'1a'1496	G-C	W/W	cis
 '1a'1405	'1a'1497	G-G	outward
 '1a'1405	'1a'1518	G-A	S/S	cis
+'1a'1406	'1a'1407	U-5MC	upward
 '1a'1406	'1a'1495	U-U	W/W	cis
+'1a'1407	'1a'1408	5MC-A	upward
 '1a'1407	'1a'1494	C-G	W/W	cis
 '1a'1408	'1a'1409	A-C	upward
 '1a'1408	'1a'1492	A-A	W/W	cis
@@ -7190,6 +7290,7 @@
 '1a'1494	'1a'1495	G-U	upward
 '1a'1495	'1a'1496	U-C	upward
 '1a'1496	'1a'1497	C-G	upward
+'1a'1497	'1a'1498	G-UR3	upward
 '1a'1498	'1a'1499	U-A	S/H	cis
 '1a'1499	'1a'1500	A-A	upward
 '1a'1500	'1a'1501	A-C	upward
@@ -7221,6 +7322,8 @@
 '1a'1515	'1a'1521	C-G	outward
 '1a'1516	'1a'1519	G-A	W/H	trans
 '1a'1516	'1a'1520	G-G	outward
+'1a'1517	'1a'1518	G-MA6	upward
+'1a'1518	'1a'1519	MA6-MA6	upward
 '1a'1520	'1a'1521	G-G	upward
 '1a'1521	'1a'1522	G-U	upward
 '1a'1522	'1a'1523	U-G	upward
@@ -7336,6 +7439,7 @@
 '2A'47	'2A'179	C-G	outward
 '2A'48	'2A'49	G-A	S/W	cis
 '2A'48	'2A'178	G-G	outward
+'2A'49	'2A'51	A-G	upward
 '2A'49	'2A'118	A-A	inward
 '2A'49	'2A'120	A-U	H/W	cis
 '2A'49	'2A'177	A-G	outward
@@ -7532,6 +7636,7 @@
 '2A'182	'2A'183	A-C	upward
 '2A'182	'2A'215	A-G	W/W	cis
 '2A'182	'2A'433	A-C	S/S	cis
+'2A'183	'2A'184	C-C	upward
 '2A'183	'2A'214	C-G	W/W	cis
 '2A'183	'2A'432	C-A	S/S	cis
 '2A'184	'2A'185	C-U	upward
@@ -7621,6 +7726,7 @@
 '2A'222	'2A'224	A-G	upward
 '2A'222	'2A'232	A-G	H/S	trans
 '2A'223	'2A'407	A-G	S/S	trans
+'2A'223	'2A'408	A-G	upward
 '2A'223	'2A'422	A-A	outward
 '2A'224	'2A'225	G-A	upward
 '2A'224	'2A'231	G-C	W/W	cis
@@ -7631,6 +7737,7 @@
 '2A'226	'2A'228	G-A	S/H	cis
 '2A'226	'2A'418	G-G	W/S	cis
 '2A'227	'2A'410	A-G	W/S	trans
+'2A'227	'2A'2407	A-G	upward
 '2A'228	'2A'230	A-U	upward
 '2A'230	'2A'231	U-C	upward
 '2A'231	'2A'232	C-G	upward
@@ -7679,11 +7786,11 @@
 '2A'247	'2A'252	G-G	outward
 '2A'248	'2A'250	G-G	outward
 '2A'250	'2A'251	G-A	upward
-'2A'250	'2A'386	G-G	H/W	cis
 '2A'251	'2A'252	A-G	upward
 '2A'252	'2A'253	G-C	upward
 '2A'253	'2A'254	C-G	upward
 '2A'255	'2A'256	A-A	upward
+'2A'255	'2A'384	A-U	outward
 '2A'256	'2A'257	A-A	upward
 '2A'257	'2A'258	A-G	upward
 '2A'258	'2A'259	G-G	upward
@@ -7714,6 +7821,7 @@
 '2A'270	'2A'271	A-A	upward
 '2A'270	'2A'271.Y	A-U	H/W	trans
 '2A'270	'2A'370	A-G	outward
+'2A'271	'2A'271.A	A-A	upward
 '2A'271	'2A'271.X	A-G	H/S	trans
 '2A'271.A	'2A'272.D	A-G	S/S	trans
 '2A'271.B	'2A'271.C	C-C	upward
@@ -7778,6 +7886,7 @@
 '2A'272.I	'2A'272.J	U-C	upward
 '2A'272.I	'2A'363.A	U-A	W/W	cis
 '2A'272.I	'2A'363.B	U-G	outward
+'2A'272.J	'2A'274	C-G	upward
 '2A'272.J	'2A'363	C-G	W/W	cis
 '2A'274	'2A'275	G-G	upward
 '2A'274	'2A'363	G-G	outward
@@ -8039,6 +8148,7 @@
 '2A'448	'2A'583	U-G	W/S	trans
 '2A'449	'2A'450	A-G	upward
 '2A'449	'2A'454	A-A	W/H	trans
+'2A'450	'2A'451	G-C	upward
 '2A'450	'2A'454	G-A	outward
 '2A'451	'2A'453	C-C	inward
 '2A'452	'2A'453	G-C	upward
@@ -8113,6 +8223,7 @@
 '2A'487	'2A'493	C-G	W/W	cis
 '2A'487	'2A'494	C-G	outward
 '2A'488	'2A'492	G-A	S/H	trans
+'2A'488	'2A'493	G-G	outward
 '2A'489	'2A'491	G-G	upward
 '2A'489	'2A'1284	G-A	outward
 '2A'491	'2A'492	G-A	upward
@@ -8303,8 +8414,10 @@
 '2A'605	'2A'606	C-U	upward
 '2A'605	'2A'623	C-G	W/W	cis
 '2A'606	'2A'622	U-G	W/W	cis
+'2A'607	'2A'619	U-G	inward
 '2A'607	'2A'620	U-G	downward
 '2A'607	'2A'621	U-A	W/H	trans
+'2A'607	'2A'622	U-G	outward
 '2A'608	'2A'609	A-A	upward
 '2A'608	'2A'621	A-A	outward
 '2A'609	'2A'610	A-G	upward
@@ -8372,9 +8485,11 @@
 '2A'652.D	'2A'652.U	C-G	W/W	cis
 '2A'652.E	'2A'652.T	G-C	W/W	cis
 '2A'652.E	'2A'652.U	G-G	outward
+'2A'652.T	'2A'652.U	C-G	upward
 '2A'652.U	'2A'652.V	G-C	upward
 '2A'652.V	'2A'653	C-A	upward
 '2A'653	'2A'654	A-A	upward
+'2A'654	'2A'655	A-A	upward
 '2A'656	'2A'657	G-U	upward
 '2A'657	'2A'658	U-C	upward
 '2A'658	'2A'659	C-C	upward
@@ -8404,6 +8519,7 @@
 '2A'675	'2A'803	A-U	H/W	trans
 '2A'675	'2A'804	A-A	outward
 '2A'675	'2A'2443	A-C	S/S	cis
+'2A'676	'2A'677	A-A	upward
 '2A'676	'2A'802	A-A	H/W	trans
 '2A'676	'2A'2069	A-G	S/S	trans
 '2A'676	'2A'2442	A-C	S/S	cis
@@ -8543,6 +8659,7 @@
 '2A'739	'2A'740	G-U	S/H	cis
 '2A'740	'2A'741	U-G	upward
 '2A'740	'2A'757	U-U	W/W	cis
+'2A'740	'2A'758	U-C	outward
 '2A'740	'2A'1981	U-A	downward
 '2A'741	'2A'742	G-G	upward
 '2A'741	'2A'756	G-C	W/W	cis
@@ -8655,6 +8772,7 @@
 '2A'818	'2A'1187	G-G	inward
 '2A'818	'2A'1188	G-U	inward
 '2A'818	'2A'1189	G-A	S/H	trans
+'2A'818	'2A'1190	G-G	outward
 '2A'819	'2A'820	A-A	upward
 '2A'819	'2A'942	A-G	S/S	trans
 '2A'819	'2A'973	A-A	upward
@@ -8674,6 +8792,7 @@
 '2A'824	'2A'833	A-U	W/W	cis
 '2A'825	'2A'826	C-U	upward
 '2A'825	'2A'832	C-G	W/W	cis
+'2A'826	'2A'829	U-A	upward
 '2A'826	'2A'831	U-G	W/W	cis
 '2A'826	'2A'832	U-G	outward
 '2A'827	'2A'2430	U-A	inward
@@ -8815,6 +8934,7 @@
 '2A'884	'2A'892	C-G	W/W	cis
 '2A'885	'2A'886	C-C	upward
 '2A'886	'2A'889	C-C	S/H	trans
+'2A'888	'2A'889	C-C	upward
 '2A'889	'2A'890	C-A	upward
 '2A'890	'2A'892	A-G	upward
 '2A'892	'2A'893	G-C	upward
@@ -8864,6 +8984,7 @@
 '2A'940	'2A'941	G-A	upward
 '2A'941	'2A'942	A-G	upward
 '2A'942	'2A'943	G-U	upward
+'2A'943	'2A'944	U-G	inward
 '2A'945	'2A'2448	A-A	outward
 '2A'946	'2A'947	G-G	upward
 '2A'946	'2A'971	G-C	W/W	cis
@@ -8875,6 +8996,7 @@
 '2A'948	'2A'949	G-C	upward
 '2A'948	'2A'969	G-U	W/W	cis
 '2A'948	'2A'970	G-C	W/W	cis
+'2A'948	'2A'984	G-A	downward
 '2A'949	'2A'950	C-G	upward
 '2A'949	'2A'968	C-G	W/W	cis
 '2A'950	'2A'951	G-C	upward
@@ -8949,6 +9071,7 @@
 '2A'986	'2A'1001	C-A	S/S	cis
 '2A'987	'2A'988	G-A	upward
 '2A'987	'2A'1000	G-A	S/S	cis
+'2A'988	'2A'989	A-G	upward
 '2A'991	'2A'992	C-C	upward
 '2A'991	'2A'1163	C-G	W/W	cis
 '2A'991	'2A'1164	C-G	outward
@@ -8968,6 +9091,7 @@
 '2A'998	'2A'999	C-U	upward
 '2A'998	'2A'1157	C-G	W/W	cis
 '2A'999	'2A'1000	U-A	upward
+'2A'999	'2A'1154	U-G	inward
 '2A'999	'2A'1155	U-A	W/H	trans
 '2A'999	'2A'1157	U-G	outward
 '2A'1000	'2A'1001	A-A	upward
@@ -9085,8 +9209,10 @@
 '2A'1049	'2A'1050	C-A	upward
 '2A'1049	'2A'2751	C-G	W/H	cis
 '2A'1050	'2A'1051	A-G	upward
+'2A'1050	'2A'2751	A-G	downward
 '2A'1051	'2A'1052	G-C	upward
 '2A'1051	'2A'1108	G-U	W/W	cis
+'2A'1051	'2A'2751	G-G	downward
 '2A'1052	'2A'1053	C-C	upward
 '2A'1052	'2A'1107	C-G	W/W	cis
 '2A'1053	'2A'1054	C-A	upward
@@ -9106,32 +9232,37 @@
 '2A'1057	'2A'1086	A-A	outward
 '2A'1058	'2A'1080	G-C	W/W	cis
 '2A'1058	'2A'1081	G-U	outward
+'2A'1059	'2A'1060	G-U	upward
 '2A'1059	'2A'1079	G-C	W/W	trans
 '2A'1059	'2A'1079	G-C	outward
 '2A'1060	'2A'1062	U-G	outward
 '2A'1062	'2A'1088	G-A	W/H	trans
 '2A'1063	'2A'1064	G-C	upward
+'2A'1063	'2A'1065	G-U	upward
 '2A'1063	'2A'1075	G-C	W/W	cis
 '2A'1063	'2A'1075	G-C	outward
 '2A'1063	'2A'1077	G-A	outward
 '2A'1064	'2A'1074	C-G	W/W	cis
 '2A'1064	'2A'1075	C-C	outward
+'2A'1065	'2A'1066	U-U	upward
 '2A'1065	'2A'1073	U-A	W/W	cis
 '2A'1070	'2A'1071	A-G	outward
 '2A'1071	'2A'1089	G-G	S/H	cis
 '2A'1074	'2A'1075	G-C	upward
 '2A'1077	'2A'1078	A-U	upward
+'2A'1079	'2A'1088	C-A	downward
 '2A'1080	'2A'1081	C-U	upward
 '2A'1081	'2A'1085	U-A	inward
 '2A'1082	'2A'1086	U-A	W/W	trans
 '2A'1082	'2A'1086	U-A	outward
+'2A'1084	'2A'1105	A-U	upward
 '2A'1087	'2A'1089	G-G	upward
 '2A'1087	'2A'1102	G-C	W/W	cis
 '2A'1087	'2A'1103	G-A	outward
 '2A'1091	'2A'1092	G-C	upward
 '2A'1091	'2A'1100	G-C	W/W	cis
+'2A'1091	'2A'1101	G-U	upward
 '2A'1092	'2A'1098	C-A	W/H	trans
-'2A'1092	'2A'1099	C-G	W/W	cis
 '2A'1093	'2A'1094	G-U	upward
 '2A'1093	'2A'1099	G-G	outward
 '2A'1098	'2A'1099	A-G	upward
@@ -9140,6 +9271,7 @@
 '2A'1101	'2A'1102	U-C	upward
 '2A'1102	'2A'1103	C-A	upward
 '2A'1103	'2A'1104	A-C	upward
+'2A'1105	'2A'1106	U-G	upward
 '2A'1106	'2A'1107	G-G	upward
 '2A'1107	'2A'1108	G-U	upward
 '2A'1108	'2A'1109	U-C	upward
@@ -9212,6 +9344,7 @@
 '2A'1169	'2A'1170	G-G	upward
 '2A'1169	'2A'1180	G-C	W/W	cis
 '2A'1169	'2A'1181	G-C	outward
+'2A'1170	'2A'1171	G-G	upward
 '2A'1170	'2A'1179	G-C	W/W	cis
 '2A'1170	'2A'1180	G-C	outward
 '2A'1171	'2A'1178	G-C	W/W	cis
@@ -9347,11 +9480,13 @@
 '2A'1269	'2A'1270	A-C	upward
 '2A'1269	'2A'2011	A-U	W/W	cis
 '2A'1269	'2A'2012	A-G	outward
+'2A'1270	'2A'1325	C-G	downward
 '2A'1270	'2A'2010	C-G	W/W	cis
 '2A'1271	'2A'1615	G-C	W/W	trans
 '2A'1272	'2A'1618	A-A	outward
 '2A'1273	'2A'2002	U-G	W/S	cis
 '2A'1274	'2A'1296	A-G	S/S	cis
+'2A'1274	'2A'1302	A-A	outward
 '2A'1274	'2A'1644	A-C	S/S	trans
 '2A'1274	'2A'1646	A-C	upward
 '2A'1275	'2A'1295	A-C	S/S	trans
@@ -9384,6 +9519,7 @@
 '2A'1287	'2A'1288	A-U	upward
 '2A'1287	'2A'1648	A-C	W/S	cis
 '2A'1288	'2A'1326	U-U	W/W	trans
+'2A'1288	'2A'1327	U-C	upward
 '2A'1288	'2A'1647	U-G	S/S	trans
 '2A'1289	'2A'1290	C-C	upward
 '2A'1290	'2A'1291	C-C	upward
@@ -9853,6 +9989,7 @@
 '2A'1532	'2A'1538	C-G	outward
 '2A'1533	'2A'1536	G-C	inward
 '2A'1533	'2A'1537	G-G	outward
+'2A'1536	'2A'1537	C-G	upward
 '2A'1537	'2A'1538	G-G	upward
 '2A'1538	'2A'1539	G-G	upward
 '2A'1539	'2A'1540	G-U	upward
@@ -9925,6 +10062,7 @@
 '2A'1612	'2A'1620	C-G	outward
 '2A'1613	'2A'1617	G-C	inward
 '2A'1613	'2A'1619	G-G	outward
+'2A'1614	'2A'1615	A-C	upward
 '2A'1615	'2A'1617	C-C	upward
 '2A'1619	'2A'1620	G-G	upward
 '2A'1620	'2A'1621	G-U	upward
@@ -9973,6 +10111,7 @@
 '2A'1652	'2A'1653	A-G	upward
 '2A'1652	'2A'2005	A-A	W/H	cis
 '2A'1654	'2A'1655	A-A	upward
+'2A'1654	'2A'2823	A-A	outward
 '2A'1655	'2A'1656	A-C	upward
 '2A'1655	'2A'2005	A-A	H/S	trans
 '2A'1656	'2A'1657	C-C	upward
@@ -10018,8 +10157,8 @@
 '2A'1668	'2A'1993	A-U	outward
 '2A'1669	'2A'1993	A-U	W/W	cis
 '2A'1670	'2A'1671	C-U	upward
-'2A'1671	'2A'1673	U-U	S/H	trans
 '2A'1672	'2A'1673	C-U	upward
+'2A'1673	'2A'1675	U-C	upward
 '2A'1674	'2A'1676	G-A	S/W	trans
 '2A'1674	'2A'1677	G-A	S/W	trans
 '2A'1674	'2A'1990	G-C	W/W	cis
@@ -10107,7 +10246,6 @@
 '2A'1719	'2A'1744	G-C	outward
 '2A'1720	'2A'1721	U-G	inward
 '2A'1720	'2A'1742	U-G	W/W	cis
-'2A'1721	'2A'1741	G-A	H/H	trans
 '2A'1722	'2A'1740	A-G	upward
 '2A'1740	'2A'1741	G-A	upward
 '2A'1741	'2A'1742	A-G	upward
@@ -10158,7 +10296,6 @@
 '2A'1772	'2A'1979	G-C	W/W	cis
 '2A'1772	'2A'1980	G-G	outward
 '2A'1773	'2A'1774	A-C	upward
-'2A'1773	'2A'1791	A-A	H/W	trans
 '2A'1773	'2A'1829	A-A	outward
 '2A'1773	'2A'1977	A-A	S/W	trans
 '2A'1774	'2A'1790	C-C	H/S	trans
@@ -10188,6 +10325,7 @@
 '2A'1789	'2A'1790	A-C	upward
 '2A'1790	'2A'1791	C-A	upward
 '2A'1790	'2A'1828	C-G	inward
+'2A'1791	'2A'1792	A-G	upward
 '2A'1791	'2A'1828	A-G	H/S	trans
 '2A'1792	'2A'1793	G-C	upward
 '2A'1792	'2A'1827	G-C	W/W	cis
@@ -10215,6 +10353,7 @@
 '2A'1799	'2A'1819	G-A	downward
 '2A'1800	'2A'1802	C-A	outward
 '2A'1800	'2A'1817	C-G	W/W	trans
+'2A'1800	'2A'1818	C-U	upward
 '2A'1800	'2A'1819	C-A	H/H	trans
 '2A'1802	'2A'1803	A-A	upward
 '2A'1802	'2A'1815	A-A	H/H	trans
@@ -10316,6 +10455,7 @@
 '2A'1854	'2A'2087	A-G	S/S	trans
 '2A'1855	'2A'1856	G-G	upward
 '2A'1855	'2A'1887	G-C	W/W	cis
+'2A'1855	'2A'1888	G-G	outward
 '2A'1856	'2A'1857	G-G	upward
 '2A'1856	'2A'1886	G-C	W/W	cis
 '2A'1856	'2A'1887	G-C	outward
@@ -10388,15 +10528,22 @@
 '2A'1909	'2A'1910	C-G	upward
 '2A'1909	'2A'1921	C-G	W/W	cis
 '2A'1909	'2A'1922	C-G	outward
+'2A'1910	'2A'1911	G-PSU	upward
 '2A'1910	'2A'1920	G-C	W/W	cis
 '2A'1910	'2A'1921	G-G	outward
+'2A'1911	'2A'1918	PSU-A	inward
 '2A'1911	'2A'1919	P-A	W/H	trans
 '2A'1912	'2A'1917	A-P	H/W	trans
 '2A'1912	'2A'1918	A-A	outward
 '2A'1912	'2A'1919	A-A	outward
 '2A'1912	'2a'1494	A-G	S/S	cis
 '2A'1913	'2a'1491	A-G	inward
+'2A'1914	'2A'1915	C-5MU	inward
+'2A'1915	'2A'1916	5MU-A	outward
+'2A'1916	'2A'1917	A-PSU	upward
+'2A'1917	'2A'1918	PSU-A	upward
 '2A'1918	'2A'1919	A-A	S/H	cis
+'2A'1919	'2A'1920	A-4OC	upward
 '2A'1921	'2A'1922	G-G	upward
 '2A'1922	'2A'1923	G-U	upward
 '2A'1923	'2A'1924	U-C	upward
@@ -10419,19 +10566,24 @@
 '2A'1933	'2A'1968	G-G	outward
 '2A'1934	'2A'1935	C-G	upward
 '2A'1934	'2A'1964	C-G	W/W	cis
+'2A'1935	'2A'1962	G-5MC	inward
 '2A'1935	'2A'1964	G-G	outward
 '2A'1936	'2A'1940	A-U	inward
 '2A'1936	'2A'1943	A-U	H/W	cis
 '2A'1936	'2A'1945	A-G	outward
+'2A'1937	'2A'1939	A-5MU	inward
 '2A'1938	'2A'2605	A-P	S/S	cis
 '2A'1940	'2A'1941	U-C	S/H	cis
 '2A'1940	'2A'1942	U-C	S/H	cis
+'2A'1941	'2A'1942	C-5MC	upward
 '2A'1941	'2A'1965	C-C	outward
+'2A'1942	'2A'1943	5MC-U	inward
 '2A'1944	'2A'1955	U-U	outward
 '2A'1945	'2A'1946	G-U	upward
 '2A'1945	'2A'1961	G-C	W/W	cis
 '2A'1946	'2A'1947	U-C	upward
 '2A'1946	'2A'1960	U-A	W/W	cis
+'2A'1947	'2A'1948	C-G	upward
 '2A'1947	'2A'1959	C-G	W/W	cis
 '2A'1947	'2A'1960	C-A	outward
 '2A'1947	'2a'1483	C-A	S/S	cis
@@ -10456,6 +10608,7 @@
 '2A'1959	'2A'1960	G-A	upward
 '2A'1959	'2a'1483	G-A	S/S	trans
 '2A'1960	'2A'1961	A-C	upward
+'2A'1961	'2A'1962	C-5MC	upward
 '2A'1964	'2A'1967	G-C	upward
 '2A'1965	'2A'1966	C-A	inward
 '2A'1966	'2A'2592	A-G	S/S	cis
@@ -10503,6 +10656,7 @@
 '2A'2013	'2A'2014	A-A	upward
 '2A'2013	'2A'2613	A-U	W/W	trans
 '2A'2014	'2A'2015	A-A	upward
+'2A'2015	'2A'2016	A-U	upward
 '2A'2016	'2A'2017	U-U	upward
 '2A'2018	'2A'2019	G-A	upward
 '2A'2019	'2A'2020	A-A	upward
@@ -10529,6 +10683,7 @@
 '2A'2029	'2A'2033	G-A	outward
 '2A'2031	'2A'2455	A-G	S/S	cis
 '2A'2031	'2A'2498	A-C	upward
+'2A'2032	'2A'2572	G-A	upward
 '2A'2033	'2A'2036	A-C	upward
 '2A'2034	'2A'2035	U-G	upward
 '2A'2037	'2A'2038	G-G	upward
@@ -10575,15 +10730,18 @@
 '2A'2057	'2A'2058	A-A	upward
 '2A'2057	'2A'2611	A-U	W/W	cis
 '2A'2058	'2A'2059	A-A	upward
+'2A'2059	'2A'2503	A-2MA	upward
 '2A'2060	'2A'2502	A-G	outward
 '2A'2061	'2A'2063	G-C	upward
 '2A'2061	'2A'2451	G-A	W/W	cis
+'2A'2061	'2A'2503	G-2MA	downward
 '2A'2062	'2A'2503	A-A	H/H	cis
 '2A'2063	'2A'2064	C-C	upward
 '2A'2063	'2A'2450	C-A	W/W	cis
 '2A'2063	'2A'2501	C-C	W/W	trans
 '2A'2064	'2A'2065	C-C	upward
 '2A'2064	'2A'2446	C-G	W/W	cis
+'2A'2064	'2A'2450	C-A	outward
 '2A'2065	'2A'2066	C-C	upward
 '2A'2065	'2A'2445	C-G	W/W	cis
 '2A'2065	'2A'2446	C-G	outward
@@ -10615,6 +10773,7 @@
 '2A'2074	'2A'2597	U-G	S/S	cis
 '2A'2075	'2A'2077	U-A	W/H	cis
 '2A'2075	'2A'2238	U-G	upward
+'2A'2076	'2A'2596	U-U	upward
 '2A'2077	'2A'2078	A-C	upward
 '2A'2077	'2A'2243	A-U	W/W	cis
 '2A'2077	'2A'2435	A-A	outward
@@ -10686,8 +10845,10 @@
 '2A'2102	'2A'2103	U-C	upward
 '2A'2102	'2A'2186	U-G	W/W	cis
 '2A'2102	'2A'2187	U-G	W/W	cis
+'2A'2103	'2A'2104	C-G	inward
 '2A'2103	'2A'2186	C-G	W/W	cis
 '2A'2104	'2A'2105	G-C	outward
+'2A'2104	'2A'2186	G-G	upward
 '2A'2105	'2A'2106	C-G	upward
 '2A'2105	'2A'2184	C-G	W/W	cis
 '2A'2106	'2A'2107	G-C	upward
@@ -10747,6 +10908,7 @@
 '2A'2133	'2A'2157	G-G	inward
 '2A'2134	'2A'2136	A-C	H/W	trans
 '2A'2136	'2A'2156	C-G	W/S	cis
+'2A'2137	'2A'2138	C-C	upward
 '2A'2137	'2A'2153	C-G	W/W	cis
 '2A'2137	'2A'2154	C-G	W/W	cis
 '2A'2137	'2A'2155	C-G	outward
@@ -10773,12 +10935,14 @@
 '2A'2153	'2A'2154	G-G	upward
 '2A'2154	'2A'2155	G-G	upward
 '2A'2155	'2A'2156	G-G	upward
+'2A'2156	'2A'2157	G-G	upward
 '2A'2158	'2A'2159	A-G	upward
 '2A'2159	'2A'2160	G-G	upward
 '2A'2160	'2A'2161	G-C	upward
 '2A'2161	'2A'2162	C-G	upward
 '2A'2162	'2A'2163	G-C	upward
 '2A'2163	'2A'2164	C-C	upward
+'2A'2164	'2A'2165	C-G	upward
 '2A'2165	'2A'2166	G-G	upward
 '2A'2166	'2A'2167	G-U	upward
 '2A'2166	'2A'2172	G-U	W/H	trans
@@ -10797,6 +10961,7 @@
 '2A'2182	'2A'2183	G-C	upward
 '2A'2183	'2A'2184	C-G	upward
 '2A'2184	'2A'2185	G-C	upward
+'2A'2185	'2A'2186	C-G	upward
 '2A'2186	'2A'2187	G-G	upward
 '2A'2187	'2A'2188	G-C	upward
 '2A'2188	'2A'2189	C-U	upward
@@ -10851,6 +11016,7 @@
 '2A'2242	'2A'2243	G-U	upward
 '2A'2243	'2A'2244	U-U	upward
 '2A'2244	'2A'2245	U-U	upward
+'2A'2244	'2A'2434	U-A	downward
 '2A'2244	'2A'2435	U-A	W/H	cis
 '2A'2245	'2A'2436	U-G	W/H	cis
 '2A'2246	'2A'2247	G-A	upward
@@ -10861,6 +11027,7 @@
 '2A'2248	'2A'2249	C-U	upward
 '2A'2248	'2A'2256	C-G	W/W	cis
 '2A'2248	'2A'2275	C-C	S/H	cis
+'2A'2251	'2A'2252	OMG-G	upward
 '2A'2252	'2A'2253	G-G	upward
 '2A'2253	'2A'2254	G-C	upward
 '2A'2254	'2A'2255	C-G	upward
@@ -10959,6 +11126,7 @@
 '2A'2304	'2A'2312	G-U	W/W	cis
 '2A'2305	'2A'2306	A-C	upward
 '2A'2306	'2A'2307	C-G	inward
+'2A'2307	'2A'2308	G-G	outward
 '2A'2307	'2A'2311	G-A	downward
 '2A'2308	'2A'2311	G-A	H/H	cis
 '2A'2309	'2A'2310	A-A	upward
@@ -10967,6 +11135,7 @@
 '2A'2314	'2A'2315	C-G	upward
 '2A'2315	'2A'2316	G-C	upward
 '2A'2316	'2A'2317	C-C	upward
+'2A'2317	'2A'2318	C-G	inward
 '2A'2319	'2A'2320	G-A	inward
 '2A'2320	'2A'2333	A-A	downward
 '2A'2322	'2A'2323	A-G	upward
@@ -11007,6 +11176,7 @@
 '2A'2346	'2A'2383	A-G	outward
 '2A'2347	'2A'2348	C-U	upward
 '2A'2347	'2A'2370	C-G	W/W	cis
+'2A'2347	'2A'2382	C-G	upward
 '2A'2348	'2A'2349	U-G	upward
 '2A'2348	'2A'2369	U-A	W/W	cis
 '2A'2348	'2A'2370	U-G	outward
@@ -11100,6 +11270,7 @@
 '2A'2404	'2A'2413	C-G	W/W	cis
 '2A'2404	'2A'2414	C-G	outward
 '2A'2405	'2A'2412	G-A	S/H	trans
+'2A'2405	'2A'2413	G-G	outward
 '2A'2407	'2A'2408	G-U	upward
 '2A'2408	'2A'2409	U-G	upward
 '2A'2409	'2A'2410	G-G	upward
@@ -11138,8 +11309,10 @@
 '2A'2447	'2A'2504	G-U	H/H	cis
 '2A'2450	'2A'2451	A-A	upward
 '2A'2450	'2A'2501	A-C	H/W	trans
+'2A'2451	'2A'2452	A-C	upward
 '2A'2452	'2A'2453	C-A	upward
 '2A'2452	'2A'2504	C-U	W/W	cis
+'2A'2452	'2A'2506	C-U	outward
 '2A'2453	'2A'2454	A-G	upward
 '2A'2453	'2A'2500	A-U	W/W	cis
 '2A'2453	'2A'2572	A-A	S/S	cis
@@ -11263,6 +11436,7 @@
 '2A'2521	'2A'2544	C-G	W/W	cis
 '2A'2521	'2A'2545	C-G	outward
 '2A'2521	'2A'2564	C-A	S/S	cis
+'2A'2522	'2A'2523	U-G	upward
 '2A'2522	'2A'2541	U-A	H/S	trans
 '2A'2522	'2A'2543	U-G	W/W	cis
 '2A'2523	'2A'2524	G-G	upward
@@ -11321,7 +11495,9 @@
 '2A'2550	'2A'2551	G-C	upward
 '2A'2550	'2A'2558	G-C	W/W	cis
 '2A'2550	'2A'2559	G-C	outward
+'2A'2551	'2A'2552	C-2MU	upward
 '2A'2551	'2A'2557	C-G	W/W	cis
+'2A'2553	'2A'2554	G-U	upward
 '2A'2553	'2A'2582	G-G	S/S	cis
 '2A'2554	'2A'2555	U-U	upward
 '2A'2555	'2A'2556	U-C	upward
@@ -11334,6 +11510,7 @@
 '2A'2562	'2A'2563	U-U	upward
 '2A'2562	'2A'2566	U-A	W/H	trans
 '2A'2563	'2A'2565	U-A	S/H	trans
+'2A'2563	'2A'2566	U-A	outward
 '2A'2564	'2A'2565	A-A	upward
 '2A'2565	'2A'2566	A-A	upward
 '2A'2567	'2A'2568	G-C	upward
@@ -11376,6 +11553,8 @@
 '2A'2599	'2A'2600	G-A	upward
 '2A'2600	'2A'2601	A-C	upward
 '2A'2603	'2A'2604	G-U	upward
+'2A'2604	'2A'2605	U-PSU	upward
+'2A'2605	'2A'2606	PSU-C	upward
 '2A'2606	'2A'2607	C-G	upward
 '2A'2607	'2A'2608	G-G	upward
 '2A'2614	'2A'2616	A-C	S/H	cis
@@ -11613,6 +11792,7 @@
 '2A'2742	'2A'2762	C-G	W/W	cis
 '2A'2742	'2A'2763	C-G	outward
 '2A'2743	'2A'2744	C-G	upward
+'2A'2743	'2A'2755	C-C	upward
 '2A'2743	'2A'2761	C-G	W/W	cis
 '2A'2743	'2A'2762	C-G	outward
 '2A'2744	'2A'2745	G-C	upward
@@ -11646,6 +11826,7 @@
 '2A'2767	'2A'2768	C-C	upward
 '2A'2768	'2A'2769	C-C	upward
 '2A'2769	'2A'2770	C-G	upward
+'2A'2770	'2A'2771	G-C	upward
 '2A'2771	'2A'2772	C-C	upward
 '2A'2772	'2A'2773	C-C	upward
 '2A'2773	'2A'2774	C-C	upward
@@ -11857,6 +12038,7 @@
 '2B'21	'2B'63	G-G	outward
 '2B'22	'2B'23	U-G	upward
 '2B'22	'2B'61	U-G	W/W	cis
+'2B'23	'2B'24	G-G	upward
 '2B'23	'2B'60	G-C	W/W	cis
 '2B'23	'2B'61	G-G	outward
 '2B'24	'2B'27	G-C	S/W	trans
@@ -12059,6 +12241,7 @@
 '2a'29	'2a'555	G-C	outward
 '2a'30	'2a'32	U-A	upward
 '2a'30	'2a'553	U-A	W/W	cis
+'2a'31	'2a'48	G-C	upward
 '2a'32	'2a'33	A-A	upward
 '2a'32	'2a'552	A-U	W/W	cis
 '2a'32	'2a'553	A-A	outward
@@ -12099,6 +12282,7 @@
 '2a'46	'2a'395	G-C	W/W	cis
 '2a'46	'2a'396	G-G	outward
 '2a'47	'2a'361	C-G	W/W	cis
+'2a'47	'2a'365	C-U	outward
 '2a'49	'2a'361	U-G	inward
 '2a'49	'2a'362	U-G	W/S	cis
 '2a'49	'2a'364	U-A	downward
@@ -12143,6 +12327,8 @@
 '2a'66	'2a'103	G-C	W/W	cis
 '2a'66	'2a'104	G-G	outward
 '2a'66	'2a'172	G-A	S/S	cis
+'2a'66	'2a'173	G-U	downward
+'2a'67	'2a'68	C-G	upward
 '2a'67	'2a'102	C-G	W/W	cis
 '2a'67	'2a'171	C-A	S/S	cis
 '2a'68	'2a'69	G-G	upward
@@ -12216,6 +12402,7 @@
 '2a'116	'2a'313	A-A	W/S	trans
 '2a'117	'2a'118	G-U	upward
 '2a'118	'2a'288	U-A	inward
+'2a'119	'2a'120	A-A	outward
 '2a'119	'2a'240	A-C	upward
 '2a'119	'2a'287	A-U	H/W	trans
 '2a'119	'2a'288	A-A	outward
@@ -12326,6 +12513,7 @@
 '2a'159	'2a'162	G-A	S/H	trans
 '2a'159	'2a'163	G-C	outward
 '2a'160	'2a'161	A-A	upward
+'2a'160	'2a'344	A-A	downward
 '2a'160	'2a'346	A-G	outward
 '2a'160	'2a'347	A-G	W/S	trans
 '2a'161	'2a'162	A-A	upward
@@ -12452,6 +12640,8 @@
 '2a'249	'2a'276	U-G	outward
 '2a'250	'2a'252	A-U	upward
 '2a'250	'2a'274	A-A	inward
+'2a'250	'2a'275	A-G	upward
+'2a'251	'2a'252	G-U	downward
 '2a'251	'2a'254	G-G	W/H	cis
 '2a'251	'2a'266	G-G	upward
 '2a'252	'2a'253	U-U	upward
@@ -12492,8 +12682,10 @@
 '2a'273	'2a'274	A-A	upward
 '2a'275	'2a'276	G-G	upward
 '2a'276	'2a'277	G-C	upward
+'2a'277	'2a'278	C-G	upward
 '2a'277	'2a'282	C-A	S/S	cis
 '2a'278	'2a'279	G-A	S/W	cis
+'2a'279	'2a'281	A-G	upward
 '2a'282	'2a'283	A-C	upward
 '2a'283	'2a'284	C-G	upward
 '2a'284	'2a'285	G-G	upward
@@ -12851,8 +13043,10 @@
 '2a'514	'2a'515	C-G	upward
 '2a'514	'2a'537	C-G	W/W	cis
 '2a'514	'2a'538	C-G	outward
+'2a'515	'2a'516	G-PSU	upward
 '2a'515	'2a'536	G-C	W/W	cis
 '2a'515	'2a'537	G-G	outward
+'2a'516	'2a'517	PSU-G	upward
 '2a'516	'2a'519	P-C	S/W	cis
 '2a'516	'2a'533	P-A	W/H	trans
 '2a'517	'2a'531	G-U	upward
@@ -12865,10 +13059,12 @@
 '2a'520	'2a'536	A-C	W/S	trans
 '2a'521	'2a'522	G-C	upward
 '2a'521	'2a'528	G-C	W/W	cis
+'2a'521	'2a'529	G-G	outward
 '2a'522	'2a'523	C-A	upward
 '2a'522	'2a'527	C-G	W/W	cis
 '2a'524	'2a'525	G-C	upward
 '2a'525	'2a'526	C-C	upward
+'2a'527	'2a'528	7MG-C	upward
 '2a'528	'2a'529	C-G	upward
 '2a'533	'2a'536	A-C	upward
 '2a'537	'2a'538	G-G	upward
@@ -12888,6 +13084,7 @@
 '2a'553	'2a'554	A-C	upward
 '2a'554	'2a'555	C-C	upward
 '2a'555	'2a'556	C-C	upward
+'2a'556	'2a'557	C-G	upward
 '2a'557	'2a'558	G-G	upward
 '2a'558	'2a'559	G-A	upward
 '2a'559	'2a'561	A-U	inward
@@ -12948,6 +13145,7 @@
 '2a'585	'2a'586	G-C	upward
 '2a'585	'2a'756	G-C	W/W	cis
 '2a'585	'2a'757	G-U	outward
+'2a'586	'2a'587	C-G	upward
 '2a'586	'2a'755	C-G	W/W	cis
 '2a'587	'2a'755	G-G	outward
 '2a'588	'2a'589	G-C	upward
@@ -13179,6 +13377,7 @@
 '2a'714	'2a'715	G-A	upward
 '2a'715	'2a'716	A-A	upward
 '2a'716	'2a'717	A-C	upward
+'2a'717	'2a'734	C-G	upward
 '2a'718	'2a'719	G-C	upward
 '2a'719	'2a'720	C-C	upward
 '2a'720	'2a'721	C-G	inward
@@ -13289,8 +13488,10 @@
 '2a'788	'2a'794	U-A	W/H	trans
 '2a'788	'2a'795	U-C	W/W	cis
 '2a'790	'2a'791	A-G	upward
+'2a'791	'2a'792	G-A	upward
 '2a'792	'2a'794	A-A	upward
 '2a'794	'2a'795	A-C	upward
+'2a'795	'2a'796	C-C	upward
 '2a'796	'2a'797	C-C	upward
 '2a'797	'2a'798	C-G	upward
 '2a'798	'2a'799	G-G	upward
@@ -13573,7 +13774,10 @@
 '2a'963	'2a'964	G-A	upward
 '2a'963	'2a'972	G-C	W/W	cis
 '2a'963	'2a'973	G-G	outward
+'2a'964	'2a'965	A-A	upward
 '2a'965	'2a'969	A-A	outward
+'2a'966	'2a'967	M2G-5MC	upward
+'2a'967	'2a'968	5MC-A	inward
 '2a'969	'2a'970	A-C	upward
 '2a'973	'2a'974	G-A	inward
 '2a'976	'2a'1358	G-U	downward
@@ -13684,6 +13888,7 @@
 '2a'1021	'2a'1022	G-G	upward
 '2a'1022	'2a'1023	G-G	upward
 '2a'1023	'2a'1024	G-G	upward
+'2a'1025	'2a'1027	U-C	upward
 '2a'1025	'2a'1036	U-G	W/W	cis
 '2a'1026	'2a'1027	G-C	upward
 '2a'1029	'2a'1032	C-G	W/W	cis
@@ -13692,6 +13897,7 @@
 '2a'1030	'2a'1031	C-G	W/W	cis
 '2a'1030.B	'2a'1030.C	C-G	H/S	trans
 '2a'1030.C	'2a'1030.D	G-A	upward
+'2a'1031	'2a'1032	G-G	upward
 '2a'1032	'2a'1033	G-G	upward
 '2a'1034	'2a'1035	G-A	upward
 '2a'1036	'2a'1037	G-C	upward
@@ -13752,6 +13958,7 @@
 '2a'1066	'2a'1191	C-A	W/H	trans
 '2a'1067	'2a'1191	A-A	outward
 '2a'1068	'2a'1069	G-C	upward
+'2a'1068	'2a'1094	G-G	inward
 '2a'1068	'2a'1107	G-C	W/W	cis
 '2a'1068	'2a'1108	G-G	outward
 '2a'1068	'2a'1191	G-A	S/S	trans
@@ -13791,6 +13998,7 @@
 '2a'1084	'2a'1085	G-U	inward
 '2a'1084	'2a'1102	G-A	S/H	cis
 '2a'1084	'2a'1103	G-C	S/H	cis
+'2a'1085	'2a'1094	U-G	downward
 '2a'1086	'2a'1087	U-G	upward
 '2a'1086	'2a'1099	U-G	W/W	cis
 '2a'1087	'2a'1088	G-G	upward
@@ -13849,6 +14057,7 @@
 '2a'1121	'2a'1152	U-A	W/W	cis
 '2a'1122	'2a'1123	U-A	upward
 '2a'1122	'2a'1151	U-A	W/W	cis
+'2a'1123	'2a'1124	A-G	upward
 '2a'1123	'2a'1150	A-U	W/W	cis
 '2a'1123	'2a'1151	A-A	outward
 '2a'1124	'2a'1125	G-U	S/W	cis
@@ -13910,6 +14119,7 @@
 '2a'1159	'2a'1182	U-G	downward
 '2a'1160	'2a'1161	G-C	upward
 '2a'1160	'2a'1176	G-A	W/W	cis
+'2a'1160	'2a'1181	G-G	downward
 '2a'1160	'2a'1182	G-G	H/W	cis
 '2a'1161	'2a'1162	C-C	upward
 '2a'1161	'2a'1175	C-G	W/W	cis
@@ -13954,6 +14164,8 @@
 '2a'1202	'2a'1203	G-C	upward
 '2a'1203	'2a'1204	C-A	upward
 '2a'1204	'2a'1205	A-U	upward
+'2a'1206	'2a'1207	G-2MG	upward
+'2a'1207	'2a'1208	2MG-C	upward
 '2a'1208	'2a'1209	C-C	upward
 '2a'1209	'2a'1210	C-C	upward
 '2a'1210	'2a'1211	C-U	upward
@@ -13970,6 +14182,7 @@
 '2a'1224	'2a'1322	G-C	upward
 '2a'1224	'2a'1363	G-C	W/W	cis
 '2a'1225	'2a'1226	A-C	upward
+'2a'1227	'2a'1228	A-C	upward
 '2a'1229	'2a'1230	A-C	upward
 '2a'1231	'2a'1232	G-U	upward
 '2a'1232	'2a'1233	U-G	upward
@@ -14021,6 +14234,7 @@
 '2a'1255	'2a'1279	G-A	upward
 '2a'1255	'2a'1282	G-C	W/W	cis
 '2a'1255	'2a'1283	G-G	outward
+'2a'1256	'2a'1258	A-G	outward
 '2a'1258	'2a'1259	G-C	upward
 '2a'1258	'2a'1277	G-C	W/W	cis
 '2a'1258	'2a'1279	G-A	W/H	trans
@@ -14168,6 +14382,7 @@
 '2a'1356	'2a'1367	G-C	outward
 '2a'1357	'2a'1358	A-U	upward
 '2a'1357	'2a'1365	A-G	W/W	cis
+'2a'1358	'2a'1359	U-C	upward
 '2a'1358	'2a'1363.A	U-A	W/W	trans
 '2a'1360	'2a'1361	A-G	upward
 '2a'1361	'2a'1362	G-C	upward
@@ -14203,16 +14418,22 @@
 '2a'1399	'2a'1401	C-G	outward
 '2a'1399	'2a'1502	C-A	upward
 '2a'1399	'2a'1504	C-G	W/W	cis
+'2a'1401	'2a'1402	G-4OC	upward
 '2a'1401	'2a'1501	G-C	W/W	cis
+'2a'1402	'2a'1403	4OC-C	upward
 '2a'1402	'2a'1500	C-A	W/W	cis
 '2a'1403	'2a'1499	C-A	S/W	cis
+'2a'1404	'2a'1405	5MC-G	upward
 '2a'1404	'2a'1497	C-G	W/W	cis
+'2a'1404	'2a'1499	5MC-A	outward
 '2a'1405	'2a'1406	G-U	upward
 '2a'1405	'2a'1496	G-C	W/W	cis
 '2a'1405	'2a'1497	G-G	outward
 '2a'1405	'2a'1518	G-A	S/S	cis
+'2a'1406	'2a'1407	U-5MC	upward
 '2a'1406	'2a'1495	U-U	W/W	cis
 '2a'1406	'2a'1517	U-G	W/S	cis
+'2a'1407	'2a'1408	5MC-A	upward
 '2a'1407	'2a'1494	C-G	W/W	cis
 '2a'1408	'2a'1409	A-C	upward
 '2a'1408	'2a'1494	A-G	outward
@@ -14346,6 +14567,7 @@
 '2a'1494	'2a'1495	G-U	upward
 '2a'1495	'2a'1496	U-C	upward
 '2a'1496	'2a'1497	C-G	upward
+'2a'1497	'2a'1498	G-UR3	upward
 '2a'1497	'2a'1519	G-A	S/S	trans
 '2a'1498	'2a'1499	U-A	S/H	cis
 '2a'1499	'2a'1500	A-A	upward
@@ -14353,6 +14575,7 @@
 '2a'1501	'2a'1504	C-G	inward
 '2a'1502	'2a'1504	A-G	outward
 '2a'1502	'2a'1505	A-G	H/W	cis
+'2a'1503	'2a'1532	A-U	outward
 '2a'1507	'2a'1508	A-G	upward
 '2a'1507	'2a'1528	A-U	W/W	cis
 '2a'1507	'2a'1530	A-G	outward
@@ -14378,6 +14601,8 @@
 '2a'1515	'2a'1521	C-G	outward
 '2a'1516	'2a'1519	G-A	W/H	trans
 '2a'1516	'2a'1520	G-G	outward
+'2a'1517	'2a'1518	G-MA6	upward
+'2a'1518	'2a'1519	MA6-MA6	upward
 '2a'1520	'2a'1521	G-G	upward
 '2a'1521	'2a'1522	G-U	upward
 '2a'1522	'2a'1523	U-G	upward

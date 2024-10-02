@@ -1,3 +1,4 @@
+X10	X11	GTP-G	upward
 X10	X89	G-C	W/W	cis
 X11	X12	G-A	upward
 X11	X88	G-U	W/W	cis
@@ -48,6 +49,7 @@ X27	X33	C-G	W/W	cis
 X28	X32	U-U	W/W	trans
 X29	X30	G-C	upward
 X29	Y30	G-C	W/W	cis
+X29	Y31	G-G	outward
 X30	X31	C-G	upward
 X30	Y29	C-G	W/W	cis
 X31	X32	G-U	upward
@@ -122,9 +124,12 @@ X82	X83	G-G	upward
 X85	X86	A-G	upward
 X86	X87	G-U	upward
 X87	X88	U-U	upward
+X88	X89	U-CCC	upward
+Y10	Y11	GTP-G	upward
 Y10	Y89	G-C	W/W	cis
 Y11	Y12	G-A	upward
 Y11	Y88	G-U	W/W	cis
+Y11	Y89	G-CCC	outward
 Y12	Y13	A-C	upward
 Y12	Y87	A-U	W/W	cis
 Y13	Y14	C-U	upward
@@ -244,3 +249,4 @@ Y82	Y83	G-G	upward
 Y85	Y86	A-G	upward
 Y86	Y87	G-U	upward
 Y87	Y88	U-U	upward
+Y88	Y89	U-CCC	upward

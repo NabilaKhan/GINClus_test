@@ -2,6 +2,7 @@ B130	B131	G-G	upward
 B130	B178	G-C	W/W	cis
 B131	B132	G-C	upward
 B131	B177	G-C	W/W	cis
+B131	B178	G-CCC	outward
 B132	B133	C-U	upward
 B132	B176	C-G	W/W	cis
 B133	B134	U-C	upward
@@ -76,3 +77,4 @@ B173	B174	A-G	upward
 B174	B175	G-A	upward
 B175	B176	A-G	upward
 B176	B177	G-C	upward
+B177	B178	C-CCC	upward

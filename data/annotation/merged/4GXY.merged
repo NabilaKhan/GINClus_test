@@ -1,6 +1,8 @@
+A1	A2	GTP-G	upward
 A1	A172	G-C	W/W	cis
 A2	A3	G-C	upward
 A2	A171	G-U	W/W	cis
+A2	A172	G-CCC	outward
 A3	A170	C-G	W/W	cis
 A4	A5	G-G	upward
 A4	A169	G-C	W/W	cis
@@ -132,6 +134,7 @@ A81	A148	G-G	outward
 A82	A83	G-G	upward
 A82	A146	G-C	W/W	cis
 A82	A147	G-C	outward
+A83	A84	G-G	upward
 A84	A143	G-G	inward
 A84	A144	G-A	W/H	trans
 A85	A141	A-A	inward
@@ -238,3 +241,4 @@ A166	A167	U-G	upward
 A167	A168	G-C	upward
 A169	A170	C-G	upward
 A170	A171	G-U	upward
+A171	A172	U-CCC	upward

@@ -189,6 +189,7 @@ VV61	VV62	G-A	upward
 VV62	VV63	A-G	upward
 VV63	VV64	G-A	upward
 VV64	VV65	A-C	upward
+VV65	VV66	C-U	upward
 VV66	VV67	U-G	upward
 VVV1	VVV2	G-C	upward
 VVV1	VVV29	G-C	W/W	cis
@@ -284,6 +285,7 @@ VVV61	VVV62	G-A	upward
 VVV62	VVV63	A-G	upward
 VVV63	VVV64	G-A	upward
 VVV64	VVV65	A-C	upward
+VVV65	VVV66	C-U	upward
 VVV66	VVV67	U-G	upward
 VVVV1	VVVV2	G-C	upward
 VVVV1	VVVV29	G-C	W/W	cis
@@ -468,12 +470,14 @@ X56	X57	C-U	upward
 X57	VVV15	U-A	S/S	cis
 X57	X58	U-A	upward
 X58	X59	A-A	S/H	cis
+X59	VVV14	A-A	outward
 X59	X60	A-G	upward
 X60	X61	G-G	upward
 X61	X62	G-A	upward
 X62	X63	A-G	upward
 X63	X64	G-A	upward
 X64	X65	A-C	upward
+X65	X66	C-U	upward
 X66	X67	U-G	upward
 XX1	XX2	G-C	upward
 XX1	XX29	G-C	W/W	cis
@@ -562,6 +566,7 @@ XX56	XX57	C-U	upward
 XX57	XX58	U-A	upward
 XX58	XX59	A-A	S/H	cis
 XX58	XX60	A-G	S/W	trans
+XX59	VVVV14	A-A	outward
 XX59	XX60	A-G	upward
 XX60	XX61	G-G	upward
 XX61	XX62	G-A	upward
@@ -659,6 +664,7 @@ XXX61	XXX62	G-A	upward
 XXX62	XXX63	A-G	upward
 XXX63	XXX64	G-A	upward
 XXX64	XXX65	A-C	upward
+XXX65	XXX66	C-U	upward
 XXX66	XXX67	U-G	upward
 XXXX1	XXXX2	G-C	upward
 XXXX1	XXXX29	G-C	W/W	cis
@@ -749,6 +755,7 @@ XXXX61	XXXX62	G-A	upward
 XXXX62	XXXX63	A-G	upward
 XXXX63	XXXX64	G-A	upward
 XXXX64	XXXX65	A-C	upward
+XXXX65	XXXX66	C-U	upward
 XXXX66	XXXX67	U-G	upward
 Y1	Y2	G-C	upward
 Y1	Y29	G-C	W/W	cis
@@ -837,6 +844,7 @@ Y57	YYY15	U-A	S/S	cis
 Y58	Y59	A-A	S/H	cis
 Y58	Y60	A-G	S/W	trans
 Y59	Y60	A-G	upward
+Y59	YYY14	A-A	outward
 Y60	Y61	G-G	upward
 Y61	Y62	G-A	upward
 Y62	Y63	A-G	upward
@@ -938,6 +946,7 @@ YY61	YY62	G-A	upward
 YY62	YY63	A-G	upward
 YY63	YY64	G-A	upward
 YY64	YY65	A-C	upward
+YY65	YY66	C-U	upward
 YY66	YY67	U-G	upward
 YYY1	YYY2	G-C	upward
 YYY1	YYY29	G-C	W/W	cis
@@ -1029,6 +1038,7 @@ YYY61	YYY62	G-A	upward
 YYY62	YYY63	A-G	upward
 YYY63	YYY64	G-A	upward
 YYY64	YYY65	A-C	upward
+YYY65	YYY66	C-U	upward
 YYY66	YYY67	U-G	upward
 YYYY1	YYYY2	G-C	upward
 YYYY1	YYYY29	G-C	W/W	cis
@@ -1119,4 +1129,5 @@ YYYY61	YYYY62	G-A	upward
 YYYY62	YYYY63	A-G	upward
 YYYY63	YYYY64	G-A	upward
 YYYY64	YYYY65	A-C	upward
+YYYY65	YYYY66	C-U	upward
 YYYY66	YYYY67	U-G	upward

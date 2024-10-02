@@ -60,6 +60,7 @@ A22	A26	U-A	W/H	trans
 A23	A26	G-A	outward
 A24	A25	C-A	upward
 A26	A29	A-C	upward
+A27	A28	G-C	upward
 A27	A48	G-G	upward
 A29	A30	C-G	upward
 A30	A31	G-G	upward
@@ -69,12 +70,17 @@ A33	A34	A-C	upward
 A34	A35	C-C	upward
 A35	A36	C-G	upward
 A35	A46	C-G	W/W	cis
+A36	A37	G-CBV	upward
 A36	A45	G-C	W/W	cis
 A36	A46	G-G	outward
+A37	A38	CBV-C	upward
 A37	A44	C-G	W/W	cis
+A38	A39	C-CBV	upward
 A38	A43	C-G	W/W	cis
 A38	A44	C-G	outward
+A39	A40	CBV-C	upward
 A39	A42	C-G	W/W	cis
+A39	A43	CBV-G	outward
 A40	A41	C-G	W/W	cis
 A40	A42	C-G	outward
 A41	A42	G-G	upward
@@ -87,6 +93,7 @@ A49	A50	G-C	upward
 A50	A51	C-G	upward
 A51	A53	G-U	S/H	cis
 A52	A53	C-U	upward
+A54	A55	DC-A	upward
 A55	A57	A-U	upward
 A57	A58	U-C	upward
 A58	A59	C-C	upward

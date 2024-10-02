@@ -49,7 +49,6 @@ A21	A32	G-G	outward
 A22	A23	G-G	upward
 A22	A30	G-C	W/W	cis
 A22	A31	G-C	outward
-A22	A61	G-A	S/H	cis
 A23	A29	G-C	W/W	cis
 A23	A30	G-C	outward
 A23	A62	G-A	S/W	trans
@@ -91,6 +90,7 @@ A45	A1096	A-A	S/W	cis
 A46	A47	A-C	S/H	cis
 A47	A48	C-C	upward
 A47	A56	C-G	W/W	cis
+A47	A1096	C-SAM	outward
 A48	A49	C-A	upward
 A48	A55	C-G	W/W	cis
 A48	A56	C-G	outward

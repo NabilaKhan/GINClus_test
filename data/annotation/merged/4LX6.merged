@@ -21,9 +21,12 @@ A20	A21	U-A	upward
 A20	A76	U-A	W/W	cis
 A21	A75	A-U	W/W	cis
 A21	A76	A-A	outward
+A21	A601	A-29H	upward
 A22	A23	U-A	downward
 A22	A46	U-G	downward
+A22	A47	U-C	upward
 A22	A52	U-A	W/W	cis
+A22	A601	U-29H	inward
 A23	A25	A-U	outward
 A23	A46	A-G	W/S	trans
 A24	A54	A-C	upward
@@ -72,6 +75,7 @@ A42	A43	C-G	upward
 A43	A44	G-G	upward
 A44	A45	G-A	upward
 A45	A46	A-G	upward
+A46	A47	G-C	upward
 A46	A53	G-C	W/W	cis
 A47	A51	C-C	W/H	trans
 A49	A76	U-A	W/S	cis
@@ -79,6 +83,7 @@ A50	A51	C-C	upward
 A50	A75	C-U	W/S	cis
 A51	A52	C-A	upward
 A52	A53	A-C	upward
+A52	A601	A-29H	downward
 A54	A55	C-A	upward
 A54	A72	C-G	W/W	cis
 A55	A56	A-A	upward

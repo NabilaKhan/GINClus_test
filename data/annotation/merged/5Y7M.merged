@@ -1,6 +1,7 @@
 B2	B3	G-U	upward
 B2	B51	G-C	W/W	cis
 B2	B52	G-C	outward
+B2	B101	G-GTP	downward
 B3	B48	U-A	inward
 B3	B50	U-G	W/W	cis
 B4	B6	A-G	upward
@@ -78,6 +79,7 @@ B52	B101	C-G	W/W	cis
 D2	D3	G-U	upward
 D2	D51	G-C	W/W	cis
 D2	D52	G-C	outward
+D2	D101	G-GTP	downward
 D3	D48	U-A	inward
 D3	D50	U-G	W/W	cis
 D4	D6	A-G	upward

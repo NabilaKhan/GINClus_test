@@ -147,6 +147,7 @@ K82	K90	U-G	W/W	cis
 K82	K91	U-G	W/W	cis
 K82	K91	U-G	outward
 K83	K84	U-U	upward
+K84	K85	U-C	outward
 K90	K91	G-G	upward
 K91	K92	G-G	upward
 K92	K93	G-U	upward
@@ -154,6 +155,8 @@ K93	K94	U-C	upward
 K95	K96	A-C	upward
 K96	K97	C-C	upward
 K96	K98	C-A	S/H	cis
+K98	K99	A-C	upward
+K100	K101	U-G	upward
 K101	K102	G-C	upward
 K102	K103	C-G	upward
 K103	K104	G-C	upward

@@ -57,7 +57,9 @@ E1	K12	G-G	W/W	cis
 E1	K13	G-C	W/W	cis
 E2	E3	C-C	upward
 E2	K12	C-G	W/W	cis
+E3	E4	C-G	upward
 E3	K11	C-G	W/W	cis
+E4	E5	G-U	upward
 E4	K10	G-C	W/W	cis
 E4	K11	G-G	outward
 E5	E6	U-U	upward
@@ -69,6 +71,7 @@ E7	K7	G-C	W/W	cis
 E7	K8	G-A	outward
 E8	E9	A-A	upward
 E8	K6	A-U	W/W	cis
+E9	E10	A-G	upward
 E9	K5	A-U	W/W	cis
 E10	E11	G-C	upward
 E10	K4	G-C	W/W	cis

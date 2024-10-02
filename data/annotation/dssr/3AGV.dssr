@@ -1,4 +1,14 @@
 ****************************************************************************
+                DSSR: an Integrated Software Tool for
+               Dissecting the Spatial Structure of RNA
+               v1.7.8-2018sep01, by xiangjun@x3dna.org
+
+   This program is being actively maintained and developed. As always,
+   I greatly appreciate your feedback! Please report all DSSR-related
+   issues on the 3DNA Forum (forum.x3dna.org). I strive to respond
+   *promptly* to *any questions* posted there.
+
+****************************************************************************
 Note: By default, each nucleotide is identified by chainId.name#. So a
       common case would be B.A1689, meaning adenosine #1689 on chain B.
       One-letter base names for modified nucleotides are put in lower
@@ -6,8 +16,9 @@ Note: By default, each nucleotide is identified by chainId.name#. So a
       notation, please refer to the DSSR User Manual.
     Questions and suggestions are *always* welcome on the 3DNA Forum.
 
-Command: x3dna-dssr -i=3agv.pdb -o=3agv.out
-File name: 3agv.pdb
+Command: x3dna-dssr -i=/media/nabila/DATA/GINClus_test/data/pdbx/3AGV.cif --format=mmcif --non-pair -o=/media/nabila/DATA/GINClus_test/data/annotation/dssr/3AGV.dssr
+Date and time: Tue Oct  1 20:15:18 2024
+File name: 3AGV.cif
     no. of DNA/RNA chains: 2 [S=19,U=24]
     no. of nucleotides:    43
     no. of atoms:          4413
@@ -21,7 +32,7 @@ List of 2 types of 18 modified nucleotides
    2 UFT-u    6    S.UFT6,S.UFT9,S.UFT21,U.UFT6,U.UFT9,U.UFT21
 
 ****************************************************************************
-List of 19 base pairs
+List of 18 base pairs
      nt1            nt2            bp  name        Saenger   LW   DSSR
    1 S.G1           S.CFZ23        G-c WC          19-XIX    cWW  cW-W
    2 S.G2           S.CFZ22        G-c WC          19-XIX    cWW  cW-W
@@ -29,19 +40,18 @@ List of 19 base pairs
    4 S.G4           S.CFZ20        G-c WC          19-XIX    cWW  cW-W
    5 S.G5           S.A19          G-A Sheared     11-XI     tSH  tm-M
    6 S.UFT6         S.A18          u-A rHoogsteen  24-XXIV   tWH  tW-M
-   7 S.CFZ8         S.A19          c-A --          --        t.S  t.-m
-   8 S.UFT9         S.A18          u-A WC          20-XX     cWW  cW-W
-   9 S.CFZ10        S.G17          c-G WC          19-XIX    cWW  cW-W
-  10 S.CFZ11        S.G16          c-G WC          19-XIX    cWW  cW-W
-  11 U.A3           U.UFT21        A-u WC          20-XX     cWW  cW-W
-  12 U.G4           U.CFZ20        G-c WC          19-XIX    cWW  cW-W
-  13 U.G5           U.A19          G-A Sheared     11-XI     tSH  tm-M
-  14 U.UFT6         U.A18          u-A rHoogsteen  24-XXIV   tWH  tW-M
-  15 U.CFZ8         U.A19          c-A --          --        tWS  tW-m
-  16 U.UFT9         U.A18          u-A WC          20-XX     cWW  cW-W
-  17 U.CFZ10        U.G17          c-G WC          19-XIX    cWW  cW-W
-  18 U.CFZ11        U.G16          c-G WC          19-XIX    cWW  cW-W
-  19 U.G12          U.A15          G+A --          --        tSW  tm+W
+   7 S.UFT9         S.A18          u-A WC          20-XX     cWW  cW-W
+   8 S.CFZ10        S.G17          c-G WC          19-XIX    cWW  cW-W
+   9 S.CFZ11        S.G16          c-G WC          19-XIX    cWW  cW-W
+  10 U.A3           U.UFT21        A-u WC          20-XX     cWW  cW-W
+  11 U.G4           U.CFZ20        G-c WC          19-XIX    cWW  cW-W
+  12 U.G5           U.A19          G-A Sheared     11-XI     tSH  tm-M
+  13 U.UFT6         U.A18          u-A rHoogsteen  24-XXIV   tWH  tW-M
+  14 U.CFZ8         U.A19          c-A --          n/a       tWS  tW-m
+  15 U.UFT9         U.A18          u-A WC          20-XX     cWW  cW-W
+  16 U.CFZ10        U.G17          c-G WC          19-XIX    cWW  cW-W
+  17 U.CFZ11        U.G16          c-G WC          19-XIX    cWW  cW-W
+  18 U.G12          U.A15          G+A --          n/a       tSW  tm+W
 
 ****************************************************************************
 List of 2 multiplets
@@ -85,7 +95,7 @@ List of 2 helices
    4 U.UFT9         U.A18          u-A WC           20-XX     cWW  cW-W
    5 U.CFZ10        U.G17          c-G WC           19-XIX    cWW  cW-W
    6 U.CFZ11        U.G16          c-G WC           19-XIX    cWW  cW-W
-   7 U.G12          U.A15          G+A --           --        tSW  tm+W
+   7 U.G12          U.A15          G+A --           n/a       tSW  tm+W
 
 ****************************************************************************
 List of 4 stems
@@ -136,7 +146,53 @@ List of 2 coaxial stacks
    2 Helix#2 contains 2 stems: [#3,#4]
 
 ****************************************************************************
-List of 10 base stacks
+List of 43 non-pairing interactions
+   1 S.G1     S.G2     stacking: 3.8(2.4)--pm(>>,forward) interBase-angle=23 H-bonds[1]: "O5'*OP2[2.99]" connected min_baseDist=3.26
+   2 S.G2     S.A3     stacking: 4.6(2.1)--pm(>>,forward) interBase-angle=11 connected min_baseDist=3.50
+   3 S.G2     S.CFZ23  stacking: 1.3(0.0)--mm(<>,outward) interBase-angle=14 min_baseDist=3.46
+   4 S.A3     S.G4     stacking: 1.4(1.3)--pm(>>,forward) interBase-angle=16 connected min_baseDist=3.23
+   5 S.G4     S.G5     stacking: 6.1(3.4)--pm(>>,forward) interBase-angle=8 connected min_baseDist=3.23
+   6 S.G4     S.UFT21  stacking: 2.3(0.3)--mm(<>,outward) interBase-angle=13 min_baseDist=3.04
+   7 S.G5     S.UFT6   stacking: 1.0(0.0)--pm(>>,forward) interBase-angle=26 H-bonds[1]: "O2'(hydroxyl)-OP1[2.18]" connected min_baseDist=3.05
+   8 S.G5     S.A18    interBase-angle=26 H-bonds[2]: "N1(imino)-OP2[2.75],N2(amino)-OP2[3.16]" min_baseDist=4.33
+   9 S.UFT6   S.G17    stacking: 0.4(0.0)--pp(><,inward) interBase-angle=17 min_baseDist=3.14
+  10 S.UFT6   S.A19    stacking: 0.5(0.0)--mm(<>,outward) interBase-angle=15 min_baseDist=2.92
+  11 S.G7     S.CFZ8   stacking: 3.0(0.9)--pm(>>,forward) interBase-angle=7 connected min_baseDist=3.20
+  12 S.CFZ8   S.UFT9   stacking: 3.9(1.9)--pm(>>,forward) interBase-angle=21 connected min_baseDist=3.17
+  13 S.UFT9   S.CFZ10  stacking: 2.7(0.8)--pm(>>,forward) interBase-angle=11 connected min_baseDist=3.26
+  14 S.CFZ10  S.CFZ11  stacking: 1.4(0.3)--pm(>>,forward) interBase-angle=33 connected min_baseDist=3.14
+  15 S.G16    S.G17    stacking: 2.7(1.1)--pm(>>,forward) interBase-angle=2 connected min_baseDist=3.12
+  16 S.G17    S.A18    stacking: 2.6(1.2)--pm(>>,forward) interBase-angle=4 connected min_baseDist=3.19
+  17 S.A18    S.A19    stacking: 1.5(0.3)--pm(>>,forward) interBase-angle=7 connected min_baseDist=3.63
+  18 S.A19    S.CFZ20  stacking: 3.7(1.1)--pm(>>,forward) interBase-angle=14 H-bonds[1]: "OP2-N4(amino)[2.83]" connected min_baseDist=3.23
+  19 U.G1     U.G2     stacking: 5.0(2.4)--pm(>>,forward) interBase-angle=40 H-bonds[2]: "O2'(hydroxyl)-OP1[2.45],N2(amino)-O4'[2.50]" connected min_baseDist=3.04
+  20 U.G2     U.A3     interBase-angle=76 H-bonds[1]: "OP2*OP2[2.40]" connected min_baseDist=3.23
+  21 U.G2     U.CFZ23  stacking: 2.2(0.1)--pp(><,inward) interBase-angle=32 min_baseDist=2.89
+  22 U.G2     U.A24    interBase-angle=53 H-bonds[1]: "N3-N6(amino)[3.50]" min_baseDist=3.08
+  23 U.A3     U.G4     stacking: 1.1(0.9)--pm(>>,forward) interBase-angle=11 connected min_baseDist=3.60
+  24 U.A3     U.CFZ23  stacking: 3.1(1.9)--mm(<>,outward) interBase-angle=47 min_baseDist=3.44
+  25 U.G4     U.G5     stacking: 5.0(2.4)--pm(>>,forward) interBase-angle=3 connected min_baseDist=3.21
+  26 U.G4     U.UFT21  stacking: 2.0(0.2)--mm(<>,outward) interBase-angle=10 min_baseDist=2.87
+  27 U.G5     U.UFT6   stacking: 0.6(0.0)--pm(>>,forward) interBase-angle=23 H-bonds[1]: "O5'*OP2[3.16]" connected min_baseDist=3.02
+  28 U.G5     U.A18    interBase-angle=31 H-bonds[2]: "N1(imino)-OP2[2.74],N2(amino)-OP2[2.88]" min_baseDist=4.87
+  29 U.UFT6   U.A19    stacking: 0.7(0.0)--mm(<>,outward) interBase-angle=2 min_baseDist=3.33
+  30 U.G7     U.CFZ8   stacking: 4.0(1.5)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.22
+  31 U.CFZ8   U.UFT9   stacking: 3.3(1.4)--pm(>>,forward) interBase-angle=26 connected min_baseDist=3.28
+  32 U.UFT9   U.CFZ10  stacking: 2.0(0.7)--pm(>>,forward) interBase-angle=14 connected min_baseDist=2.95
+  33 U.CFZ10  U.CFZ11  stacking: 0.3(0.0)--pm(>>,forward) interBase-angle=23 connected min_baseDist=3.22
+  34 U.CFZ11  U.G12    stacking: 3.9(2.2)--pm(>>,forward) interBase-angle=7 connected min_baseDist=3.33
+  35 U.G12    U.A14    interBase-angle=33 H-bonds[1]: "O2'(hydroxyl)-N7[3.02]" min_baseDist=4.41
+  36 U.A13    U.A14    stacking: 3.1(2.7)--pm(>>,forward) interBase-angle=38 H-bonds[2]: "O2'(hydroxyl)-OP1[2.50],O2'(hydroxyl)-O5'[2.45]" connected min_baseDist=3.05
+  37 U.A14    U.A15    stacking: 5.7(4.7)--pp(><,inward) interBase-angle=14 connected min_baseDist=3.15
+  38 U.A15    U.G16    stacking: 1.4(0.1)--mm(<>,outward) interBase-angle=9 H-bonds[1]: "O5'*OP2[2.85]" connected min_baseDist=3.08
+  39 U.G16    U.G17    stacking: 4.4(2.4)--pm(>>,forward) interBase-angle=6 connected min_baseDist=3.16
+  40 U.G17    U.A18    stacking: 3.3(1.8)--pm(>>,forward) interBase-angle=5 connected min_baseDist=3.39
+  41 U.A18    U.A19    stacking: 0.8(0.0)--pm(>>,forward) interBase-angle=7 connected min_baseDist=3.51
+  42 U.A19    U.CFZ20  stacking: 3.9(1.0)--pm(>>,forward) interBase-angle=14 H-bonds[1]: "OP2-N4(amino)[2.95]" connected min_baseDist=3.12
+  43 U.UFT21  U.CFZ22  stacking: 1.6(0.1)--pm(>>,forward) interBase-angle=21 connected min_baseDist=3.22
+
+****************************************************************************
+List of 10 stacks
   Note: a stack is an ordered list of nucleotides assembled together via
         base-stacking interactions, regardless of backbone connectivity.
         Stacking interactions within a stem are *not* included.
@@ -211,13 +267,13 @@ Summary of 1 splayed-apart unit
 
 ****************************************************************************
 Secondary structures in dot-bracket notation (dbn) as a whole and per chain
->3agv nts=43 [whole]
+>3AGV nts=43 [whole]
 GGAGGuGcucc&GGAAcucc&GGAGGuGcuccGAAAGGAAcuccA
 ((((....(((&))).))))&..((....(((....))).))...
->3agv-S #1 nts=19 0.36(2.62) [chain] RNA*
+>3AGV-1-S #1 nts=19 0.36(2.62) [chain] DNA[9]/RNA[10]*
 GGAGGuGcucc&GGAAcucc
 ((((....(((&))).))))
->3agv-U #2 nts=24 0.48(2.89) [chain] RNA
+>3AGV-1-U #2 nts=24 0.48(2.89) [chain] DNA[9]/RNA[15]
 GGAGGuGcuccGAAAGGAAcuccA
 ..((....(((....))).))...
 
@@ -237,7 +293,7 @@ Summary of structural features of 43 nucleotides
    5  G . S.G5     0.004  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop
    6  u . S.UFT6   0.006  modified,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,internal-loop,phosphate
    7  G . S.G7     0.004  anti,~C3'-endo,non-pair-contact,internal-loop,phosphate
-   8  c . S.CFZ8   0.004  modified,anti,~C3'-endo,BI,non-canonical,non-pair-contact,internal-loop
+   8  c . S.CFZ8   0.004  modified,anti,~C3'-endo,BI,non-pair-contact,internal-loop
    9  u ( S.UFT9   0.009  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop
   10  c ( S.CFZ10  0.004  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
   11  c ( S.CFZ11  0.003  modified,break,anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack
@@ -276,10 +332,10 @@ Summary of structural features of 43 nucleotides
 
 ****************************************************************************
 List of 14 additional files
-   1 dssr-pairs.pdb -- an ensemble of base pairs
-   2 dssr-multiplets.pdb -- an ensemble of multiplets
-   3 dssr-stems.pdb -- an ensemble of stems
-   4 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   1 dssr-stems.pdb -- an ensemble of stems
+   2 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   3 dssr-pairs.pdb -- an ensemble of base pairs
+   4 dssr-multiplets.pdb -- an ensemble of multiplets
    5 dssr-hairpins.pdb -- an ensemble of hairpin loops
    6 dssr-iloops.pdb -- an ensemble of internal loops
    7 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
@@ -288,5 +344,8 @@ List of 14 additional files
   10 dssr-torsions.txt -- backbone torsion angles and suite names
   11 dssr-splays.pdb -- an ensemble of splayed-apart units
   12 dssr-Kturns.pdb -- an ensemble of kink-turn motifs
-  13 dssr-stacks.pdb -- an ensemble of base stacks
+  13 dssr-stacks.pdb -- an ensemble of stacks
   14 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
+
+****************************************************************************
+Time used: 00:00:00:01

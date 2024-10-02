@@ -33,14 +33,17 @@ R186	R193	C-G	W/W	cis
 R187	R190	G-U	upward
 R187	R193	G-G	outward
 R193	R194	G-C	upward
+R194	R195	C-G	upward
 R195	R196	G-G	upward
 R196	R197	G-A	upward
 R197	R198	A-C	upward
+R198	R199	C-G	upward
 R199	R200	G-G	upward
 R593	R594	C-G	upward
 R593	R606	C-G	W/W	cis
 R594	R595	G-C	upward
 R594	R605	G-C	W/W	cis
+R594	R606	G-G	outward
 R595	R596	C-A	upward
 R595	R604	C-G	W/W	cis
 R596	R597	A-A	upward
@@ -54,6 +57,7 @@ R602	R603	U-U	upward
 R603	R604	U-G	upward
 R604	R605	G-C	upward
 R605	R606	C-G	upward
+R902	R903	C-G	upward
 R902	R915	C-G	W/W	cis
 R903	R904	G-C	upward
 R903	R915	G-G	outward
@@ -64,9 +68,11 @@ R905	R906	G-A	upward
 R905	R913	G-G	outward
 R906	R907	A-C	upward
 R906	R912	A-C	W/W	cis
+R906	R913	A-G	outward
 R907	R908	C-G	inward
 R911	R912	U-C	upward
 R913	R914	G-U	upward
+R914	R915	U-G	upward
 R977	R978	C-A	upward
 R977	R990	C-G	W/W	cis
 R978	R979	A-C	upward
@@ -83,6 +89,7 @@ R987	R988	A-G	upward
 R988	R989	G-U	upward
 R1460	R1461	U-U	upward
 R1460	R1470	U-A	W/W	cis
+R1461	R1462	U-A	upward
 R1462	R1463	A-C	upward
 R1462	R1468	A-U	W/W	cis
 R1462	R1469	A-A	outward
@@ -151,7 +158,6 @@ R2043	R2044	A-A	upward
 R2043	R2050	A-U	W/W	cis
 R2043	R2051	A-G	outward
 R2044	R2045	A-A	inward
-R2044	R2049	A-U	W/W	cis
 R2044	R2050	A-U	W/W	cis
 R2045	R2047	A-C	outward
 R2045	R2049	A-U	H/W	cis
@@ -162,9 +168,10 @@ R2052	R2053	U-C	upward
 R2374	R2375	C-U	upward
 R2374	R2387	C-G	W/W	cis
 R2375	R2377	U-C	upward
-R2375	R2386	U-A	W/W	cis
 R2375	R2387	U-G	outward
+R2377	R2378	C-C	upward
 R2377	R2385	C-G	W/W	cis
+R2378	R2379	C-U	upward
 R2378	R2384	C-G	W/W	cis
 R2379	R2381	U-U	upward
 R2379	R2383	U-A	W/W	cis
@@ -174,6 +181,7 @@ R2385	R2386	G-A	upward
 R2386	R2387	A-G	upward
 R2468	R2469	U-G	upward
 R2468	R2481	U-A	W/W	cis
+R2469	R2470	G-A	upward
 R2469	R2481	G-A	outward
 R2470	R2471	A-U	upward
 R2470	R2479	A-U	W/W	cis
@@ -201,6 +209,7 @@ R2787	R2789	A-U	upward
 R2787	R2791	A-U	W/W	cis
 R2787	R2792	A-A	S/W	cis
 R2792	R2793	A-U	upward
+R2793	R2794	U-G	W/H	cis
 R2794	R2795	G-U	upward
 R2795	R2796	U-C	upward
 R2840	R2841	C-G	upward
@@ -209,8 +218,11 @@ R2841	R2842	G-G	upward
 R2841	R2852	G-G	outward
 R2842	R2843	G-U	upward
 R2843	R2844	U-U	upward
+R2844	R2846	U-U	upward
 R2846	R2848	U-A	S/W	cis
 R2848	R2849	A-A	upward
+R2850	R2851	C-C	upward
+R2851	R2852	C-G	upward
 R3359	R3360	A-U	upward
 R3359	R3372	A-U	W/W	cis
 R3360	R3361	U-U	upward
@@ -234,6 +246,7 @@ R3541	R3563	U-C	W/W	cis
 R3542	R3543	A-A	upward
 R3543	R3544	A-C	upward
 R3543	R3561	A-U	W/W	cis
+R3544	R3545	C-U	upward
 R3544	R3559	C-G	W/W	cis
 R3545	R3546	U-A	upward
 R3545	R3558	U-A	W/W	cis
@@ -246,5 +259,7 @@ R3551	R3555	C-G	W/W	cis
 R3555	R3556	G-C	upward
 R3558	R3559	A-G	upward
 R3559	R3560	G-U	upward
+R3560	R3561	U-U	upward
 R3561	R3562	U-A	upward
 R3562	R3563	A-C	upward
+R3563	R3564	C-C	upward

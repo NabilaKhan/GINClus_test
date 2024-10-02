@@ -4,7 +4,6 @@ A3	A113	C-G	W/W	cis
 A4	A5	G-C	upward
 A4	A112	G-C	W/W	cis
 A4	A113	G-G	outward
-A4	A201	G-A	S/S	trans
 A5	A111	C-G	W/W	cis
 A6	A7	U-G	upward
 A6	A110	U-A	W/W	cis
@@ -76,7 +75,6 @@ A44	A97	G-A	S/W	cis
 A45	A46	G-G	upward
 A45	A92	G-C	W/W	cis
 A45	A93	G-C	outward
-A45	A202	G-A	S/S	trans
 A46	A47	G-U	upward
 A46	A91	G-C	W/W	cis
 A46	A92	G-C	outward
@@ -164,6 +162,7 @@ A92	A93	C-C	upward
 A93	A94	C-G	upward
 A93	A97	C-A	S/W	trans
 A96	A97	C-A	downward
+A97	A202	A-2BA	outward
 A98	A99	G-C	upward
 A99	A100	C-U	upward
 A101	A102	A-A	upward
@@ -177,6 +176,7 @@ A110	A111	A-G	upward
 A111	A112	G-C	upward
 A113	A114	G-U	S/H	cis
 A114	A115	U-G	upward
+A114	A201	U-2BA	outward
 A116	A117	G-A	upward
 A117	A118	A-A	upward
 A118	A119	A-A	upward

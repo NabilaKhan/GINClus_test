@@ -1,6 +1,8 @@
+A1	A2	GDP-G	upward
 A1	A88	G-C	W/W	cis
 A2	A3	G-C	upward
 A2	A87	G-U	W/W	cis
+A2	A88	G-CCC	outward
 A3	A4	C-U	upward
 A3	A86	C-G	W/W	cis
 A4	A5	U-C	upward
@@ -141,6 +143,7 @@ B1	B2	G-G	upward
 B1	B88	G-C	W/W	cis
 B2	B3	G-C	upward
 B2	B87	G-U	W/W	cis
+B2	B88	G-CCC	outward
 B3	B4	C-U	upward
 B3	B86	C-G	W/W	cis
 B4	B5	U-C	upward

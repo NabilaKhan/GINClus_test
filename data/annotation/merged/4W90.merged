@@ -18,6 +18,7 @@ C8	C112	U-A	S/W	trans
 C9	C10	A-A	upward
 C9	C24	A-C	S/S	cis
 C9	C110	A-G	S/S	trans
+C9	C201	A-2BA	outward
 C10	C112	A-A	inward
 C11	C12	U-C	upward
 C11	C22	U-A	W/W	cis
@@ -42,7 +43,6 @@ C24	C110	C-G	W/W	cis
 C25	C26	G-G	upward
 C25	C109	G-C	W/W	cis
 C25	C110	G-G	outward
-C25	C201	G-A	S/W	trans
 C26	C27	G-G	upward
 C26	C108	G-U	W/W	cis
 C26	C109	G-C	outward
@@ -87,6 +87,7 @@ C63	C92	G-A	S/H	trans
 C63	C93	G-A	outward
 C64	C65	A-A	upward
 C64	C79	A-G	S/S	cis
+C64	C202	A-2BA	outward
 C65	C92	A-A	upward
 C66	C67	U-C	upward
 C66	C77	U-U	W/W	cis
@@ -113,7 +114,6 @@ C79	C91	G-G	outward
 C80	C81	G-G	upward
 C80	C89	G-C	W/W	cis
 C80	C90	G-C	outward
-C80	C202	G-A	S/S	trans
 C81	C82	G-C	upward
 C81	C88	G-C	W/W	cis
 C81	C89	G-C	outward
@@ -133,6 +133,7 @@ C92	C93	A-A	upward
 C93	C94	A-U	upward
 C94	C95	U-C	upward
 C95	C96	C-C	upward
+C96	C97	C-G	upward
 C99	C100	C-A	outward
 C101	C102	G-C	upward
 C102	C103	C-U	upward

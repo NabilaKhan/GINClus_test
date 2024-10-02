@@ -6,6 +6,7 @@ R33	R153	G-G	outward
 R34	R35	G-C	upward
 R34	R151	G-C	W/W	cis
 R34	R152	G-C	outward
+R35	R36	C-A	upward
 R36	R37	A-C	upward
 R36	R149	A-U	W/W	cis
 R36	R150	A-A	outward
@@ -75,6 +76,7 @@ R79	R112	G-A	S/H	trans
 R80	R81	G-U	upward
 R80	R110	G-U	outward
 R83	R84	A-G	upward
+R84	R85	G-C	inward
 R84	R106	G-G	inward
 R84	R107	G-C	W/W	cis
 R85	R88	C-G	outward
@@ -129,6 +131,7 @@ R131	R132	A-C	upward
 R132	R133	C-C	upward
 R137	R138	A-A	upward
 R138	R139	A-C	upward
+R139	R140	C-C	upward
 R140	R141	C-A	upward
 R141	R142	A-A	inward
 R144	R145	G-C	upward

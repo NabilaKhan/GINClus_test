@@ -2,6 +2,7 @@ B1	B2	G-G	upward
 B1	C20	G-C	W/W	cis
 B2	B3	G-A	upward
 B2	C19	G-C	W/W	cis
+B2	C20	G-DC	outward
 B3	B4	A-A	upward
 B3	C18	A-T	W/W	cis
 B4	B5	A-A	upward
@@ -14,18 +15,22 @@ B7	B8	U-A	upward
 B7	C14	U-A	W/W	cis
 B8	B9	A-G	upward
 B8	C13	A-T	W/W	cis
+B8	C14	A-DA	outward
 B9	B10	G-G	upward
 B9	C12	G-C	W/W	cis
 B10	B11	G-U	upward
 B10	C11	G-C	W/W	cis
+B10	C12	G-DC	outward
 B11	B12	U-G	upward
 B11	C10	U-A	W/W	cis
 B12	B13	G-C	upward
 B12	C9	G-C	W/W	cis
+B12	C10	G-DA	outward
 B13	B14	C-G	upward
 B13	C8	C-G	W/W	cis
 B14	B15	G-C	upward
 B14	C7	G-C	W/W	cis
+B14	C8	G-DG	outward
 B15	B16	C-U	upward
 B15	C6	C-G	W/W	cis
 B16	B17	U-U	upward
@@ -34,6 +39,7 @@ B17	B18	U-G	upward
 B17	C4	U-A	W/W	cis
 B18	B19	G-G	upward
 B18	C3	G-C	W/W	cis
+B18	C4	G-DA	outward
 B19	B20	G-C	upward
 B19	C2	G-C	W/W	cis
 B20	B21	C-G	upward
@@ -152,11 +158,44 @@ B89	B90	A-C	upward
 B90	B91	C-C	upward
 B91	B92	C-G	upward
 B92	B93	G-C	upward
+C-7	C-6	DC-DG	upward
 C-7	D8	C-G	W/W	cis
+C-6	C-5	DG-DG	upward
 C-6	D7	G-C	W/W	cis
+C-6	D8	DG-DG	outward
+C-5	C-4	DG-DT	upward
 C-5	D6	G-C	W/W	cis
+C-4	C-3	DT-DT	upward
 C-4	D5	T-A	W/W	cis
+C-3	C-2	DT-DT	upward
 C-3	D4	T-A	W/W	cis
+C-2	C-1	DT-DC	upward
 C-2	D3	T-A	W/W	cis
+C-1	C0	DC-DT	upward
 C-1	D2	C-G	W/W	cis
 C0	D1	T-A	W/W	cis
+C1	C2	DG-DC	upward
+C2	C3	DC-DC	upward
+C3	C4	DC-DA	upward
+C4	C5	DA-DA	upward
+C5	C6	DA-DG	upward
+C6	C7	DG-DC	upward
+C7	C8	DC-DG	upward
+C8	C9	DG-DC	upward
+C9	C10	DC-DA	upward
+C10	C11	DA-DC	upward
+C11	C12	DC-DC	upward
+C12	C13	DC-DT	upward
+C13	C14	DT-DA	upward
+C14	C15	DA-DA	upward
+C15	C16	DA-DT	upward
+C16	C17	DT-DT	upward
+C17	C18	DT-DT	upward
+C18	C19	DT-DC	upward
+D1	D2	DA-DG	upward
+D2	D3	DG-DA	upward
+D3	D4	DA-DA	upward
+D4	D5	DA-DA	upward
+D5	D6	DA-DC	upward
+D6	D7	DC-DC	upward
+D7	D8	DC-DG	upward

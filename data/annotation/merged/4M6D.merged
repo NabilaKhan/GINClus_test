@@ -8,7 +8,6 @@ B14	B46	C-G	W/W	cis
 B15	B23	U-G	upward
 B15	B45	U-A	W/W	cis
 B15	B46	U-G	outward
-B16	B17	A-A	S/H	cis
 B16	B18	A-A	outward
 B16	B22	A-U	outward
 B17	B18	A-A	upward
@@ -107,7 +106,9 @@ D43	D44	G-C	upward
 D45	D46	A-G	upward
 D46	D47	G-A	upward
 D47	D48	A-C	upward
+D48	D49	C-G	upward
 D49	D50	G-C	upward
+F11	F49	C-G	W/W	trans
 F11	F50	C-C	W/W	cis
 F12	F13	G-G	upward
 F12	F48	G-C	W/W	cis
@@ -118,7 +119,6 @@ F14	F15	C-U	upward
 F14	F46	C-G	W/W	cis
 F15	F45	U-A	W/W	cis
 F15	F46	U-G	outward
-F16	F17	A-A	S/H	cis
 F16	F18	A-A	outward
 F16	F22	A-U	outward
 F17	F18	A-A	upward
@@ -218,6 +218,7 @@ H43	H44	G-C	upward
 H45	H46	A-G	upward
 H46	H47	G-A	upward
 H47	H48	A-C	upward
+H48	H49	C-G	upward
 H49	H50	G-C	upward
 J11	J49	C-G	W/W	cis
 J12	J13	G-G	upward
@@ -329,5 +330,6 @@ L43	L44	G-C	upward
 L45	L46	A-G	upward
 L46	L47	G-A	upward
 L47	L48	A-C	upward
+L48	L49	C-G	upward
 L49	L50	G-C	upward
 L50	L51	C-C	S/H	cis

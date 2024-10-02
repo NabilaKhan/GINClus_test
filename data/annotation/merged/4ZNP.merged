@@ -67,6 +67,7 @@ A28	A29	A-A	inward
 A28	B31	A-C	W/S	cis
 A29	B27	A-G	W/S	trans
 A29	B29	A-A	outward
+A30	A66	A-U	upward
 A31	A32	C-C	upward
 A31	B28	C-A	S/W	cis
 A32	A33	C-A	upward
@@ -85,6 +86,7 @@ A45	A46	U-C	upward
 A46	A47	C-C	upward
 A47	A48	C-G	upward
 A51	A52	A-A	upward
+A52	A53	A-A	upward
 A53	A54	A-A	upward
 A56	A57	G-C	upward
 A56	A70	G-C	W/W	cis
@@ -107,6 +109,7 @@ A68	A69	G-G	upward
 A69	A70	G-C	upward
 A70	A71	C-A	upward
 A71	A72	A-U	upward
+B1	B2	G-G	upward
 B1	B48	G-G	W/W	cis
 B2	B3	G-G	upward
 B2	B47	G-C	W/W	cis
@@ -168,6 +171,7 @@ B26	B31	G-C	W/W	cis
 B26	B32	G-C	outward
 B27	B31	G-C	outward
 B28	B29	A-A	inward
+B30	B66	A-U	upward
 B31	B32	C-C	upward
 B32	B33	C-A	upward
 B33	B34	A-C	upward

@@ -8,6 +8,7 @@ Z8	Z9	G-C	upward
 Z8	Z177	G-U	W/W	cis
 Z9	Z10	C-C	upward
 Z9	Z176	C-G	W/W	cis
+Z10	Z11	C-U	upward
 Z10	Z175	C-G	W/W	cis
 Z10	Z176	C-G	outward
 Z11	Z12	U-U	upward
@@ -55,10 +56,12 @@ Z36	Z37	G-U	upward
 Z37	Z38	U-A	upward
 Z38	Z39	A-G	upward
 Z39	Z40	G-C	upward
+Z40	Z41	C-G	upward
 Z41	Z42	G-U	upward
 Z42	Z43	U-U	upward
 Z42	Z46	U-A	W/H	trans
 Z43	Z45	U-A	S/H	trans
+Z43	Z46	U-A	outward
 Z44	Z45	A-A	upward
 Z44	Z170	A-C	S/S	cis
 Z45	Z46	A-A	upward
@@ -187,7 +190,6 @@ Z103	Z138	C-G	W/W	cis
 Z104	Z105	C-U	upward
 Z104	Z136	C-G	W/W	cis
 Z104	Z137	C-G	W/W	cis
-Z105	Z135	U-A	W/W	cis
 Z105	Z136	U-G	outward
 Z110	Z111	A-G	upward
 Z111	Z112	G-C	upward
@@ -277,6 +279,7 @@ Z192	Z193	U-U	upward
 Z192	Z202	U-A	W/W	cis
 Z192	Z203	U-G	outward
 Z193	Z201	U-A	W/W	cis
+Z194	Z195	C-G	upward
 Z195	Z196	G-G	upward
 Z196	Z197	G-G	upward
 Z197	Z198	G-G	upward
